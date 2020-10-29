@@ -1,4 +1,0 @@
-#Set working directory#
-setwd('~/Dropbox/Chapman/expediciornis/historical.databases/')
-library(plyr)#
-source('~/Dropbox/FUN.name.check.R', chdir = TRUE)
