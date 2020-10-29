@@ -1,16 +1,15 @@
 ##################################################
-#	This is code to convert the formatted text file 'Chapman1917.raw.specimen.counts.txt' 
-#	into a list of specimen counts for each unique species x locality combination in Chapman 1917.
-#
-#	- Chapman1917.raw.specimen.counts.txt contains the specimen counts per locality that appear 
-#	below each species account in Chapman 1917. These were been pulled and formatted from their original
-#	pdf-text transcription (Chapman1917.raw.species.accounts.txt) so that they could be parsed
-#	in the script below.
-#
-#	- Removed are the dates that appear next to specimen counts in Chapman 1917 for the migratory species.
-#
+#	This is code to collate and summarize the two databases
+#	
+#	1. Specimen Database - Combined AMNH and Cornell databases.
+#		AMNH data transcribed and digitized from the original 
+#		handwritten AMNH specimen ledgers by AMNH volunteers.
+#	2. Chapman 1917 - database derived from the specimen 
+#		counts per locality that appear below each species' account 
+#		in the Chapman 1917 monograph.
+#	
 #	Developed by: Glenn F. Seeholzer
-#	Date: 2020.06.10
+#	Date: 2020.10.29
 ##################################################
 #Set working directory
 setwd('~/Dropbox/Chapman/expediciornis/historical.databases/')
@@ -67,16 +66,18 @@ r = rbind(r[,c('Name','Locality','Count')],tmp)
 ########################################################################################
 ########################################################################################
 #Compare Specimen Counts for each species at a given locality between AMNH database and Chapman 1917
-
-#specify which locality or localities for which to create a summary table 
+# some possibilities below
 loc = c('Rio Toche','Laguneta')
 loc = c('Aguadita','Los Robles','El Penon','Fusagasuga')
 loc = c('Honda','El Consuelo')
-loc = c('Honda')
+loc = c('San Agustin','La Palma','La Candela')
 loc = 'San Agustin'
 loc = 'La Candela'
-loc = c('San Agustin','La Palma','La Candela')
-loc = 'La Palma'
+loc = 'Fusagasuga'
+
+#check to ensure they are spelled as in the databases
+loc %in% unique(o$Locality) #AMNH database
+loc %in% unique(r$Locality) #Chapman 1917
 
 ###########
 #	create table of specimens counts for each species per locality for observed and reported
@@ -149,7 +150,23 @@ if(length(loc) > 1){
 	sum = sum[,c('Name','Regional',colnames(sum)[grep(paste(loc,collapse='|'),colnames(sum))])]
 }
 
-head(sum)
+
+#Add families and a taxonomic sort 
+	path_to_clements = '~/Dropbox/Chapman/expediciornis/Clements-Checklist-v2019-August-2019.csv' 
+	clem = read.csv(path_to_clements)
+	#add families
+	fam = as.character(mapvalues(sum$Name,clem$scientific.name,clem$family,warn_missing = F))
+	fam[grep('NA',fam)] = ''
+	fam = sapply(strsplit(fam,' '),'[',1)
+	#fam[duplicated(fam)] = ''
+	sum = cbind(Family = fam, sum)
+	
+	#taxonomic sort
+	sum[,'Name'] = as.character(sum[,'Name'])
+	sort = as.numeric(mapvalues(sum$Name,clem$scientific.name,clem$sort.v2019,warn_missing = F))
+	sum = cbind(Sort=sort,sum)
+	sum = sum[order(sum$Sort),]
+	
 
 
 # # #make Excel workbook
