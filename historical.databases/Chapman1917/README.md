@@ -1,0 +1,2 @@
+# Chapman 1917
+This repository contains the raw text files, conversion keys, and scripts necessary to generate Chapman1917.specimen.counts.txt - the counts for each unique species x locality in Chapman 1917.  

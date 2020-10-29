@@ -1,0 +1,2549 @@
+mtext('Year',1,line=2.5,cex.lab=2)
+mtext('Year',1,line=2.5,cex=2)
+par(mar=c(4,4,1,1))#
+plot(foo$Year,foo$total.ng,pch=pch,col=add.alpha(col,.75),cex=2,xlab='',ylab='')#
+legend(1900,7000,legend=c('AMNH DNeasy','AMNH P:C Batch 5','AMNH P:C Batch 6','ANSP P:C'),pch=c(16,16,17,16),col=c('cyan','orange','orange','darkgreen'),bty='n')#
+mtext('Year',1,line=2.5,cex=1.5)#
+mtext('Total DNA (ng)',2,line=2.5,cex=1.5)
+.8*36
+.8*30
+.8*20
+dev.new(width=3,height=5)
+par(mar=c(0,0,0,0))#
+plot(adminSA,add=F,lwd=.25,col='white',xlim=c(ex[1],ex[2]),ylim=c(ex[3],ex[4]),border='transparent')#
+# #la
+############################
+####	Shapefiles#
+##############################
+alt = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.crop.grd')#
+rangemap = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_nosubspecies_13March2019.shp')#
+proj4string(rangemap) = crs(alt)#
+rangemap.ssp = readShapeSpatial('/Users/glennseeholzer/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_16June2017.shp')#
+proj4string(rangemap.ssp) = crs(alt)#
+admin = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3.shp')#
+proj4string(admin) = crs(alt)#
+barrier = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/N.Andes.Barrier.shp')#
+proj4string(barrier) = crs(alt)#
+parapatry = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Line.of.Parapatry.shp')#
+proj4string(parapatry) = crs(alt)#
+#
+altSA = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.SA.Panama.crop.grd')#
+rangemapSAssp = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_subspecies_SA.Panama_9April2019.shp')#
+adminSA = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3_SA.Panama.shp')#
+proj4string(adminSA) = proj4string(rangemapSAssp) = crs(alt)
+library(raster)
+library(raster)#
+library(maptools)#
+library(plyr)#
+library(RColorBrewer)#
+library(ape)#
+library(mapplots)#
+source('~/Dropbox/FUN.add.alpha.R', chdir = TRUE)#
+source('~/Dropbox/FUN.add.pie.new.R', chdir = TRUE)#
+##############################
+####	Load Meta Data#
+##############################
+data = read.delim('~/Dropbox/Myiarchus/meta.data.txt',stringsAsFactors=F,quote='')#
+data[data$b.l %in% c('molt','damaged'), 'b.l'] = NA#
+data[data$ts.l %in% c('molt','damaged'), 'ts.l'] = NA#
+data[data$w.l %in% c('molt','damaged'), 'w.l'] = NA#
+data[data$t.l %in% c('molt','damaged'), 't.l'] = NA#
+data$b.l = as.numeric(data$b.l)#
+data$ts.l = as.numeric(data$ts.l)#
+data$w.l = as.numeric(data$w.l)#
+data$t.l = as.numeric(data$t.l)
+#remove effect of sex from wing length to get size#
+indices = which(complete.cases(data[,c('w.l','sex')]) & data$sex %in% c('female','male'))#
+tmp = data[indices, ]#
+fit = lm(w.l~sex,data=tmp)#
+data[indices,'size'] = fit$residuals#
+#plot(data$size,data$w.l,type='p')#
+##############################
+####	Add plumage data#
+##############################
+color.data = read.delim('~/Dropbox/Myiarchus/plumage/plumage.data.txt')#
+head(color.data)#
+data = merge(data,color.data,by='ID',all=T)#
+#
+##############################
+####	Shapefiles#
+##############################
+alt = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.crop.grd')#
+rangemap = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_nosubspecies_13March2019.shp')#
+proj4string(rangemap) = crs(alt)#
+rangemap.ssp = readShapeSpatial('/Users/glennseeholzer/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_16June2017.shp')#
+proj4string(rangemap.ssp) = crs(alt)#
+admin = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3.shp')#
+proj4string(admin) = crs(alt)#
+barrier = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/N.Andes.Barrier.shp')#
+proj4string(barrier) = crs(alt)#
+parapatry = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Line.of.Parapatry.shp')#
+proj4string(parapatry) = crs(alt)#
+#
+altSA = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.SA.Panama.crop.grd')#
+rangemapSAssp = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_subspecies_SA.Panama_9April2019.shp')#
+adminSA = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3_SA.Panama.shp')#
+proj4string(adminSA) = proj4string(rangemapSAssp) = crs(alt)
+#Central America#
+ex = c(-110, -76, 13, 33)#
+##############################
+####	Add elevation data#
+##############################
+data$alt = extract(alt,data[,c('Long','Lat')])#
+#
+##############################
+####	Colors#
+##############################
+#	Populations Colors#
+key = data.frame(#
+	fullpop = c('Jamaica','N Central America','W-of-Andes','Andes (EC to AR)','E-of-Andes','Andes-Amazon hybrids'),#
+	pop = c('barbirostris','central','west','andes','amazon','hybrid'),#
+	col = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','#E7298A'),#
+	bg = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','transparent'), stringsAsFactors=F)#
+#	Subspecies Colors#
+color.key = data.frame(subspecies = c('olivascens','querulus','lawrenceii','manens','platyrhynchus','connectens','littoralis','nigricapillus','brunneiceps','pallidus','nigriceps','atriceps','tuberculifer','tuberculifer x atriceps','tuberculifer or atriceps','barbirostris'),#
+				 col=c(brewer.pal(8,'Set1'),brewer.pal(8,'Dark2')),stringsAsFactors=F)		  #
+color.key$col2 = NA#
+color.key[!(color.key[,1] %in% 'atriceps'),'col2'] = color.key[(color.key[,1] %in% 'tuberculifer'),'col']#
+color.key[(color.key[,1] %in% 'atriceps'),'col2'] = color.key[(color.key[,1] %in% 'atriceps'),'col']
+ex = c(-82, -60, -27.5, 11) #West South America
+par(mar=c(0,0,0,0))#
+plot(adminSA,add=F,lwd=.25,col='white',xlim=c(ex[1],ex[2]),ylim=c(ex[3],ex[4]),border='transparent')#
+# #latitude lines#
+# for(i in seq(-20,30,10)){#
+	# lines(x=c(-117,-36),y=c(i,i),col='grey75',lty=2,lwd=.5)#
+# }#
+# #longitude lines#
+# for(i in seq(-110,-40,10)){#
+	# lines(x=c(i,i),y=c(-40,50),col='grey75',lty=2,lwd=.5)#
+# }
+breakpoints <- c(minValue(alt),1000,3500,maxValue(alt))#
+colors <- add.alpha(c("grey100","grey30","grey85"),.5)#
+plot(altSA,add=T,breaks=breakpoints,col=colors,useRaster=T,axes=F,box=F,legend=F,interpolate=F,maxpixels= dim(alt)[1]*dim(alt)[2]/1)
+plot(adminSA,add=T,lwd=.3,col='transparent',xlim=c(ex[1],ex[2]),ylim=c(ex[3],ex[4]))
+x = color.key[color.key$subspecies %in% rangemapSAssp$id, ]
+plot(rangemapSAssp,add=T,col=add.alpha(x[match(x[,1],rangemapSAssp$id),'col2'],.5),lwd=.0001,border='transparent')
+plot(parapatry,add=T,lwd=1,col='cyan')
+plot(parapatry,add=T,lwd=1,col='white')
+plot(parapatry,add=T,lwd=1,col='orange')
+plot(parapatry,add=T,lwd=1,col='red')
+plot(parapatry,add=T,lwd=1,col='cyan')
+head(data)
+tmp = data[!is.na(data$w.l) & !is.na(data$PC1.crown), ]
+dim(tmp)
+tmp = data[!is.na(data$w.l) & !is.na(data$PC1.Crown), ]
+dim(tmp)
+set.seed(1986)
+x = jitter(tmp$Long,100)
+y = jitter(tmp$Lat,100)
+bg = rep('grey75',nrow(tmp))
+points(x,y,cex=1.5,pch=21,bg=bg,col=add.alpha(col,1),lwd=.75)
+col = rep('grey75',nrow(tmp))
+bg = rep('grey75',nrow(tmp))
+points(x,y,cex=1.5,pch=21,bg=bg,col=add.alpha(col,1),lwd=.75)
+points(x,y,cex=1,pch=21,bg=bg,col=add.alpha(col,1),lwd=.75)
+col = rep('black',nrow(tmp))
+bg = rep('grey75',nrow(tmp))
+points(x,y,cex=.5,pch=21,bg=bg,col=add.alpha(col,1),lwd=.75)
+points(x,y,cex=.5,pch=21,bg=bg,col=add.alpha(col,1),lwd=.25)
+axis(1,label=seq(-110,-40,10),at=seq(-110,-40,10),col.ticks='transparent',col='transparent',line=-2,col.axis='grey75')
+par(mar=c(0,0,0,0))#
+plot(adminSA,add=F,lwd=.25,col='white',xlim=c(ex[1],ex[2]),ylim=c(ex[3],ex[4]),border='transparent')#
+# #latitude lines#
+# for(i in seq(-20,30,10)){#
+	# lines(x=c(-117,-36),y=c(i,i),col='grey75',lty=2,lwd=.5)#
+# }#
+# #longitude lines#
+# for(i in seq(-110,-40,10)){#
+	# lines(x=c(i,i),y=c(-40,50),col='grey75',lty=2,lwd=.5)#
+# }#
+#
+breakpoints <- c(minValue(alt),1000,3500,maxValue(alt))#
+colors <- add.alpha(c("grey100","grey30","grey85"),.5)#
+plot(altSA,add=T,breaks=breakpoints,col=colors,useRaster=T,axes=F,box=F,legend=F,interpolate=F,maxpixels= dim(alt)[1]*dim(alt)[2]/1)#
+#
+plot(barrier,add=T,col=add.alpha('black',.75),lwd=1,border= 'transparent',density=50,angle=90)#
+#
+plot(adminSA,add=T,lwd=.3,col='transparent',xlim=c(ex[1],ex[2]),ylim=c(ex[3],ex[4]))#
+#
+x = color.key[color.key$subspecies %in% rangemapSAssp$id, ]#
+plot(rangemapSAssp,add=T,col=add.alpha(x[match(x[,1],rangemapSAssp$id),'col2'],.5),lwd=.0001,border='transparent')#
+#
+plot(parapatry,add=T,lwd=1,col='cyan')#
+#
+head(data)#
+#
+tmp = data[!is.na(data$w.l) & !is.na(data$PC1.Crown), ]#
+set.seed(1986)#
+x = jitter(tmp$Long,100)#
+y = jitter(tmp$Lat,100)#
+#
+#clades#
+col = rep('black',nrow(tmp))#
+bg = rep('grey75',nrow(tmp))#
+points(x,y,cex=.5,pch=21,bg=bg,col=add.alpha(col,1),lwd=.25)#
+#
+#axis(1,label=seq(-110,-40,10),at=seq(-110,-40,10),col.ticks='transparent',col='transparent',line=-2,col.axis='grey75')#
+# axis(2,label=seq(-20,30,10),at=seq(-20,30,10),col.ticks='transparent',col='transparent',line=-2,col.axis='grey75')
+bg = rep('white',nrow(tmp))
+points(x,y,cex=.5,pch=21,bg=bg,col=add.alpha(col,1),lwd=.25)
+points(x,y,cex=.75,pch=21,bg=bg,col=add.alpha(col,1),lwd=.25)
+points(x,y,cex=.75,pch=21,bg=bg,col=add.alpha(col,1),lwd=.5)
+ex = c(-82, -60, -27.5, 11) #West South America#
+#
+png(filename = "~/Dropbox/Myiarchus/figures/presentation.figures/map_phenotype_sampling_SA.png",#
+    width = 3, height = 5, units = "in", pointsize = 12,#
+     bg = "transparent",  res = 500)#
+#dev.new(width=3,height=5)#
+#
+par(mar=c(0,0,0,0))#
+plot(adminSA,add=F,lwd=.25,col='white',xlim=c(ex[1],ex[2]),ylim=c(ex[3],ex[4]),border='transparent')#
+# #latitude lines#
+# for(i in seq(-20,30,10)){#
+	# lines(x=c(-117,-36),y=c(i,i),col='grey75',lty=2,lwd=.5)#
+# }#
+# #longitude lines#
+# for(i in seq(-110,-40,10)){#
+	# lines(x=c(i,i),y=c(-40,50),col='grey75',lty=2,lwd=.5)#
+# }#
+#
+breakpoints <- c(minValue(alt),1000,3500,maxValue(alt))#
+colors <- add.alpha(c("grey100","grey30","grey85"),.5)#
+plot(altSA,add=T,breaks=breakpoints,col=colors,useRaster=T,axes=F,box=F,legend=F,interpolate=F,maxpixels= dim(alt)[1]*dim(alt)[2]/1)#
+#
+plot(barrier,add=T,col=add.alpha('black',.75),lwd=1,border= 'transparent',density=50,angle=90)#
+#
+plot(adminSA,add=T,lwd=.3,col='transparent',xlim=c(ex[1],ex[2]),ylim=c(ex[3],ex[4]))#
+#
+x = color.key[color.key$subspecies %in% rangemapSAssp$id, ]#
+plot(rangemapSAssp,add=T,col=add.alpha(x[match(x[,1],rangemapSAssp$id),'col2'],.5),lwd=.0001,border='transparent')#
+#
+plot(parapatry,add=T,lwd=1,col='cyan')#
+#
+head(data)#
+#
+tmp = data[!is.na(data$w.l) & !is.na(data$PC1.Crown), ]#
+set.seed(1986)#
+x = jitter(tmp$Long,100)#
+y = jitter(tmp$Lat,100)#
+#
+#clades#
+col = rep('black',nrow(tmp))#
+bg = rep('white',nrow(tmp))#
+points(x,y,cex=.75,pch=21,bg=bg,col=add.alpha(col,1),lwd=.5)#
+#
+#axis(1,label=seq(-110,-40,10),at=seq(-110,-40,10),col.ticks='transparent',col='transparent',line=-2,col.axis='grey75')#
+# axis(2,label=seq(-20,30,10),at=seq(-20,30,10),col.ticks='transparent',col='transparent',line=-2,col.axis='grey75')#
+#
+dev.off()
+library(raster)#
+library(maptools)#
+library(plyr)#
+library(scales)#
+library(RColorBrewer)#
+library(mclust)#
+scale.arbitrary <- function(x,tmin,tmax){ (((x-min(x,na.rm = T))/(max(x,na.rm = T)-min(x,na.rm = T)))*(tmax - tmin)) + tmin }#
+source('~/Dropbox/FUN.add.alpha.R', chdir = TRUE)#
+#
+data = read.delim('~/Dropbox/Myiarchus/meta.data.txt',stringsAsFactors=F,quote='')#
+crs = '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 +units=m'#
+alt = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.NewWorld.grd')#
+proj4string(alt) = crs(crs)#
+data$alt = extract(alt,data[,c('Long','Lat')])#
+write.table(data,'~/Dropbox/Myiarchus/meta.data.txt',col.names=T,row.names=F,quote=F,sep='\t')#
+#
+data[data$b.l %in% c('molt','damaged'), 'b.l'] = NA#
+data[data$ts.l %in% c('molt','damaged'), 'ts.l'] = NA#
+data[data$w.l %in% c('molt','damaged'), 'w.l'] = NA#
+data[data$t.l %in% c('molt','damaged'), 't.l'] = NA#
+data$b.l = as.numeric(data$b.l)#
+data$ts.l = as.numeric(data$ts.l)#
+data$w.l = as.numeric(data$w.l)#
+data$t.l = as.numeric(data$t.l)#
+#
+x = data[!(is.na(data$w.l)), ]#
+dim(x)#
+#
+#remove effect of sex from wing length to get size#
+indices = which(complete.cases(data[,c('w.l','sex')]) & data$sex %in% c('female','male'))#
+tmp = data[indices, ]#
+fit = lm(w.l~sex,data=tmp)#
+data[indices,'size'] = fit$residuals
+##############################
+####	Load plumage data#
+##############################
+color.data = read.delim('~/Dropbox/Myiarchus/plumage/plumage.data.txt')#
+dim(color.data)#
+#
+##############################
+####	Load transect data#
+##############################
+tran = read.delim('~/Dropbox/Myiarchus/transect.ring_data.txt',stringsAsFactors=F)#
+transect.length = as.numeric(readLines('~/Dropbox/Myiarchus/transect.length.km.txt'))#
+refs = read.delim('~/Dropbox/Myiarchus/transect.ring_reference.points.txt',stringsAsFactors=F)#
+refs[order(refs$Tran.pos), ]#
+refs = refs[!(refs$ID %in% 'EC-PE'), ]#
+#
+##############################
+####	Combine meta, plumage, transect data#
+##############################
+data = join_all(list(data,color.data,tran),by='ID',type='full')#
+##############################
+####	Shapefiles#
+##############################
+crs = '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 +units=m'#
+alt = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.NewWorld.grd')#
+admin = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3.shp')#
+rangemap = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_all_subspecies.shp')#
+barrier = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/N.Andes.Barrier.shp')#
+#
+proj4string(admin) = crs(crs)#
+proj4string(rangemap) = crs(crs)#
+proj4string(barrier) = crs(crs)#
+#
+#	Populations Colors#
+key = data.frame(#
+	full.name = c('Jamaica','N Central America','W-of-Andes','Andes (EC to AR)','E-of-Andes','Andes-Amazon hybrids'),#
+	pop = c('barbirostris','central','west','andes','amazon','hybrid'),#
+	subspecies = c('barbirostris','central','nigriceps-brunneiceps','atriceps','tuberculifer-pallidus','tuberculifer x atriceps'),#
+	col = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','#E7298A'),#
+	bg = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','transparent'), stringsAsFactors=F)#
+#
+##############################
+##############################
+##############################
+####	mcclust
+library(mclust)#
+#
+foo = data[#
+	!data$ID %in% c('AMNH821940','LSU153496','LSU29620') & #remove damaged specimens#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+	complete.cases(data[,c('Tran.pos','alt','PC1.Crown','size')]),] #complete cases#
+dim(foo)#
+d = foo[,c('PC1.Crown','size')]#
+#
+BIC = mclustBIC(d)#
+plot(BIC)#
+summary(BIC)#
+mod = Mclust(d, x = BIC)#
+summary(mod, parameters = TRUE)#
+plot(mod, what = "classification")#
+plot(mod, what = "uncertainty")#
+foo$mclust.class = mod$classification#
+foo$mclust.unc = mod$uncertainty
+dev.new(height=5,width=5)#
+par(mar=c(4,4,0,0))#
+foo = data[#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & #Only East Slope birds#
+	complete.cases(data[,c('Tran.pos','alt','size')]),] #complete cases#
+foo$cex = cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]#
+xlim = c(0,4000)#
+ylim = c(-7.5,10)#
+par(mar=c(4,4,2,1))#
+plot(foo$alt,foo$size,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+x = jitter(foo$alt,0)#
+y = jitter(foo$size,0)#
+points(x,y,col='black',pch=21,lwd=.5,cex=1.5,bg=add.alpha('grey50',.5))#
+axis(1,at=seq(0,4000,500),labels=c(0,NA,1000,NA,2000,NA,3000,NA,4000),cex.axis=1)#
+	mtext('Elevation (m)',1,line=2.5,cex=1.25)#
+axis(2,at=c(-7,0,10),labels=c(-7,0,10),cex.axis=1)#
+	mtext('Body Size',2,line=2.5,cex=1.25)#
+#
+fit = lm(size~alt,data=foo)#
+abline(fit,lty=5,col='grey',lwd=2)#
+sum = summary(fit)#
+#
+		p = paste0("P < 0.001")#
+		r2  = sprintf("%.2f", round(sum$adj.r.squared[1],3))#
+		r2 = bquote(.('adj.') ~ italic(R)^2 == .(format(r2, digits = 2)))#
+		text(3000,-6,p,cex=1,adj=0)#
+		text(3000,-7,r2,cex=1,adj=0)
+foo = data[#
+	!data$ID %in% c('AMNH821940','LSU153496','LSU29620') & #remove damaged specimens#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+#	2020 - as.numeric(data$Year) > 30 & # separate older and younger specimens#
+	complete.cases(data[,c('Tran.pos','alt','PC1.Crown','size')]),] #complete cases#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]#
+#
+#examine elevational distribution of all specimens with respect to latitudinal position on E Slope#
+foo = data[#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+	complete.cases(data[,c('Tran.pos','alt')]),] #complete cases#
+foo$bg  = gray(0.5,alpha=0.75)#
+foo$cex = 2
+dev.new(height=5,width=5)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=.25,bg=foo$bg,col='grey',cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#
+#text(x,y,foo$ID,cex=.15,pos=4)#
+points(3900,-3,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3800,-3,'large, dark crown',pos=2,cex=.8)#
+points(3900,-1,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3800,-1,'small, brown crown',pos=2,cex=.8)
+foo = data[#
+	!data$ID %in% c('AMNH821940','LSU153496','LSU29620') & #remove damaged specimens#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+#	2020 - as.numeric(data$Year) > 30 & # separate older and younger specimens#
+	complete.cases(data[,c('Tran.pos','alt','PC1.Crown','size')]),] #complete cases#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]#
+#
+# #examine elevational distribution of all specimens with respect to latitudinal position on E Slope#
+# foo = data[#
+	# data$East.Slope %in% 'TRUE' & # East Slope#
+	# complete.cases(data[,c('Tran.pos','alt')]),] #complete cases#
+# foo$bg  = gray(0.5,alpha=0.75)#
+# foo$cex = 2#
+#
+#dev.new(height=5,width=5)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=.25,bg=foo$bg,col='grey',cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#
+#text(x,y,foo$ID,cex=.15,pos=4)#
+points(3900,-3,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3800,-3,'large, dark crown',pos=2,cex=.8)#
+points(3900,-1,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3800,-1,'small, brown crown',pos=2,cex=.8)
+#subset data#
+foo = data[#
+	!data$ID %in% c('AMNH821940','LSU153496','LSU29620') & #remove damaged specimens#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+#	2020 - as.numeric(data$Year) > 30 & # separate older and younger specimens#
+	complete.cases(data[,c('Tran.pos','alt','PC1.Crown','size')]),] #complete cases#
+#
+#run mclust#
+d = foo[,c('PC1.Crown','size')]#
+BIC = mclustBIC(d)#
+mod = Mclust(d, x = BIC)#
+foo$mclust.unc = mod$uncertainty#
+foo$mclust.class = mod$classification#
+foo$mclust.class = gsub(1,'andes',foo$mclust.class)#
+foo$mclust.class = gsub(2,'amazon',foo$mclust.class)
+#plot phenotype with perimeter coded by mclust cluster#
+foo$col = mapvalues(foo$mclust.class,key[,'pop'],key[,'col'])#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]
+dev.new(height=5,width=5)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt
+points(x,y,pch=21,lwd=.5,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)
+key[,'pop']
+key[,'col']
+foo$mclust.class
+key[,'col']
+key
+#plot phenotype with perimeter coded by mclust cluster#
+foo$col = mapvalues(foo$mclust.class,c('amazon','andes'),c('#66A61E','#E7298A'))#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=.5,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)
+foo$mclust.class
+foo$mclust.unc = mod$uncertainty#
+foo$mclust.class = mod$classification#
+foo$mclust.class = gsub(1,'amazon',foo$mclust.class)#
+foo$mclust.class = gsub(2,'andes',foo$mclust.class)
+foo$col = mapvalues(foo$mclust.class,c('amazon','andes'),c('#66A61E','#E7298A'))#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=.5,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)
+#subset data#
+foo = data[#
+	!data$ID %in% c('AMNH821940','LSU153496','LSU29620') & #remove damaged specimens#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+#	2020 - as.numeric(data$Year) > 30 & # separate older and younger specimens#
+	complete.cases(data[,c('Tran.pos','alt','PC1.Crown','size')]),] #complete cases#
+#
+#run mclust#
+d = foo[,c('PC1.Crown','size')]#
+BIC = mclustBIC(d)#
+mod = Mclust(d, x = BIC)#
+foo$mclust.unc = mod$uncertainty#
+foo$mclust.class = mod$classification#
+foo$mclust.class = gsub(1,'amazon',foo$mclust.class)#
+foo$mclust.class = gsub(2,'andes',foo$mclust.class)
+#plot phenotype with perimeter coded by mclust cluster#
+foo$col = mapvalues(foo$mclust.class,c('amazon','andes'),c('#66A61E','#E7298A'))#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=.5,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)
+points(x,y,pch=21,lwd=1,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)
+points(x,y,pch=21,lwd=1.5,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)
+dev.new(height=4,width=6)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)
+dev.new(height=5,width=6)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#
+text(x,y,foo$ID,cex=.25,pos=4)
+#####################################
+####	Mclust of CROWN and SIZE against LATITUDE and ELEVATION - East Slope#
+#####################################
+png('~/Dropbox/Myiarchus/figures.old/Fig.Lat.vs.Ele.vs.Mclust.size.PC1.Crown.ESlope.png',#
+	height=5,width=5,#
+	units='in',res=500,bg='transparent')#
+#
+#subset data#
+foo = data[#
+	!data$ID %in% c('AMNH821940','LSU153496','LSU29620') & #remove damaged specimens#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+#	2020 - as.numeric(data$Year) > 30 & # separate older and younger specimens#
+	complete.cases(data[,c('Tran.pos','alt','PC1.Crown','size')]),] #complete cases#
+#
+#run mclust#
+d = foo[,c('PC1.Crown','size')]#
+BIC = mclustBIC(d)#
+mod = Mclust(d, x = BIC)#
+foo$mclust.unc = mod$uncertainty#
+foo$mclust.class = mod$classification#
+foo$mclust.class = gsub(1,'amazon',foo$mclust.class)#
+foo$mclust.class = gsub(2,'andes',foo$mclust.class)#
+#
+# #plot mclust clusters with size scaled by uncertainty#
+# foo$bg = mapvalues(foo$mclust.class,key[,'pop'],key[,'bg'])#
+# foo$col = mapvalues(foo$mclust.class,key[,'pop'],key[,'col'])#
+# foo$cex = scale.arbitrary(foo$mclust.unc,1,3)#
+#
+#plot phenotype with perimeter coded by mclust cluster#
+foo$col = mapvalues(foo$mclust.class,c('amazon','andes'),c('#66A61E','#E7298A'))#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]#
+#dev.new(height=5,width=6)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#
+#text(x,y,foo$ID,cex=.25,pos=4)#
+#
+dev.off()
+png('~/Dropbox/Myiarchus/figures/Fig.Lat.vs.Ele.vs.Mclust.size.PC1.Crown.ESlope.png',#
+	height=5,width=6,#
+	units='in',res=500,bg='transparent')#
+#
+#subset data#
+foo = data[#
+	!data$ID %in% c('AMNH821940','LSU153496','LSU29620') & #remove damaged specimens#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+#	2020 - as.numeric(data$Year) > 30 & # separate older and younger specimens#
+	complete.cases(data[,c('Tran.pos','alt','PC1.Crown','size')]),] #complete cases#
+#
+#run mclust#
+d = foo[,c('PC1.Crown','size')]#
+BIC = mclustBIC(d)#
+mod = Mclust(d, x = BIC)#
+foo$mclust.unc = mod$uncertainty#
+foo$mclust.class = mod$classification#
+foo$mclust.class = gsub(1,'amazon',foo$mclust.class)#
+foo$mclust.class = gsub(2,'andes',foo$mclust.class)#
+#
+# #plot mclust clusters with size scaled by uncertainty#
+# foo$bg = mapvalues(foo$mclust.class,key[,'pop'],key[,'bg'])#
+# foo$col = mapvalues(foo$mclust.class,key[,'pop'],key[,'col'])#
+# foo$cex = scale.arbitrary(foo$mclust.unc,1,3)#
+#
+#plot phenotype with perimeter coded by mclust cluster#
+foo$col = mapvalues(foo$mclust.class,c('amazon','andes'),c('#66A61E','#E7298A'))#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]#
+#dev.new(height=5,width=6)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#
+#text(x,y,foo$ID,cex=.25,pos=4)#
+#
+dev.off()
+png('~/Dropbox/Myiarchus/figures/Fig.Lat.vs.Ele.vs.Mclust.size.PC1.Crown.ESlope.png',#
+	height=5,width=7,#
+	units='in',res=500,bg='transparent')#
+#
+#subset data#
+foo = data[#
+	!data$ID %in% c('AMNH821940','LSU153496','LSU29620') & #remove damaged specimens#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+#	2020 - as.numeric(data$Year) > 30 & # separate older and younger specimens#
+	complete.cases(data[,c('Tran.pos','alt','PC1.Crown','size')]),] #complete cases#
+#
+#run mclust#
+d = foo[,c('PC1.Crown','size')]#
+BIC = mclustBIC(d)#
+mod = Mclust(d, x = BIC)#
+foo$mclust.unc = mod$uncertainty#
+foo$mclust.class = mod$classification#
+foo$mclust.class = gsub(1,'amazon',foo$mclust.class)#
+foo$mclust.class = gsub(2,'andes',foo$mclust.class)#
+#
+# #plot mclust clusters with size scaled by uncertainty#
+# foo$bg = mapvalues(foo$mclust.class,key[,'pop'],key[,'bg'])#
+# foo$col = mapvalues(foo$mclust.class,key[,'pop'],key[,'col'])#
+# foo$cex = scale.arbitrary(foo$mclust.unc,1,3)#
+#
+#plot phenotype with perimeter coded by mclust cluster#
+foo$col = mapvalues(foo$mclust.class,c('amazon','andes'),c('#66A61E','#E7298A'))#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]#
+#dev.new(height=5,width=6)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#
+#text(x,y,foo$ID,cex=.25,pos=4)#
+#
+dev.off()
+dev.new(height=5,width=6)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)
+points(3900,-3,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3800,-3,'large, dark crown',pos=2,cex=.8)
+points(3900,-1,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3800,-1,'small, brown crown',pos=2,cex=.8)
+points(3800,-3,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-3,'large, dark crown',pos=2,cex=.8)
+points(3800,-1,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3700,-1,'small, brown crown',pos=2,cex=.8)
+points(3800,-5,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(3700,-5,'lowland cluster',pos=2,cex=.8)
+points(3800,-7,pch=21,bg='transparent',cex=3,lwd=2,col='#E7298A');text(3700,-7,'highland cluster',pos=2,cex=.8)
+png('~/Dropbox/Myiarchus/figures/Fig.Lat.vs.Ele.vs.Mclust.size.PC1.Crown.ESlope.png',
+#dev.new(height=5,width=6)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#Key#
+points(3800,-1,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3700,-1,'small, brown crown',pos=2,cex=.8)#
+points(3800,-3,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-3,'large, dark crown',pos=2,cex=.8)#
+points(3800,-5,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(3700,-5,'lowland cluster',pos=2,cex=.8)#
+points(3800,-7,pch=21,bg='transparent',cex=3,lwd=2,col='#E7298A');text(3700,-7,'highland cluster',pos=2,cex=.8)#
+#
+#text(x,y,foo$ID,cex=.25,pos=4)#
+#
+dev.off()
+#####################################
+####	Mclust of CROWN and SIZE against LATITUDE and ELEVATION - East Slope#
+#####################################
+png('~/Dropbox/Myiarchus/figures/Fig.Lat.vs.Ele.vs.Mclust.size.PC1.Crown.ESlope.png',#
+	height=5,width=7,#
+	units='in',res=500,bg='transparent')#
+#
+#subset data#
+foo = data[#
+	!data$ID %in% c('AMNH821940','LSU153496','LSU29620') & #remove damaged specimens#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+#	2020 - as.numeric(data$Year) > 30 & # separate older and younger specimens#
+	complete.cases(data[,c('Tran.pos','alt','PC1.Crown','size')]),] #complete cases#
+#
+#run mclust#
+d = foo[,c('PC1.Crown','size')]#
+BIC = mclustBIC(d)#
+mod = Mclust(d, x = BIC)#
+foo$mclust.unc = mod$uncertainty#
+foo$mclust.class = mod$classification#
+foo$mclust.class = gsub(1,'amazon',foo$mclust.class)#
+foo$mclust.class = gsub(2,'andes',foo$mclust.class)#
+#
+# #plot mclust clusters with size scaled by uncertainty#
+# foo$bg = mapvalues(foo$mclust.class,key[,'pop'],key[,'bg'])#
+# foo$col = mapvalues(foo$mclust.class,key[,'pop'],key[,'col'])#
+# foo$cex = scale.arbitrary(foo$mclust.unc,1,3)#
+#
+#plot phenotype with perimeter coded by mclust cluster#
+foo$col = mapvalues(foo$mclust.class,c('amazon','andes'),c('#66A61E','#E7298A'))#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]#
+#dev.new(height=5,width=6)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#Key#
+points(3800,-1,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3700,-1,'small, brown crown',pos=2,cex=.8)#
+points(3800,-3,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-3,'large, dark crown',pos=2,cex=.8)#
+points(3800,-5,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(3700,-5,'lowland cluster',pos=2,cex=.8)#
+points(3800,-7,pch=21,bg='transparent',cex=3,lwd=2,col='#E7298A');text(3700,-7,'highland cluster',pos=2,cex=.8)#
+#
+#text(x,y,foo$ID,cex=.25,pos=4)#
+#
+dev.off()
+dev.new(height=5,width=6)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#Key#
+points(3800,-1,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3700,-1,'small, brown crown',pos=2,cex=.8)#
+points(3800,-3,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-3,'large, dark crown',pos=2,cex=.8)#
+points(3500,-1,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(3700,-5,'lowland cluster',pos=2,cex=.8)#
+points(3500,-3,pch=21,bg='transparent',cex=3,lwd=2,col='#E7298A');text(3700,-7,'highland cluster',pos=2,cex=.8)
+points(2000,-1,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(3700,-5,'lowland cluster',pos=2,cex=.8)
+points(2500,-3,pch=21,bg='transparent',cex=3,lwd=2,col='#E7298A');text(3700,-7,'highland cluster',pos=2,cex=.8)
+points(2500,-1,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(3700,-5,'lowland cluster',pos=2,cex=.8)
+points(3800,0,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3700,0,'small, brown crown',pos=2,cex=.8)
+points(2500,0,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(3700,0,'lowland cluster',pos=2,cex=.8)
+points(2500,0,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(2500,0,'lowland cluster',pos=2,cex=.8)
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#Key#
+points(3800,0,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3700,0,'small, brown crown',pos=2,cex=.8)#
+points(3800,-2,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-3,'large, dark crown',pos=2,cex=.8)#
+points(2500,0,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(2500,0,'lowland cluster',pos=2,cex=.8)#
+points(2500,-2,pch=21,bg='transparent',cex=3,lwd=2,col='#E7298A');text(2500,-2,'highland cluster',pos=2,cex=.8)
+points(3800,-2,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-2,'large, dark crown',pos=2,cex=.8)
+points(2500,0,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(2400,0,'lowland cluster',pos=2,cex=.8)
+points(2500,-2,pch=21,bg='transparent',cex=3,lwd=2,col='#E7298A');text(2400,-2,'highland cluster',pos=2,cex=.8)
+?segment
+?segments
+png('~/Dropbox/Myiarchus/figures/Fig.Lat.vs.Ele.vs.Mclust.size.PC1.Crown.ESlope.png',#
+	height=5,width=7,#
+	units='in',res=500,bg='transparent')
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#Key#
+points(3800,0,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3700,0,'small, brown crown',pos=2,cex=.8)#
+points(3800,-2,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-2,'large, dark crown',pos=2,cex=.8)#
+points(2500,0,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(2400,0,'lowland cluster',pos=2,cex=.8)#
+points(2500,-2,pch=21,bg='transparent',cex=3,lwd=2,col='#E7298A');text(2400,-2,'highland cluster',pos=2,cex=.8)#
+#
+#text(x,y,foo$ID,cex=.25,pos=4)#
+#
+dev.off()
+png('~/Dropbox/Myiarchus/figures/Fig.Lat.vs.Ele.vs.Mclust.size.PC1.Crown.ESlope.png',#
+	height=5,width=7,#
+	units='in',res=500,bg='transparent')
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col=foo$col,cex=foo$cex)#
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#Key#
+points(3800,0,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3700,0,'small, brown crown',pos=2,cex=.8)#
+points(3800,-2,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-2,'large, dark crown',pos=2,cex=.8)#
+points(2500,0,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(2450,0,'lowland cluster',pos=2,cex=.8)#
+points(2500,-2,pch=21,bg='transparent',cex=3,lwd=2,col='#E7298A');text(2450,-2,'highland cluster',pos=2,cex=.8)#
+#
+#text(x,y,foo$ID,cex=.25,pos=4)#
+#
+dev.off()
+library(raster)#
+library(maptools)#
+library(plyr)#
+library(RColorBrewer)#
+library(ape)#
+library(mapplots)#
+source('~/Dropbox/FUN.add.alpha.R', chdir = TRUE)#
+source('~/Dropbox/FUN.add.pie.new.R', chdir = TRUE)#
+##############################
+####	Load Meta Data#
+##############################
+data = read.delim('~/Dropbox/Myiarchus/meta.data.txt',stringsAsFactors=F,quote='')#
+data[data$b.l %in% c('molt','damaged'), 'b.l'] = NA#
+data[data$ts.l %in% c('molt','damaged'), 'ts.l'] = NA#
+data[data$w.l %in% c('molt','damaged'), 'w.l'] = NA#
+data[data$t.l %in% c('molt','damaged'), 't.l'] = NA#
+data$b.l = as.numeric(data$b.l)#
+data$ts.l = as.numeric(data$ts.l)#
+data$w.l = as.numeric(data$w.l)#
+data$t.l = as.numeric(data$t.l)#
+#
+#remove effect of sex from wing length to get size#
+indices = which(complete.cases(data[,c('w.l','sex')]) & data$sex %in% c('female','male'))#
+tmp = data[indices, ]#
+fit = lm(w.l~sex,data=tmp)#
+data[indices,'size'] = fit$residuals#
+#plot(data$size,data$w.l,type='p')#
+##############################
+####	Add plumage data#
+##############################
+color.data = read.delim('~/Dropbox/Myiarchus/plumage/plumage.data.txt')#
+head(color.data)#
+data = merge(data,color.data,by='ID',all=T)#
+#
+##############################
+####	Shapefiles#
+##############################
+alt = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.crop.grd')#
+rangemap = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_nosubspecies_13March2019.shp')#
+proj4string(rangemap) = crs(alt)#
+rangemap.ssp = readShapeSpatial('/Users/glennseeholzer/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_16June2017.shp')#
+proj4string(rangemap.ssp) = crs(alt)#
+admin = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3.shp')#
+proj4string(admin) = crs(alt)#
+barrier = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/N.Andes.Barrier.shp')#
+proj4string(barrier) = crs(alt)#
+parapatry = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Line.of.Parapatry.shp')#
+proj4string(parapatry) = crs(alt)#
+#
+altSA = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.SA.Panama.crop.grd')#
+rangemapSAssp = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_subspecies_SA.Panama_9April2019.shp')#
+adminSA = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3_SA.Panama.shp')#
+proj4string(adminSA) = proj4string(rangemapSAssp) = crs(alt)#
+#Central America#
+ex = c(-110, -76, 13, 33)#
+##############################
+####	Add elevation data#
+##############################
+data$alt = extract(alt,data[,c('Long','Lat')])#
+#
+##############################
+####	Colors#
+##############################
+#	Populations Colors#
+key = data.frame(#
+	fullpop = c('Jamaica','N Central America','W-of-Andes','Andes (EC to AR)','E-of-Andes','Andes-Amazon hybrids'),#
+	pop = c('barbirostris','central','west','andes','amazon','hybrid'),#
+	col = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','#E7298A'),#
+	bg = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','transparent'), stringsAsFactors=F)#
+#	Subspecies Colors#
+color.key = data.frame(subspecies = c('olivascens','querulus','lawrenceii','manens','platyrhynchus','connectens','littoralis','nigricapillus','brunneiceps','pallidus','nigriceps','atriceps','tuberculifer','tuberculifer x atriceps','tuberculifer or atriceps','barbirostris'),#
+				 col=c(brewer.pal(8,'Set1'),brewer.pal(8,'Dark2')),stringsAsFactors=F)		  #
+color.key$col2 = NA#
+color.key[!(color.key[,1] %in% 'atriceps'),'col2'] = color.key[(color.key[,1] %in% 'tuberculifer'),'col']#
+color.key[(color.key[,1] %in% 'atriceps'),'col2'] = color.key[(color.key[,1] %in% 'atriceps'),'col']#
+#########################################################################################
+#########################################################################################
+#	Sampling Map - South America - barrier + parapatry
+ex = c(-82, -60, -27.5, 11) #West South America
+png(filename = "~/Dropbox/Myiarchus/figures/presentation.figures/map_barrier_parapatry_SA.png",#
+    width = 3, height = 5, units = "in", pointsize = 12,#
+     bg = "transparent",  res = 500)#
+#dev.new(width=3,height=5)#
+#
+par(mar=c(0,0,0,0))#
+plot(adminSA,add=F,lwd=.25,col='white',xlim=c(ex[1],ex[2]),ylim=c(ex[3],ex[4]),border='transparent')#
+# #latitude lines#
+# for(i in seq(-20,30,10)){#
+	# lines(x=c(-117,-36),y=c(i,i),col='grey75',lty=2,lwd=.5)#
+# }#
+# #longitude lines#
+# for(i in seq(-110,-40,10)){#
+	# lines(x=c(i,i),y=c(-40,50),col='grey75',lty=2,lwd=.5)#
+# }#
+#
+breakpoints <- c(minValue(alt),1000,3500,maxValue(alt))#
+colors <- add.alpha(c("grey100","grey30","grey85"),.5)#
+plot(altSA,add=T,breaks=breakpoints,col=colors,useRaster=T,axes=F,box=F,legend=F,interpolate=F,maxpixels= dim(alt)[1]*dim(alt)[2]/1)#
+#
+plot(barrier,add=T,col=add.alpha('black',.75),lwd=1,border= 'transparent',density=50,angle=90)#
+#
+plot(adminSA,add=T,lwd=.3,col='transparent',xlim=c(ex[1],ex[2]),ylim=c(ex[3],ex[4]))#
+#
+x = color.key[color.key$subspecies %in% rangemapSAssp$id, ]#
+plot(rangemapSAssp,add=T,col=add.alpha(x[match(x[,1],rangemapSAssp$id),'col2'],.5),lwd=.0001,border='transparent')#
+#
+plot(parapatry,add=T,lwd=1,col='cyan')#
+#
+#axis(1,label=seq(-110,-40,10),at=seq(-110,-40,10),col.ticks='transparent',col='transparent',line=-2,col.axis='grey75')#
+# axis(2,label=seq(-20,30,10),at=seq(-20,30,10),col.ticks='transparent',col='transparent',line=-2,col.axis='grey75')#
+#
+dev.off()
+library(raster)#
+library(maptools)#
+library(plyr)#
+library(scales)#
+library(RColorBrewer)#
+library(mclust)#
+scale.arbitrary <- function(x,tmin,tmax){ (((x-min(x,na.rm = T))/(max(x,na.rm = T)-min(x,na.rm = T)))*(tmax - tmin)) + tmin }#
+source('~/Dropbox/FUN.add.alpha.R', chdir = TRUE)#
+#
+data = read.delim('~/Dropbox/Myiarchus/meta.data.txt',stringsAsFactors=F,quote='')#
+crs = '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 +units=m'#
+alt = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.NewWorld.grd')#
+proj4string(alt) = crs(crs)#
+data$alt = extract(alt,data[,c('Long','Lat')])#
+write.table(data,'~/Dropbox/Myiarchus/meta.data.txt',col.names=T,row.names=F,quote=F,sep='\t')#
+#
+data[data$b.l %in% c('molt','damaged'), 'b.l'] = NA#
+data[data$ts.l %in% c('molt','damaged'), 'ts.l'] = NA#
+data[data$w.l %in% c('molt','damaged'), 'w.l'] = NA#
+data[data$t.l %in% c('molt','damaged'), 't.l'] = NA#
+data$b.l = as.numeric(data$b.l)#
+data$ts.l = as.numeric(data$ts.l)#
+data$w.l = as.numeric(data$w.l)#
+data$t.l = as.numeric(data$t.l)#
+#
+x = data[!(is.na(data$w.l)), ]#
+dim(x)#
+#
+#remove effect of sex from wing length to get size#
+indices = which(complete.cases(data[,c('w.l','sex')]) & data$sex %in% c('female','male'))#
+tmp = data[indices, ]#
+fit = lm(w.l~sex,data=tmp)#
+data[indices,'size'] = fit$residuals#
+#
+# plot this#
+# x = tmp[tmp$Subspecies %in% c('atriceps','tuberculifer','nigriceps','brunneiceps','pallidus'),c('w.l','sex','Subspecies')]#
+# x$Subspecies = factor(x$Subspecies,levels=c('atriceps','nigriceps','brunneiceps','pallidus','tuberculifer'))#
+#
+# png(filename = "~/Dropbox/Myiarchus/figures/boxplot.w.l~sex*subspecies.png",#
+    # width = 8, height = 4, units = "in", pointsize = 12,#
+     # bg = "transparent",  res = 300)#
+# dev.new(width=8,height=4)#
+# par(mar=c(4,4,0,0))#
+# boxplot(x$w.l ~ x$sex*x$Subspecies,las=2,col=c('grey','white'),axes=F)#
+# legend(9,92,legend=c('female','male'),c('grey','white'))#
+# axis(1,at=seq(1.5,9.5,2),labels=c('M.t.atriceps','M.t.nigriceps','M.t.brunneiceps','M.t.pallidus','M.t.tuberculifer'),cex.axis=0.7,tick=F,cex.axis=1)#
+# axis(2)#
+# mtext('Wing Length',2,line=2.5,cex=1.5)#
+# dev.off()#
+##############################
+####	Load plumage data#
+##############################
+color.data = read.delim('~/Dropbox/Myiarchus/plumage/plumage.data.txt')#
+dim(color.data)#
+#
+##############################
+####	Load transect data#
+##############################
+tran = read.delim('~/Dropbox/Myiarchus/transect.ring_data.txt',stringsAsFactors=F)#
+transect.length = as.numeric(readLines('~/Dropbox/Myiarchus/transect.length.km.txt'))#
+refs = read.delim('~/Dropbox/Myiarchus/transect.ring_reference.points.txt',stringsAsFactors=F)#
+refs[order(refs$Tran.pos), ]#
+refs = refs[!(refs$ID %in% 'EC-PE'), ]#
+#
+##############################
+####	Combine meta, plumage, transect data#
+##############################
+data = join_all(list(data,color.data,tran),by='ID',type='full')#
+##############################
+####	Shapefiles#
+##############################
+crs = '+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0 +units=m'#
+alt = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.NewWorld.grd')#
+admin = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3.shp')#
+rangemap = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_all_subspecies.shp')#
+barrier = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/N.Andes.Barrier.shp')#
+#
+proj4string(admin) = crs(crs)#
+proj4string(rangemap) = crs(crs)#
+proj4string(barrier) = crs(crs)#
+#
+#	Populations Colors#
+key = data.frame(#
+	full.name = c('Jamaica','N Central America','W-of-Andes','Andes (EC to AR)','E-of-Andes','Andes-Amazon hybrids'),#
+	pop = c('barbirostris','central','west','andes','amazon','hybrid'),#
+	subspecies = c('barbirostris','central','nigriceps-brunneiceps','atriceps','tuberculifer-pallidus','tuberculifer x atriceps'),#
+	col = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','#E7298A'),#
+	bg = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','transparent'), stringsAsFactors=F)
+#subset data#
+foo = data[#
+	!data$ID %in% c('AMNH821940','LSU153496','LSU29620') & #remove damaged specimens#
+	data$Plumage %in% c('definitive') & #only adult birds#
+	data$East.Slope %in% 'TRUE' & # East Slope#
+#	2020 - as.numeric(data$Year) > 30 & # separate older and younger specimens#
+	complete.cases(data[,c('Tran.pos','alt','PC1.Crown','size')]),] #complete cases#
+#
+#run mclust#
+d = foo[,c('PC1.Crown','size')]#
+BIC = mclustBIC(d)#
+mod = Mclust(d, x = BIC)#
+foo$mclust.unc = mod$uncertainty#
+foo$mclust.class = mod$classification#
+foo$mclust.class = gsub(1,'amazon',foo$mclust.class)#
+foo$mclust.class = gsub(2,'andes',foo$mclust.class)#
+#
+# #plot mclust clusters with size scaled by uncertainty#
+# foo$bg = mapvalues(foo$mclust.class,key[,'pop'],key[,'bg'])#
+# foo$col = mapvalues(foo$mclust.class,key[,'pop'],key[,'col'])#
+# foo$cex = scale.arbitrary(foo$mclust.unc,1,3)#
+#
+#plot phenotype with perimeter coded by mclust cluster#
+foo$col = mapvalues(foo$mclust.class,c('amazon','andes'),c('#66A61E','#E7298A'))#
+foo$bg  = gray(scale.arbitrary(-foo$PC1.Crown,0,1),alpha=1)#
+foo$cex = scale.arbitrary(foo$size,1,6)#
+foo = foo[order(-foo$cex), ]
+dev.new(height=5,width=6)#
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(0,4000)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+#colored code by cluster#
+points(x,y,pch=21,lwd=2,bg=add.alpha(foo$bg,0.75),col='grey75',cex=foo$cex)
+points(x,y,pch=21,lwd=1,bg=add.alpha(foo$bg,0.75),col='grey75',cex=foo$cex)
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)
+xlim = c(4000,0)
+par(mar=c(4,4,0,0.5))#
+#
+ylim = c(-18.5,0)#
+xlim = c(4000,0)#
+#
+set.seed(1986)#
+plot(foo$alt,foo$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+abline(h=-22,lty=2,col='grey50'); #
+	text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+x = jitter(foo$alt,500)#
+y = jitter(foo$Lat,10)#
+# x = foo$alt#
+# y = foo$Lat#
+#
+#colored code by cluster#
+points(x,y,pch=21,lwd=.5,bg=add.alpha(foo$bg,0.75),col='grey75',cex=foo$cex)
+#Key Phenotype#
+points(3800,0,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3700,0,'small, brown crown',pos=2,cex=.8)#
+points(3800,-2,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-2,'large, dark crown',pos=2,cex=.8)
+axis(1)#
+	mtext('Elevation',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)
+points(3800,0,pch=21,bg=gray(1),cex=1,lwd=0.5);text(3700,0,'small, brown crown',pos=4,cex=.8)
+points(3800,-2,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-2,'large, dark crown',pos=4,cex=.8)
+points(3800,-2,pch=21,bg=gray(0),cex=6,col='white',lwd=0.5);text(3700,-2,' large, dark crown',pos=4,cex=.8)
+#Key Clusters#
+points(2500,0,pch=21,bg='transparent',cex=3,lwd=2,col='#66A61E');text(2450,0,'lowland cluster',pos=4,cex=.8)#
+points(2500,-2,pch=21,bg='transparent',cex=3,lwd=2,col='#E7298A');text(2450,-2,'highland cluster',pos=4,cex=.8)
+library(raster)#
+library(maptools)#
+library(plyr)#
+library(RColorBrewer)#
+library(ape)#
+library(mapplots)#
+source('~/Dropbox/FUN.add.alpha.R', chdir = TRUE)#
+source('~/Dropbox/FUN.add.pie.new.R', chdir = TRUE)#
+##############################
+####	Load Meta Data#
+##############################
+data = read.delim('~/Dropbox/Myiarchus/meta.data.txt',stringsAsFactors=F,quote='')#
+data[data$b.l %in% c('molt','damaged'), 'b.l'] = NA#
+data[data$ts.l %in% c('molt','damaged'), 'ts.l'] = NA#
+data[data$w.l %in% c('molt','damaged'), 'w.l'] = NA#
+data[data$t.l %in% c('molt','damaged'), 't.l'] = NA#
+data$b.l = as.numeric(data$b.l)#
+data$ts.l = as.numeric(data$ts.l)#
+data$w.l = as.numeric(data$w.l)#
+data$t.l = as.numeric(data$t.l)#
+#
+#remove effect of sex from wing length to get size#
+indices = which(complete.cases(data[,c('w.l','sex')]) & data$sex %in% c('female','male'))#
+tmp = data[indices, ]#
+fit = lm(w.l~sex,data=tmp)#
+data[indices,'size'] = fit$residuals#
+#plot(data$size,data$w.l,type='p')#
+#
+##############################
+####	Add plumage data#
+##############################
+color.data = read.delim('~/Dropbox/Myiarchus/plumage/plumage.data.txt')#
+head(color.data)#
+data = merge(data,color.data,by='ID',all=T)#
+#
+##############################
+####	Shapefiles#
+##############################
+alt = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.crop.grd')#
+rangemap = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_nosubspecies_13March2019.shp')#
+proj4string(rangemap) = crs(alt)#
+rangemap.ssp = readShapeSpatial('/Users/glennseeholzer/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_16June2017.shp')#
+proj4string(rangemap.ssp) = crs(alt)#
+admin = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3.shp')#
+proj4string(admin) = crs(alt)#
+barrier = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/N.Andes.Barrier.shp')#
+proj4string(barrier) = crs(alt)#
+parapatry = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Line.of.Parapatry.shp')#
+proj4string(parapatry) = crs(alt)#
+#
+altSA = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.SA.Panama.crop.grd')#
+rangemapSAssp = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_subspecies_SA.Panama_9April2019.shp')#
+adminSA = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3_SA.Panama.shp')#
+proj4string(adminSA) = proj4string(rangemapSAssp) = crs(alt)#
+#
+head(data)#
+#
+#Central America#
+ex = c(-110, -76, 13, 33)#
+##############################
+####	Add elevation data#
+##############################
+data$alt = extract(alt,data[,c('Long','Lat')])#
+#
+##############################
+####	Colors#
+##############################
+#	Populations Colors#
+key = data.frame(#
+	fullpop = c('Jamaica','N Central America','W-of-Andes','Andes (EC to AR)','E-of-Andes','Andes-Amazon hybrids'),#
+	pop = c('barbirostris','central','west','andes','amazon','hybrid'),#
+	col = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','#E7298A'),#
+	bg = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','transparent'), stringsAsFactors=F)
+scales::show_col(key$col)
+color.key
+color.key = data.frame(subspecies = c('olivascens','querulus','lawrenceii','manens','platyrhynchus','connectens','littoralis','nigricapillus','brunneiceps','pallidus','nigriceps','atriceps','tuberculifer','tuberculifer x atriceps','tuberculifer or atriceps','barbirostris'),#
+				 col=c(brewer.pal(8,'Set1'),brewer.pal(8,'Dark2')),stringsAsFactors=F)		  #
+color.key$col2 = NA#
+color.key[!(color.key[,1] %in% 'atriceps'),'col2'] = color.key[(color.key[,1] %in% 'tuberculifer'),'col']#
+color.key[(color.key[,1] %in% 'atriceps'),'col2'] = color.key[(color.key[,1] %in% 'atriceps'),'col']
+color.key
+library(raster)#
+library(maptools)#
+library(plyr)#
+library(RColorBrewer)#
+library(ape)#
+library(mapplots)#
+source('~/Dropbox/FUN.add.alpha.R', chdir = TRUE)#
+source('~/Dropbox/FUN.add.pie.new.R', chdir = TRUE)#
+##############################
+####	Load Meta Data#
+##############################
+data = read.delim('~/Dropbox/Myiarchus/meta.data.txt',stringsAsFactors=F,quote='')#
+data[data$b.l %in% c('molt','damaged'), 'b.l'] = NA#
+data[data$ts.l %in% c('molt','damaged'), 'ts.l'] = NA#
+data[data$w.l %in% c('molt','damaged'), 'w.l'] = NA#
+data[data$t.l %in% c('molt','damaged'), 't.l'] = NA#
+data$b.l = as.numeric(data$b.l)#
+data$ts.l = as.numeric(data$ts.l)#
+data$w.l = as.numeric(data$w.l)#
+data$t.l = as.numeric(data$t.l)#
+#
+#remove effect of sex from wing length to get size#
+indices = which(complete.cases(data[,c('w.l','sex')]) & data$sex %in% c('female','male'))#
+tmp = data[indices, ]#
+fit = lm(w.l~sex,data=tmp)#
+data[indices,'size'] = fit$residuals#
+#plot(data$size,data$w.l,type='p')#
+#
+##############################
+####	Add plumage data#
+##############################
+color.data = read.delim('~/Dropbox/Myiarchus/plumage/plumage.data.txt')#
+head(color.data)#
+data = merge(data,color.data,by='ID',all=T)#
+#
+##############################
+####	Shapefiles#
+##############################
+alt = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.crop.grd')#
+rangemap = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_nosubspecies_13March2019.shp')#
+proj4string(rangemap) = crs(alt)#
+rangemap.ssp = readShapeSpatial('/Users/glennseeholzer/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_16June2017.shp')#
+proj4string(rangemap.ssp) = crs(alt)#
+admin = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3.shp')#
+proj4string(admin) = crs(alt)#
+barrier = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/N.Andes.Barrier.shp')#
+proj4string(barrier) = crs(alt)#
+parapatry = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Line.of.Parapatry.shp')#
+proj4string(parapatry) = crs(alt)#
+#
+altSA = raster('~/Dropbox/Myiarchus/GIS_layers/alt_1km/alt.SA.Panama.crop.grd')#
+rangemapSAssp = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/MyTuber_rangemaps/Myiarchus_tuberculifer_subspecies_SA.Panama_9April2019.shp')#
+adminSA = readShapeSpatial('~/Dropbox/Myiarchus/GIS_layers/admin/world_borders/TM_WORLD_BORDERS-0.3/TM_WORLD_BORDERS-0.3_SA.Panama.shp')#
+proj4string(adminSA) = proj4string(rangemapSAssp) = crs(alt)#
+#
+head(data)#
+#
+#Central America#
+ex = c(-110, -76, 13, 33)#
+##############################
+####	Add elevation data#
+##############################
+data$alt = extract(alt,data[,c('Long','Lat')])#
+#
+##############################
+####	Colors#
+##############################
+#	Populations Colors#
+key = data.frame(#
+	fullpop = c('Jamaica','N Central America','W-of-Andes','Andes (EC to AR)','E-of-Andes','Andes-Amazon hybrids'),#
+	pop = c('barbirostris','central','west','andes','amazon','hybrid'),#
+	col = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','#E7298A'),#
+	bg = c('#FFC20A','#0000ff','#0C7BDC','#E7298A','#66A61E','transparent'), stringsAsFactors=F)
+#add WGS admixture data to meta#
+samples = sapply(strsplit(basename(scan("~/Dropbox/Myiarchus/wgs/bam.all.filelist",what='character')),'\\.'),'[',1)#
+sampkey = data.frame(Ind=seq(1,length(samples),1),ID=samples,stringsAsFactors=F)#
+#
+data$WGS.order = NA#
+data$WGS.order[data$ID %in% sampkey[,2]] = as.numeric(mapvalues(data$ID[data$ID %in% sampkey[,2]], sampkey[,2], sampkey[,1]))#
+#
+#add admixture data#
+qpoplist = get(load('~/Dropbox/Myiarchus/wgs/NGSadmix/qpop.all.list.rda'))#
+qpop = qpoplist[[2]]#
+qpop$ID = rownames(qpop)#
+data = merge(data,qpop[,c('ID','Cluster1','Cluster2','Cluster3')],by='ID',all=T)
+dev.new(width=5,height=5)#
+samples = data[data$pop %in% c('andes','amazon','hybrid') & !(data$ID %in% c('FMNH391515_AmapaBR','COP1071_BarVE')), 'ID']#
+tmp = data[data$ID %in% samples, ]#
+#ylim = c(-28,1)	 	#include Argentine#
+ylim = c(-20,1)#
+xlim = c(4000,0)#
+##########################################
+par(mar=c(4,4,0,.5))#
+#colors = c('#1B9E77','#D95F02','#7570B3')#
+colors = c('#0C7BDC','#66A61E','#E7298A')#
+#	colors = c('#8DA0CB','#66C2A5','#FC8D62') # color blind friendly#
+set.seed(1986)#
+plot(tmp$alt,tmp$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50');
+text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=2)
+samples = data[data$pop %in% c('andes','amazon','hybrid') & !(data$ID %in% c('FMNH391515_AmapaBR','COP1071_BarVE')), 'ID']#
+tmp = data[data$ID %in% samples, ]#
+#ylim = c(-28,1)	 	#include Argentine#
+ylim = c(-20,1)#
+xlim = c(4000,0)#
+##########################################
+par(mar=c(4,4,0,.5))#
+#colors = c('#1B9E77','#D95F02','#7570B3')#
+colors = c('#0C7BDC','#66A61E','#E7298A')#
+#	colors = c('#8DA0CB','#66C2A5','#FC8D62') # color blind friendly#
+set.seed(1986)#
+plot(tmp$alt,tmp$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(-150,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=2) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(-150,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(-150, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+# abline(h=-22,lty=2,col='grey50'); #
+	# text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+abline(v=1500,lty=1,col='black'); #
+	text(1400,-20.5,'1500 m',col='grey25',pos=4) #
+tmp = tmp[order(tmp$Cluster1), ]#
+#
+i = 9#
+for(i in 1:nrow(tmp)){#
+	if(tmp[i,'ID'] == 'LSU39095_CochaBO'){#
+		x = tmp[i,'alt'] + 100#
+		y = tmp[i,'Lat']#
+	}else if(tmp[i,'ID'] == 'AMNH821956_CochaBO'){#
+		x = tmp[i,'alt'] - 100#
+		y = tmp[i,'Lat']#
+	}else{#
+		x = tmp[i,'alt']#
+		y = tmp[i,'Lat']#
+		}	#
+#
+	add.pie.new(z=as.matrix(round(tmp[i,grep('Cluster',colnames(tmp))],3)),x=x,y=y,col=add.alpha(colors,alpha=1),labels=NA,edge=600,lwd=.25,border='grey25')#
+#
+	if(tmp[i,'pop'] %in% 'hybrid'){#
+		points(x,y,col='black',pch=21,lwd=1,bg='black',cex=1)	#
+	}#
+}#
+#legend#
+loc = function(range,pos) min(range) + pos*(max(range)-min(range))#
+points(loc(xlim,.8),loc(ylim,.9),col='black',pch=21,lwd=1,bg='transparent',cex=4)	#
+points(loc(xlim,.8),loc(ylim,.9),col='black',pch=21,lwd=1,bg='black',cex=1)#
+text(loc(xlim,.93),loc(ylim,.90),'hybrid = ')#
+#
+#text(jitter(tmp$alt,0),jitter(tmp$Lat,0),tmp$ID,cex=1,pos=1)#
+#
+# x = tmp[tmp$pop %in% 'hybrid','alt']#
+# y = tmp[tmp$pop %in% 'hybrid','Lat']#
+# points(x,y,col='black',pch=21,lwd=1,bg='black',cex=tmp$cex)#
+axis(1)#
+	mtext('Elevation (m)',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)
+text(4000,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=2)
+text(3500,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=2)
+text(3200,-4.6 - (-4.6-.8)/2,'Ecuador',col='grey50',pos=2)
+text(3200,-4.6 - (-4.6-.8)/1.5,'Ecuador',col='grey50',pos=2)
+text(3200,-4.6 - (-4.6-.8)/2.5,'Ecuador',col='grey50',pos=2)
+text(3200,-4.6 - (-4.6-.8)/3,'Ecuador',col='grey50',pos=2)
+text(3200,-4.6,'Ecuador',col='grey50',pos=2)
+text(3200,-4,'Ecuador',col='grey50',pos=2)
+set.seed(1986)#
+plot(tmp$alt,tmp$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(3200,-4,'Ecuador',col='grey50',pos=2) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(3200,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(3200, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4)
+text(3200, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=2)
+text(3200,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=2)
+text(3200,-4,'Ecuador',col='grey50',pos=4)
+text(3200,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4)
+abline(h=-14.7,lty=2,col='grey50');
+text(3200, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4)
+text(40000, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4)
+text(4000, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4)
+dev.new(width=5,height=5)#
+samples = data[data$pop %in% c('andes','amazon','hybrid') & !(data$ID %in% c('FMNH391515_AmapaBR','COP1071_BarVE')), 'ID']#
+tmp = data[data$ID %in% samples, ]#
+#ylim = c(-28,1)	 	#include Argentine#
+ylim = c(-20,1)#
+xlim = c(4000,0)#
+##########################################
+par(mar=c(4,4,0,.5))#
+#colors = c('#1B9E77','#D95F02','#7570B3')#
+colors = c('#0C7BDC','#66A61E','#E7298A')#
+#	colors = c('#8DA0CB','#66C2A5','#FC8D62') # color blind friendly#
+set.seed(1986)#
+plot(tmp$alt,tmp$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(4000,-4,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(4000,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(4000, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+# abline(h=-22,lty=2,col='grey50'); #
+	# text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+abline(v=1500,lty=1,col='black'); #
+	text(1400,-20.5,'1500 m',col='grey25',pos=4) #
+tmp = tmp[order(tmp$Cluster1), ]#
+#
+i = 9#
+for(i in 1:nrow(tmp)){#
+	if(tmp[i,'ID'] == 'LSU39095_CochaBO'){#
+		x = tmp[i,'alt'] + 100#
+		y = tmp[i,'Lat']#
+	}else if(tmp[i,'ID'] == 'AMNH821956_CochaBO'){#
+		x = tmp[i,'alt'] - 100#
+		y = tmp[i,'Lat']#
+	}else{#
+		x = tmp[i,'alt']#
+		y = tmp[i,'Lat']#
+		}	#
+#
+	add.pie.new(z=as.matrix(round(tmp[i,grep('Cluster',colnames(tmp))],3)),x=x,y=y,col=add.alpha(colors,alpha=1),labels=NA,edge=600,lwd=.25,border='grey25')#
+#
+	if(tmp[i,'pop'] %in% 'hybrid'){#
+		points(x,y,col='black',pch=21,lwd=1,bg='black',cex=1)	#
+	}#
+}#
+#legend#
+loc = function(range,pos) min(range) + pos*(max(range)-min(range))#
+points(loc(xlim,.8),loc(ylim,.9),col='black',pch=21,lwd=1,bg='transparent',cex=4)	#
+points(loc(xlim,.8),loc(ylim,.9),col='black',pch=21,lwd=1,bg='black',cex=1)#
+text(loc(xlim,.93),loc(ylim,.90),'hybrid = ')#
+#
+#text(jitter(tmp$alt,0),jitter(tmp$Lat,0),tmp$ID,cex=1,pos=1)#
+#
+# x = tmp[tmp$pop %in% 'hybrid','alt']#
+# y = tmp[tmp$pop %in% 'hybrid','Lat']#
+# points(x,y,col='black',pch=21,lwd=1,bg='black',cex=tmp$cex)#
+axis(1)#
+	mtext('Elevation (m)',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)
+text(4200,-4,'Ecuador',col='grey50',pos=4)
+text(4200,-3.8,'Ecuador',col='grey50',pos=4)
+text(4200,-3.2,'Ecuador',col='grey50',pos=4)
+text(1450,-20.5,'1500 m',col='grey25',pos=4)
+50
+text(1550,-20.5,'1500 m',col='grey25',pos=4)
+text(1600,-20.5,'1500 m',col='grey25',pos=4)
+text(loc(xlim,.93),loc(ylim,.95),'hybrid = ')
+points(loc(xlim,.8),loc(ylim,.95),col='black',pch=21,lwd=1,bg='transparent',cex=4)
+points(loc(xlim,.8),loc(ylim,.95),col='black',pch=21,lwd=1,bg='black',cex=1)
+loc = function(range,pos) min(range) + pos*(max(range)-min(range))#
+points(loc(xlim,.8),loc(ylim,.98),col='black',pch=21,lwd=1,bg='transparent',cex=4)	#
+points(loc(xlim,.8),loc(ylim,.98),col='black',pch=21,lwd=1,bg='black',cex=1)#
+text(loc(xlim,.93),loc(ylim,.98),'hybrid = ')
+text(4200,-2.5,'Ecuador',col='grey50',pos=4)
+png('/Users/glennseeholzer/Dropbox/Myiarchus/figures/presentation.figures/wgs.admix.K3.alt.Lat.east-slope.png',width=5,height=5,units='in',res=300,bg='transparent')#
+#dev.new(width=5,height=5)#
+samples = data[data$pop %in% c('andes','amazon','hybrid') & !(data$ID %in% c('FMNH391515_AmapaBR','COP1071_BarVE')), 'ID']#
+tmp = data[data$ID %in% samples, ]#
+#ylim = c(-28,1)	 	#include Argentine#
+ylim = c(-20,1)#
+xlim = c(4000,0)#
+##########################################
+par(mar=c(4,4,0,.5))#
+#colors = c('#1B9E77','#D95F02','#7570B3')#
+colors = c('#0C7BDC','#66A61E','#E7298A')#
+#	colors = c('#8DA0CB','#66C2A5','#FC8D62') # color blind friendly#
+set.seed(1986)#
+plot(tmp$alt,tmp$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(4200,-2.5,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(4200,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(4200, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+# abline(h=-22,lty=2,col='grey50'); #
+	# text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+abline(v=1500,lty=1,col='black'); #
+	text(1600,-20.5,'1500 m',col='grey25',pos=4) #
+tmp = tmp[order(tmp$Cluster1), ]#
+#
+i = 9#
+for(i in 1:nrow(tmp)){#
+	if(tmp[i,'ID'] == 'LSU39095_CochaBO'){#
+		x = tmp[i,'alt'] + 100#
+		y = tmp[i,'Lat']#
+	}else if(tmp[i,'ID'] == 'AMNH821956_CochaBO'){#
+		x = tmp[i,'alt'] - 100#
+		y = tmp[i,'Lat']#
+	}else{#
+		x = tmp[i,'alt']#
+		y = tmp[i,'Lat']#
+		}	#
+#
+	add.pie.new(z=as.matrix(round(tmp[i,grep('Cluster',colnames(tmp))],3)),x=x,y=y,col=add.alpha(colors,alpha=1),labels=NA,edge=600,lwd=.25,border='grey25')#
+#
+	if(tmp[i,'pop'] %in% 'hybrid'){#
+		points(x,y,col='black',pch=21,lwd=1,bg='black',cex=1)	#
+	}#
+}#
+#legend#
+loc = function(range,pos) min(range) + pos*(max(range)-min(range))#
+points(loc(xlim,.8),loc(ylim,.98),col='black',pch=21,lwd=1,bg='transparent',cex=4)	#
+points(loc(xlim,.8),loc(ylim,.98),col='black',pch=21,lwd=1,bg='black',cex=1)#
+text(loc(xlim,.93),loc(ylim,.98),'hybrid = ')#
+#
+#text(jitter(tmp$alt,0),jitter(tmp$Lat,0),tmp$ID,cex=1,pos=1)#
+#
+# x = tmp[tmp$pop %in% 'hybrid','alt']#
+# y = tmp[tmp$pop %in% 'hybrid','Lat']#
+# points(x,y,col='black',pch=21,lwd=1,bg='black',cex=tmp$cex)#
+axis(1)#
+	mtext('Elevation (m)',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#
+dev.off()
+dev.new(width=5,height=5)#
+samples = data[data$pop %in% c('andes','amazon','hybrid') & !(data$ID %in% c('FMNH391515_AmapaBR','COP1071_BarVE')), 'ID']#
+tmp = data[data$ID %in% samples, ]#
+#ylim = c(-28,1)	 	#include Argentine#
+ylim = c(-20,1)#
+xlim = c(4000,0)#
+##########################################
+par(mar=c(4,4,0,.5))#
+#colors = c('#1B9E77','#D95F02','#7570B3')#
+colors = c('#0C7BDC','#66A61E','#E7298A')#
+#	colors = c('#8DA0CB','#66C2A5','#FC8D62') # color blind friendly#
+set.seed(1986)#
+plot(tmp$alt,tmp$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(4200,-2.5,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(4200,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(4200, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+# abline(h=-22,lty=2,col='grey50'); #
+	# text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+abline(v=1500,lty=1,col='black'); #
+	text(1600,-20.5,'1500 m',col='grey25',pos=4) #
+tmp = tmp[order(tmp$Cluster1), ]#
+#
+i = 9#
+for(i in 1:nrow(tmp)){#
+	if(tmp[i,'ID'] == 'LSU39095_CochaBO'){#
+		x = tmp[i,'alt'] + 100#
+		y = tmp[i,'Lat']#
+	}else if(tmp[i,'ID'] == 'AMNH821956_CochaBO'){#
+		x = tmp[i,'alt'] - 100#
+		y = tmp[i,'Lat']#
+	}else{#
+		x = tmp[i,'alt']#
+		y = tmp[i,'Lat']#
+		}	#
+#
+	add.pie.new(z=as.matrix(round(tmp[i,grep('Cluster',colnames(tmp))],3)),x=x,y=y,col=add.alpha(colors,alpha=1),labels=NA,edge=600,lwd=.25,border='grey25')#
+#
+	if(tmp[i,'pop'] %in% 'hybrid'){#
+		points(x,y,col='black',pch=21,lwd=1,bg='black',cex=1)	#
+	}#
+}#
+#legend#
+loc = function(range,pos) min(range) + pos*(max(range)-min(range))#
+#points(loc(xlim,.8),loc(ylim,.98),col='black',pch=21,lwd=1,bg='transparent',cex=4)	#
+points(loc(xlim,.8),loc(ylim,.99),col='black',pch=21,lwd=1,bg='black',cex=1)#
+text(loc(xlim,.93),loc(ylim,.99),'hybrid = ')#
+#
+#text(jitter(tmp$alt,0),jitter(tmp$Lat,0),tmp$ID,cex=1,pos=1)#
+#
+# x = tmp[tmp$pop %in% 'hybrid','alt']#
+# y = tmp[tmp$pop %in% 'hybrid','Lat']#
+# points(x,y,col='black',pch=21,lwd=1,bg='black',cex=tmp$cex)#
+axis(1)#
+	mtext('Elevation (m)',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)
+points(loc(xlim,.93),loc(ylim,.99),col='black',pch=21,lwd=1,bg='black',cex=1)
+text(loc(xlim,.8),loc(ylim,.99),'hybrid')
+text(loc(xlim,.85),loc(ylim,.99),'hybrid')
+text(loc(xlim,.825),loc(ylim,.99),'hybrid')
+points(loc(xlim,.93),loc(ylim,1),col='black',pch=21,lwd=1,bg='black',cex=1)
+points(loc(xlim,.93),loc(ylim,1.2),col='black',pch=21,lwd=1,bg='black',cex=1)
+points(loc(xlim,.93),loc(ylim,1.1),col='black',pch=21,lwd=1,bg='black',cex=1)
+points(loc(xlim,.93),loc(ylim,1.01),col='black',pch=21,lwd=1,bg='black',cex=1)
+png('/Users/glennseeholzer/Dropbox/Myiarchus/figures/presentation.figures/wgs.admix.K3.alt.Lat.east-slope.png',width=5,height=5,units='in',res=300,bg='transparent')#
+#dev.new(width=5,height=5)#
+samples = data[data$pop %in% c('andes','amazon','hybrid') & !(data$ID %in% c('FMNH391515_AmapaBR','COP1071_BarVE')), 'ID']#
+tmp = data[data$ID %in% samples, ]#
+#ylim = c(-28,1)	 	#include Argentine#
+ylim = c(-20,1)#
+xlim = c(4000,0)#
+##########################################
+par(mar=c(4,4,0,.5))#
+#colors = c('#1B9E77','#D95F02','#7570B3')#
+colors = c('#0C7BDC','#66A61E','#E7298A')#
+#	colors = c('#8DA0CB','#66C2A5','#FC8D62') # color blind friendly#
+set.seed(1986)#
+plot(tmp$alt,tmp$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(4200,-2.5,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(4200,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(4200, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+# abline(h=-22,lty=2,col='grey50'); #
+	# text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+abline(v=1500,lty=1,col='black'); #
+	text(1600,-20.5,'1500 m',col='grey25',pos=4) #
+tmp = tmp[order(tmp$Cluster1), ]#
+#
+i = 9#
+for(i in 1:nrow(tmp)){#
+	if(tmp[i,'ID'] == 'LSU39095_CochaBO'){#
+		x = tmp[i,'alt'] + 100#
+		y = tmp[i,'Lat']#
+	}else if(tmp[i,'ID'] == 'AMNH821956_CochaBO'){#
+		x = tmp[i,'alt'] - 100#
+		y = tmp[i,'Lat']#
+	}else{#
+		x = tmp[i,'alt']#
+		y = tmp[i,'Lat']#
+		}	#
+#
+	add.pie.new(z=as.matrix(round(tmp[i,grep('Cluster',colnames(tmp))],3)),x=x,y=y,col=add.alpha(colors,alpha=1),labels=NA,edge=600,lwd=.25,border='grey25')#
+#
+	if(tmp[i,'pop'] %in% 'hybrid'){#
+		points(x,y,col='black',pch=21,lwd=1,bg='black',cex=1)	#
+	}#
+}#
+#legend#
+loc = function(range,pos) min(range) + pos*(max(range)-min(range))#
+#points(loc(xlim,.8),loc(ylim,.98),col='black',pch=21,lwd=1,bg='transparent',cex=4)	#
+points(loc(xlim,.93),loc(ylim,1.01),col='black',pch=21,lwd=1,bg='black',cex=1)#
+text(loc(xlim,.825),loc(ylim,1.01),'hybrid')#
+#
+#text(jitter(tmp$alt,0),jitter(tmp$Lat,0),tmp$ID,cex=1,pos=1)#
+#
+# x = tmp[tmp$pop %in% 'hybrid','alt']#
+# y = tmp[tmp$pop %in% 'hybrid','Lat']#
+# points(x,y,col='black',pch=21,lwd=1,bg='black',cex=tmp$cex)#
+axis(1)#
+	mtext('Elevation (m)',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#
+dev.off()
+text(4200,-4.6 - (0.8 - -4.6)/2,'Ecuador',col='grey50',pos=4)
+dev.new(width=5,height=5)#
+samples = data[data$pop %in% c('andes','amazon','hybrid') & !(data$ID %in% c('FMNH391515_AmapaBR','COP1071_BarVE')), 'ID']#
+tmp = data[data$ID %in% samples, ]#
+#ylim = c(-28,1)	 	#include Argentine#
+ylim = c(-20,1)#
+xlim = c(4000,0)#
+##########################################
+par(mar=c(4,4,0,.5))#
+#colors = c('#1B9E77','#D95F02','#7570B3')#
+colors = c('#0C7BDC','#66A61E','#E7298A')#
+#	colors = c('#8DA0CB','#66C2A5','#FC8D62') # color blind friendly#
+set.seed(1986)#
+plot(tmp$alt,tmp$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(4200,-4.6 - (0.8 - -4.6)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(4200,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(4200, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+# abline(h=-22,lty=2,col='grey50'); #
+	# text(-150,-25,'Argentina',col='grey50',pos=4)
+(0.8 - -4.6)
+(0.8 - -4.6)/2
+(0.8 - -4.6)
+(0.8 - -4.6)/2
+text(4200,-4.6 + (0.8 - -4.6)/2,'Ecuador',col='grey50',pos=4)
+png('/Users/glennseeholzer/Dropbox/Myiarchus/figures/presentation.figures/wgs.admix.K3.alt.Lat.east-slope.png',width=5,height=5,units='in',res=300,bg='transparent')#
+#dev.new(width=5,height=5)#
+samples = data[data$pop %in% c('andes','amazon','hybrid') & !(data$ID %in% c('FMNH391515_AmapaBR','COP1071_BarVE')), 'ID']#
+tmp = data[data$ID %in% samples, ]#
+#ylim = c(-28,1)	 	#include Argentine#
+ylim = c(-20,1)#
+xlim = c(4000,0)#
+##########################################
+par(mar=c(4,4,0,.5))#
+#colors = c('#1B9E77','#D95F02','#7570B3')#
+colors = c('#0C7BDC','#66A61E','#E7298A')#
+#	colors = c('#8DA0CB','#66C2A5','#FC8D62') # color blind friendly#
+set.seed(1986)#
+plot(tmp$alt,tmp$Lat,axes=F,type='n',xlab='',ylab='',ylim=ylim,xlim=xlim)#
+abline(h=.8,lty=2,col='grey50'); #
+	text(4200,-4.6 + (0.8 - -4.6)/2,'Ecuador',col='grey50',pos=4) #
+abline(h=-4.6,lty=2,col='grey50'); #
+	text(4200,-14.7 - (-14.7- -4.6)/2,'Peru',col='grey50',pos=4) #
+abline(h=-14.7,lty=2,col='grey50'); #
+	text(4200, -22 - (-22 - -14.7)/2,'Bolivia',col='grey50',pos=4) #
+# abline(h=-22,lty=2,col='grey50'); #
+	# text(-150,-25,'Argentina',col='grey50',pos=4) #
+#
+abline(v=1500,lty=1,col='black'); #
+	text(1600,-20.5,'1500 m',col='grey25',pos=4) #
+tmp = tmp[order(tmp$Cluster1), ]#
+#
+i = 9#
+for(i in 1:nrow(tmp)){#
+	if(tmp[i,'ID'] == 'LSU39095_CochaBO'){#
+		x = tmp[i,'alt'] + 100#
+		y = tmp[i,'Lat']#
+	}else if(tmp[i,'ID'] == 'AMNH821956_CochaBO'){#
+		x = tmp[i,'alt'] - 100#
+		y = tmp[i,'Lat']#
+	}else{#
+		x = tmp[i,'alt']#
+		y = tmp[i,'Lat']#
+		}	#
+#
+	add.pie.new(z=as.matrix(round(tmp[i,grep('Cluster',colnames(tmp))],3)),x=x,y=y,col=add.alpha(colors,alpha=1),labels=NA,edge=600,lwd=.25,border='grey25')#
+#
+	if(tmp[i,'pop'] %in% 'hybrid'){#
+		points(x,y,col='black',pch=21,lwd=1,bg='black',cex=1)	#
+	}#
+}#
+#legend#
+loc = function(range,pos) min(range) + pos*(max(range)-min(range))#
+#points(loc(xlim,.8),loc(ylim,.98),col='black',pch=21,lwd=1,bg='transparent',cex=4)	#
+points(loc(xlim,.93),loc(ylim,1.01),col='black',pch=21,lwd=1,bg='black',cex=1)#
+text(loc(xlim,.825),loc(ylim,1.01),'hybrid')#
+#
+#text(jitter(tmp$alt,0),jitter(tmp$Lat,0),tmp$ID,cex=1,pos=1)#
+#
+# x = tmp[tmp$pop %in% 'hybrid','alt']#
+# y = tmp[tmp$pop %in% 'hybrid','Lat']#
+# points(x,y,col='black',pch=21,lwd=1,bg='black',cex=tmp$cex)#
+axis(1)#
+	mtext('Elevation (m)',1,line=2.5,cex=1.5)#
+axis(2,at=c(-30,-25,-20,-15,-10,-5,0,5,10,15,20,25,30),labels=c('','',-20,'',-10,'',0,'',10,'',20,'',30),cex.axis=1)#
+	mtext('Latitude',2,line=2.5,cex=1.5)#
+#
+dev.off()
+tree = read.tree('~/Dropbox/suboscine_final_timetrees/T400F_complete.tre')
+library(ape)
+tree = read.tree('~/Dropbox/suboscine_final_timetrees/T400F_complete.tre')
+grepl('Myiar',tree$tip.label)
+tree$tip.label[grepl('Myiar',tree$tip.label)]
+to.drop = tree$tip.label[!grepl('Myiar',tree$tip.label)]
+tree = ladderize(drop.tip(tree,to.drop),right=F)
+plot(tree)
+?plot.phylo
+par(mar=c(0,0,0,0))
+plot(tree)
+plot(tree,font=2)
+plot(tree,font=1)
+tree$tip.label
+for(i in tree$tip.label) cat(i,'\n',sep='')
+key = read.delim('~/Dropbox/suboscine_final_timetrees/Myiarchus.key.txt',stringsAsFactors=F)
+tree = read.tree('~/Dropbox/suboscine_final_timetrees/T400F_complete.tre')
+key = read.delim('~/Dropbox/suboscine_final_timetrees/Myiarchus.key.txt',stringsAsFactors=F)
+key
+to.drop = tree$tip.label[!grepl('tuber',tree$tip.label)]
+tree = ladderize(drop.tip(tree,to.drop),right=F)
+plot(tree,font=1)
+library(plyr)
+mapvalues(tree$tip.label,key$tip,key$subspecies)
+mapvalues(tree$tip.label,key$Tip,key$Subspecies)
+library(ape)#
+library(plyr)#
+#
+tree = read.tree('~/Dropbox/suboscine_final_timetrees/T400F_complete.tre')#
+key = read.delim('~/Dropbox/suboscine_final_timetrees/Myiarchus.key.txt',stringsAsFactors=F)#
+#
+to.drop = tree$tip.label[!grepl('Myiar',tree$tip.label)]#
+tree = ladderize(drop.tip(tree,to.drop),right=F)
+tree$tip.label
+library(ape)#
+library(plyr)#
+#
+tree = read.tree('~/Dropbox/suboscine_final_timetrees/T400F_complete.tre')#
+key = read.delim('~/Dropbox/suboscine_final_timetrees/Myiarchus.key.txt',stringsAsFactors=F)#
+#
+to.drop = tree$tip.label[!grepl('Myiar',tree$tip.label)]#
+tree = ladderize(drop.tip(tree,to.drop),right=F)#
+#
+tree$tip.label#
+#
+to.drop = tree$tip.label[!grepl('tuber',tree$tip.label)]#
+tree = ladderize(drop.tip(tree,to.drop),right=F)#
+mapvalues(tree$tip.label,key$Tip,key$Subspecies)
+tree$tip.label = mapvalues(tree$tip.label,key$Tip,key$Subspecies)
+plot(tree,font=1)
+str(tree)
+tree = read.tree('~/Dropbox/suboscine_final_timetrees/T400F_complete.tre')
+str(tree)
+dev.new(width=3,height=6.25)#
+m  = matrix(c(1, 2, 3, 4), nrow = 4, ncol = 1)#
+layout(mat = m, heights = c(2, 2, 2,0.25),widths = c(2,2,2,2))#
+#layout.show(4)#
+#
+for(i in c(1,3,5)){#
+	tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,1))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:10),label=c(5:10))#
+	mtext('N Inferred Species', 2,2.5,cex=.75)#
+	if(i == 1) text(-0.95,10.75,paste0('A. ',i,' mm gaps'),pos=4,cex=1.25)#
+	if(i == 3) text(-0.95,10.75,paste0('B. ',i,' mm gaps'),pos=4,cex=1.25)#
+	if(i == 5) text(-0.95,10.75,paste0('C. ',i,' mm gaps'),pos=4,cex=1.25)#
+#
+}#
+	par(mar=c(0,0,0,0))#
+	plot(0:1,0:1,xlab='',ylab='',axes=F,type='n')#
+	text(.6,.4,'Extinction Gaps in Bill Depth (mm)',cex=1.2)
+library(RColorBrewer)#
+results = get(load('results.rda'))
+results = get(load('~/Dropbox/SBE/SBE.in.silico/geospiza/results.rda'))
+dev.new(width=3,height=6.25)#
+m  = matrix(c(1, 2, 3, 4), nrow = 4, ncol = 1)#
+layout(mat = m, heights = c(2, 2, 2,0.25),widths = c(2,2,2,2))#
+#layout.show(4)#
+#
+for(i in c(1,3,5)){#
+	tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,1))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:10),label=c(5:10))#
+	mtext('N Inferred Species', 2,2.5,cex=.75)#
+	if(i == 1) text(-0.95,10.75,paste0('A. ',i,' mm gaps'),pos=4,cex=1.25)#
+	if(i == 3) text(-0.95,10.75,paste0('B. ',i,' mm gaps'),pos=4,cex=1.25)#
+	if(i == 5) text(-0.95,10.75,paste0('C. ',i,' mm gaps'),pos=4,cex=1.25)#
+#
+}#
+	par(mar=c(0,0,0,0))#
+	plot(0:1,0:1,xlab='',ylab='',axes=F,type='n')#
+	text(.6,.4,'Extinction Gaps in Bill Depth (mm)',cex=1.2)
+i = 1
+tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,1))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)
+plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)
+abline(h=8,lty=2,col='grey')
+segments(xat,0,xat,tmp$max.BIC.G,col='grey')
+points(xat,tmp$max.BIC.G,pch=16,cex=1.5)
+axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)
+axis(2,at=c(5:7,9:10),label=c(5:7,9:10))
+?axis(2)
+axis(2,at=8,label=8,col=NA)
+axis(2,at=8,label=8,col=NA,col.tick=1)
+tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,1))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:7,9:10),label=c(5:7,9:10))#
+	axis(2,at=8,label=8,col=NA,col.tick=1)
+axis(2,at=8,label=8,col=NA,col.tick=1,font=2)
+tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,1))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:7,9:10),label=c(5:7,9:10))#
+	axis(2,at=8,label=8,col=NA,col.tick=1,font=2)#
+	mtext('N Inferred Species', 2,2.5,cex=.75)
+m  = matrix(c(1, 2, 3, 4), nrow = 4, ncol = 1)#
+layout(mat = m, heights = c(2, 2, 2,0.25),widths = c(2,2,2,2))#
+#layout.show(4)#
+i = 1#
+for(i in c(1,3,5)){#
+	tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,2))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:7,9:10),label=c(5:7,9:10))#
+	axis(2,at=8,label=8,col=NA,col.tick=1,font=2)#
+	mtext('N Inferred Species', 2,2.5,cex=.75)#
+	if(i == 1) text(-0.95,10.75,paste0('A. ',i,' mm gaps'),pos=4,cex=1.25)#
+	if(i == 3) text(-0.95,10.75,paste0('B. ',i,' mm gaps'),pos=4,cex=1.25)#
+	if(i == 5) text(-0.95,10.75,paste0('C. ',i,' mm gaps'),pos=4,cex=1.25)#
+#
+}#
+	par(mar=c(0,0,0,0))#
+	plot(0:1,0:1,xlab='',ylab='',axes=F,type='n')#
+	text(.6,.4,'Extinction Gaps in Bill Depth (mm)',cex=1.2)
+m  = matrix(c(1, 2, 3, 4), nrow = 4, ncol = 1)#
+layout(mat = m, heights = c(2, 2, 2,0.25),widths = c(2,2,2,2))#
+#layout.show(4)#
+i = 1#
+for(i in c(1,3,5)){#
+	tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,2))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:7,9:10),label=c(5:7,9:10))#
+	axis(2,at=8,label=8,col=NA,col.tick=1,font=2)#
+	mtext('N Inferred Species', 2,2.5,cex=.75)#
+	if(i == 1) text(-0.95,10.75,paste0('A. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 3) text(-0.95,10.75,paste0('B. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 5) text(-0.95,10.75,paste0('C. ',i,' mm ext. range'),pos=4,cex=1.25)#
+#
+}#
+	par(mar=c(0,0,0,0))#
+	plot(0:1,0:1,xlab='',ylab='',axes=F,type='n')#
+	text(.6,.4,'Extinction Gaps in Bill Depth (mm)',cex=1.2)
+text(.6,.4,'Extinction Events by Bill Depth range (mm)',cex=1.2)
+m  = matrix(c(1, 2, 3, 4), nrow = 4, ncol = 1)#
+layout(mat = m, heights = c(2, 2, 2,0.25),widths = c(2,2,2,2))#
+#layout.show(4)#
+i = 1#
+for(i in c(1,3,5)){#
+	tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,2))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:7,9:10),label=c(5:7,9:10))#
+	axis(2,at=8,label=8,col=NA,col.tick=1,font=2)#
+	mtext('N Inferred Species', 2,2.5,cex=.75)#
+	if(i == 1) text(-0.95,10.75,paste0('A. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 3) text(-0.95,10.75,paste0('B. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 5) text(-0.95,10.75,paste0('C. ',i,' mm ext. range'),pos=4,cex=1.25)#
+#
+}#
+	par(mar=c(0,0,0,0))#
+	plot(0:1,0:1,xlab='',ylab='',axes=F,type='n')#
+	text(.6,.4,'Extinction Events by Bill Depth range (mm)',cex=1.2)
+text(.5,.4,'Extinction Events by Bill Depth range (mm)',cex=1.2)
+m  = matrix(c(1, 2, 3, 4), nrow = 4, ncol = 1)#
+layout(mat = m, heights = c(2, 2, 2,0.25),widths = c(2,2,2,2))#
+#layout.show(4)#
+i = 1#
+for(i in c(1,3,5)){#
+	tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,2))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:7,9:10),label=c(5:7,9:10))#
+	axis(2,at=8,label=8,col=NA,col.tick=1,font=2)#
+	mtext('N Inferred Species', 2,2.5,cex=.75)#
+	if(i == 1) text(-0.95,10.75,paste0('A. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 3) text(-0.95,10.75,paste0('B. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 5) text(-0.95,10.75,paste0('C. ',i,' mm ext. range'),pos=4,cex=1.25)#
+#
+}#
+	par(mar=c(0,0,0,0))#
+	plot(0:1,0:1,xlab='',ylab='',axes=F,type='n')#
+	text(.55,.4,'Extinction Events by Bill Depth range (mm)',cex=1.2)
+m  = matrix(c(1, 2, 3, 4), nrow = 4, ncol = 1)#
+layout(mat = m, heights = c(2, 2, 2,0.25),widths = c(2,2,2,2))#
+#layout.show(4)#
+i = 1#
+for(i in c(1,3,5)){#
+	tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,2))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:7,9:10),label=c(5:7,9:10))#
+	axis(2,at=8,label=8,col=NA,col.tick=1,font=2)#
+	mtext('N Inferred Species', 2,2.5,cex=.75)#
+	if(i == 1) text(-0.95,10.75,paste0('A. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 3) text(-0.95,10.75,paste0('B. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 5) text(-0.95,10.75,paste0('C. ',i,' mm ext. range'),pos=4,cex=1.25)#
+#
+}#
+	par(mar=c(0,0,0,0))#
+	plot(0:1,0:1,xlab='',ylab='',axes=F,type='n')#
+	text(.6,.4,'Extinction Events by Bill Depth (mm)',cex=1.2)
+m  = matrix(c(1, 2, 3, 4), nrow = 4, ncol = 1)#
+layout(mat = m, heights = c(2, 2, 2,0.25),widths = c(2,2,2,2))#
+#layout.show(4)#
+i = 1#
+for(i in c(1,3,5)){#
+	tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,2))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:7,9:10),label=c(5:7,9:10))#
+	axis(2,at=8,label=8,col=NA,col.tick=1,font=2)#
+	mtext('N Inferred Species', 2,2.5,cex=.75)#
+	if(i == 1) text(-0.95,10.75,paste0('A. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 3) text(-0.95,10.75,paste0('B. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 5) text(-0.95,10.75,paste0('C. ',i,' mm ext. range'),pos=4,cex=1.25)#
+#
+}#
+	par(mar=c(0,0,0,0))#
+	plot(0:1,0:1,xlab='',ylab='',axes=F,type='n')#
+	text(.575,.4,'Extinction Events by Bill Depth (mm)',cex=1.2)
+m  = matrix(c(1, 2, 3, 4), nrow = 4, ncol = 1)#
+layout(mat = m, heights = c(2, 2, 2,0.25),widths = c(2,2,2,2))#
+#layout.show(4)#
+i = 1#
+for(i in c(1,3,5)){#
+	tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,2))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:7,9:10),label=c(5:7,9:10))#
+	axis(2,at=8,label=8,col=NA,col.tick=1,font=2)#
+	mtext('N Inferred Species', 2,2.5,cex=.75)#
+	if(i == 1) text(-0.95,10.75,paste0('A. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 3) text(-0.95,10.75,paste0('B. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 5) text(-0.95,10.75,paste0('C. ',i,' mm ext. range'),pos=4,cex=1.25)#
+#
+}#
+	par(mar=c(0,0,0,0))#
+	plot(0:1,0:1,xlab='',ylab='',axes=F,type='n')#
+	text(.57,.4,'Extinction Events by Bill Depth (mm)',cex=1.2)
+m  = matrix(c(1, 2, 3, 4), nrow = 4, ncol = 1)#
+layout(mat = m, heights = c(2, 2, 2,0.25),widths = c(2,2,2,2))#
+#layout.show(4)#
+i = 1#
+for(i in c(1,3,5)){#
+	tmp = results[results$gap %in% i, ]#
+	par(mar=c(3,4,1,2))#
+	xlim = c(0,nrow(tmp))#
+	ylim = c(5,11)#
+	xat = seq(0 +.5,xlim[2]-.5,1)#
+	plot(1,1,xlim=xlim,ylim=ylim,xlab='',ylab='',axes=F)#
+	abline(h=8,lty=2,col='grey')#
+	segments(xat,0,xat,tmp$max.BIC.G,col='grey')#
+	points(xat,tmp$max.BIC.G,pch=16,cex=1.5)#
+	axis(1,at=xat,label=tmp[,'extinction.range'],cex.axis=1,lwd.ticks=2,las=2)#
+	axis(2,at=c(5:7,9:10),label=c(5:7,9:10))#
+	axis(2,at=8,label=8,col=NA,col.tick=1,font=2)#
+	mtext('N Inferred Species', 2,2.5,cex=.75)#
+	if(i == 1) text(-0.95,10.75,paste0('A. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 3) text(-0.95,10.75,paste0('B. ',i,' mm ext. range'),pos=4,cex=1.25)#
+	if(i == 5) text(-0.95,10.75,paste0('C. ',i,' mm ext. range'),pos=4,cex=1.25)#
+#
+}#
+	par(mar=c(0,0,0,0))#
+	plot(0:1,0:1,xlab='',ylab='',axes=F,type='n')#
+	text(.56,.4,'Extinction Events by Bill Depth (mm)',cex=1.2)
+setwd('~/Dropbox/Chapman/expediciornis/historical.databases/Chapman1917')
+###################################################
+#	This is code to convert the formatted text file 'Chapman1917.raw.specimen.counts.txt' #
+#	into a list of specimen counts for each unique species x locality combination in Chapman 1917.#
+##
+#	- Chapman1917.raw.specimen.counts.txt contains the specimen counts per locality that appear #
+#	below each species account in Chapman 1917. These were been pulled and formatted from their original#
+#	pdf-text transcription (Chapman1917.raw.species.accounts.txt) so that they could be parsed#
+#	in the script below.#
+##
+#	- Removed are the dates that appear next to specimen counts in Chapman 1917 for the migratory species.#
+##
+#	Developed by: Glenn F. Seeholzer#
+#	Date: 2020.06.10#
+###################################################
+#load packages and supporting functions#
+library(plyr)#
+source('supporting.R.functions/FUN.name.check.R', chdir = TRUE)#
+#
+#Set working directory#
+setwd('~/Dropbox/Chapman/expediciornis/historical.databases/Chapman1917')
+source('../../supporting.R.functions/FUN.name.check.R', chdir = TRUE)
+###################################################
+#	This is code to convert the formatted text file 'Chapman1917.raw.specimen.counts.txt' #
+#	into a list of specimen counts for each unique species x locality combination in Chapman 1917.#
+##
+#	- Chapman1917.raw.specimen.counts.txt contains the specimen counts per locality that appear #
+#	below each species account in Chapman 1917. These were been pulled and formatted from their original#
+#	pdf-text transcription (Chapman1917.raw.species.accounts.txt) so that they could be parsed#
+#	in the script below.#
+##
+#	- Removed are the dates that appear next to specimen counts in Chapman 1917 for the migratory species.#
+##
+#	Developed by: Glenn F. Seeholzer#
+#	Date: 2020.06.10#
+###################################################
+#Set working directory#
+setwd('~/Dropbox/Chapman/expediciornis/historical.databases/Chapman1917')#
+#
+#load packages and supporting functions#
+library(plyr)#
+source('../../supporting.R.functions/FUN.name.check.R', chdir = TRUE)
+#Input text file of formatted raw specimen counts from Chapman 1917 #
+lines = readLines('Chapman1917.raw.specimen.counts.txt')#
+#
+#Parse each species' specimen counts per locality#
+#get list of taxon names#
+taxa = lines[seq(1,length(lines),3)]#
+taxa = trimws(sapply(strsplit(taxa,'^([^ ]+)'),'[',2))#
+#
+#split vectors of count strings by semicolon locality divider #
+counts = lines[seq(2,length(lines),3)]#
+counts = sapply(strsplit(counts,';'),'[')#
+#
+#make counts table for each species #
+tmp = lapply(counts,function(x){#
+	tmp = as.data.frame(t(sapply(strsplit(trimws(x),',\\s*(?=[^,]+$)',perl=T),'[')))#
+	colnames(tmp) = c('Locality','Count')#
+	tmp#
+	})#
+#
+#add Taxon column for each species specimen count table#
+names(tmp) = taxa#
+for(i in 1:length(tmp)){#
+	name = names(tmp)[i]#
+	tmp[[i]] = cbind(Taxon=rep(name,nrow(tmp[[i]])),tmp[[i]])#
+}#
+#
+#combine all species individual tables#
+data = rbind.fill(tmp)#
+colnames(data) = c('Taxon','Locality.raw','Count')#
+#
+#Convert raw localities to standardized localities#
+#Locality Key#
+#	Locality.raw = locality name as it appears in the pdf-text transcription (includes many transcription errors)#
+#	Locality.specific = alternative locality names used in Chapman 1917 to denote specific elevations or variations on the main locality (e.g. near Honda or Andalucia [3000 ft])#
+#	Locality = standardized locality name for all variations of locality in Locality.specific #
+key = read.delim('Chapman1917.locality.key.txt',stringsAsFactors=F)#
+#
+#check to ensure there are no raw locality names without a standardized name and vice versa#
+name.check(unique(data$Locality.raw),key$Locality.raw)#
+#
+#convert raw localities to specific and standardized localities#
+data$Locality.specific = mapvalues(data$Locality.raw,key[,'Locality.raw'],key[,'Locality.specific'])#
+data$Locality = mapvalues(data$Locality.raw,key[,'Locality.raw'],key[,'Locality'])#
+#Convert Chapman 1917 taxonomy to Clements taxonomy#
+#Taxonomy Key#
+#	Chapman = all taxa with species accounts in Chapman 1917#
+#	Clements = Clement 2019 genus and species names#
+#	Notes = an aborted attempt to document the taxonomic authority for the taxonomic synonyms in this key#
+#	#
+#	There are certain to be errors in this key that will be revealed as each locality's species' list#
+#	is scrutinized. I did not attempt to provide Clements subspecies synomyms for the Clements#
+#	trinomials. This means that certain localities may not have the correct species if the part of a species#
+#	complex that was split (e.g. Hafferia zeledoni/immaculata). #
+key = read.delim('Chapman1917.taxonomy.key.txt') #
+#check to ensure there are no Chapman 1917 names without Clements names and vice versa #
+name.check(key$Chapman,data$Taxon)#
+colnames(data)[grep('Taxon',colnames(data))] = "Chapman"#
+data$Clements = mapvalues(data$Chapman,key[,'Chapman'],key[,'Clements'])#
+data = data[,c('Chapman','Clements','Locality.specific','Locality','Count')]#
+#
+write.table(data,'Chapman1917.specimen.counts.txt',col.names=T,row.names=F,quote=F,sep='\t')

@@ -1,0 +1,117 @@
+##################################################
+#	This is code to convert the formatted text file 'Chapman1917.raw.specimen.counts.txt' 
+#	into a list of specimen counts for each unique species x locality combination in Chapman 1917.
+#
+#	- Chapman1917.raw.specimen.counts.txt contains the specimen counts per locality that appear 
+#	below each species account in Chapman 1917. These were been pulled and formatted from their original
+#	pdf-text transcription (Chapman1917.raw.species.accounts.txt) so that they could be parsed
+#	in the script below.
+#
+#	- Removed are the dates that appear next to specimen counts in Chapman 1917 for the migratory species.
+#
+#	Developed by: Glenn F. Seeholzer
+#	Date: 2020.06.10
+##################################################
+#Set working directory
+setwd('~/Dropbox/Chapman/expediciornis/historical.databases/Chapman1917')
+
+#load packages and supporting functions
+library(plyr)
+source('../../supporting.R.functions/FUN.name.check.R', chdir = TRUE)
+
+#Input text file of formatted raw specimen counts from Chapman 1917 
+lines = readLines('Chapman1917.raw.specimen.counts.txt')
+
+#Parse each species' specimen counts per locality
+#get list of taxon names
+taxa = lines[seq(1,length(lines),3)]
+taxa = trimws(sapply(strsplit(taxa,'^([^ ]+)'),'[',2))
+
+#split vectors of count strings by semicolon locality divider 
+counts = lines[seq(2,length(lines),3)]
+counts = sapply(strsplit(counts,';'),'[')
+
+#make counts table for each species 
+tmp = lapply(counts,function(x){
+	tmp = as.data.frame(t(sapply(strsplit(trimws(x),',\\s*(?=[^,]+$)',perl=T),'[')))
+	colnames(tmp) = c('Locality','Count')
+	tmp
+	})
+
+#add Taxon column for each species specimen count table
+names(tmp) = taxa
+for(i in 1:length(tmp)){
+	name = names(tmp)[i]
+	tmp[[i]] = cbind(Taxon=rep(name,nrow(tmp[[i]])),tmp[[i]])
+}
+
+#combine all species individual tables
+data = rbind.fill(tmp)
+colnames(data) = c('Taxon','Locality.raw','Count')
+
+#Convert raw localities to standardized localities
+#Locality Key
+#	Locality.raw = locality name as it appears in the pdf-text transcription (includes many transcription errors)
+#	Locality.specific = alternative locality names used in Chapman 1917 to denote specific elevations or variations on the main locality (e.g. near Honda or Andalucia [3000 ft])
+#	Locality = standardized locality name for all variations of locality in Locality.specific 
+key = read.delim('Chapman1917.locality.key.txt',stringsAsFactors=F)
+
+#check to ensure there are no raw locality names without a standardized name and vice versa
+name.check(unique(data$Locality.raw),key$Locality.raw)
+
+#convert raw localities to specific and standardized localities
+data$Locality.specific = mapvalues(data$Locality.raw,key[,'Locality.raw'],key[,'Locality.specific'])
+data$Locality = mapvalues(data$Locality.raw,key[,'Locality.raw'],key[,'Locality'])
+
+
+#Convert Chapman 1917 taxonomy to Clements taxonomy
+#Taxonomy Key
+#	Chapman = all taxa with species accounts in Chapman 1917
+#	Clements = Clement 2019 genus and species names
+#	Notes = an aborted attempt to document the taxonomic authority for the taxonomic synonyms in this key
+#	
+#	There are certain to be errors in this key that will be revealed as each locality's species' list
+#	is scrutinized. I did not attempt to provide Clements subspecies synomyms for the Clements
+#	trinomials. This means that certain localities may not have the correct species if the part of a species
+#	complex that was split (e.g. Hafferia zeledoni/immaculata). 
+key = read.delim('Chapman1917.taxonomy.key.txt') 
+#check to ensure there are no Chapman 1917 names without Clements names and vice versa 
+name.check(key$Chapman,data$Taxon)
+colnames(data)[grep('Taxon',colnames(data))] = "Chapman"
+data$Clements = mapvalues(data$Chapman,key[,'Chapman'],key[,'Clements'])
+data = data[,c('Chapman','Clements','Locality.specific','Locality','Count')]
+
+write.table(data,'Chapman1917.specimen.counts.txt',col.names=T,row.names=F,quote=F,sep='\t')
+
+
+
+
+
+
+
+
+# #	DO NOT RUN
+# #	Code used to intialize taxonomy key for Chapman 1917
+# #	Key was generate by 
+# #	1. inputing the raw Chapman 1917 taxonomy
+# #	2. adding the Clements species that were still exactly the same
+# #	3. manual addition of Clements species 
+# ##################################################
+# #create taxonomy key
+# Chapman1917.raw.taxa.txt created by parsing and cleaning Chapman1917.species.txt which was taken from 
+# Chapman1917.raw.species.accounts.txt
+# 	
+# chptaxa = readLines('Chapman1917.raw.taxa.txt')
+# colnames = c('Chapman','Clements','Notes')
+# key = data.frame(matrix(nrow=length(chptaxa),ncol=length(colnames)))
+# colnames(key) = colnames
+# key$Chapman = chptaxa
+# #add Clements species that are the same in Chapman 1917 
+# chptaxa = unique(reported.counts$Taxon)
+# chpspecies = apply(t(sapply(strsplit(chptaxa,' '),'[',1:2)),1,function(x) paste(x,collapse=' '))
+# clem = read.csv('~/Dropbox/Clements/Clements-Checklist-v2019-August-2019.csv',stringsAsFactors=F)
+# clemspecies = clem[clem$category %in% 'species','scientific.name']
+# key[chpspecies %in% clemspecies,'Clements'] = key[chpspecies %in% clemspecies,'Chapman']
+# key[ ,'Clements'] = apply(t(sapply(strsplit(key[ ,'Clements'],' '),'[',1:2)),1,function(x) paste(x,collapse=' '))
+# key[key$Clements %in% 'NA NA','Clements'] = ''
+# write.table(key,'Chapman1917.taxonomy.key.original.txt',col.names=T,row.names=F,quote=F,sep='\t')
