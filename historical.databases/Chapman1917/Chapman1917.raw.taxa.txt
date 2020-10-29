@@ -1,0 +1,1280 @@
+Tinamus tao
+Tinamus major ruficeps
+Tinamus major castaneiceps
+Tinamus major latifrons
+Nothocercus julius
+Nothocercus bonapartei
+Crypturus cinereus
+Crypturus berlepschi
+Crypturus soui soui
+Crypturus soui caucae
+Crypturus soui modestus
+Crypturus soui caquetae
+Crypturus adspersus yapura
+Crypturus variegatus salvini
+Crypturus kerriae
+Crax alector
+Crax panamensis
+Crax alberti
+Penelope montagni
+Penelope ortoni
+Penelope cristata
+Penelope perspicax
+Penelope jacquacu
+Ortalis columbiana columbiana
+Ortalis columbiana caucae
+Ortalis guttata
+Ortalis garrula
+Pipile cumanensis
+Aburria aburri
+Chamaepetes goudoti goudoti
+Colinus cristatus decoratus
+Colinus cristatus leucotis
+Colinus cristatus parvicristatus
+Odontophorus guianensis marmoratus
+Odontophorus hyperythrus
+Odontophorus parambae
+Odontophorus strophium
+Rhynchortyx cinctus australis
+Columba speciosa
+Columba rufina
+Columba goodsoni
+Columba albilinea albilinea
+Columba plumbea propinqua
+Columba subvinacea bogotensis
+Columba subvinacea berlepschi
+Zenaida auriculata
+Zenaida ruficauda ruficauda
+Zenajda ruficauda robinsoni
+Zenaida ruficauda antioquiae
+Chaemepelia passerina albivitta
+Chaemepelia passerina parvula
+Chaemepelia passerina nana
+Chaemepelia minuta elaeodes
+Chaemepelia rufipennis rufipennis
+Chaemepelia rufipennis caucae
+Claravis pretiosa livida
+Leptotila verreauxi verreauxi
+Leptotila verreauxi occidentalis
+Leptotila rufaxilla dubusi
+Leptotila rufaxilla pallidipectus
+Leptotila plumbeiceps
+Leptotila pallida
+Leptotila cassini
+Osculatia purpurata
+Oreopeleia montana
+Oreopeleia veraguensis
+Oreopeleia bourcieri
+Oreopeleia linearis linearis
+Opisthocomus hoazin
+Rallus semiplumbeus
+Pardirallus nigricans nigricans
+Aramides cajanea cajanea
+Amaurolimnas concolor guatemalensis
+Anurolimnas castaneiceps
+Anurolimnas hauxwelli
+Porsana carolina
+Porzana flaviventris
+Creciscus aenops
+Creciscus albigularis
+Neocrex colombianus
+Gallinula chloropus pauxilla
+Porphyriops melanops bogotensis
+Ionornis martinicus
+Fulica americana columbiana
+Heliornis fulica
+Colymbus dominicus brachyrhynchus
+Podilymbus podiceps
+Phaetusa chloropoda
+Belonopterus cayennensis
+Charadrius dominicus dominicus
+Aegialitis semipalmata
+Aegialitis collaris
+Himantopus mexicanus
+Totanus melanoleucus
+Totanus flavipes
+Helodromas solitarius solitarius
+Actitis macularia
+Tringa minutilla
+Pisobia maculata
+Gallinago delicata
+Gallinago braziliensis
+Gallinago nobilis
+Gallinago jamesoni
+Jacana spinosa
+Jacana melanopygia
+Jacana nigra
+Burhinus bistriatus
+Eurypyga major
+Psophia napensis
+Theristicus caudatus
+Harpiprion cayennensis
+Phimosus berlepschi
+Ajaia ajaja
+Jabiru mycteria
+| Ardea cocoi
+Herodias egretta
+Florida caerulea
+Hydranassa tricolor tricolor
+Agamia agami
+Nycticorax nycticorax naevius
+Cochlearius cochlearius
+Pilherodias pileatus
+Butorides striata
+Tigrisoma lineatum
+Tigrisoma salmoni
+Ixobrychus erythromelas
+Ixobrychus exilis bogotensis
+Palamedea cornuta
+Cairina moschata
+Dendrocygna bicolor
+Dendrocygna discolor
+Nettion andium
+Querquedula discors
+Querquedula cyanoptera
+Marila nationi
+Marila affinis
+Nomonyx dominicus
+Merganetta colombiana
+Phalacrocorax vigua vigua
+Catharista urubu
+Cathartes aura aura
+Polyborus cheriway
+Ibycter americanus
+Milvago chimachima
+Circus hudsonius
+Circus cinereus
+Circus buffoni
+Micrastur guerilla interstes
+Parabuteo unicinctus harrisi
+Accipiter superciliosus
+Accipiter ventralis
+Accipiter bicolor
+Tachytriorchis albicaudatus exiguus
+Buteo hypospodius
+Buteo platypterus
+Buteo brachyurus
+Asturina nitida
+Rupornis magnirostris magnirostris
+Rupornis magnirostris ruficauda
+Busarellus nigricollis
+Urubitinga urubitinga
+Urubitinga schistacea
+Urubitinga plumbea
+Leucopternis semiplumbea
+Lophotriorchis isidori
+Spizaetus ornatus
+Spizaetus tyrannus
+Herpetotheres cachinnans cachinnans
+Herpetotheres cachinnans fulvescens
+Elanoides forficatus yetapa
+Rostrhamphus sociabilis
+Leptodon uncinatus
+Leptodon palliatus
+Harpagus bidentatus
+Ictinia plumbea
+Falco fusco-caerulescens
+Falco rufigularis
+Cerchneis sparveria caucae
+Cerchneis sparveria intermedia
+Cerchneis sparveria
+Asio flammeus bogotensis
+Asio stygius
+Otus choliba
+Otus watsoni
+Lophostrix cristatus stricklandi
+Ciccaba albitarsus
+Ciccaba albogularis
+Ciccaba virgata virgata
+Ciceaba nigrolineata
+Glaucidium brasilianum brasilianum
+Glaucidium brasilianum phalaenoides
+Glaucidium jardini
+Tyto perlata
+Ara ararauna
+Ara macao
+Ara chloroptera
+Ara militaris militaris
+Ara severa
+Aratinga wagleri
+Aratinga aeruginosa aeruginosa
+Ognorhynchus icterotis
+Pyrrhura calliptera
+Pyrrhura melanura pacifica
+Pyrrhura souancei
+Psittacula conspicillata conspicillata
+Psittacula conspicillata caucae
+Psittacula sclateri
+Psittacula spengeli
+Brotogeris jugularis
+Brotogeris devillei
+Amazona inornata
+Amazona mercenaria
+Amazons amazonica
+Amazona ochrocephala ochrocephala
+Amazona ochrocephala panamensis
+Amagzona salvini
+Pionus menstruus
+Pionus seniloides seniloides
+Pionus chalcopterus
+Hapalopsittaca amazonina
+Hapalopsittaca fuertesi
+Eucinetus pulchra
+Pyrilia pyrilia
+Pionites melanocephala pallidus
+Megaceryle torquata torquata
+Chloroceryle amazona
+Chloroceryle americana americana
+Chloroceryle inda
+Urospatha martii martii
+Urospatha martii semirufa
+Electron platyrhynchus platyrhynchus
+Electron platyrhynchus pyrrholaemus
+Electron platyrhynchus minor
+Momotus subrufescens subrufescens
+Momotus subrufescens reconditus
+Momotus momota ignobilis
+Momotus aequatorialis aequatorialis
+Hylomanes momotula obscurus
+Nyctibius lengicaudatus
+Chordeiles acutipennis acutipennis
+Chordeiles acutipennis texensis
+Lurocalis rufiventris
+Uropsalis lyra
+Hydropsalis climacocerca
+Nyctidromus albicollis albicollis
+Thermochalcis cayennensis cayennensis
+Thermochalcis cayennensis monticola
+Thermochalcis ruficervix
+Antrostomus rosenbergi
+Streptoprocne zonaris altissima
+Streptoprocne zonaris albicincta
+Chaetura spinicauda fumosa
+Chaetura cinereiventris sclateri
+Chaetura cinereiventris occidentalis
+Cypseloides brunneitorques brunneitorques
+Doryfera ludoviciae ludoviciae
+Androdon aequatorialis
+Threnetes cervinicauda
+Threnetes ruckeri fraseri
+Glaucis hirsuta affinis
+Glaucis aenea
+Phaethornis guyi emiliae
+Phaethornis yaruqui sancti-johannis
+Phaethornis fraterculus moorei
+Phaethornis hispidus oseryi
+Phaethornis syrmatophorus syrmatophorus
+Phaethornis syrmatophorus columbianus
+Phaethornis anthophilus
+Phaethornis griseogularis
+Phaethornis striigularis striigularis
+a) Phaethornis striigularis subrufescens
+Eutoxeres condaminii
+Eutoxeres aquila aquila
+Eutoxeres aquila salvini
+Eutoxeres aquila heterura
+Campylopterus obscurus aequatorialis
+Campylopterus falcatus
+Florisuga mellivora mellivora
+Agyrtria viridiceps
+Agyrtrina viridissims
+Agyrtrina fluvialitis
+Polyerata amabilis
+Polyerata rosenbergi
+Uranomitra franciae
+Lepidopyga goudoti
+Lepidopyga coelina
+Saucerottia saucerottei
+Saucerottia viridigaster
+Amizilis tzacatl tzacatl
+Amizilis tzacatl jucunda
+Hylocharis grayi
+Hylocharis humboldti
+Damophila juliae juliae
+Chlorostilbon gibsoni
+Chlorostilbon haeberlini
+Chlorostilbon melanorhynchus
+Chlorostilbon poortmani poortmani
+Thalurania fannyi fannyi
+Thalurania fannyi verticeps
+Thalurania nigrofasciata
+Thalurania colombica colombica
+Chalybura buffoni buffoni
+Chalybura caeruleogaster
+Chalybura urochrysa
+Colibri delphinae
+Colibri cyanotus
+Colibri iolata
+Anthracothorax nigricollis nigricollis
+Chrysolampis elatus
+Simonula berlepschi
+Phaiolaima rubinoides rubinoides
+Phaiolaima rubinoides aequatorialis
+Heliodoxa leadbeateri
+Helianthea helianthea
+Helianthea bonapartei
+Helianthea lutetiae lutetiae
+Helianthea torquata
+Helianthea coeligena columbiana
+Helianthea coeligena ferruginea
+Lafresnayea lafresnayi
+Lafresnayea saul saul
+Ensifera ensifera ensifera
+Pterophanes temmincki
+Aglaeactis cupripennis cupripennis
+Boissonneaua jardini
+Boissonneaua flavescens flavescens
+Vestipedes vestitus vestitus
+Vestipedes vestitus smaragdinipectus
+Vestipedes paramillo
+Vestipedes mosquera
+Vestipedes aureliae aureliae
+Vestipedes aureliae caucensis
+Vestipedes derbyi longirostris
+Ocreatus underwoodi underwoodi
+Urosticte benjamini benjamini
+Adelomyia melanogenys melanogenys
+Adelomyia melanogenys cervina
+Heliangelus exortis
+Metallura williami
+Metallura tyrianthina tyrianthina
+Oxypogon stubeli
+Chalcostigma herrani
+Chalcostigma heteropogon
+Ramphomicron microhynchum
+Opisthroprora euryptera
+Cyanolesbia kingi kingi
+Cyanolesbia emmae
+Cyanolesbia mocoa mocoa
+Cyanolesbia coelestis
+Psalidoprymna victoriae victoriae
+Psalidoprymna gouldi gouldi
+Schistes geoffroyi
+Schistes albogularis
+Heliothryx barroti
+Anthoscenus longirostris stewartae
+Calliphlox mitchelli
+Chaetocercus mulsanti
+Chaetocercus heliodor
+Klais guimete
+Popelairia conversi
+Pharomachrus antisiensis
+Pharomachrus auriceps
+Pharomachrus pavoninus
+Trogonurus personatus
+Trogonurus assimilis
+Trogonurus collaris
+Trogonurus curucui cupreicauda
+Trogonurus bolivianus
+Trogon strigilatus strigilatus
+Trogon strigilatus chionurus
+Chrysotrogon caligatus columbianus
+Chrysotrogon ramonianus
+Curucujus melanurus melanurus
+Curucujus melanurus macrourus
+Curucujus massena australis
+Coccyzus melacoryphus
+Coccyzus americanus americanus
+Piaya cayane columbiana
+Piaya cayana nigricrissa
+Piaya cayana mesura
+Piaya rutila rutila
+Piaya rutila gracilis
+Neomorphus salvini
+Tapera neavia
+Crotophaga ani
+Crotophaga major
+Capito aurovirens
+Capito maculicoronatus rubrilateralis
+Capito maculicoronatus pirrensis
+Capito squamatus
+Capito hypoleucus
+Capito quinticolor
+Capito auratus auratus
+Eubucco richardsoni granadensis
+Eubucco bourcieri bourcieri
+Eubuceo bourcieri occidentalis
+Semnornis ramphastinus
+Ramphastos piscivorus brevicarinatus
+Ramphastos swainsoni
+Ramphastos ambiguus ambiguus
+Ramphastos ambiguus abbreviatus
+Ramphastos cuvieri
+Ramphastos culminatus
+Ramphastos citreolaemus
+Andigena hypoglaucus
+Andigena nigrirostris nigrirostris
+Andigena nigrirostris spilorhynchus
+Andigena nigrirostris occidentalis
+Pteroglossus pluricinctus
+Pteroglossus castanotis castanotis
+Pteroglossus torquatus nuchalis
+Pteroglossus sanguineus
+Pteroglossus flavirostris flavirostris
+Pteroglossus humboldti
+Selinidera reinwardti
+Selinidera spectabilis
+Aulacorhynchus albivitta albivitta
+Aulacorhynchus albivitta phaeolaemus
+Aulacorhynchus albivitta griseigularis
+Aulacorhynchus haematopygius
+Galbula ruficauda ruficauda
+Galbula ruficauda pallens
+Galbula melanogenia
+Galbula tombacea tombacea
+Galbula albirostris chalcocephala
+Brachygalba fulviventris fulviventris
+Brachygalba fulviventris caquetae
+Galbalcyrhynchus leucotis
+Bucco capensis
+Notharcus hyperrhynchus leucocrissus
+Notharcus pectoralis
+Notharcus tectus subtectus
+Argicus macrodactylus
+Nystactes noanamae
+Hypnelus ruficollis ruficollis
+Nystalus radiatus
+Malacoptila fusca
+Malacoptila mystacalis
+Malacoptila panamensis poliopis
+Malacoptila panamensis panamensis
+Micromonacha lanceolata
+Nonnula frontalis
+Monasa flavirostris
+Monasa morphoeus peruana
+Monasa pallescens pallescens
+Monasa pallescens sclateri
+Monasa nigrifrons
+Hypoxanthus rivolii rivolii
+Hypoxanthus rivolii brevirostris
+Chloronerpes xanthochlorus
+Chloronerpes litae
+Chloronerpes rubiginosus gularis
+Chloronerpes rubiginosus buenavistae
+Chrysoptilus punctigula guttatus
+Chrysoptilus punctigula punctipectus
+Chrysoptilus punctigula ujhelyii
+Chrysoptilus punctigula striatigularis
+Melanerpes flavigula
+Melanerpes cruentatus
+Melanerpes pucherani pucherani
+& 1710) Melanerpes rubricapillus rubricapillus
+Veniliornis oleaginus fumigatus
+Veniliornis oleaginus aureus
+Veniliornis nigriceps equifasciatus
+Veniliornis dignus
+Veniliornis fidelis
+Veniliornis ruficeps haematostigma
+Veniliornis kirki cecilii
+Celeus loricatus loricatus
+Celeus loricatus mentalis
+Campephilus rubricollis
+Campephilus melanoleucus
+Campephilus malherbii
+Campephilus pollens
+Cniparchus haematogaster splendens
+Ceophloeus lineatus mesorhynchus
+Picumnus cinnamomeus
+Picumnus squamulatus squamulatus
+Picumnus olivaceus olivaceus
+Picumnus olivaceus harterti
+Picumnus granadensis granadensis
+Picumnus granadensis antioquensis
+Scytalopus niger
+Scytalopus canus
+Scytalopus griseicollis
+Scytalopus sylvestris
+Scytalopus micropterus micropterus
+Scytalopus infasciatus
+Myornis senilis
+Acropternis orthonyx
+Conopophaga aurita
+Conopophaga castaneiceps castaneiceps
+Conopophaga castaneiceps chocoensis
+Cymbilaimus lineatus lineatus
+Cymbilaimus lineatus fasciatus
+Taraba unduliger
+Taraba transandeana transandeana
+Taraba transandeana granadensis
+Thamnophilus unicolor
+Thamnophilus nigriceps
+Thamnophilus punctatus punctatus
+Thamnophilus punctatus atrinucha
+Thamnophilus canadensis pulchellus
+Thamnophilus doliatus doliatus
+Thamnophilus radiatus albicans
+Thamnophilus tenuipunctatus
+Thamnophilus multistriatus
+Thamnistes aequatorialis
+Thamnistes anabatinus intermedius
+Clytoctantes alixii
+Dysithamnus semicinereus semicinereus
+Dysithamnus semicinereus extremus
+Dysithamnus mentalis
+Dysithamnus puncticeps flemmingi
+Dysithamnus puncticeps puncticeps
+Dysithamnus leucostictus
+Dysithamnus capitalis capitalis
+Dysithamnus ardesiacus ardesiacus
+Thamnomanes glaucus
+Myrmotherula pygmaea
+Myrmotherula surinamensis pacifica
+Myrmopagis fulviventris
+Myrmopagis haemnatonota
+Myrmopagis ornata ornata
+Myrmopagis axillaris melaena
+Myrmopagis axillaris albigula
+Myrmopagis schisticolor schisticolor
+Myrmopagis schisticolor interior
+Myrmopagis cinereiventris pallida
+Herpsilochmus rufomarginatus frater
+Microrhopias grisea intermedia
+Microrhopias boucardi consobrina
+Drymophila caudata caudata
+Terenura callinota
+Ramphocenus melanurus trinitatis
+Ramphocenus rufiventris griseodorsalis
+Microbates cinereiventris cinereiventris
+Microbates cinereiventris magdalenae
+Microbates collaris
+Cercomacra sclateri
+Cercomacra tyrannina tyrannina
+Cercomacra nigricans
+Cercomacra berlepschi
+Pyriglena picea
+Anoplops bicolor aequatorialis
+Anoplops bicolor daguae
+Anoplops bicolor bicolor
+Myrmeciza melanoceps
+Myrmeciza maculifer maculifer
+Myrmeciza maculifer cassini
+Myrmeciza immaculatus immaculatus
+Myrmeciza immaculatus berlepschi
+Myrmeciza longipes boucardi
+Myrmeciza longipes panamensis
+Myrmeciza lemosticta nigricauda
+Gymnocichla nudiceps sanctaemartae
+Dichrozona cinctus
+Hypocnemis cantator peruviana
+Hypocnemis hypoxantha
+Myrmoborus leucophrys leucophrys
+Myrmoborus myiotherinus elegans
+Hylophylax lepidonata
+Hylophylax naevia theresae
+Hylophylax naevioides
+Phenostictus macleannani macleannani
+Rhopoterpe torquata torquata
+Formicarius colma nigrifrons
+Formicarius analis connectens
+Formicarius nigricapillus destructus
+Formicarius analis saturatus
+Formicarius rufipectus carrikeri
+Chamaeza brevicauda columbiana
+Chamaeza brevicauda (nobilis?)
+Chamaeza turdina
+Chamaeza mollissima
+Pittasoma rosenbergi
+Pittasoma harterti
+Grallaria squamigera
+Grallaria guatimalensis chocoensis
+Grallaria alleni
+Grallaria ruficeps
+Grallaria rufocinerea
+Grallaria monticola
+Grallaria milleri
+Grallaria hypoleuca
+Grallaria ruficapilla ruficapilla
+Grallaria brevicauda minor
+Grallaria modesta
+Oropezus rufula rufula
+Hylopezus dives barbacoae
+Hylopezus dives fulviventris
+Hylopezus perspicillata periopthalmica
+Hylopezus perspicillata perspicillata
+Grallaricula costaricensis
+Grallaricula nana
+Grallaricula cucullata
+Furnarius agnatus
+Upucerthia excelsior columbiana
+Lochmias sororia
+Schizoeaca fuliginosa
+Leptasthenura andicola
+Synallaxis azarae elegantior
+Synallazis azarae media
+Synallaxis moesta moesta
+Synallaxis moesta obscura
+Synallaxis albescens albigularis
+Synallaxis subpudica
+Synallaxis pudica pudica
+Synallaxis pudica nigrifumosa
+Synallaxis pudica caucae
+Synallaxis gujanensis columbianus
+Synallaxis cinnamomea fuscifrons
+Synallaxis unirufa
+Synallaxis candaei candaei
+Synallaxis gularis gularis
+Synallaxis rutilans caquetensis
+Siptornis antisiensis
+Siptornis erythrops griseigularis
+Siptornis striaticollis
+Siptornis flammulata multostriata
+Siptornis flammulata quindiana
+Pseudocolaptes boissonneauti boissonneauti
+Hyloctistes subulatus subulatus
+Hyloctistes subulatus assimilis
+Automolus holostictus
+Automolus ignobilis
+Automolus melanorhynchus
+Automolus ochrolemus turdinus
+Automolus dorsalis
+Automolus pallidigularis pallidigularis
+Automolus infuscatus infuscatus
+Automolus nigricauda saturatus
+Automolus cinnamomeigula
+Philydor rufipileatus consobrinus
+Philydor pyrrhodes
+Philydor ruficaudatus
+Philydor montanus striaticollis
+Thripadectes flammulatus
+Thripadectes virgaticeps sclateri
+Ancistrops strigilatus
+Xenicopsis subalaris subalaris
+Xenicopsis subalaris mentalis
+Xenops genibarbis littoralis
+Xenops rutilus heterurus
+Sclerurus brunneus
+Sclerurus albigularis albigularis
+Sclerurus mexicanus obscurior
+Margarornis perlata
+Margarornis stellata
+Premnornis guttata
+Premnoplex brunnescens brunnescens
+Glyphorhynchus cuneatus
+Glyphorhynchus cuneatus castelnaudi
+Glyphorhynchus cuneatus pectoralis
+Dendrocincla tyrannina tyrannina
+Dendrocincla lafresnayei lafresnayei
+Dendrocincla lafresnayei phaeochroa
+Xiphorhynchus guttata guttatoides
+Xiphorhynchus aequatorialis aequatorialis
+Xiphorbynchus triangularis
+Xiphorhynchus lachrymosus lachrymosus
+Xiphorhynchus lachrymosus alarum
+Xiphorhynchus nanus nanus
+Xiphorhynchus insignis
+Dendroplex picus picus
+Dendroplex picus picirostris
+Xiphocolaptes promeropirhynchus
+Picolaptes lacrymiger lacrymiger
+Picolaptes warscewiczi
+Picolaptes albolineatus
+Campylorhamphus trochilirostris procurvoides
+Campylorhamphus trochilirostris venezuelensis
+Campylorhamphus thoracicus
+Campylorhamphus pusillus
+Campylorhamphus pucherani
+Dendrocolaptes validus validus
+Dendrocolaptes sancti-thomae sancti-thomae
+Dexdrocolaptes sancti-thomae radiolatus
+Orodynastes striaticollis striaticollis
+Ochthodiaeta fumigata
+Ochthoeca oenanthoides fumicolor
+Ochthoeca oenanthoides brunneifrons
+Ochthoeca albidiedema
+Ochthoeca frontalis
+Ochthoeca lessoni
+Ochthoeca cinnamomeiventris
+Ochthoeca gratiosa gratiosa
+Mecocerculus leucophrys setophagoides
+Mecocerculus stictopterus
+Mecocerculus poecilocercus
+Ochthornis littoralis
+Fluvicola pica
+Arundinicola leucocephala
+Copurus colonus fuscicapillus
+Copurus leuconotus
+Machetornis rixosus flavigularis
+Muscisaxicola alpina columbiana
+Platytriccus flavigularis
+Platytriccus albogularis
+Placostomus coronatus
+Craspedoprion aequinoctialis
+Craspedoprion pacificus
+Craspedoprion fulvipectus
+Rhynchocyclus sulphurescens asemus
+Rhynchocyclus sulphurescens assimilis
+Rhynchocyclus sulphurescens exortivus
+Rhynchocyclus marginatus marginatus
+Rhynchocyclus viridiceps
+Rhynchocyclus flaviventris aurulentus
+Rhynchocyclus klagesi
+Todirostrum cinereum cinereum
+Todirostrum sclateri
+Todirostrum nigriceps
+Todirostrum schistaceiceps superciliare
+Todirostrum latirostre
+Pescilotriccus ruficeps ruficeps
+Pcecilotriccus ruficeps rufigene
+Euscarthmus striaticollis zosterops
+Euscarthmus granadensis
+Euscarthmus septentrionalis
+Pseudotriccus pelzelni pelzelni
+Pseudotriccus annectens
+Caenotriccus ruficeps ruficeps
+Lophotriccus spicifer
+Lophotriccus squamaecristatus squamaecristatus
+Lophotriccus squamaecristatus minor
+Orchilus atricapillus
+Atalotriccus pilaris pilaris
+Hapalocercus meloryphus
+Hapalocercus acutipennis
+Habrura pectoralis bogotensis
+Pogonotriccus poecilotis
+Pogonotriccus opthalmicus
+Oreotriccus plumbeiceps
+Serpophaga cinerea cana
+Inezia caudata intermedia
+Anaeretes parulus aequatorialis
+Anaeretes agilis
+Mionectes striaticollis poliocephalus
+Mionectes olivaceus hederaceus
+Mionectes olivaceus pallidus
+Pipromorpha oleaginea oleaginea
+Pipromorpha oleaginea parca
+Leptopogon superciliaris poliocephalus
+Leptopogon amaurocephalus
+Leptopogon erythrops
+Capsiempis flaveola leucophrys
+Phyllomyias griseiceps griseiceps
+Phyllomyias griseiceps caucae
+Acrochordopus zeledoni
+Phseomyias murina incomta
+Camptostoma pusillum pusillum
+Camptostoma pusillum napaeuum
+Camptostoma caucae
+Microtriccus brunneicapillus brunneicapililus
+Tyrannulus elatus reguloides
+Mecocerculus uropygialis
+Tyranniscus nigricapillus nigricapillus
+Tyranniscus cinereiceps
+Tyranniscus chrysops chrysops
+Elaenia flavogaster flavogaster
+Elaenia gigas
+Elaenia chiriquensis chiriquensis
+Elaenia pudica brachyptera
+Elaenia parvirostris
+Elaenia pudica pudica
+Myiopagis viridicata accola
+Myiopagis viridicata pallens
+Legatus albicollis
+Sublegatus glaber
+Myiozetetes cayanensis cayanensis
+Myiozetetes similis columbianus
+Myiozetetes granadensis
+Myiozetetes similis connivens
+Conopias cinchoneti
+Pitangus sulphuratus rufipennis
+Pitangus sulphuratus
+Pitangus sulphuratus caucensis
+Pitangus lictor
+Sirystes albocinereus
+Myiodynastes maculatus nobilis
+Myiodynastes luteiventris
+Myiodynastes chrysocephalus minor
+Megarhynchus pitangua
+Onychorhynchus coronatus castelnaudi
+Hirundinea sclateri
+Cnipodectes minor
+Myiobius barbatus barbatus
+Myiobius barbatus atricaudus
+Myiobius villosus
+Myiobius sulphureipygius aureatus
+Myiobius cinnamomeus pyrrhopterus
+Myiobius flavicans
+Myiobius litae
+Myiobius pulcher pulcher
+Myiobius pulcher bellus
+Myiobius fasciatus fasciatus
+Terenotriccus erythrurus fulvigularis
+Myiotriccus ornatus ornatus
+Myiotriccus ornatus stellatus
+Myiotriccus phoenicurus
+Pyrocephalus pyrocephalus rubinus
+Pyrocephalus rubinus heterurus
+Empidochanes cabanisi
+Empidochanes poecilurus
+Mitrephanes berlepschi eminulus
+Sayornis nigricans cineracea
+Empidonax virescens
+Empidonax trailli alnorum
+Myiochanes ardosiacus ardosiacus
+Myiochanes virens
+Myiochanes richardsoni
+Myiochanes brachytarsus
+Myiarchus crinitus (Linn)
+Myiarchus tyrannulus tyrannulus
+Myiarchus fortirostris
+Myiarchus (ferox?) venezuelensis
+Myiarchus (ferox?) panamensis
+Myiarchus cephalotes
+Myiarchus apicalis
+Myiarchus tuberculifer nigriceps
+Myiarchus tuberculifer tuberculifer
+Tyrannus tyrannus
+Tyrannus niveigularis
+Tyrannus dominicensis
+Tyrannus melancholicus satrapa
+Muscivora tyrannus
+Pipra erythrocephala erythrocephala
+Pipra erythrocephala berlepschi
+Pipra mentalis minor
+Pipra leucocilla minimus
+Pipra leucocilla coracina
+Pipra isadorei isadorei
+Pipra velutina
+Pipra coronata
+Cirrhipipra filicauda
+Machaeropterus striolatus
+Allocopterus deliciosus
+Chloropipo flavicapilla
+Chloropipo holochlora holochlora
+Chloropipo holochlora litae
+Piprites tschudi
+Masius chrysopterus
+Masius corunulatus
+Chiroxiphia pareola napensis
+Corapipo leucorrhoa
+Corapipo altera altera
+Manacus manacus abditivus
+Manacus manacus interior
+Manacus manacus bangsi
+Manacus manacus flaveolus
+Manacus vitellinus vitellinus
+Manacus vitellinus milleri
+Scotothorus turdinus rosenbergi
+Scotothorus turdinus stenorhynchus
+Sapayoa aenigma
+Tityra cayana
+Tityra semifasciata semifasciata
+Tityra semifasciata columbiana
+Tityra semifasciata esmeraldae
+Tityra buckleyi
+Platypsaris homochrous homochrous
+Platypsaris minor
+Pachyrhamphus versicolor
+Pachyrhamphus rufus
+Pachyrhamphus cinnamomeus
+Pachyrhamphus magdalenae
+Pachyrhamphus sp
+Pachyrhamphus castaneus saturatus
+Pachyrhamphus polychropterus niger
+Pachyrhamphus atricapillus
+Pachyrhamphus dorsalis
+Lathria fuscocinerea fuscocinerea
+Lathria cinerea
+Lathria unirufa castaneotincta
+Lathria cryptolopha
+Lipaugus simplex
+Lipaugus holerythrus holerythrus
+Lipaugus holerythrus rosenbergi
+Attila brasiliensis parambae
+Attila citreopygus citreopygus
+Rupicola peruviana aurea
+Rupicola peruviana sanguinolenta
+Euchlornis arcuata
+Stictornis cinctus
+Euchlornis riefferi riefferi
+Euchlornis riefferi occidentalis
+Euchlornis lubomirski
+Euchlornis jucunda
+Cotinga nattereri
+Carpodectes hopkei
+Heliochera rubrocristata
+Hoeliochera rufaxilla
+Querula purpurata
+Pyroderus scutatus granadensis
+Pyroderus scutatus occidentalis
+Cephalopterus ornatus
+Cephalopterus penduliger
+Riparia riparia
+Iridoprocne albiventris
+Hirundo erythrogaster
+Progne chalybea chalybea
+Phaeoprogne tapera immaculata
+Atticora fasciata
+Orochelidon murina
+Neochelidon tibialis
+Pygochelidon cyanoleuca
+Stelgidopteryx ruficollis ruficollis
+Stelidopteryz ruficollis aequalis
+Stelgidopteryx ruficollis uropygialis
+Polioptila livida plumbeiceps
+Polioptila livida daguae
+Polioptila schistaceigula
+Cinnicerthia unirufa
+Cinnicerthia unibrunnea
+Cinnicerthia olivascens
+Heleodytes minor bicolor
+Heleodytes albobrunneus harterti
+Heleodytes turdinus hypostictus
+Heleodytes zonatus brevirostris
+Heleodytes nuchalis nuchalis
+Odontorchilus branicki
+Thryophilus leucotis
+Thryophilus galbraithi galbraithi
+Thryophilus albipectus bogotensis
+Thryophilus rufalbus cumanensis
+Thryophilus leucopogon
+Thryophilus nigricapillus schotti
+Thryophilus nigricapillus connectens
+Pheugopedius spadix
+Pheugopedius fasciato-ventris fasciato-ventris
+Pheugopedius mystacalis mystacalis
+Pheugopedius mystacalis amaurogaster
+Pheugopedius sclateri
+Pheugopedius hypospodius
+Cistothorus aequatorialis
+Cistothorus apolinari
+Troglodytes musculus striatulus
+Troglodytes musculus columbae
+Troglodytes musculus neglectus
+Troglodytes solstitialis pallidipectus
+Henicorhina leucosticta
+Henicorhina prostheleuca eucharis
+Henicorhina prostheleuca albilateralis
+Henicorhina inornata
+Henicorhina leucophrys guttata
+Henicorhina leucophrys brunneiceps
+Leucolepis salvini
+Leucolepis phaeocephalus phaeocephalus
+Leucolepis dichrous
+Microcerculus marginatus marginatus
+Microcerculus marginatus occidentalis
+Microcerculus squamulatus antioquensis
+Cinclus leuconotus
+Mimus gilvus tolimensis
+Mimus gilvus columbianus
+Donacobius atricapillus albovittatus
+Rhodinocichla rosea rosea
+Myiadestes ralloides venezuelensis
+Planesticus serranus
+Planesticus fuscobrunneus
+Planesticus leucops
+Planesticus caucae
+Planesticus phaeopygus
+Planesticus tristis daguae
+Planesticus gymnopthalmus
+Planesticus ignobilis ignobilis
+Planesticus ignobilis goodfellowi
+Planesticus ignobilis debilis
+Planesticus obsoletus colombianus
+Planesticus albiventer ephippialis
+Semimerula gigas gigas
+Semimerula gigas gigantodes
+Hylocichla aliciae aliciae
+Hylocichle ustulata swainsoni
+Catharus birchalli
+Catharus phaeopleurus
+Catharus dryas
+Vireosylva olivacea
+Vireosylva flavoviridis flavoviridis
+Vireosylva chivi caucae
+Vireosylva josephae josephae
+Lanivireo flavifrons
+Pachysylvia semibrunnea
+Pachysylvia flavipes flavipes
+Pachysylvia minor
+Cyclarhis flavipectus canticus
+Cyclarhis flavipectus parvus
+Cyclarhis nigrirostris
+Mniotilta varia
+Protonotaria citrea
+Vermivora chrysoptera
+Vermivora peregrina
+Compsothlypis pitiayumi elegans
+Compsothlypis pitiayumi pacifica
+Dendroica aestiva aestiva
+Dendroica petechia aequatorialis
+Dendroica caerulea
+Dendroica fusca
+Dendroica castanea
+Dendroica striata
+Oporornis philadelphia
+Seiurus noveboracensis noveboracensis
+Seiurus noveboracensis notabilis
+Geothlypis semiflava
+Geothlypis aequinoctialis
+Wilsonia canadensis
+Setophaga ruticilla
+Myioborus verticalis verticalis
+Myioborus ornatus
+Myioborus chrysops
+Myiothlypis nigrocristatus
+Basileuterus luteoviridis
+Basileuterus richardsoni
+Basileuterus cinereicollis
+Basileuterus cabanisi
+Basileuterus tristriatus tristriatus
+Basileuterus coronatus
+Basileuterus bivittatus chlorophrys
+Basileuterus auricapillus olivascens
+Basileuterus rufifrons mesochrysus
+Basileuterus fulvyicauda semicervinus
+Basileuterus fulvicauda fulvicauda
+Anthus bogotensis
+Otocoris alpestris peregrina
+Catamblyrhynchus diadema
+Pheucticus uropygialis uropygialis
+Zamelodia ludoviciana
+Cyanocompsa concreta cyanescens
+Cyanocompsa cyanea caucae
+Oryzoborus angolensis
+Oryzoborus crassirostris crassirostris
+Oryzoborus funereus
+Sporophila grisea grisea
+Sporophila castaneiventris
+Sporophila minuta minuta
+Sporophila aurita aurita
+Sporophila aurita ophthalmica
+Sporophila aurita murallae
+Sporophila gutturalis
+Sporophila luctuosa
+Catamenia inornata minor
+Catamenia homochroa
+Catamenia analoides schistaceifrons
+Tiaris olivacea pusilla
+Tiaris bicolor omissa
+Volatinia jacarini splendens
+Pitylus grossus
+Saltator maximus
+Saltator atripennis atripennis
+Saltator atripennis caniceps
+Saltator olivascens
+Saltator caerulescens azarae
+Saltator striatipectus striatipectus
+Spinus spinescens spinescens
+Spinus nigricauda
+Spinus xanthogaster
+Astragalinus psaltria columbianus
+Sicalis flaveola
+Sicalis arvensis minor
+Spiza americana
+Ammodramus savannarum caucae
+Myospiza manimbe columbiana
+Myospiza aurifrons
+Myospiza cherriei
+Brachyspiza capensis peruviana
+Arremonops conirostris conirostris
+Arremonops conirostris inexpectata
+Arremonops conirostris chrysoma
+Emberizoides sphenurus
+Pseudochloris citrina antioquiae
+Phrygilus unicolor grandis
+Phrygilus unicolor geospizopsis
+Spodiornis jardini
+Paroaria gularis
+Arremon aurantiirostris erythrorhynchus
+Arremon aurantiirostris occidentalis
+Arremon axillaris
+Lysurus castaneiceps
+Atlapetes flaviceps
+Atlapetes fusco-olivaceus
+Atlapetes gutturalis gutturalis
+Atlapetes latinuchus latinuchus
+Atlapetes latinuchus elaeoprorus
+Atlapetes albifrenatus
+Atlapetes schistaceus
+Atlapetes pallidinuchus pallidinuchus
+Atlapetes pallidinuchus papallactae
+Atlapetes crassus
+Atlapetes semirufus
+Buarremon brunneinuchus
+Buarremon assimilis
+Buarremon atricapillus
+Coereba luteola luteola
+Coreba mexicana columbiana
+Cooreba mexicana caucae
+Diglossa sittoides similis
+Diglossa gloriosissima
+Diglossa brunneiventris
+Diglossa lafresnayei
+Diglossa humeralis
+Diglossa aterrima
+Diglossa albilateralis
+Diglossa personata
+Diglossa cryptorhis
+Diglossopis caerulescens caerulescens
+Conirostrum sitticolor
+Conirostrum rufum
+Conirostrum fraseri
+Conirostrum albifrons
+Conirostrum atrocyaneum
+Dacnis cayana cayana
+Dacnis cayana coerebicolor
+Dacnis angelica
+Dacnis egregia egregia
+Dacnis venusta fuliginata
+Dacnis leucogenys
+Cyanerpes cyaneus pacificus
+Cyanerpes caerulea microrhyncha
+Chlorophanes spiza exsul
+Chlorophanes spiza caerulescens
+Tersina viridis occidentalis
+Chlorophonia pretrei
+Tanagra cyanocephala cyanocephala
+Tanagra aurea pileata
+Tanagra xanthogastra chocoensis
+Tanmagra xanthogastra brevirostris
+Tanagra concinna
+Tanagra saturata
+Tanagra olivacea humilis
+Panagra fulvicrissa purpurascens
+Tanagra fulvicrissa omissa
+Tanagra crassirostris crassirostris
+Tanagra melanura
+Tanagra chrysopasta
+Chlorochrysa calliparaea bourcieri
+Chiorochrysa phoenicotis
+Chlorochrysa nitidissima
+Pipridea melanota venezuelensis
+Procnopis vassori
+Tangara chilensis
+Tangara schrankii
+Tangara johannae
+Tangara florida auriceps
+Tangara guttata bogotensis
+Tangara guttata tolimae
+Tangara xanthogastra
+Tangara rufigula
+Tangara aurulenta aurulenta
+Tangara aurulenta occidentalis
+Tangara icterocephala
+Tangara vitriolina
+Tangara lavinia lavinia
+Tangara gyroloides gyroloides
+Tangara gyroloides catharinae
+Tangara gyroloides bangsi
+Tangara palmeri
+Tangara mexicana boliviana
+Tangara inornata inornata
+Tangara nigroviridis nigroviridis
+Tangara larvata fanny
+Tangara cyaneicollis caeruleocephala
+Tangara cyaneicollis granadensis
+Tangara ruficervix ruficervix
+Tangara labradorides
+Tangara melanotis
+Tangara parzudaki
+Tangara venusta
+Tangara atricapilla
+Iridosornis dubusia dubusia
+Iridosornis dubusia ignicapillus
+Iridosornis dubusia caeruleoventris
+Iridosornis porphyrocephala
+Poecilothraupis lunulata lunulata
+Poecilothraupis palpebrosa palpebrosa
+Pocilothraupis palpebrosa olivaceiceps
+Buthraupis cucullata cucullata
+Buthraupis cucullata gigas
+Buthraupis eximia chloronota
+Buthraupis eximia eximia
+Buthraupis edwardsi
+Buthraupis rothschildi
+Buthraupis melanochlamys
+Buthraupis aureocincta
+Compsocoma somptuosa victorini
+Compsocoma somptuosa antioquiae
+Compsocoma somptuosa cyanoptera
+Compsocoma notabilis
+Dubusia taeniata
+Thraupis episcopus leucoptera
+Thraupis coelestis coelestis
+Thraupis cana cana
+Thraupis glaucocolpa
+Thraupis palmarum melanoptera
+Sporathraupis cyanocephala auricrissa
+Ramphocelus nigrogularis
+Ramphocelus dimidiatus dimidiatus
+Ramphocelus carbo carbo
+Ramphocelus carbo unicolor
+Ramphocelus flammigerus
+Ramphocelus chrysonotus
+Ramphocelus icteronotus
+Calochaetes coccineus
+Piranga rubra rubra
+Piranga testacea testacea
+Piranga leucoptera ardens
+Piranga rubriceps
+Chiorothraupis olivacea
+Chlorothraupis stolzmanni
+Phoenicothraupis cristata
+Phoenicothraupis gutturalis
+Heterospingus xanthopygius
+Tachyphonus rufus
+Tachyphonus luctuosus
+Yachyphonus surinamus surinamus
+Tachyphonus delattrii
+Creurgops verticalis
+Eucometis cristata cristata
+Mitrospingus cassini
+Erythrothlypis salmoni
+Hemithraupis peruana
+Hemithraupis guira guirina
+Sericossypha albocristata
+Chlorospingus albitempora nigriceps
+Chlorospingus flavipectus
+Chlorospingus canigularis
+Chlorospingus flavigularis flavigularis
+Chlorospingus flavigularis marginatus
+Chlorospingus semifuscus
+Hemispingus atropileus
+Hemispingus rubrirostris
+Hemispingus superciliaris superciliaris
+Hemispingus superciliaris nigrifrons
+Hemispingus frontalis oleagineus
+Hemispingus melanotis
+Pseudospingus verticalis
+Urothraupis stolzmanni
+Psittospiza riefferi riefferi
+Oreothraupis arremonops
+Cissopis leveriana minor
+Schistochlamys atra
+Zarhynchus wagleri wagleri
+Gymnostinops guatimozinus
+Gymnostinops yuracares
+Ostinops decumanus
+Ostinops salmoni
+Ostinops alfredi sincipitalis
+Ostinops alfredi neglectus
+Ostinops angustifrons
+Cacicus cela
+Cacicus vitellinus
+Cacicus leucorhamphus
+Cacicus haemorrhous affinus
+Cacicus uropygialis uropygialis
+Cacicus uropygialis pacificus
+Amblycercus solitarius
+Amblycercus holosericeus flavirostris
+Cassidix oryzivora violea
+Molothrus bonariensis atronitens
+Molothrus bonariensis cabanisi
+Molothrus bonariensis aequatorialis
+Agelaius icterocephalus icterocephalus
+Agelaius icterocephalus bogotensis
+Leistes militaris
+Sturnella magna meridionalis
+Icterus spurius
+Icterus auricapillus
+Icterus mesomelas salvini
+Icterus giraudi
+Icterus hondae
+Icterus xanthornus xanthornus
+Megaquiscalus major assimilis
+Macraglaeus subalaris
+Hypopyrrhus pyrohypogaster
+Cyanocorax affinis affinis
+Cyanocorax violaceus
+Xanthoura yncas galeatus
+Xanthoura yncas cyanodorsalis
+Cyanolyca armillata quindiuna
+Cyanolyca armillata armillata

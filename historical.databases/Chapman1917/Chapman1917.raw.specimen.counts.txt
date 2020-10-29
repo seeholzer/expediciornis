@@ -1,0 +1,3839 @@
+(4) Tinamus tao
+San Antonio, 1
+
+(7) Tinamus major ruficeps
+La Morelia, 1
+
+(8) Tinamus major castaneiceps
+R Salaqui, 1; R Atrato, 1; Andagueda, 1; Baudo, 1
+
+(9) Tinamus major latifrons
+Barbacoas, 2
+
+(12) Nothocercus julius
+Andes w of Popayan (10,340 ft), 1; Laguneta, 1
+
+(14) Nothocercus bonapartei
+La Palma, 1; Andalucia (5000 ft), 1; Aguadita, 1
+
+(16) Crypturus cinereus
+Barrigon, 1
+
+(17) Crypturus berlepschi
+Baudo, 1; Novita, 1; Barbacoas, 1
+
+(22) Crypturus soui soui
+Villavicencio, 2
+
+(22a) Crypturus soui caucae
+Las Lomitas, 2; San Antonio, 1; Rio Frio, 3; Puerto Valdivia, 1; Malena, 1
+
+(22b) Crypturus soui modestus
+Dabeiba, 1
+
+(22e) Crypturus soui caquetae
+Florencia, 2; La Morelia, 1
+
+(31) Crypturus adspersus yapura
+La Morelia, 2
+
+(88) Crypturus variegatus salvini
+La Morelia, 1
+
+(44a) Crypturus kerriae
+Baudo, 1
+
+(74) Crax alector
+Buena Vista, 1
+
+(78) Crax panamensis
+Baudo, 1; Bagado, 1
+
+(82) Crax alberti
+West of Honda, 1
+
+(90) Penelope montagni
+Valle de las Pappas, 2; Almaguer, 1; Santa Isabel, 6; above Subia, 4; El Pinon, 1
+
+(95) Penelope ortoni
+Baudo, 1
+
+(97) Penelope cristata
+Choco, 1; La Candela, 3
+
+(97a) Penelope perspicax
+San Antonio, 2; Miraflores, 1; Salento, 1
+
+(98) Penelope jacquacu
+Villavicencio, 1; Florencia, 3
+
+(111) Ortalis columbiana columbiana
+La Candela, 6; near San Agustin, 1; Andalucia (5000 ft), 1; Chicoral, 1; El Alto de la Paz, 2
+
+(1lla) Ortalis columbiana caucae
+Guengiie, 1; La Manuelita, 1; San Antonio, 2
+
+(112) Ortalis guttata
+La Morelia, 7
+
+(114) Ortalis garrula
+Boca de Chimi, 1; below Banco, 1
+
+(116) Pipile cumanensis
+La Morelia, 1
+
+(121) Aburria aburri
+Gallera, 2; near San Agustin, 2; La Candela, 2; Andalucia (5-7000 ft), 4
+
+(122) Chamaepetes goudoti goudoti
+Salencio, 1; San Antonio, 1; Almaguer, 1; Laguneta, 8; La Palma, 1; Andalucia (7000 ft), 1; Choachi, 2
+
+(125a) Colinus cristatus decoratus
+Calamar, 4; Turbaco, 1
+
+(1256) Colinus cristatus leucotis
+Caldas, 1; Cali, 1; La Sierra, 1; El Eden, 1; Chicoral, 4; Honda, 12; Purificacion, 1; Fusugasug4, 1; Anolaima, 1; El Carmen, Bogota region, 1; El Alto de la Paz, 5
+
+(129) Colinus cristatus parvicristatus
+Fomeque, 2
+
+(131) Odontophorus guianensis marmoratus
+La Morelia, 1; Buena Vista, 1; Puerto Valdivia, 2
+
+(134) Odontophorus hyperythrus
+Las Lomitas, 2; San Antonio, 3; Cocal, 1; Laguneta, 1; La Candela, 1; Andalucia (7000 ft), 2
+
+(188) Odontophorus parambae
+Bagado, 2; Baudo Mts, 2; Barbacoazs, 1
+
+(142) Odontophorus strophium
+Subia, 1
+
+(143a) Rhynchortyx cinctus australis
+Choco, 1; Andagueda, 1; Bagado, 1; Baudo, 2; Barbacoas, 4
+
+(149) Columba speciosa
+Bagado, 2; Noanama, 1; Novita, 1; w of Honda, 1; Buena Vista, 1; Villavicencio, 2
+
+(152) Columba rufina
+San Antonio, 5; Cali, 3; below Miraflores, 1; Rio Frio, 1; Banco, 1; Villavicencio, 1
+
+(153) Columba goodsoni
+Buenaventura, 1; Barbacoas, 1
+
+(154) Columba albilinea albilinea
+Paramillo, 2; San Antonio, 2; La Florida, 2; Cerro Munchique, 2; Ricaurte, 6; Almaguer, 1; Valle de las Pappas, 1; La Sierra, 1; Miraflores, 1; Salento, 1; Laguneta, 2; Sta Elena, 4; Barro Blanco, 3; Rio Toche, 1; La Candela, 3; San Agustin, 3
+
+(156a) Columba plumbea propinqua
+Buena Vista, 2
+
+(159) Columba subvinacea bogotensis
+La Frijolera, 3; Salento, 4; La Candela, 3; La Morelia, 1
+
+(160) Columba subvinacea berlepschi
+Buenaventura, 1; San Antonio, 2; Western Andes (2500 ft), above Novita, 1
+
+(162) Zenaida auriculata
+Cali, 4; La Manuelita, 1
+
+(163) Zenaida ruficauda ruficauda
+Bogota Savanna, 9
+
+(63a) Zenajda ruficauda robinsoni
+Honda, 2; Chicoral, 2
+
+(163b) Zenaida ruficauda antioquiae
+Barro Blanco, 2
+
+(1740) Chaemepelia passerina albivitta
+La Playa, 6
+
+(1746) Chaemepelia passerina parvula
+Honda, 4; Chicoral, 4; Quetame, 1
+
+(174c) Chaemepelia passerina nana
+Caldas, 2; La Manuelita, 1
+
+(176a) Chaemepelia minuta elaeodes
+Dabeiba, 1
+
+(180) Chaemepelia rufipennis rufipennis
+Calamar, 2; Malena, 1; Chicoral, 1; El Alto de la Paz, 1
+
+(1802) Chaemepelia rufipennis caucae
+Cali, 5; La Manuelita, 2; below Miraflores, 3; Rio Frio, 1
+
+(184) Claravis pretiosa livida
+Dabeiba, 1; Noanama, 1; Los Cisneros, 2; Ricaurte, 1; Puerto Valdivia, 3; Enconosa, 1; Villavicencio, 4; Florencia, 1
+
+(189) Leptotila verreauxi verreauxi
+La Candela, 2; Andalucia (w slope 3000 ft), 2; El Carmen, 1; El Alto de la Paz, 1; Chicoral, 2; Honda, 3; Remolino, 2; Algodonal, 1; Calamar, 3; La Playa, 2; R Sinu, 1; Puerto Valdivia, 1; Peque, 1
+
+(189a) Leptotila verreauxi occidentalis
+Caldas, 1; San Antonio, 4; Gallera, 1; Cerro Munchique, 5; Miraflores, 6; Salento, 2
+
+(191) Leptotila rufaxilla dubusi
+La Manuelita, 9; Florencia, 1
+
+(1914) Leptotila rufaxilla pallidipectus
+Buena Vista, 1; Villavicencio, 2
+
+(1916) Leptotila plumbeiceps
+Guengiie, 1; Rio Frio, 1; Las Lomitas, 2; Caldas, 1
+
+(200) Leptotila pallida
+Novita, 1; San Jose, 3; Barbacoas, 6
+
+(200a) Leptotila cassini
+Salaqui, 1; Opon, below Puerto Berrio, 1; Puerto Berrio, 2
+
+(202) Osculatia purpurata
+La Vieja, Choc6, 3; Novita Trail (8000 ft), 1; Buenavista, Narijio, 1
+
+(204) Oreopeleia montana
+Las Lomitas, 4; San Antonio, 4; Puerto Valdivia, 1; La Candela, 1; Andalucia (7000 ft), 1; Florencia, 1
+
+(205) Oreopeleia veraguensis
+Puerto Valdivia, 3; Baudo, 6; Andagueda, 1; San Jose, 1; Barbacoas, 5
+
+(206) Oreopeleia bourcieri
+Salencio, 1; San Antonio, 4; La Florida, 1; Cocal, 1; Cerro Munchique, 1; Gallera, 1; Almaguer, 1; Miraflores, 1; El Roble, 1; Laguneta, 1; La Candela, 4
+
+(209) Oreopeleia linearis linearis
+Puerto Valdivia, 1; Andalucia (5000-7000 ft), 3; Fusugasuga, 1; Buena Vista, 3
+
+(212) Opisthocomus hoazin
+Florencia, 6; Villavicencio, 3; Barrigon, 1
+
+(217) Rallus semiplumbeus
+Savanna at Bogota, 4
+
+(224) Pardirallus nigricans nigricans
+La Manuelita, 2; Rio Frio, 2
+
+(230) Aramides cajanea cajanea
+Atrato River, 3; Salaqui, 1; Rio Frio, 1; Honda, 2; Buena Vista, 1; Florencia, 2
+
+(235a) Amaurolimnas concolor guatemalensis
+Barbacoas, 1
+
+(236) Anurolimnas castaneiceps
+La Morelia, 1
+
+(237) Anurolimnas hauxwelli
+La Morelia, 2
+
+(238) Porzana carolina
+Bogota Savanna, 1
+
+(241) Porzana flaviventris
+Cali, 2
+
+(247) Creciscus aenops
+La Morelia, 1
+
+(248) Creciscus albigularis
+San Antonio, 1; Barbacoas, 3
+
+(254) Neocrex colombianus
+Barbacoas, 3
+
+(255a) Gallinula chloropus pauxilla
+Cali, 8
+
+(257a) Porphyriops melanops bogotensis
+Savanna at Bogota, 5; Anolaima, 4
+
+(258) Ionornis martinicus
+Atrato River, 2; Sinu River, 1; Turbaco, 1; Florencia, 1
+
+(265a) Fulica americana columbiana
+La Herrera, 12; La Olanda, 1
+
+(267) Heliornis fulica
+Barbacoas, 1
+
+(268) Colymbus dominicus brachyrhynchus
+Cali, 1; Popayan, 1
+
+(276) Podilymbus podiceps
+Cali, 2; La Herrera, 1
+
+(319) Phaetusa chloropoda
+La Playa, 1
+
+(371) Belonopterus cayennensis
+Atrato River, 2; Caldas, 1; Las Lomitas, 2; San Antonio, 4; Cali, 3; La Manuelita, 2; El Roble, 1; Salento, 3; Puerto Berrio, 1; Barrigon, 3
+
+(375) Charadrius dominicus dominicus
+Buenvista, Narino, 1; Cali, 1
+
+(380) Aegialitis semipalmata
+Tumaco, 1
+
+(381) Aegialitis collaris
+Cali, 5; La Morelia, 2
+
+(888) Himantopus mexicanus
+Cali, 2
+
+(397) Totanus melanoleucus
+Cali, 1
+
+(398) Totanus flavipes
+Quibdo, 2; Barbacoas, 1; La Manuelita, 1
+
+(399) Helodromas solitarius solitarius
+Quibdo, 1; Novita, 1; Buenavista, Narifio, 1; San Antonio, 1; Cali, 1; La Manuelita, 2; San Agustin, 1; Puerto Berrio, 1; Barro Blanco, 1
+
+(400) Actitis macularia
+Dabeiba, 1; Novita, 1; San Jose, 1; Barbacoas, 5; Caldas, 1; Cali, 1; Salento, 1; Honda, 1
+
+(407) Tringa minutilla
+Quibdo, 3; Juntas de Tamana, 1; Novita, 1; Cali, 2; Palmira, 1; Rio Frio, 1
+
+(408) Pisobia maculata
+Quibdo, 3
+
+(4138) Gallinago delicata
+Novita, 1; Puerto Berrio, 2
+
+(414) Gallinago braziliensis
+Villavicencio, 3
+
+(416) Gallinago nobilis
+Santa Isabel (12,700 ft), 2; Valle delas Pappas, 3; Chipaque (10,000 ft), 1
+
+(421) Gallinago jamesoni
+Santa Isabel (12,700 ft), 11
+
+(427) Jacana spinosa
+La Morelia, 1
+
+(428) Jacana melanopygia
+Cali, 10; Rio Frio, 1
+
+(429) Jacana nigra
+Puerto Berrio, 2; Calamar, 2; Barranquilla, 2; La Playa, 8; Santa Marta, 2; Panama R R, 1
+
+(430) Burhinus bistriatus
+Barranquilla, 1
+
+(434) Eurypyga major
+Rio Salaqui, Choco, 1
+
+(487) Psophia napensis
+La Morelia, 1
+
+(445) Theristicus caudatus
+La Manuelita, 1; Barrigon, 1
+
+(448) Harpiprion cayennensis
+R Atrato, 1; Malena, 1; Villavicencio, 2
+
+(450) Phimosus berlepschi
+Barranquilla, 1
+
+(457) Ajaia ajaja
+Cali, 1
+
+(460) Jabiru mycteria
+Rio San Jorge, 6
+
+(461) Ardea cocoi
+Malena, 1; Villavicencio, 1
+
+(463) Herodias egretta
+La Morelia, 1
+
+(465) Florida caerulea
+Noanama, 1; Malena, 1
+
+(466) Hydranassa tricolor tricolor
+Sinu River, 1
+
+(468) Agamia agami
+Rio Salaqui, 1; Rio Atrato, 2
+
+(469) Nycticorax nycticorax naevius
+Cali, 2; Rio Frio, 1; La Morelia, 1; La Olanda, 2
+
+(473) Cochlearius cochlearius
+La Olanda, 1
+
+(475) Pilherodias pileatus
+Sinu, 1
+
+(476) Butorides striata
+Sinu, 1; Atrato, 1; Quindio, 1; Barbacoas, 2; Tumaco, 1; Cali, 5; La Palma, 1; Chicoral, 1; Honda, 1; La Olanda, 1; Villavicencio, 1; La Morelia, 1
+
+(479) Tigrisoma lineatum
+R Salaqui, 1; R Atrato, 1; Malena, 1; Puerto Berrio, 1
+
+(483) Tigrisoma salmoni
+Salento, 1; Juntas de Tamana, 1
+
+(485) Ixobrychus erythromelas
+Rio Frio, 1
+
+(485a) Ixobrychus exilis bogotensis
+Bogota Savanna, 3
+
+(490) Palamedea cornuta
+Cali, 1
+
+(499) Cairina moschata
+Rio Frio, 2
+
+(508) Dendrocygna bicolor
+Cali, 2; La Herrera, 1
+
+(509) Dendrocygna discolor
+Cali, 2
+
+(518) Nettion andium
+Santa Isabel, 1
+
+(525) Querquedula discors
+Cali, 1; Puerto Valdivia, 1
+
+(526) Querquedula cyanoptera
+Cali, 16; Palmira, 1
+
+(533) Marila nationi
+Cali marshes, 14
+
+(583a) Marila affinis
+Cali-marshes, 1
+
+(535) Nomonyx dominicus
+Cali, 9
+
+(546) Merganetta colombiana
+Salento, 2; Rio Toche, 1; El Eden, 1
+
+(549) Phalacrocorax vigua vigua
+Cali, 2
+
+(567) Catharista urubu
+Sta Elena, 2
+
+(568) Cathartes aura aura
+Sta Elena, 1; Puerto Valdivia, 1
+
+(573) Polyborus cheriway
+La Manuelita, 1; Bogota Savanna, 1
+
+(575) Ibycter americanus
+Salaqui, 1; Puerto Valdivia, 1; La Morelia, 3
+
+(580) Milvago chimachima
+San Antonio, 1; Cali, 1; La Manuelita, 1; La Palma, 1; Chicoral, 1; Honda, 1; Calamar, 1; Barrigon, 1
+
+(582) Circus hudsonius
+Atrato River, 1
+
+(583) Circus cinereus
+Anolaima, 1
+
+(584) Circus buffoni
+Rio Frio, 2
+
+(589) Micrastur guerilla interstes
+Dabeiba, 2; La Vieja, 1; Novita, 1; San Jose, 1; Las Lomitas, 1; San Antonio, 1; Salencio, 1; Salento, 1
+
+(593a) Parabuteo unicinctus harrisi
+La Manuelita, 1
+
+(597) Accipiter superciliosus
+Barbacoas, 1; Puerto Valdivia, 1
+
+(602) Accipiter ventralis
+San Antonio, 1; Barro Blanco, 1; Andalucia (3000 ft), 1; Fomeque, 1
+
+(606) Accipiter bicolor
+Popayan, 1; Purificacion, 1; Florencia, 1
+
+(610a) Tachytriorchis albicaudatus exiguus
+Barrigon, 1
+
+(617) Buteo hypospodius
+Santa Isabel, 1
+
+(620) Buteo platypterus
+Juntas de Tamand, 1; Puerto Valdivia, 3; La Frijolera, 2; San Antonio, 7; El Roble (Quindio), 2; Salento, 3; Sta Elena, 3; Rio Toche, 2; Fusugasuga, 1; Villavicencio, 1
+
+(621) Buteo brachyurus
+Laguneta, 1
+
+(623) Asturina nitida
+Remolino, Magdalena River, 2; Villavicencio, 1; Barrigon, 1
+
+(625) Rupornis magnirostris magnirostris
+Atrato River, 1; Dabeiba, 1; Barbacoas, 1; Puerto Valdivia, 1; Sta Elena, 1; Barro Blanco, 2; La Palma, 1; Chicoral, 2; 30 m west of Honda, 3; Villavicencio, 3; Florida, 1
+
+(625a) Rupornis magnirostris ruficauda
+Noanama, 1; Las Lomitas, 1; Cali, 3; Guengiie, 2; Popayan, 1; La Manuelita, 2; Miraflores, 1; Rio Frio, 1; Salento, 5
+
+(629) Busarellus nigricollis
+R Atrato, 2; Calamar, 1
+
+(631) Urubitinga urubitinga
+Salaqui, 1; Atrato River, 1; Monguido, 1
+
+(634) Urubitinga schistacea
+Barrigon, 1
+
+(635) Urubitinga plumbea
+Bagado, 1; Barbacoas, 1
+
+(642) Leucopternis semiplumbea
+Bagado, 1; Los Cisneros, 1
+
+(649) Lophotriorchis isidori
+Paramillo Trail, W Andes (11,000 ft), 1
+
+(651) Spizaetus ornatus
+Atrato River, 1; Puerto Valdivia, 1; La Morelia, 1
+
+(653) Spizaetus tyrannus
+Puerto Valdivia, 1
+
+(654) Herpetotheres cachinnans cachinnans
+Rio Frio, 1; Honda, 2; Villavicencio, 1; Barrigon, 1
+
+(654a) Herpetotheres cachinnans fulvescens
+Alto Bonito, 1; San Jose, 2; Barbacoas, 1
+
+(655) Elanoides forficatus yetapa
+Noanama, 1; San Antonio, 1; Laguneta, 1; Andalucia, 1; Florencia, 1
+
+(656) Rostrhamphus sociabilis
+Barranquilla, 2
+
+(658) Leptodon uncinatus
+Rio Frio, 1
+
+(660) Leptodon palliatus
+Baudo, 1
+
+(664) Harpagus bidentatus
+Dabeiba, 2; Bagado, 2; Cisneros, 1; Puerto Valdivia, 4
+
+(665) Ictinia plumbea
+Cali, 2; Villavicencio, 2
+
+(669) Falco fusco-caerulescens
+Cali, 1
+
+(671) Falco rufigularis
+La Manuelita, 1; La Palma, 1; La Candela, 1; Honda, 1;  Florencia, 3
+
+(674a) Cerchneis sparveria caucae
+Cali, 1; Popayan, 1; La Florida, 1; La Manuelita, 2; Miraflores, 2; Laguneta, 1
+
+(674b) Cerchneis sparveria intermedia
+La Frijolera, 1; Barro Blanco, 1; Rio Toche, 1; Honda, 5; Andalucia, 6; Fusugasuga, 2; El Pinon, 1; La Hererra, 2; La Olanda, 7; Tena, 1; Anolaima, 1; Caqueza, 1; Villavicencio, 1; Barrigon, 1
+
+(674c) Cerchneis sparveria
+Turbaco, 2; Noanama, 1
+
+(682a) Asio flammeus bogotensis
+Bogota, Savanna, 3
+
+(683) Asio stygius
+Sta Elena, 1; Laguneta, 1; La Olanda (near Bogot&), 1
+
+(691-2) Otus choliba
+Dabeiba, 1; Anolaima, 3; Villavicencio, 1
+
+(697) Otus watsoni
+La Morelia, 2
+
+(699a) Lophostrix cristatus stricklandi
+Barbacoas, 3
+
+(703) Ciccaba albitarsus
+Anolaima, 1
+
+(704) Ciccaba albogularis
+Sta Elena, 1; Choachi, 3
+
+(707) Ciccaba virgata virgata
+La Frijolera, 1; Cali, 1; Rio Frio, 2; Enconosa, below Bogota, 1
+
+(709) Ciccaba nigrolineata
+Rio Atrato, 1; Rio Frio, 1; Bogota (native skin), 1
+
+(720) Glaucidium brasilianum brasilianum
+Florencia, 1
+
+(721) Glaucidium brasilianum phalaenoides
+La Playa, 1
+
+(722) Glaucidium jardini
+Choachi, 1
+
+(724) Tyto perlata
+Miraflores, 1; Anolaima, 1
+
+(732) Ara ararauna
+Puerto Nifio, 5; Quisiera, 1; Malena, 1; La Morelia, 2
+
+(734) Ara macao
+Algodonal, Magdalena River, 1; La Morelia, 1
+
+(735) Ara chloroptera
+Puerto Valdivia, 1
+
+(736) Ara militaris militaris
+Los Cisneros, 1; Salencio, 1
+
+(739) Ara severa
+Cali, 2; La Manuelita, 6; Guengiie, 1; Rio Frio, 3; near Salento, 2; Malena, 1; Barrigon, 5; La Morelia, 2
+
+(759) Aratinga wagleri
+Alto Bonito, 1; Los Cisneros, 1; San Antonio, 5; Cali, 1; La Manuelita, 3; Miraflores, 1; La Sierra, 1; Chicoral, 2
+
+(762) Aratinga aeruginosa aeruginosa
+La Playa, 4; Varrud,1; Calamar, 4; Algodonal, 4
+
+(771) Ognorhynchus icterotis
+La Frijolera, 5; Andes west of Popayan, 10,340feet, 2; Miraflores, 3; Rio Toche, 12
+
+(785) Pyrrhura calliptera
+Fusugasuga, 3; Ei Roble, 3; Subia, 7
+
+(786a) Pyrrhura melanura pacifica
+Buenavista, Narino, 3
+
+(787) Pyrrhura souancei
+La Candela, 3
+
+(809) Psittacula conspicillata conspicillata
+Andalucia, 3; Chicoral, 5; Honda, 3; Puerto Berrio, 6; Malena, 2; Buena Vista, 1; Barrigon, 5
+
+(809a) Psittacula conspicillata caucae
+Caldas, 4; below San Antonio, 1; Cali, 3; La Manuelita, 2; Miraflores, 2; Rio Frio, 2
+
+(811) Psittacula sclateri
+La Morelia, 3
+
+(819) Psittacula spengeli
+La Playa, 3; Calamar, 2
+
+(825) Brotogeris jugularis
+Honda, 4; Puerto Berrio, 1; Malena, 5; Banco, 1
+
+(826) Brotogeris devillei
+Barrigon, 6
+
+(834) Amazona inornata
+La Vieja (1000 ft), Choco, 1; Alto Bonito, 1; Barrigon, 1
+
+(835) Amazona mercenaria
+San Antonio, 1; La Sierra, 4; Almaguer, 1; Salento, 1; Laguneta, 2; Santa Isabel, 1; El Eden, 1; La Palma, 3; Subia, 1
+
+(836) Amazona amazonica
+Malena, 1; La Playa, 4; Barrigon, 1
+
+(841) Amazona ochrocephala ochrocephala
+Villavicencio, 2; Barrigon, 3
+
+(842) Amazona ochrocephala panamensis
+Honda, 2; Puerto Berrio, 2; Malena, 2; Algodonal, 1
+
+(847) Amazona salvini
+Malena, 1
+
+(857) Pionus menstruus
+Alto Bonito, 5; Barbacoas, 4; Cali, 1; Guengiie, 2; Rio Frio, 1; Puerto Berrio, 2; Buena Vista, 1; Villavicencio, 1
+
+(866) Pionus seniloides seniloides
+Laguneta, 1; El Pifion, 2; El Roble, 1
+
+(867) Pionus chalcopterus
+Alto Bonito, 1; Cerro Munchique, 1; La Florida, 2; Miraflores, 6; El Roble, 1; El Eden, 1; La Palma, 1; La Candela, 3; near San Agustin, 1; Andalucia (5000 ft), 1
+
+(875) Hapalopsittaca amazonina
+El Roble, 3
+
+(8750) Hapalopsittaca fuertesi
+Laguneta, 6; Santa Isabel, 1
+
+(876) Eucinetus pulchra
+Andagueda, 2; Noanama, 1; San Jose, 7; Barbacoas, 3
+
+(879) Pyrilia pyrilia
+Alto Bonito, 1; Noanama, 2; Puerto Valdivia, 3; Sta Elena, 1
+
+(890) Pionites melanocephala pallidus
+Florencia, 2
+
+(895) Megaceryle torquata torquata
+Cali, 4; Honda, 1; La Playa, 1; Barrigon, 1
+
+(898) Chloroceryle amazona
+San Jose, 1; Cali, 7; Rio Frio, 1; Chicoral, 1; Andalucia (w slope, 3000 ft), 1; La Morelia, 1
+
+(899) Chloroceryle americana americana
+Tumaco, 1; Barbacoas, 2; Cali, 5; Rio Frio, 1; Chicoral, 2; La Morelia, 1
+
+(901) Chloroceryle inda
+Noanama, 1; Tumaco, 1; Barbacoas, 1
+
+(904) Urospatha martii martii
+La Morelia, 3; Florencia, 2
+
+(905) Urospatha martii semirufa
+Alto Bonito, 1; Baudo, 2; Juntas de Tamand, 5; Barbacoas, 6; Puerto Valdivia, 2; Honda and vicinity, 5
+
+(906) Electron platyrhynchus platyrhynchus
+San Jose, 1; Alto Bonito, 2
+
+(907) Electron platyrhynchus pyrrholaemus
+Florencia, 1
+
+(907a) Electron platyrhynchus minor
+Puerto Valdivia, 4
+
+(911) Momotus subrufescens subrufescens
+La Playa, 1; Algodonal, 2; Remedios, 1; Malena, 2; Honda, and vicinity, 7; Chicoral, 1
+
+(91la) Momotus subrufescens reconditus
+Salaqui, 1; Atrato, 2
+
+(912) Momotus momota ignobilis
+Florencia, 5; La Morelia, 4; Villavicencio, 3; Barrigon, 1
+
+(916) Momotus aequatorialis aequatorialis
+San Antonio, 4; La Florida, 1; Miraflores, 3; Salento, 6; Sta Elena, 1; Rio Toche, 2; La Palma, 1; near San Agustin, 1; Andalucia (7000 ft), 3
+
+(919a) Hylomanes momotula obscurus
+Dabeiba, 5
+
+(923) Nyctibius longicaudatus
+Novita, 2
+
+(928) Chordeiles acutipennis acutipennis
+Rio San Juan, 1; Turbaco, 1; Algodonal, 1; Calamar, 1
+
+(928a) Chordeiles acutipennis texensis
+Noanama, 2
+
+(937) Lurocalis rufiventris
+Aguadita, 7; Subia, 3
+
+(938) Uropsalis lyra 
+West of Honda, 3
+
+(945) Hydropsalis climacocerca
+La Morelia, 4
+
+(948) Nyctidromus albicollis albicollis
+Novita, 1; Los Cisneros, 1; Barbacoas, 1; Ricaurte, 1; San Antonio, 1; Cali, 1; Rio Frio, 4; Puerto Valdivia, 1; La Sierra, 2; La Candela, 2; Chicoral, 1; Puerto Berrio, 2; Malena, 4; Algodonal, 1; Buena Vista, 1; Villavicencio, 2
+
+(951) Thermochalcis cayennensis cayennensis
+La Playa, 2; Villavicencio, 3
+
+(95la) Thermochalcis cayennensis monticola
+San Antonio, 4
+
+(955) Thermochalcis ruficervix
+Tumaco, 1; Andes w of Popayan, 10,340 ft, 2; La Sierra, 1; Laguneta, 8; El Eden, 1; Chipaque, 1
+
+(959) Antrostomus rosenbergi
+Barbacoas, 2
+
+(968a) Streptoprocne zonaris altissima
+Laguneta, 1
+
+(969) Streptoprocne zonaris albicincta
+Alto Bonito, 2; Dabeiba, 3; Los Cisneros, 1; Las Lomitas, 2; San Antonio, 2; Chicoral, 1; Honda, 1; Quetame, 3; Buena Vista, 6; Villavicencio, 1
+
+(976) Chaetura spinicauda fumosa
+Juntas de Taman4, 2; Novita, 1; Puerto Valdivia, 1
+
+(977) Chaetura cinereiventris sclateri
+Buena Vista, 1
+
+(978) Chaetura cinereiventris occidentalis
+Juntas de Tamana, 1; Central Andes, 2
+
+(983) Cypseloides brunneitorques brunneitorques
+San Antonio, 1; Aguadita, 1; Quetame, 4; Buena Vista, 3
+
+(993) Doryfera ludoviciae ludoviciae
+Miraflores, 1; Salento, 2; Buena Vista, 1
+
+(995) Androdon aequatorialis
+Juntas de Tamana, 2; Novita, 2; Noanam4, 1; Bagado, 1; Barbacoas, 6
+
+(999) Threnetes cervinicauda
+Florencia, 1; La Morelia, 1
+
+(1000) Threnetes ruckeri fraseri
+Barbacoas, 6
+
+(1000e) Glaucis hirsuta affinis
+Alto Bonito, 2; Cali, 1; Malena, 1; Villavicencio, 1; La Morelia, 2
+
+(1002) Glaucis aenea
+San Jose, 1; Barbacoas, 2
+
+(1005) Phaethornis guyi emiliae
+Las Lomitas, 5; San Antonio, 3; Miraflores, 5; Peque, 1; west of Honda, 1; Buena Vista, 3
+
+(1007) Phaethornis yaruqui sancti-johannis
+Alto Bonito, 1; Monquido, 1; Baudo, 1; Novita, 1; Noanama, 2; San Jose, 4; Buenaventura, 1; Barbacoas, 4
+
+(1009) Phaethornis fraterculus moorei
+La Morelia, 5; Florencia, 5
+
+(1017) Phaethornis hispidus oseryi
+Villavicencio, 1
+
+(1019) Phaethornis syrmatophorus syrmatophorus
+San Antonio, 5; Cocal, 1; Cerro Munchique, 2; Salento, 1
+
+(1020) Phaethornis syrmatophorus columbianus
+La Palma, 1
+
+(1021) Phaethornis anthophilus
+Puerto Berrio, 1; Chicoral, 2
+
+(1031) Phaethornis griseogularis
+Florencia, 1
+
+(1032) Phaethornis striigularis striigularis
+West of Honda, 1; Puerto Valdivia, 1
+
+(1032a) Phaethornis striigularis subrufescens
+Novita, 1; Cocal, 2; Barbacoas, 6
+
+(1043) Eutoxeres condaminii
+La Morelia, 2
+
+(1045) Eutoxeres aquila aquila
+La Palma, 1; Buena Vista, 1
+
+(1046) Eutoxeres aquila salvini
+San Jose, 2; San Antonio, 1
+
+(1047) Eutoxeres aquila heterura
+Cocal, 1
+
+(1050) Campylopterus obscurus aequatorialis
+La Morelia, 1
+
+(1052) Campylopterus falcatus
+Peque, 1; San Agustin, 1; Quetame, 3; Buena Vista, 1
+
+(1058) Florisuga mellivora mellivora
+Noanama, 1; Barbacoas, 5; Buenavista, Narifio, 1; Miraflores, 2; Puerto Berrio, 1
+
+(1075) Agyrtria viridiceps
+Ricaurte, 1
+
+(1085a) Agyrtrina viridissima
+Villavicencio, 1
+
+(1086) Agyrtrina fluvialitis
+La Morelia, 1
+
+(1090) Polyerata amabilis
+Puerto Valdivia, 3; Alto Bonito, 1
+
+(1091) Polyerata rosenbergi
+Bagado, 1; Novita, 2; Noanama, 1; Buenaventura, 4; San Jose, 1; Barbacoas, 6
+
+(1093) Uranomitra franciae
+San Antonio, 7; Las Lomitas, 2; Miraflores, 2; west of Honda, 2; La Candela, 1; San Agustin, 2
+
+(1096) Lepidopyga goudoti
+Honda, 1; Chicoral, 3; near San Agustin, 1; Andalucia (3000 ft), 1
+
+(1097) Lepidopyga coelina
+Varrud, 1; Banco, 2; Calamar, 1; Algodonal, 1; Monquido, Choco, 1
+
+(1101) Saucerottia saucerottei
+Dabeiba, 3; Alto Bonito, 4; Caldas, 5; Las Lomitas, 1; San Antonio, 1; Cali, 9; La Manuelita, 1; Miraflores, 5; Rio Frio, 4
+
+(1102) Saucerottia viridigaster
+Quetame, 8; Buena Vista, 4; Villavicencio, 1
+
+(1111) Amizilis tzacatl tzacatl
+Dabeiba, 10; Puerto Valdivia, 2; Puerto Berrio, 1; west of Honda, 2; Fusugasuga, 1; Bogota region, 8
+
+(1112) Amizilis tzacatl jucunda
+Juntas de Tamana, 1; Noanama, 1; San Jose, 1; Los Cisneros, 1; Las Lomitas, 1; Tumaco, 4; Barbacoas, 3
+
+(1119) Hylocharis grayi
+Caldas, 1; San Antonio, 18; Cali, 2; Miraflores, 2; Popayan, 3; La Sierra, 1
+
+(1120) Hylocharis humboldti
+Buenaventura, 2; Tumaco, 3
+
+(1136) Damophila juliae juliae
+Honda, 1
+
+(1141) Chlorostilbon gibsoni
+West of Honda, 1; Chicoral, 3; Rio Toche, 3; San Agustin, 6
+
+(1142) Chlorostilbon haeberlini
+La Playa, 1
+
+(1144) Chlorostilbon melanorhynchus
+Dabeiba, 5; Barro Blanco, 1; Caldas, 5; Las Lomitas, 5; San Antonio, 3; Cali, 3; Miraflores, 6; Popayan, 1; Cerro Munchique, 2; La Florida, 1; La Sierra, 1; Ricaurte, 4
+
+(1153) Chlorostilbon poortmani poortmani
+Quetame, 2; Buena Vista, 1
+
+(1168) Thalurania fannyi fannyi
+Alto Bonito, 2; La Vieja, 1; La Frijolera, 1; Juntas de Tamana, 1; Buenavista, Narifio, 6
+
+(1169) Thalurania fannyi verticeps
+Las Lomitas, 3; San Antonio, 3; La Frijolera, 1
+
+(1174) Thalurania nigrofasciata
+La Morelia, 1; Florencia, 1; Buena Vista, 1
+
+(1182) Thalurania colombica colombica
+El Consuelo (above Honda), 1; Andalucia (3000 ft), 2; San Agustin, 18; La Candela, 9
+
+(1183) Chalybura buffoni buffoni
+Peque, 2; Los Cisneros, 3; Salencio, 1; Rio Frio, 1; Miraflores, 1; La Candela, 3; San Agustin, 4; Andalucia (3000 ft), 5; El Consuelo, 1
+
+(1185) Chalybura caeruleogaster
+Buena Vista, 2; Villavicencio, 2
+
+(1187) Chalybura urochrysa
+Alto Bonito, 2; Buenaventura, 2; Barbacoas, 1; Buenavista, Narino, 3
+
+(1188) Colibri delphinae
+Buenavista, Narifio, 1
+
+(1189) Colibri cyanotus
+Cerro Munchique, 1; El Eden, 1; Rio Toche, 9; Sta Elena, 4
+
+(1190) Colibri iolata
+Cerro Munchique, 1; La Florida, 1; Popayan, 1; Almaguer, 3; Barro Blanco, 1; Buena Vista, 1
+
+(1194) Anthracothorax nigricollis nigricollis
+Cali, 3; Honda, 1; Villavicencio, 2
+
+(1199) Chrysolampis elatus
+Caldas, 1; Dabeiba, 2; La Playa, 1
+
+(1201) Simonula berlepschi
+Rio Toche, 3
+
+(1223) Phaiolaima rubinoides rubinoides
+EI Roble, 1
+
+(1224) Phaiolaima rubinoides aequatorialis
+San Antonio, 5; Miraflores, 1; Salento, 2
+
+(1230) Heliodoxa leadbeateri
+La Frijolera, 1; Ta Candela, 9; San Agustin, 8; Quetame, 1; Buena Vista, 2
+
+(1239) Helianthea helianthea
+Chipaque, 1
+
+(1240) Helianthea bonapartei
+El Pifion, 2
+
+(1246) Helianthea lutetiae lutetiae
+Almaguer, 1; Laguneta, 5
+
+(1250) Helianthea torquata
+Cocal, 1; La Florida, 2; Cerro Munchique, 3; Andes w of Popayan, 3; Salento (9000 ft), 2; Rio Toche, 1; El Eden, 3; Sta Elena, 5; El Roble, 6; El Pifion, 1
+
+(1255) Helianthea coeligena columbiana
+El Eden, 3; La Candela, 1; Andalucia, 2; Fusugasuga, 1
+
+(1255a) Helianthea coeligena ferruginea
+San Antonio, 14; Cerro Munchique, 4; Miraflores, 3; Salento, 2; Rio Toche, 8
+
+(1267) Lafresnayea lafresnayi
+Santa Isabel, 1; Rio Toche, 2; El Eden, 1; El Roble, 1; El Pifion, 1; Chipaque, 1
+
+(1269) Lafresnayea saul saul
+Andes w of Popayan (10,340 ft), 1
+
+(1271) Ensifera ensifera ensifera
+Cerro Munchique, 1; Almaguer, 2; Laguneta, 1; El Roble, 1
+
+(1272) Pterophanes temmincki
+Santa Isabel (12,700 ft), 1
+
+(1273) Aglaeactis cupripennis cupripennis
+Andes w of Popayan (10,340 ft), 1; Valle de las Pappas, 2
+
+(1280) Boissonneaua jardini
+Novita Trail (7200 ft), 1; Buenavista, Narifio, 1
+
+(1282) Boissonneaua flavescens flavescens
+Cocal, 1; La Florida, 3; Cerro Munchique, 14; Almaguer, 2; Laguneta, 2; Andalucia, 1; El Roble, 2; El Pifion, 1
+
+(1288) Vestipedes vestitus vestitus
+EI Pifion, 4; Tocaimito, 2; Chipaque, 8
+
+(1289) Vestipedes vestitus smaragdinipectus
+Almaguer, 4
+
+(1289a) Vestipedes paramillo
+Paramillo, 13
+
+(1295) Vestipedes mosquera
+Andes w of Popayan (10,340 ft), 1; Santa Isabel, 1
+
+(1297) Vestipedes aureliae aureliae
+Barro Blanco, 1; La Candela, 9; San Agustin, 1; El Roble, 1; El Penon, 1
+
+(1298) Vestipedes aureliae caucensis
+San Antonio, 18; Cerro Munchique, 1; Gallera, 2; Andes w of Popayan, 1; Miraflores, 6; Salento, 3
+
+(1305) Vestipedes derbyi longirostris
+Laguneta, 15; Santa Isabel, 1;
+
+(1307) Ocreatus underwoodi underwoodi
+Las Lomitas, 1; San Antonio, 10; Andes w of Popayan, 1; Cerro Munchique, 1; La Florida, 1; Miraflores, 5; Salento, 7; La Candela, 4; San Agustin, 2; Aguadita, 1; Buena Vista, 1
+
+(1314) Urosticte benjamini benjamini
+Ricaurte, 1
+
+(1319) Adelomyia melanogenys melanogenys
+Fusugasuga, 3; Quetame, 1
+
+(1323) Adelomyia melanogenys cervina
+Paramillo Trail, 1; San Antonio, 7; Cerro Munchique, 13; Andes w of Popayan, 1; Almaguer, 1; Miraflores, 5; Salento, 2; above Salento, 1; Rio Toche, 2; El Eden, 2
+
+(1332) Heliangelus exortis
+Cerro Munchique, 2; La Florida, 1; Andes w of Popayan, 4; Almaguer, 8; Salento, 1; Laguneta, 27; Santa Isabel, 3; Sta Elena, 4; El Eden, 1; Fusugasuga, 7; El Roble, 8; El Piyion, 1
+
+(1342) Metallura williami
+Valle de las Pappas, 1; Santa Isabel, 10
+
+(1348) Metallura tyrianthina tyrianthina
+Andes w of Popayan (10,340 ft), 15; Almaguer, 10; Laguneta, 10; Santa Isabel, 11; Sta Elena, 7; El Eden, 1; El Pifion, 1; Chipaque, 5
+
+(1357) Oxypogon stubeli
+Santa Isabel, 2
+
+(1358) Chalcostigma herrani
+Andes w of Popayan, 3
+
+(1859) Chalcostigma heteropogon
+Tocaimito, 2
+
+(1366) Ramphomicron microhynchum
+Paramillo, 1; Andes w of Popayan, 6; Almaguer, 1; Laguneta, 3; Santa Isabel, 2; El Roble, 2; El Pifion, 1
+
+(1368) Opisthroprora euryptera
+Almaguer, 1
+
+(1373) Cyanolesbia kingi kingi
+El Roble (8000 ft) above Fusugasuga, 4; Choachi, 1
+
+(1374) Cyanolesbia emmae
+San Antonio, 6; Cerro Munchique, 9; Salento, 2; Sta Elena, 1; El Eden, 1
+
+(1875) Cyanolesbia mocoa mocoa
+La Palma, 2; La Candela, 18; near San Agustin, 2
+
+(1379) Cyanolesbia coelestis
+Novita Trail, 2; Gallera, 5; Ricaurte, 1
+
+(1386) Psalidoprymna victoriae victoriae
+Chipaque, 1
+
+(1393) Psalidoprymna gouldi gouldi
+Sibate, 1
+
+(1400) Schistes geoffroyi
+EI Roble, 1
+
+(1401) Schistes albogularis
+Las Lomitas, 1; San Antonio, 1; Miraflores, 1
+
+(1405) Heliothryx barroti
+Choco, 1; Juntas de Tamana, 1; Noanama, 1; San Jose, 5; Barbacoas, 5
+
+(1413) Anthoscenus longirostris stewartae
+Cali, 3; San Agustin, 1; Honda, 1; El Consuelo, 1
+
+(1419) Calliphlox mitchelli
+Gallera, 2; Barbacoas, 3
+
+(1420) Chaetocercus mulsanti
+Barro Blanco, 1
+
+(1421) Chaetocercus heliodor
+San Agustin, 1; Miraflores, 1
+
+(1481) Klais guimete
+Andalucia, 1; Buena Vista, 3
+
+(1443) Popelairia conversi
+Noanama, 1; Barbacoas, 5
+
+(1451) Pharomachrus antisiensis
+San Antonio, 2; Buena Vista, 1
+
+(1452) Pharomachrus auriceps
+San Antonio, 8; Cerro Munchique, 1; La Florida, 4; Almaguer, 1; Miraflores, 5; Salento, 3; Subia, 1
+
+(1456) Pharomachrus pavoninus
+Florencia, 1
+
+(1457) Trogonurus personatus
+Puerto Valdivia, 1; La Frijolera, 1; Cocal, 2; Gallera, 1; Sta Elena, 1; El Eden, 2; Fusugasuga, 1; Enconosa (near Bogota), 1
+
+(14572) Trogonurus assimilis
+Paramillo Trail (11,000 ft), 1; Laguneta, 7; Santa Isabel, 2; Almaguer, 5; Valle de las Pappas, 2; El Pifion, 1
+
+(1458) Trogonurus collaris
+La Frijolera, 2; Las Lomitas, 2; San Antonio, 11; Andes w of Popayan (9000 ft), 2; Cocal, 4; La Florida, 1; Miraflores, 3; Salento, 2; El Eden, 2; Cen Andesw of Honda (5000 ft), 2; La Candela, 3; Andalucia (w slope, 5000 ft), 3; Buena Vista, 1
+
+(1462e) Trogonurus curucui cupreicauda
+Alto Bonito, 3; Baudo, 2; Bagado, 1; Juntas de Tamana, 1; San Jose, 1; Barbacoas, 6; Puerto Valdivia, 1; west of Honda, 1
+
+(1467) Trogonurus bolivianus
+La Morelia, 2; near Florencia, 1
+
+(1461) Trogon strigilatus strigilatus
+La Morelia, 1; Florencia, 4; Villavicencio, 1; Buena Vista, 1
+
+(1462) Trogon strigilatus chionurus
+Salaqui, 1; Dabeiba, 1; Alto Bonito,3; Bagado, 1; Juntas de Tamana, 3; San Jose, 1; Barbacoas, 6; Puerto Valdivia, 4; west of Honda (1500 ft), 2
+
+(14632) Chrysotrogon caligatus columbianus
+Puerto Valdivia, 1; Honda, 1; Opon, 2; Puerto Berrio, 1
+
+(1465) Chrysotrogon ramonianus
+Florencia, 1
+
+(1470) Curucujus melanurus melanurus
+Florencia, 2
+
+(1471) Curucujus melanurus macrourus
+R Salaqui, 2; R Atrato, 2
+
+(1472) Curucujus massena australis
+Alto Bonito, 1; Bagado, 1; Barbacoas, 2; La Frijolera, 2
+
+(1475) Coccyzus melacoryphus
+Dabeiba, 3; Caldas, 2; Cali, 2; Miraflores, 1; Florencia, 1; La Morelia, 1
+
+(1476) Coccyzus americanus americanus
+La Olanda, Cundinamarca, 4; Puente Andalucia, Cundinamarca, 3; Choachi, 2; Villavicencio, 1
+
+(1482) Piaya cayana columbiana
+Puerto Berrio, 1; Chicoral, 2; Alto de la Paz (w slope, E Andes), 1; Subia (w slope, EK Andes), 2
+
+(1484) Piaya cayana nigricrissa
+Alto Bonito, 1; San Jose, 1; Barbacoas, 2; Buenavista, 1; Ricaurte, 1; Puerto Valdivia, 2; San Antonio, 4; Cerro Munchique, 2; Guengiie, 1; Rio Frio, 1; Miraflores, 1; Salento, 2; Sta Elena, 2; Andes w of Honda (5000 ft), 2
+
+(1485) Piaya cayana mesura
+La Palma, 2; Andalucia (w slope, 3000 ft), 2; Quetame, 3; Buena Vista, 2; Barrigon, 2
+
+(1490) Piaya rutila rutila
+Villavicencio, 2
+
+(1490a) Piaya rutila gracilis
+Cali, 6; La Manuelita, 1; Rio Frio, 1; Malena, 2
+
+(1492) Neomorphus salvini
+Alto Bonito, 2; Baudo Mts, 1
+
+(1496) Tapera naevia
+Caldas, 1; La Frijolera, 1; San Antonio, 1; La Manuelita, 1; Turbaco, 1; near Tema, Cundinamarca, 3; Quetame, 2
+
+(1499) Crotophaga ani
+Dabeiba, 2; Quibdo, 2; Noanama, 1; Caldas, 2; Tumaco, 1; Barbacoas, 2; Ricaurte, 2; Cali, 1; Puerto Valdivia, 1; La Frijolera, 1; La Manuelita, 2; Miraflores, 1; Salento, 4; Sta Elena, 1; Barro Blanco, 1; La Candela, 1; Chicoral, 1; La Playa, 1; Turbaco, 2; Pacho, 3; Esmeraldas, 2; Chipaque, 1; Buena Vista, 1; La Morelia, 2
+
+(1500) Crotophaga major
+Dabeiba, 1; Atrato River, 2; Noanama, 2; Algodonal, 1; Puerto Berrio, 1; Malena, 2; Honda, 1
+
+(1503) Capito aurovirens
+La Morelia, 6
+
+(15040) Capito maculicoronatus rubrilateralis
+Alto Bonito, 5; Andagueda, 2; Baudo, 1; Juntas de Tamana, 2; Novita, 1; San Jose, 7; Los Cisneros, 2; Puerto Valdivia, 11
+
+(1504b) Capito maculicoronatus pirrensis
+Salaqui, 2
+
+(1505) Capito squamatus
+Ricaurte, 1
+
+(1506) Capito hypoleucus
+Puerto Valdivia, 1; La Frijolera, 4; Central Andes w of Honda (5000 ft), 3; El Carmen de Jacopi, w slope Eastern Andes (Bogota region), 1
+
+(1507) Capito quinticolor
+Barbacoas, 1
+
+(1510) Capito auratus auratus
+La Morelia, 1; Florencia, 1; Villavicencio, 1; Buena Vista, 9
+
+(1514) Eubucco richardsoni granadensis
+Buena Vista, 4
+
+(1519) Eubucco bourcieri bourcieri
+La Candela, 1; La Palma, 1; near San Agustin, 1; Andalucia (w slope, 5000 ft), 1
+
+(1519a) Eubuceo bourcieri occidentalis
+La Frijolera, 6; San Antonio, 9
+
+(1522) Semnornis ramphastinus
+San Antonio, 1
+
+(1524) Ramphastos piscivorus brevicarinatus
+Rio Salaqui, 1
+
+(1525) Ramphastos swainsoni
+R Salaqui, 2; Alto Bonito, 1; Baudo,1; Bagado, 3; Juntas de Tamana, 1; Salencio, 1; San Jose, 1; Puerto Valdivia, 1; Las Lomitas, 1; San Antonio, 4; Cocal, 1; Miraflores, 2
+
+(1526) Ramphastos ambiguus ambiguus
+Near San Agustin, 1; La Palma, 3; La Candela, 1; Andalucia, (5000 ft), 1; Fusugasuga, 1; Buena Vista, 4
+
+(15262) Ramphastos ambiguus abbreviatus
+Iguamiando, Choco, 1; Novita, 4; San Jose, 1; Barbacoas, 3
+
+(1529) Ramphastos cuvieri
+La Morelia, 3; Florencia, 2; Barrigon, 3
+
+(1530) Ramphastos culminatus
+Buena Vista, 2; Villavicencio, 2
+
+(1531) Ramphastos citreolaemus
+Puerto Valdivia, 4; La Frijolera, 1; Puerto Berrio, 1; Malena, 1; w of Honda (alt 2000 ft), 3
+
+(1537) Andigena hypoglaucus
+Almaguer, 1; Laguneta, 2; Santa Isabel, 4
+
+(1540) Andigena nigrirostris nigrirostris
+Subia, 4
+
+(1541) Andigena nigrirostris spilorhynchus
+Laguneta, 2; Salento (9000 ft), 1
+
+(154la) Andigena nigrirostris occidentalis
+San Antonio, 6; Cerro Munchique, 1; La Florida, 1
+
+(1546) Pteroglossus pluricinctus
+La Morelia, 2; Villavicencio, 1
+
+(1547) Pteroglossus castanotis castanotis
+Villavicencio, 1
+
+(1550) Pteroglossus torquatus nuchalis
+Puerto Valdivia, 6; Puerto Berrio, 2; Malena, 3; west of Honda, 3
+
+(1552) Pteroglossus sanguineus
+Salaqui, 1; Alto Bonito, 6; Bagado, 1; Baudo, 2; Novita, 1; Noanama, 1; San Jose, 2; Los Cisneros, 2; Barbacoas, 5; Buenavista, Narino, 1
+
+(1556) Pteroglossus flavirostris flavirostris
+La Morelia, 3; Florencia, 2
+
+(1559) Pteroglossus humboldti
+La Morelia, 2
+
+(1567) Selinidera reinwardti
+La Morelia, 3; Florencia, 1
+
+(15672) Selinidera spectabilis
+Baudo (2500-3500 ft), 1; La Frijolera, 1
+
+(1576) Aulacorhynchus albivitta albivitta
+El Eden, 1; La Palma, 3; Andalucia, 2; Aguadita, 6; Subia, 8; Palo Hueco, 1
+
+(1576a) Aulacorhynchus albivitta phaeolaemus
+San Antonio, 4; Cerro Munchique, 1; Florida, 1; Coeal, 1
+
+(1576b) Aulacorhynchus albivitta griseigularis
+Paramillo, 1; Sta Elena, 4; Salento, 3; Miraflores, 3
+
+(1577) Aulacorhynchus haematopygius
+La Frijolera, 4; Salencio, 1; San Antonio, 10; Gallera, 3; Ricaurte, 2; Buenavista, Narifio, 1; Miraflores, 1; Salento, 1; Andalucia, 3; west of Honda (5000 ft), 3; near Fusugasuga, 1; Buena Vista, 3
+
+(1586) Galbula ruficauda ruficauda
+Puerto Valdivia, 3; Puerto Berrio, 2; Honda, 5; 20 miles west of Honda, 13; Chicoral, 2
+
+(1587) Galbula ruficauda pallens
+Calamar, 5; Banco, 2
+
+(1588) Galbula melanogenia
+Alto Bonito, 2; Quibdo, 2; Juntas de Taman4, 3; Novita, 2; San Jose, 2; Los Cisneros, 1; Barbacoas, 6
+
+(1589) Galbula tombacea tombacea
+La Morelia, 3; Buena Vista, 2; Villavicencio, 10
+
+(1593) Galbula albirostris chalcocephala
+La Morelia, 5
+
+(1598) Brachygalba fulviventris fulviventris
+Buena Vista, 3; Villavicencio, 5
+
+(1598a) Brachygalba fulviventris caquetae
+La Morelia, 10; Florencia, 2
+
+(1604) Galbalcyrhynchus leucotis
+La Morelia, 6
+
+(1608) Bucco capensis
+La Morelia, 2; Florencia, 2
+
+(1610) Notharcus hyperrhynchus leucocrissus
+Honda, 2
+
+(1613) Notharcus pectoralis
+Bagado, 1; Barbacoas, 7; Puerto Valdivia, 4; Nare, lower Magdalena, 1 
+
+(1617) Notharcus tectus subtectus
+Barbacoas, 4; Nare, 1; Puerto Berrio, 1; Malena, 2
+
+(1618) Argicus macrodactylus
+La Morelia, 3; Villavicencio, 4; Buena Vista, 2
+
+(1619) Nystactes noanamae
+Iguamiando, 3; Quibdo, 1
+
+(1620) Hypnelus ruficollis ruficollis
+Turbaco, 4; La Playa, 3; Calamar, 4; Banco, 1; Varrud, 1; Puerto Berrio, 1
+
+(1629) Nystalus radiatus
+Barbacoas, 2; Puerto Valdivia, 7; Puerto Berrio, 1; Honda, 1; west of Honda, 2
+
+(1631) Malacoptila fusca
+Andalucia (east slope, alt 2000 ft), 1; La Morelia, 2
+
+(1635) Malacoptila mystacalis
+Novita Trail, 1; La Frijolera, 1; Salento, 3; about 20 miles w of Honda, alt 5000 ft, 1; Anolaima, 1
+
+(1637) Malacoptila panamensis poliopis
+Los Cisneros, 1; Barbacoas, 6
+
+(1637a) Malacoptila panamensis panamensis
+Choco, 1; Baudo, 1; Novita, 2; Dabeiba, 1; Alto Bonito, 2; Puerto Valdivia, 4
+
+(1641) Micromonacha lanceolata
+Buenavista, 1
+
+(1646) Nonnula frontalis
+Algodonal, 1
+
+(1650) Monasa flavirostris
+La Morelia, 3; Florencia, 3; Villavicencio, 2; Buena Vista, 1
+
+(1653) Monasa morphoeus peruana
+Florencia, 8
+
+(1654) Monasa pallescens pallescens
+Salaqui, 1; Iguamiando, 1; Baudo, 3000-3500 ft, 4; Alto Bonito, 4
+
+(1655) Monasa pallescens sclateri
+Puerto Valdivia, 7; 20 miles west of Honda, 6
+
+(1656) Monasa nigrifrons
+La Morelia, 6
+
+(1665) Hypoxanthus rivolii rivolii
+El Pifion (above Fusugasuga), 3; Subia (near Bogota), 1; Palo Hueco, Cundinamarca, 2; Chipaque, 1
+
+(1666) Hypoxanthus rivolii brevirostris
+Laguneta, 1; Santa Isabel, 1; Volcancito, 1; El Eden, 2
+
+(1672) Chloronerpes xanthochlorus
+Remolino, 1
+
+(1676) Chloronerpes litae
+Baudo Mts, 1
+
+(1681) Chloronerpes rubiginosus gularis
+La Frijolera, 2; San Antonio, 8; Andes w of Popayan (10340 ft), 1; Cerro Munchique, 1; Cali, 2; Miraflores, 1; Salento, 2; Sta Elena, 1; Barro Blanco, 2; Cen Andes w of Honda (5000 ft), 1; La Candela, 1
+
+(1687a) Chloronerpes rubiginosus buenavistae
+Buena Vista, 5
+
+(1697) Chrysoptilus punctigula guttatus
+La Morelia, 1
+
+(1698) Chrysoptilus punctigula punctipectus
+Buena Vista, 1; Villavicencio, 2; Barrigon, 1
+
+(1699) Chrysoptilus punctigula ujhelyii
+Lower Atrato, 1; La Playa, 1; Calamar, 1
+
+(16992) Chrysoptilus punctigula striatigularis
+Noanama, 1; Cali, 2; Rio Frio, 1; near Honda, 1; Puerto Berrio, 2
+
+(1702) Melanerpes flavigula
+Paramillo (11,000 ft), 1; Las Lomitas, 2; San Antonio, 6; Cerro Munchique, 4; Gallera, 1; Miraflores, 1; Salento, 1; Laguneta, 4; Sta Elena, 1; San Agustin, 2; La Candela, 1; Palo Hueco, Cundinamarca, 14
+
+(1703) Melanerpes cruentatus
+Florencia, 6; La Morelia, 6; Buena Vista, 7; Villavicencio, 5
+
+(1708) Melanerpes pucherani pucherani
+Alto Bonito, 2; Quibd6, 1; Baudo, 1; Noanama, 2; San Jose, 2; Los Cisneros, 2; Barbacoas, 6; Puerto Valdivia, 3
+
+(1709&1710) Melanerpes rubricapillus rubricapillus
+Upper Sinu River (200 ft), 3; Algodonal, Magdalena River, 2; Magdalena River, 2; Honda and vicinity, 9; Chicoral, 1
+
+(1715) Veniliornis oleaginus fumigatus
+La Candela, 2; near San Agustin, 1; near Fusugasuga, 5; Palo Hueco (near Pacho), 1; Buena Vista, 1
+
+(1715a) Veniliornis oleaginus aureus
+Salencio, 1; Las Lomitas, 2; San Antonio, 3; Gallera, 1; Popayan, 2; La Sierra, 1; Miraflores, 1; Sta Elena, 1
+
+(17192) Veniliornis nigriceps equifasciatus
+Santa Isabel, 2; Almaguer, 1
+
+(1720) Veniliornis dignus
+San Antonio, 1; Cerro Munchique, 2; Salento, 1; Fusugasuga, 1
+
+(1727) Veniliornis fidelis
+Buena Vista, 1; Villavicencio, 2
+
+(1733) Veniliornis ruficeps haematostigma
+La Morelia, 2
+
+(1738) Veniliornis kirki cecilii
+Juntas de Taman, 1; Los Cisneros, 1; Barbacoas, 7; Puerto Valdivia, 1; Rio Frio, 2; Chicoral, 3; Honda, 2; Malena, 1; Boca de Chimi, 1
+
+(1751) Celeus loricatus loricatus
+Puerto Valdivia, 1; Alto Bonito, 1; Baudo, 1; Novita, 1; Barbacoas, 4
+
+(1751a) Celeus loricatus mentalis
+Rio Salaqui, 1
+
+(1760) Campephilus rubricollis
+La Morelia, 2
+
+(1762) Campephilus melanoleucus
+Florencia, 1; Villavicencio, 1
+
+(1763) Campephilus malherbii
+Alto Bonito, 1; Dabeiba, 1; Peque, 2; Novita, 1; Noanama, 1; Puerto Valdivia, 2; Las Lomitas, 3; San Antonio, 4; Andes w of Popayan (10,340 ft), 1; Miraflores, 3; Salento, 1; Turbaco, 2; La Palma, 1; La Candela, 1; Puerto Berrio, 1
+
+(1765) Campephilus pollens
+Cerro Munchique, 1; La Florida, 4; Cocal, 4; Almaguer, 2; Laguneta, 3; Santa Isabel, 3; El Roble, 1
+
+(1768) Cniparchus haematogaster splendens
+Alto Bonito, 2; Barbacoas, 1; Puerto Valdivia, 1
+
+(1770a) Ceophloeus lineatus mesorhynchus
+Alto Bonito, 1; Noanama, 1; Cali, 3; La Manuelita, 2; Miraflores, 1; Guengiie, 1; Puerto Berrio, 1; near Honda, 2
+
+(1776) Picumnus cinnamomeus
+La Playa, 1; Varrud, 1
+
+(1795) Picumnus squamulatus squamulatus
+Buena Vista, 7; Villavicencio, 6; Quetame, 1
+
+(1808) Picumnus olivaceus olivaceus
+La Frijolera, 1; El Eden, 1; Rio Toche, 2; La Candela, 1; San Agustin, 3; La Palma, 1; Chicoral, 2; Honda, 2; 20 miles w of Honda, 4; Puerto Berrio, 1; Malena, 1
+
+(1810) Picumnus olivaceus harterti
+Barbacoas, 1
+
+(1809) Picumnus granadensis granadensis
+San Antonio, 1; Rio Frio, 2; Los Cisneros, 2; Gallera, 1
+
+(1809a) Picumnus granadensis antioquensis
+Peque, 2; Medellin, 1
+
+(1812) Scytalopus niger
+Andes w of Popayan, 8; Cerro Munchique, 9; Cocal, 3; Almaguer, 4; Valle de las Pappas, 3; Laguneta, 3; Santa Isabel, 2; Sta Elena, 1; Fusugasuga, 1; El Roble, 2; El Pifion, 2
+
+(1812a) Scytalopus canus
+Paramillo, 10
+
+(1817) Scytalopus griseicollis
+Bogota, 6; El Roble, (8,000 ft), 1; El Pifion, 2; Chipaque, 1; Tocaimito (above Bogota, 10,500 ft), 3
+
+(1819) Scytalopus sylvestris
+Paramo of Santa Isabel, 2
+
+(1822) Scytalopus micropterus micropterus
+Alto Bonito, 2; Las Lomitas, 1; San Antonio, 1; Pavas, 1; Andes w of Popayan (10,340 ft), 1; Ricaurte, 1; Miraflores, 2; Salento, 3; Laguneta, 1; El Eden, 2; La Palma, 3; La Candela, 2; Andalucia (3,000 ft), 1; Bogota, 2; Buena Vista, 1
+
+(1822a) Scytalopus infasciatus
+Paramo de Beltran, 1; El Roble, 1
+
+(1815) Myornis senilis
+Laguneta, 1; El Pifion, 1 
+
+(1836) Acropternis orthonyx
+Laguneta, 2
+
+(1839) Conopophaga aurita
+La Morelia, 2; Florencia, 1
+
+(1846) Conopophaga castaneiceps castaneiceps
+La Frijolera, 2; La Candela, 4; Andalucia (5000 ft), 4; Buena Vista, 4
+
+(18464) Conopophaga castaneiceps chocoensis
+Baudo, 1
+
+(1854) Cymbilaimus lineatus lineatus
+Florencia, 1; La Morelia, 1
+
+(1855) Cymbilaimus lineatus fasciatus
+Novita, 1; Noanam4, 1; Barbacoas, 5
+
+(1858) Taraba unduliger
+La Morelia, 1
+
+(1862) Taraba transandeana transandeana
+Alto Bonito, 7; La Vieja, Choco, 1; Baudo, 1; San Jose, 3; Barbacoas, 6; Rio Frio, 5; Palmira, 1
+
+(1863) Taraba transandeana granadensis
+Malena, 1; Honda, 2; Buena Vista (alt 4500 ft), 2; Villavicencio, 2
+
+(1870) Thamnophilus unicolor
+San Antonio, 11; Gallera, 4; Cerro Munchique, 2; Cocal, 2; Ricaurte, 2; Barro Blanco, 2; La Palma, 3; Fusugasuga, 5; Aguadita, 2
+
+(1882) Thamnophilus nigriceps
+Atrato River, 2; Iguamiando, Choco, 1; Algodonal, Magdalena River, 1; Puerto Berrio, 4; Malena, 4; west of Honda, 1
+
+(1883) Thamnophilus punctatus punctatus
+Barrigon, 2
+
+(1885) Thamnophilus punctatus atrinucha
+Alto Bonito, 2; Dabeiba, 6; Bagado, 3; Baudo, 2; Novita, 3; Novita Trail (3000 ft), 1; Juntas de Tamana, 1; Noanama, 1; San Jose, 1; Barbacoas, 7; La Frijolera, 15; Malena, 1; Honda, 4; Chicoral, 1
+
+(1903) Thamnophilus canadensis pulchellus
+Turbaco (near Cartagena), 3; La Playa, 7; Calamar, 3; Algodonal, 2
+
+(1908) Thamnophilus doliatus doliatus
+Villavicencio, 7
+
+(1916) Thamnophilus radiatus albicans
+Chicoral, 3; Honda and vicinity, 7; Puerto Berrio, 3; Malena, 4; Nare, 1
+
+(1917) Thamnophilus tenuipunctatus
+Villvicencio, 5
+
+(1920) Thamnophilus multistriatus
+Los Cisneros, 2; Caldas, 4; La Frijolera, 1; Las Lomitas, 2; San Antonio, 4; Cali, 4; Salencio, 2; Miraflores, 3; Salento, 1; La Candela, 2; near San Agustin, 3; Andalucia (3000 ft), 2; Fusugasuga, 1
+
+(1928) Thamnistes aequatorialis
+La Morelia, 1
+
+(1928a) Thamnistes anabatinus intermedius
+Alto Bonito, 1; Barbacoas, 1
+
+(1933) Clytoctantes alixii
+Puerto Valdivia, 2
+
+(1936) Dysithamnus semicinereus semicinereus
+Buena Vista, 12; La Candela, 5; near San Agustin, 1; Andalucia (5000 ft), 1
+
+(19362) Dysithamnus semicinereus extremus
+Salencio, 3; Las Lomitas, 7; San Antonio, 7; Rio Frio, 5; Miraflores, 7 ; Salento, 2
+
+(19366) Dysithamnus mentalis
+La Frijolera, 2; El Consuelo, above Honda, 2
+
+(1943) Dysithamnus puncticeps flemmingi
+Barbacoas, 6
+
+(1948a) Dysithamnus puncticeps puncticeps
+Baudo, 1; La Vieja, 1; Novita, 1; Alto Bonito, 6; Puerto Valdivia, 1
+
+(1944) Dysithamnus leucostictus
+Buena Vista, 2
+
+(1951) Dysithamnus capitalis capitalis
+La Morelia, 2; Florencia, 1
+
+(1953) Dysithamnus ardesiacus ardesiacus
+La Morelia, 4; Florencia, 3
+
+(1959) Thamnomanes glaucus
+La Morelia, 5; Florencia, 1
+
+(1961) Myrmotherula pygmaea
+San Jose, 1; Florencia, 1; La Morelia, 1
+
+(1963) Myrmotherula surinamensis pacifica
+Alto Bonito, 4; Dabeiba, 7; Quibd6, 2; Novita, 2; Novita Trail (2000 ft), 1; Juntas de Taman4, 1; Noanama, 3; Buenaventura, 6; Los Cisneros, 5; Tumaco, 4; Barbacoas, 2; Puerto Valdivia, 3; Malena, 1
+
+(1972) Myrmopagis fulviventris
+Alto Bonito, 3; Juntas de Tamana, 4; Barbacoas, 3; Puerto Valdivia, 4; La Frijolera, 1; Miraflores, Cen Andes, 1; Salencio, Novita Trail, e slope, 1
+
+(1975) Myrmopagis haemnatonota
+La Morelia, 1
+
+(1977) Myrmopagis ornata ornata
+Buena Vista, 4
+
+(1984) Myrmopagis axillaris melaena
+Florencia, 6; La Morelia, 2
+
+(19842) Myrmopagis axillaris albigula
+Alto Bonito, 3; Dabeiba, 1; Baudo, 1; Juntas de Taman4, 1; Novita, 1; San Jose, 2; Barbacoas, 2; Puerto Valdivia, 1
+
+(1985) Myrmopagis schisticolor schisticolor
+Alto Bonito, 1; La Frijolera, 3; Las Lomitas, 2; San Antonio, 3; Ricaurte, 1; Miraflores, 3
+
+(1985a) Myrmopagis schisticolor interior
+La Palma, 2; La Candela, 4; Aguadita, 1; Buena Vista, 12; La Morelia, 1
+
+(19982) Myrmopagis cinereiventris pallida
+La Morelia, 1
+
+(2006) Herpsilochmus rufomarginatus frater
+Buena Vista, 1
+
+(2013) Microrhopias grisea intermedia
+La Playa, 5; Calamar, 2; Honda, 12; Chicoral, 8
+
+(2026) Microrhopias boucardi consobrina
+Alto Bonito, 2; Novita, 2; San Jose, 3; Puerto Valdivia, 2
+
+(2021) Drymophila caudata caudata
+Las Lomitas, 1; Cocal, 3; Gallera, 2; Salento, 2; Sta Elena, 4; El Eden, 1
+
+(2036) Terenura callinota
+Aguadita, 2
+
+(2048) Ramphocaenus melanurus trinitatis
+Buena Vista, 1
+
+(2047a) Ramphocaenus rufiventris griseodorsalis
+Dabeiba, 1; Miraflores, 1; Salento, 1
+
+(2048) Microbates cinereiventris cinereiventris
+Alto Bonito, 1; Juntas de Tamand, 2; Novita, 1; Buenaventura, 1; San Jose, 1; Barbacoas, 4; Buenavista, Narino, 1
+
+(2048a) Microbates cinereiventris magdalenae
+Puerto Berrio, 1
+
+(2049) Microbates collaris
+Florencia, 1
+
+(2051) Cercomacra sclateri
+Florencia, 3
+
+(2053) Cercomacra tyrannina tyrannina
+Barbacoas, 4; Puerto Valdivia, 5; La Frijolera, 3; Salencio, 1; Rio Frio, 1; Miraflores, 2; near Honda, 1; Buena Vista, 9; Villavicencio, 5
+
+(2058) Cercomacra nigricans
+Cali, 2; Rio Frio, 3; Algodonal (lower Magdalena), 2; Banco, 1; Nare, 1; Puerto Berrio, 3; Malena, 5; Honda, 4; Chieoral, 2; Buena Vista, 1; Villavicencio, 3
+
+(2061) Cercomacra berlepschi
+Bagado, 1; Baudo, 1; Novita, 1; San Jose, 1; Barbacoas, 5; Buenavista, Narino, 1
+
+(2063a) Pyriglena picea
+La Candela, 12; Anolaima (3000-5000 ft), 4
+
+(2071) Anoplops bicolor aequatorialis
+Barbacoas, 5; Buenavista, Narino, 1
+
+(2072) Anoplops bicolor daguae
+Bagado, 1; La Vieja, 1; Baudo, 1; Novita, 4; Noanama, 1
+
+(20722) Anoplops bicolor bicolor
+Rio Salaqui, 1; Alto Bonito, 3
+
+(2084) Myrmeciza melanoceps
+Florencia, 5; La Morelia, 1
+
+(2091) Myrmeciza maculifer maculifer
+Bagado, 1; Batido, 1; Novita, 6; Juntas de Tamana, 7; San Jose, 4 ; Los Cisneros, 6; Barbacoas, 6; Buenavista, Narino, 1
+
+(2091a) Myrmeciza maculifer cassini
+Rio Salaqui, 2; Alto Bonito, 9; Dabeiba, 1; Puerto Valdivia, 7; Malena, 1
+
+(20916) Myrmeciza immaculatus immaculatus
+La Frijolera, 2; Miraflores, 1; Fusugasuga, 1; Honda, 3; El Consuelo (above Honda, 3200 ft), 3
+
+(2091c) Myrmeciza immaculatus berlepschi
+Alto Bonito, 3; Bagado, 1; Baudo, 2; Novita, 5; Novita Trail (3500 ft), 1; Salencio, 1; San Jose, 5; Las Lomitas, 1; Barbacoas, 6; Buenavista, Narino, 1
+
+(2107) Myrmeciza longipes boucardi
+Vicinity of Honda, 9; El Consuelo (alt 3300 ft) above Honda, 1; Chicoral, 1; Andalucia (5000 ft), 1
+
+(21072) Myrmeciza longipes panamensis
+Algodonal, 1
+
+(2108) Myrmeciza laemosticta nigricauda
+San Jose, 2; Buenavista, 1; Puerto Valdivia, 4
+
+(2092) Gymnocichla nudiceps sanctaemartae
+Nare, 1
+
+(2104) Dichrozona cinctus
+Florencia, 2; La Morelia, 1
+
+(2121) Hypocnemis cantator peruviana
+La Morelia, 4
+
+(2124) Hypocnemis hypoxantha
+La Morelia, 1
+
+(2129) Myrmoborus leucophrys leucophrys
+Buena Vista, 5; Villavicencio, 7; La Morelia, 3
+
+(21814) Myrmoborus myiotherinus elegans
+La Morelia, 4; Florencia, 4
+
+(2128) Hylophylax lepidonata
+La Morelia, 3
+
+(2143) Hylophylax naevia theresae
+La Morelia, 7
+
+(2146) Hylophylax naevioides
+Baudo, 1; Upper Atrato, 1; Barbacoas, 6; Malena, 1
+
+(2150) Phenostictus macleannani macleannani
+Puerto Valdivia, 1; Barbacoas, 2
+
+(2152a) Rhopoterpe torquata torquata
+La Morelia, 2
+
+(2155a) Formicarius colma nigrifrons
+La Morelia, 3; Florencia, 1
+
+(21562) Formicarius analis connectens
+La Morelia, 3; Villavicencio, 3
+
+(2157) Formicarius nigricapillus destructus
+San Jose, 1
+
+(2159) Formicarius analis saturatus
+Upper Atrato, 1; Puerto Valdivia, 2; Rio Frio, 1; Malena, 3; Puerto Berrio, 2
+
+(21602) Formicarius rufipectus carrikeri
+La Frijolera, 1; Salencio (Novita Trail), 1; San Antonio, 3; Andes w of Popayan (alt 10340 ft), 1; Miraflores, 6; Salento, 1
+
+(2164) Chamaeza brevicauda columbiana
+Buena Vista, 9
+
+(2167) Chamaeza brevicauda (nobilis?)
+La Morelia, 3
+
+(2169) Chamaeza turdina
+Miraflores, 1; La Palma, 1; Andalucia (7000 ft), 1
+
+(2171) Chamaeza mollissima
+Almaguer, 1; Laguneta, 2
+
+(2173) Pittasoma rosenbergi
+Baudo (3500 ft), 1; Novita, 2; Noanama, 1
+
+(21732) Pittasoma harterti
+Barbacoas, 6
+
+(2175) Grallaria squamigera
+Laguneta, 2; Santa Isabel, 2
+
+(21782) Grallaria guatimalensis chocoensis
+Baudo (alt 3000 ft), Choco, 1
+
+(21822) Grallaria alleni
+Salento, 1
+
+(2187) Grallaria ruficeps
+Laguneta, 8; Almaguer, 5; El Pifion (above Fusugasuga), 1
+
+(2188) Grallaria rufocinerea
+Laguneta, 4; above Salento, 1
+
+(2189) Grallaria monticola
+Santa Isabel, 9; Valle de las Pappas, 7
+
+(21932) Grallaria milleri
+Laguneta, 7
+
+(2194) Grallaria hypoleuca
+San Agustin, 1; La Candela, 1; Fusugasuga, 4; Aguadita (6500 ft), above Fusugasuga, 2
+
+(2199) Grallaria ruficapilla ruficapilla
+San Antonio, 4; Cerro Munchique, 2; La Florida, 2; Cocal, 1; Ricaurte, 3; Miraflores, 2; Salento, 4; Rio Toche, 1; El Eden, 3; Fusugasuga, 1; El Roble, 2; El Pinon, 1
+
+(22022) Grallaria brevicauda minor
+La Morelia, 2; Florencia, 2
+
+(2204) Grallaria modesta
+Villavicencio, 1
+
+(2196) Oropezus rufula rufula
+Paramillo, 1; Andes west of Popayan (alt 10340 ft), 2; Laguneta, 1; Santa Isabel, 3; El Pifion, 1; Chipaque, 1
+
+(22062) Hylopezus dives barbacoae
+Alto Bonito, 4; San Jose, 1; Barbacoas, 4
+
+(2207) Hylopezus dives fulviventris
+La Morelia, 1
+
+(2212) Hylopezus perspicillata periopthalmica
+Baudo (3500 ft), 4; Barbacoas, 1
+
+(22124) Hylopezus perspicillata perspicillata
+Rio Salaqui, 1; Puerto Valdivia, 1
+
+(22134) Grallaricula costaricensis
+Cocal, 1; San Antonio, 1
+
+(2215) Grallaricula nana
+Laguneta, 1; above Salento, 1
+
+(2218) Grallaricula cucullata
+La Candela, 2
+
+(2240) Furnarius agnatus
+Turbaco, 2; Calamar, 2; Boca de Chimi, 1; Puerto Berrio, 1; Malena, 2
+
+(2255a) Upucerthia excelsior columbiana
+Paramo of Santa Isabel, 20
+
+(2280a) Lochmias sororia
+Miraflores, 2; Buena Vista, 1
+
+(2285) Schizoeaca fuliginosa
+Almaguer, 1; Santa Isabel, 4; Tocaimito above Bogota, 2; El Pifion, 1
+
+(2295) Leptasthenura andicola
+Paramo of Sta Isabel, 4
+
+(2305) Synallaxis azarae elegantior
+Chipaque, 6
+
+(23092) Synallazis azarae media
+Cerro Munchique, 6; Valle de las Pappas, 7; Miraflores, 4; Salento, 5; Laguneta, 3; Sta Elena, 3; Barro Blanco, 1; El Eden, 6; above Ibague (7000 ft), 1; La Candela, 2; La Palma, 3
+
+(2310) Synallaxis moesta moesta
+Buena Vista, 9; Villavicencio, 2
+
+(23102) Synallaxis moesta obscura
+La Morelia, 2
+
+(2317) Synallaxis albescens albigularis
+La Frijolera, 1; Caldas, 1; Cali, 3; La Manuelita, 4; Guengiie, 1; Rio Frio, 1; Calamar, 3; Puerto Berrio, 2; Fusugasuga, 1; Quetame, 2; Villavicencio, 4
+
+(2319) Synallaxis subpudica
+Bogota Savanna, 7
+
+(2320) Synallaxis pudica pudica
+Near San Agustin, 2; Andalucia (3000 ft), 6; Fusugasuga, 1; Anolaima, 1; La Frijolera, 1
+
+(2320a) Synallaxis pudica nigrifumosa
+Alto Bonito, 6; Dabeiba, 2; Iguamiando, Choco, 1; Bagado, 1; Choco, 1; Noanama, 2; Novita, 1; San Jose, 3; Los Cisneros, 2; Barbacoas, 4; Ricaurte, 2 
+
+(2320b) Synallaxis pudica caucae
+La Manuelita, 3; below Miraflores, 2; Cali, 1; Guengiie, 1
+
+(2321) Synallaxis gujanensis columbianus
+Buena Vista, 6; Villavicencio, 7
+
+(2332a) Synallaxis cinnamomea fuscifrons
+Bagado, 2; Atrato, 1; La Playa, 2; Calamar, 2
+
+(2335) Synallaxis unirufa
+San Antonio, 1; Andes w of Popayan (10,340 ft), 5; Cocal (6000 ft), 3; Cocal (4000 ft), 1; Fusugasuga, 2; El Roble, 4; El Pinon, 2
+
+(2338) Synallaxis candaei candaei
+La Playa, 2; Calamar, 1; Remolino, 1
+
+(2345) Synallaxis gularis gularis
+Paramillo, 1; Andes w of Popayan (10,340 ft), 4; Laguneta, 2; El Pinon, 1
+
+(2348a) Synallaxis rutilans caquetensis
+Florencia, 3
+
+(2358) Siptornis antisiensis
+La Candela, 1; El Roble, 1; Fusugasuga, 1
+
+(2366) Siptornis erythrops griseigularis
+San Antonio, 5; Gallera, 1; Ricaurte, 1
+
+(2367) Siptornis striaticollis
+La Palma, 1; Fusugasuga, 1
+
+(2401) Siptornis flammulata multostriata
+Choachi, 1
+
+(24012) Siptornis flammulata quindiana
+Paramo of Santa Isabel, 15
+
+(2408) Pseudocolaptes boissonneauti boissonneauti
+La Florida, 3; Cerro Munchique, 3; Andes w of Popayan (10,340 ft), 3; Almaguer, 2; Laguneta, 4; Santa Isabel (12,000 ft), 2; Sta Elena, 1; La Candela, 1; El Roble, 1
+
+(2437) Hyloctistes subulatus subulatus
+Florencia, 1
+
+(2438) Hyloctistes subulatus assimilis
+Juntas de Tamana, 1; Novita, 2; Barbacoas, 6; Buenavista, Narino, 1
+
+(2434) Automolus holostictus
+Salento, 1; Sta Elena, 5; above Ibagiie, 1; Choachi, 1
+
+(2435) Automolus ignobilis
+Cocal, 1; Cerro Munchique, 1
+
+(2436) Automolus melanorhynchus
+Buena Vista, 1
+
+(2441) Automolus ochrolaemus turdinus
+Buena Vista, 4; Villavicencio, 1
+
+(2445) Automolus dorsalis
+La Morelia, 2; Florencia, 1
+
+(2445a) Automolus pallidigularis pallidigularis
+Puerto, Valdivia, 2; Malena, 2; Honda, 1
+
+(2447) Automolus infuscatus infuscatus
+La Morelia, 3; Florencia, 2
+
+(2450) Automolus nigricauda saturatus
+Alto Bonito, 5
+
+(2454) Automolus cinnamomeigula
+La Morelia, 3
+
+(24636) Philydor rufipileatus consobrinus
+Villavicencio, 8
+
+(2464) Philydor pyrrhodes
+La Morelia, 1
+
+(2468) Philydor ruficaudatus
+La Morelia, 2
+
+(2478) Philydor montanus striaticollis
+Las Lomitas, 2; San Antonio, 4; Miraflores, 7; Salento, 2; La Sierra, 2; near San Agustin, 1; La Candela, 7; Fusugasug4, 1; Aguadita, 1; El Roble, 1
+
+(2477) Thripadectes flammulatus
+Laguneta, 2
+
+(2480) Thripadectes virgaticeps sclateri
+Ricuarte, 1; San Antonio, 3; Salencio, 1
+
+(2481) Ancistrops strigilatus
+La Morelia, 1
+
+(2487) Xenicopsis subalaris subalaris
+La Frijolera, 1; Salencio, 1; Las Lomitas, 2; San Antonio, 1; Cerro Munchique, 1; Gallera, 1; Miraflores, 2
+
+(2487a) Xenicopsis subalaris mentalis
+La Candela, 2; Fusugasug4, 1; Buena Vista, 1
+
+(2490) Xenops genibarbis littoralis
+Novita Trail (4000 ft), 1; Buenaventura, 1; Barbacoas, 1; Rio Frio, 2; Puerto Valdivia, 2; Malena, 1
+
+(2493) Xenops rutilus heterurus
+San Antonio, 1; Cerro Munchique, 1; Miraflores, 3; Salento, 2; Sta Elena, 3; Rio Toche, 2; San Agustin, 1; Fusugasuga, 2; El Roble, 2
+
+(2499) Sclerurus brunneus
+La Morelia, 4; Florencia, 1
+
+(2501) Sclerurus albigularis albigularis
+Buena Vista, 7
+
+(2504) Sclerurus mexicanus obscurior
+Puerto Valdivia, 1; La Frijolera, 1; San Antonio, 1; Buena Vista, 3
+
+(2508) Margarornis perlata
+Cerro Munchique, 8; Almaguer, 5; Valle de las Pappas, 6; Laguneta, 6; Santa Isabel, 5; El Pifion, 3
+
+(2509) Margarornis stellata
+Novita Trail (7000 ft), 1; San Antonio, 1
+
+(2511) Premnornis guttata
+San Antonio, 3; La Candela, 1; La Palma, 1; Aguadita, 2
+
+(2512) Premnoplex brunnescens brunnescens
+Las Lomitas, 1; San Antonio, 2; Cocal, 2; Cerro Munchique, 4; Gallera, 1; La Florida, 1; Miraflores, 2; Salento, 3; La Palma, 1; Aguadita, 1; Buena Vista, 5
+
+(2516) Glyphorhynchus cuneatus
+Villavicencio, 1
+
+(2517) Glyphorhynchus cuneatus castelnaudi
+Florencia, 4; La Morelia, 3
+
+(2517a) Glyphorhynchus cuneatus pectoralis
+Alto Bonito, 3; Choco, 1; Salaqui, 1; Noanam4, 1; San Jose, 2; Gallera, 2; Cocal, 1; Barbacoas, 4; Buenavista, Narifio, 2; Puerto Valdivia, 1
+
+(2519) Dendrocincla tyrannina tyrannina
+Cerro Munchique, 1; Almaguer, 1; Salento, 1; Laguneta, 1; El Eden, 1
+
+(2521) Dendrocincla lafresnayei lafresnayei
+Novita, 2; Baudo, 1; Barbacoas, 1; Puerto Valdivia, 1; Rio Frio, 2; Honda, 1
+
+(2526) Dendrocincla lafresnayei phaeochroa
+Villavicencio, 3
+
+(2539) Xiphorhynchus guttata guttatoides
+Florencia, 1
+
+(2542) Xiphorhynchus aequatorialis aequatorialis
+Near Quibdo, 1; Baudo, 1; San Jose, 1; Barbacoas, 4; Buenavista, Narino, 1; La Frijolera, 1
+
+(2543) Xiphorhynchus triangularis
+Las Lomitas, 3; San Antonio, 1; Cerro Munchique, 1; Cocal, 5; Miraflores, 3; Salento, 3; Laguneta, 1; El Eden, 1; La Candela, 13; La Palma, 3; near San Agustin, 1; Andalucia, 3; Fusugasuga, 2; Aguadita, 4; Anolaima, 1; Buena Vista, 3
+
+(2544) Xiphorhynchus lachrymosus lachrymosus
+Baudo, 1; Novita, 1; Novita Trail (2000 ft), 1; Noanama, 2; Dabeiba, 2; Alto Bonito, 5; San Jose, 1; Barbacoas, 4
+
+(2544a) Xiphorhynchus lachrymosus alarum
+Puerto Valdivia, 12
+
+(2545a) Xiphorhynchus nanus nanus
+Atrato River, 2; Rio Frio, 4; Manuelita, 1; Puerto Berrio, 2; Opon, 1; Honda, 1
+
+(2553) Xiphorhynchus insignis
+Florencia, 1; Buena Vista, 3
+
+(2559) Dendroplex picus picus
+Villavicencio, 3
+
+(2561) Dendroplex picus picirostris
+Turbaco, 1; R Atrato, 2; La Playa, 1; Magangiie, 1; Banco, 2; Puerto Berrio, 2; Malena, 2; Honda and vicinity, 4; Chicoral, 1
+
+(2570) Xiphocolaptes promeropirhynchus
+Salento, 2; Laguneta, 1; Rio Toche, 1; La Candela, 3; La Palma, 1; Fusugasuga, 2; Aguadita, 2; El Pifion, 2; Subia, 3
+
+(2586) Picolaptes lacrymiger lacrymiger
+Paramillo Trail, (10,000 ft), 1; Las Lomitas, 1; San Antonio, 7; Cerro Munchique, 3; Popayan, 1; La Sierra, 2; Almaguer, 3; Miraflores, 5; Salento, 3; Laguneta, 3; Sta Elena, 2; Rio Toche, 1; La Palma, 1; La Candela, 6; Andalucia (7000 ft), 1; Aguadita, 2; El Roble, 2
+
+(2589) Picolaptes warscewiczi
+Ricaurte, 1
+
+(2594) Picolaptes albolineatus
+R Salaqui, 1; Tumaco, 3; Barbacoas, 5; Puerto Valdivia, 2; Rio Frio, 1; Cali, 1; Honda, 4; Buena Vista, 1; Villavicencio, 4
+
+(2605) Campylorhamphus trochilirostris procurvoides
+La Morelia, 1
+
+(2606) Campylorhamphus trochilirostris venezuelensis
+Alto Bonito, 1; Villavicencio, 1
+
+(2607) Campylorhamphus thoracicus
+Buenavista, Narino, 1
+
+(2607a) Campylorhamphus pusillus
+San Antonio, 1; Cocal, 1; Barbacoas, 2; Miraflores, 2; Fusugasuga, 1
+
+(2611) Campylorhamphus pucherani
+Cocal, 1
+
+(2616) Dendrocolaptes validus validus
+Cerro Munchique, 1; Miraflores, 1; Salento, 2; La Candela, 3; Aguadita, 1; Villavicencio, 1; Florencia, 1
+
+(2618) Dendrocolaptes sancti-thomae sancti-thomae
+Puerto Valdivia, 2
+
+(2619) Dexdrocolaptes sancti-thomae radiolatus
+Florencia, 1
+
+(2637) Orodynastes striaticollis striaticollis
+Paramillo, 1; Santa Isabel, 1; Fomeque, 1
+
+(2647) Ochthodiaeta fumigata
+Andes w of Popayan (alt 10340 ft), 1; Almaguer, 1; Laguneta, 5; Santa Isabel, 2; Choachi, 3
+
+(2652) Ochthoeca oenanthoides fumicolor
+Choachi, 2; Chipaque, 12; El Pifion, 2; Palo Hueco, 1; La Mar, 2; La Pradera, 1
+
+(2654) Ochthoeca oenanthoides brunneifrons
+Paramillo, 17; Andes w of Popayan, 1; Valle de las Pappas, 7; Santa Isabel, 13; Sta Elena, 4
+
+(2661) Ochthoeca albidiedema
+Tocaimito, 1
+
+(2662) Ochthoeca frontalis
+Sta Isabel, 3
+
+(2667) Ochthoeca lessoni
+Paramillo Trail (10,000 ft), 1; Andes, west of Popayan, 10; Laguneta, 15; Almaguer, 3; Valle de las Pappas, 1; Palo Hueco, Cundinamarca, 1
+
+(2669) Ochthoeca cinnamomeiventris
+Novita Trail (alt 6000 ft), 1; Cerro Munchique, 3; Salento, 1; Rio Toche, 1; La Palma, 4; Aguadita, 2; Chipaque, (alt 8500 ft), 3
+
+(2675) Ochthoeca gratiosa gratiosa
+Cerro Munchique, 2; Andes w of Popayan, 1; Coca], 3; Almaguer, 2; Laguneta, 4; Sta Elena, 1
+
+(2678) Mecocerculus leucophrys setophagoides
+Paramillo, 4; Andes west of Popayan, 7; Valle de las Pappas, 7; Lagunneta, 3; Santa Isabel, 12; El Pifion, 5; Chipaque, 13
+
+(2679) Mecocerculus stictopterus
+Andes w of Popayan, 3; Almaguer, 5; Laguneta, 4; Santa Isabel, 1
+
+(2682) Mecocerculus poecilocercus
+Cerro Munchique, 2; Salento, 1; El Eden, 1; Aguadita, 1; El Roble, 3
+
+(2685) Ochthornis littoralis
+La Morelia, 2
+
+(2686) Fluvicola pica
+Turbaco, 2; Cali, 12; La Manuelita, 3; Rio Frio, 1; Honda, 1; Calamar, 1; La Playa, 1
+
+(2690) Arundinicola leucocephala
+Turbaco, 2; Calamar, 1
+
+(2714) Copurus colonus fuscicapillus
+Buena Vista, 3; Villavicencio, 4
+
+(2715) Copurus leuconotus
+Alto Bonito, 3; Novita, 2; Noanama, 1; San Jose, 4; Los Cisneros, 3; Cerro Munchique (alt 6000 ft), 2; Barbacoas, 4; Buenavista, Narifio, 1; Puerto Valdivia, 1; Puerto Berrio, 1; Honda, 5
+
+(2717) Machetornis rixosus flavigularis
+La Playa, 3; lower Magdalena, 1; Villavicencio, 1
+
+(2719a) Muscisaxicola alpina columbiana
+Santa Isabel, 5
+
+(2746) Platytriccus flavigularis
+La Candela, 5
+
+(2751) Platytriccus albogularis
+Las Lomitas, 2; La Manuelita, 1; Rio Frio, 1; La Candela, 1
+
+(2752) Placostomus coronatus
+La Morelia, 2
+
+(2755) Craspedoprion aequinoctialis
+La Morelia, 3; Florencia, 1
+
+(2755a) Craspedoprion pacificus
+Alto Bonito, 2; Juntas de Tamana, 1; Choco, 1; Novita, 1; Barbacoas, 2
+
+(2756) Craspedoprion fulvipectus
+Ricaurte, 3; Cerro Munchique (6000 ft), 1; Andalucia, 2; Aguadita, 1
+
+(2757) Rhynchocyclus sulphurescens asemus
+Dabeiba, 1; Puerto Valdivia, 1; Rio Frio, 1; Cali, 1; Miraflores, 1
+
+(2759) Rhynchocyclus sulphurescens assimilis
+Villavicencio, 2; Buena Vista, 2; Florencia, 1
+
+(2760) Rhynchocyclus sulphurescens exortivus
+Opon, 1; Malena, 1; Chicoral, 1
+
+(2764a) Rhynchocyclus marginatus marginatus
+Puerto Valdivia, 1; Novita, 1; Barbacoas, 1; Buenavista, Narifio, 1
+
+(2768) Rhynchocyclus viridiceps
+Florencia, 1
+
+(2770) Rhynchocyclus flaviventris aurulentus
+Varrud, 1
+
+(2770a) Rhynchocyclus klagesi
+La Morelia, 2; Florencia, 3
+
+(2773) Todirostrum cinereum cinereum
+Turbaco, 1; Dabeiba, 5; Alto Bonito, 3; Peque, 1; Bagado, 1; Juntas de Tamana, 1; San Jose, 1; Caldas, 1; Las Lomitas, 1; Puerto Valdivia, 2; Cali, 5; Rio Frio, 1; below Miraflores, (6300 ft), 1; below Andalucia (3000 ft), 4; Fusugasuga, 2; Chicoral, 2; Honda, 4; Malena, 1; Calamar, 3; Villavicencio, 1
+
+(2775) Todirostrum sclateri
+Tumaco, 2; Barbacoas, 3; Buenavista, Narino, 1
+
+(2779) Todirostrum nigriceps
+Malena (near Puerto Berrio), 1
+
+(2787) Todirostrum schistaceiceps superciliare
+Los Cisneros, 1; La Manuelita, 1; Rio Frio, 1; Puerto Berrio, 2; Honda, 2; Chicoral, 1; Villavicencio, 1
+
+(2793) Todirostrum latirostre
+Florencia, 2
+
+(2794) Pescilotriccus ruficeps ruficeps
+Salento, 3; Sta Elena, 1; Rio Toche, 1; El Eden, 6
+
+(2795) Pcecilotriccus ruficeps rufigene
+Cerro Munchique, 3; La Palma, 2
+
+(2800) Euscarthmus striaticollis zosterops
+Florencia, 2
+
+(2812) Euscarthmus granadensis
+Salencio, 1; Andes w of Popayan, 2; Cocal (6000 ft), 3; Almaguer, 3; Laguneta, 3; Sta Elena, 2
+
+(28142) Euscarthmus septentrionalis
+Honda, 2
+
+(2818) Pseudotriccus pelzelni pelzelni
+Buena Vista, 1
+
+(2819) Pseudotriccus annectens
+Cerro Munchique, 2; Cocal, 2
+
+(2820) Caenotriccus ruficeps ruficeps
+Cocal (alt 6000 ft), 3; Andes w of Popayan, 5; Almaguer, 1; above Salento (9000 ft), 1; Salento, 2; Santa Isabel, 1
+
+(2824) Lophotriccus spicifer
+La Morelia, 1
+
+(2825) Lophotriccus squamaecristatus squamaecristatus
+La Frijolera, 1; Salencio, 2; Las Lomitas, 5; San Antonio, 1; Miraflores, 2; La Candela, 1; near San Agustin, 1; Fusugasuga, 1; Buena Vista, 4
+
+(2825a) Lophotriccus squamaecristatus minor
+Ricaurte, 1; Barbacoas, 2
+
+(28292) Orchilus atricapillus
+Alto Bonito, 1; Novita, 1; San Jose, 1; Barbacoas, 1
+
+(2831) Atalotriccus pilaris pilaris
+La Playa, 1; Honda, 2; Chicoral, 1
+
+(2843) Hapalocercus meloryphus
+Chicoral, 1
+
+(2847) Hapalocercus acutipennis
+Salento, 1
+
+(2852a) Habrura pectoralis bogotensis
+Sabana de Bogota, 1
+
+(2858) Pogonotriccus poecilotis
+San Antonio, 2; Cerro Munchique, 2; Miraflores, 1; Salento, 3; Rio Toche, 1; La Candela, 2; Aguadita, 1
+
+(2860) Pogonotriccus opthalmicus
+Salencio, 1; Las Lomitas, 3; San Antonio, 1; Cerro Munchique, 1; Gallera, 3; Salento, 2; Rio Toche, 1
+
+(2863) Oreotriccus plumbeiceps
+Las Lomitas, 1; San Antonio, 1; Gallera, 1; Miraflores, 1; Salento, 1; La Candela, 2
+
+(2872) Serpophaga cinerea cana
+San Jose, 2; Caldas, 2; Ricaurte, 1; Miraflores, 1; Salento, 5; Rio Toche, 3; Andalucia (3000 ft), 6; near San Agustin, 2; Aguadita, 2; Quetame, 2
+
+(2877a) Inezia caudata intermedia
+Algodonal, 1
+
+(2880) Anaeretes parulus aequatorialis
+La Sierra, 1; Valle de las Pappas, 2
+
+(2885) Anaeretes agilis
+Valle de las Pappas, 1; Paramo of Choachi, 1
+
+(2888a) Mionectes striaticollis poliocephalus
+San Antonio, 1; Cerro Munchique, 1; La Manuelita, 1; Salento, 2; Sta Elena, 1; La Candela, 4; near San Agustin, 1; Fusugasuga, 2
+
+(2890) Mionectes olivaceus hederaceus
+Novita Trail (1800 ft, w slope), 1; Juntas de Taman4, 1; San Jose, 2; Los Cisneros, 1; Las Lomitas, 1; Cocal, 1; Barbacoas, 5; Puerto Valdivia, 1
+
+(28902) Mionectes olivaceus pallidus
+Buena Vista, 2
+
+(2892) Pipromorpha oleaginea oleaginea
+Villavicencio, 2; Florencia, 2
+
+(2892a) Pipromorpha oleaginea parca
+Puerto Valdivia, 2; Honda, 1; Chicoral, 2; Andalucia, 1
+
+(2896) Leptopogon superciliaris poliocephalus
+Alto Bonito, 1; Dabeiba, 2; Peque, 1; Cocal, 1; Miraflores, 2; Buena Vista, 2; Villavicencio, 2
+
+(2899) Leptopogon amaurocephalus
+Chicoral, 1; Villavicencio, 1
+
+(2901) Leptopogon erythrops
+Salento, 3; Sta Elena, 2; La Palma, 6; La Candela, 3; Aguadita, (above Fusugasuga), 4
+
+(2905) Capsiempis flaveola leucophrys
+Chicoral, 2
+
+(2910) Phyllomyias griseiceps griseiceps
+Bogota region, 1
+
+(29102) Phyllomyias griseiceps caucae
+Miraflores, 2
+
+(2916) Acrochordopus zeledoni
+Buena Vista, 1
+
+(2918) Phaeomyias murina incomta
+Cisneros, 1; Cali, 5; Calamar, 2; Chicoral, 1; Honda, 3; Fusugasuga, 1; Villavicencio, 1
+
+(2922) Camptostoma pusillum pusillum
+R Atrato, 1; Banco, 1; Carpintero, 1; Algodonal, 1; Chicoral, 1
+
+(2923) Camptostoma pusillum napaeuum
+Villavicencio, 1
+
+(29232) Camptostoma caucae
+Rio Frio, 2; Miraflores, 2
+
+(2926a) Microtriccus brunneicapillus brunneicapililus
+Alto Bonito, 1; Buenaventura, 1; Puerto Berrio, 1
+
+(29272) Tyrannulus elatus reguloides
+Quibdo, 1; Buenaventura, 1; Barbacoas, 4; Puerto Valdivia, 1; Cali, 2; Rio Frio, 1; Calamar, 1; Honda, 1; La Morelia, 1
+
+(2929) Mecocerculus uropygialis
+Choachi, 1
+
+(2928) Tyranniscus nigricapillus nigricapillus
+Andes w of Popayan, 1; Almaguer, 1; Salento, 1; Sta Elena, 1
+
+(2930) Tyranniscus cinereiceps
+Below Salento, 1; above Salento, 1; Sta Elena, 1; El Eden, 1
+
+(2937) Tyranniscus chrysops chrysops
+Los Cisneros, 1; Puerto Valdivia, 1; Las Lomitas, 2; San Antonio, 7; Gallera, 1; Ricaurte, 3; Rio Frio, 1; La Sierra, 4; Miraflores, 2; Sta Elena, 10; near San Agustin, 1; La Palma, 1; Fusugasuga, 3; Aguadita, 3; Honda, 2; Buena Vista, 3; Villavicencio, 1
+
+(2938) Elaenia flavogaster flavogaster
+Barbacoas, 2; Los Cisneros, 1; Caldas, 1; Las Lomitas, 2; San Antonio, 1; Cali, 3; Rio Frio, 1; Popayan, 1; Miraflores, 1; La Palma, 1; w slope below Andalucia, 2; Chicoral, 1; Honda, 3; Remedios, 1; Calamar, 1; Boca de Chimi, 1; Quetame, 5
+
+(2942) Elaenia gigas
+La Morelia, 1; Villavicencio, 2
+
+(2947) Elaenia chiriquensis chiriquensis
+San Antonio, 2; La Florida, 1; Miraflores, 1; near San Agustin, 11; La Candela, 1; Andalucia (7000 ft), 1; Fusugasuga, 1; Monteredondo (near Quetame), 1
+
+(2951) Elaenia pudica brachyptera
+Andes w of Popayan, 1; Cerro Munchique, 6; Florida, 1; Ricaurte, 2; La Sierra, 2
+
+(2955) Elaenia parvirostris
+Florencia, 5
+
+(2957) Elaenia pudica pudica
+Barro Blanco, 4; Salento, 1; Laguneta, 1; Rio Toche, 2; Fusugasuga, 3; Sta Elena, 10; Choachi, 4; Subia, 2; La Pradera, 1
+
+(2965a) Myiopagis viridicata accola
+Los Cisneros, 3; Caldas, 2; Jiminez, 5; Pavas, 1; Rio Frio, 2
+
+(2966) Myiopagis viridicata pallens
+Honda, 3
+
+(2977) Legatus albicollis
+Los Cisneros, 1; Las Lomitas, 1; San Antonio, 6; Cunday, Bogota region, 1
+
+(2978) Sublegatus glaber
+La Playa, 2; Algodonal, 1
+
+(2981) Myiozetetes cayanensis cayanensis
+Dabeiba, 3; Quibdo, 2; Bagado, 4; Andagueda, 2; Baudo, 1; Juntas de Taman4, 1; Novita, 2; San Jose, 2; Tumaco, 3; Barbacoas, 1; Puerto Valdivia, 3; Caldas, 2; San Antonio, 2; Cali, 1; Rio Frio, 1; Miraflores, 1; San Agustin, 3; w slope below Andalucia (alt 3000 ft), 2; Fusugasug4, 1; Honda, 2; Puerto Berrio, 4
+
+(2983) Myiozetetes similis columbianus
+Remedios, lower Magdalena, 1; Chicoral, 2; w slope below Andalucia (alt 3000 ft), 1
+
+(2983a) Myiozetetes granadensis
+Alto Bonito, 2; Bagado, 1; San Jose, 1; Barbacoas, 1; Calamar, 1; Villavicencio, 1
+
+(2984) Myiozetetes similis connivens
+La Morelia, 1; Buena Vista, 1; Villavicencio, 3
+
+(2990) Conopias cinchoneti
+La Frijolera, 1; Rio Lima, 1; Miraflores, 1; Aguadita, 1
+
+(2991) Pitangus sulphuratus rufipennis
+La Playa, 2; Calamar, 4; Honda, 2; Chicoral, 1; w slope below Andalucia (alt 3000 ft), 1
+
+(2992) Pitangus sulphuratus
+Villavicencio, 2
+
+(2992a) Pitangus sulphuratus caucensis
+Cali, 6; Florida, 1; Rio Frio, 1
+
+(2996) Pitangus lictor
+Boca de Chimi, lower Magdalena, 1
+
+(3001) Sirystes albocinereus
+Barrigon, 1
+
+(3003) Myiodynastes maculatus nobilis
+Alto Bonito, 1; Dabeiba, 3; Puerto Valdivia, 3; La Manuelita, 2; Chicoral, 3; Puerto Berrio, 2; Malena, 1; Calamar, 2
+
+(3005a) Myiodynastes luteiventris
+Chicoral, 1
+
+(3007) Myiodynastes chrysocephalus minor
+La Frijolera, 2; Las Lomitas, 21; San Antonio, 3; Miraflores, 1; Salento, 3; near San Agustin, 3; La Palma, 2; Andalucia (3000 ft), 3; Buena Vista (above Villavicencio), 1
+
+(3006) Megarhynchus pitangua
+Chicoral, 1
+
+(3008a) Onychorhynchus coronatus castelnaudi
+Villavicencio, 1
+
+(3013) Hirundinea sclateri
+between Quetame and Buena Vista, 2
+
+(3016) Cnipodectes minor
+La Morelia, 2
+
+(3017) Myiobius barbatus barbatus
+Florencia, 3; La Morelia, 1
+
+(3018) Myiobius barbatus atricaudus
+Dabeiba, 1; Caldas, 2; Barbacoas, 3; Rio Frio, 1; Malena, 1
+
+(3020) Myiobius villosus
+Cocal, 1; Ricaurte, 3
+
+(3020a) Myiobius sulphureipygius aureatus
+Alto Bonito, 4; Choco, 3; Baudo, 2; Novita, 2; Juntas de Tamana, 2; San Jose, 1; Barbacoas, 2
+
+(3022a) Myiobius cinnamomeus pyrrhopterus
+San Antonio, 6; Cerro Munchique, 7; Crest of Andes, w of Popayan, 1; Cocal, 3; Almaguer, 2; Miraflores, 1; Salento, 5; Sta Elena, 5; Laguneta, 1; Rio Toche, 1; El Eden, 1; La Palma, 8; La Candela, 3; Andalucia, 1; Aguadita, 3; El Roble, 4; Chipaque (8500 ft), 1
+
+(3033) Myiobius flavicans
+San Antonio, 2; Cerro Munchique, 2; La Florida, 1; Cocal, 1; Gallera, 1; Salento, 3; Sta Elena, 5; Tochecito, 1; Rio Toche, 1; El Eden, 4; Fusugasuga, 1; El Roble, 2 
+
+(3035) Myiobius litae
+Novita Trail, 1
+
+(3037) Myiobius pulcher pulcher
+Gallera, 1; Cocal, 2
+
+(3038) Myiobius pulcher bellus
+Aguadita, 2; El Roble, 2
+
+(3040) Myiobius fasciatus fasciatus
+Caldas, 2; Las Lomitas, 2; San Antonio, 1; Salento, 1; Andalucia (w slope, 5000 ft), 1; Honda, 1; Quetame, 1
+
+(3026) Terenotriccus erythrurus fulvigularis
+Alto Bonito, 2; San Jose, 2; Puerto Valdivia, 2
+
+(3029) Myiotriccus ornatus ornatus
+La Frijolera, 4; Fusugasuga, 4; Subia, 1; west of Honda, 1
+
+(3030) Myiotriccus ornatus stellatus
+Choco (probably either Bagado or Andagueda), 1; Novita Trail (alt 4000 ft), 1; Gallera, 2; Cocal, 2; Buenavista, Narino, 6
+
+(3031) Myiotriccus phoenicurus
+eastern slope of the Eastern Andes (alt 2500 ft )s below Andalucia, 1
+
+(3044) Pyrocephalus pyrocephalus rubinus
+La Morelia, 1
+
+(3046) Pyrocephalus rubinus heterurus
+Tumaco, 5; Caldas, 3; San Antonio, 1; Cali, 9; La Manuelita, 2; Miraflores, 1; Popayan, 1; w slope (alt 3000 ft) below Andalucia, 2; Chicoral, 2; Honda, 1
+
+(3050) Empidochanes cabanisi
+Boca de Chimi, lower Magdalena, 1
+
+(3051) Empidochanes poecilurus
+Andes west of Popayan, 1; Santa Elena, 1; La Candela, 1; La Palma, 2; near San Agustin, 1
+
+(30572) Mitrephanes berlepschi eminulus
+Monquido, Choco, 1; Alto Bonito, 1
+
+(3058) Sayornis nigricans cineracea
+San Jose, 1; Los Cisneros, 2; Caldas, 1; Salento, 2; Rio Toche, 4; near San Agustin, 1; w slope below Andalucia (alt 3000 ft), 8; Quetame, 7
+
+(3066) Empidonax virescens
+Juntas de Tamana, 2; Los Cisneros, 1; Las Lomitas, 3; San Antonio, 2; Rio Frio, 1; Puerto Valdivia, 1
+
+(3064a) Empidonax trailli alnorum
+Dabeiba, 1; Turbaco, 1; Calamar, 2; Puerto Berrio, 1; Honda, 3
+
+(8069) Myiochanes ardosiacus ardosiacus
+Paramillo Trail (10,000 ft), 1; San Antonio, 2; Cerro Munchique, 1; Gallera, 1; Ricaurte, 2; Buenavista, Narifio, 1; Salento, 1; Rio Toche, 1; La Palma, 1; near San Agustin, 2; La Candela, 2; Fusugasuga, 4; Aguadita, 3; El Roble, 1; Palo Hueco, 1
+
+(3071) Myiochanes virens
+Dabeiba, 1; San Agustin, 1; Villavicencio, 2
+
+(3072) Myiochanes richardsoni
+Choco, 1; Buenavista, Narifio, 1; near San Agustin, 1; Buena Vista (above Villavicencio), 2
+
+(3072a) Myiochanes brachytarsus
+El Consuelo above Honda, 1
+
+(3079) Myiarchus crinitus (Linn)
+Noanama, 1; Puerto Valdivia, 3; La Manuelita, 1;
+
+(3080) Myiarchus tyrannulus tyrannulus
+La Playa, 1
+
+(3085a) Myiarchus fortirostris
+Florencia, 1
+
+(3086) Myiarchus (ferox?) venezuelensis
+Vilavicencio, 5; La Morelia, 2; Florencia, 1
+
+(3087) Myiarchus (ferox?) panamensis
+Tumaco, 2; Bagado, 1; Malena, 1; Puerto Berrio, 2; Chicoral, 1; Turbaco, 1
+
+(3088) Myiarchus cephalotes
+Cerro Munchique, 1; Miraflores, 3; Salento, 4; Sta Elena, 2; Rio Toche, 1; El Eden, 2; La Candela, 1; La Palma, 1
+
+(3092) Myiarchus apicalis
+Caldas, 1; Las Lomitas, 2; San Antonio, 3; Cali, 2; Chicoral, 1; Honda, 4; El Consuelo (above Honda), 1
+
+(3093) Myiarchus tuberculifer nigriceps
+Alto Bonito, 2; Dabeiba, 3; Juntas de Tamana, 1; San Jose, 3; Rio Frio, 2; Cali, 1; w slope below Andalucia (alt 3000 ft), 3
+
+(3093a) Myiarchus tuberculifer tuberculifer
+Buena Vista, 2
+
+(3100) Tyrannus tyrannus
+Miraflores, 1; San Agustin, 1; Susumuco, 1
+
+(3101) Tyrannus niveigularis
+Ricaurte, 1
+
+(3102) Tyrannus dominicensis
+Noanama, 2; Banco, 2; Varrud, 2
+
+(3104) Tyrannus melancholicus satrapa
+Dabeiba, 1; Bagado, 1; Quibdo, 2; Novita, 1; Noanama, 1; San Jose, 3; Caldas, 1; Las Lomitas, 2; Ricaurte, 4; Tumaco, 2; Puerto Valdivia, 1; San Antonio, 2; Munchique, 1; Cali, 2; Guengiie, 1; La Manuelita, 2; Rio Frio, 1; Salento, 2; Sta Elena, 2; Barro Blanco, 4; La Sierra, 1; San Agustin, 2; Andalucia (3000 ft), 2; Chicoral, 1; Honda, 1; Calamar, 2; La Playa, 2; Turbaco, 1; Aguadita, 1; Bogota Savanna, 2; Subia, 2; La Olanda, 3; Quetame, 1; Florencia, 2
+
+(3107) Muscivora tyrannus
+Turbaco, 1; Caldas, 1; Cali, 6; La Manuelita, 2; Barro Blanco, 4; Chicoral, 1
+
+(3116) Pipra erythrocephala erythrocephala
+R Salaqui, 1; Los Cisneros, 1; Puerto Valdivia, 6; Rio Frio, 1; west of Honda, 3
+
+(3116a) Pipra erythrocephala berlepschi
+Florencia, 3; La Morelia, 2; Buena Vista, 4; Villavicencio, 1
+
+(3118) Pipra mentalis minor
+Baudo (3000 ft), 1; Noanama, 2; Novita, 1; San Jose, 1; Barbacoas, 4
+
+(3120a) Pipra leucocilla minimus
+Cocal, 3
+
+(3122) Pipra leucocilla coracina
+Buena Vista, 7; Andalucia, 1
+
+(3124) Pipra isadorei isadorei
+Buena Vista, 2
+
+(3127) Pipra velutina
+Alto Bonito, 5; Bagado, 5; Andagueda, 1; Juntas de Tamana, 1; Novita, 5; Noanama, 1; San Jose, 4; Buenaventura, 1; Barbacoas, 6; Puerto Valdivia, 5
+
+(3128) Pipra coronata
+Florencia, 15; La Morelia, 12
+
+(3138) Cirrhipipra filicauda
+La Morelia, 2; Florencia, 1
+
+(3141) Machaeropterus striolatus
+Alto Bonito, 1; Puerto Valdivia, 2; La Frijolera, 1; w of Honda, 1; Florencia, 5; La Morelia, 1
+
+(8148) Allocopterus deliciosus
+Cocal, 1; Buenavista, Narifio, 9
+
+(3144) Chloropipo flavicapilla
+San Antonio, 1
+
+(3146) Chloropipo holochlora holochlora
+Florencia, 1; Villavicencio, 2
+
+(8147) Chloropipo holochlora litae
+Baudo, 1; San Jose, 2; Barbacoas, 2
+
+(3151) Piprites tschudi
+La Frijolera, 1
+
+(3156) Masius chrysopterus
+La Candela, 5; Fusugasuga, 4; Aguadita, 4
+
+(3158) Masius corunulatus
+Las Lomitas, 4; San Antonio, 1; Cocal, 2; Gallera, 3; Buenavista, Narino, 4; La Frijolera, 1
+
+(3162) Chiroxiphia pareola napensis
+La Morelia, 2
+
+(3170) Corapipo leucorrhoa
+San Antonio, 1; Honda, 1; El Consuelo, 1
+
+(3170a) Corapipo altera altera
+Baudo Mts, 2
+
+(3174) Manacus manacus abditivus
+Puerto Valdivia, 1; vicinity of Medellin, 2; Malena, 1
+
+(3174a) Manacus manacus interior
+Villavicencio, 3
+
+(31746) Manacus manacus bangsi
+Barbacoas, 7
+
+(3176) Manacus manacus flaveolus
+Honda, 2; west of Honda, 8; Chicoral, 6
+
+(3177) Manacus vitellinus vitellinus
+Alto Bonito, 5; Dabeiba, 6; Quibdo, 1; Juntas de Tamana, 2; Novita, 2; Noanam4, 1; Buenaventura, 1; San Jose, 6; Cisneros, 7; Rio Frio, 2; Guengiie, 1; Cauca Seca (Batty), 3
+
+(31774) Manacus vitellinus milleri
+Puerto Valdivia, 12
+
+(8186) Scotothorus turdinus rosenbergi
+Choco, 2; Novita Trail, 1; Barbacoas, 2
+
+(3187) Scotothorus turdinus stenorhynchus
+El Consuelo, 3
+
+(3193) Sapayoa aenigma
+Baudo (alt 3500 ft), 1; Noanama, 1; Barbacoas, 4
+
+(8200) Tityra cayana
+Florencia, 2; Villavicencio, 1
+
+(3202) Tityra semifasciata semifasciata
+Buena Vista, 2
+
+(3202a) Tityra semifasciata columbiana
+Novita, 1; Dabeiba, 1; Puerto Valdivia, 3
+
+(82026) Tityra semifasciata esmeraldae
+Barbacoas, 1
+
+(8209) Tityra buckleyi
+Florencia, 2
+
+(8213) Platypsaris homochrous homochrous
+Novita, 1
+
+(3214) Platypsaris minor
+La Morelia, 2; Florencia, 1
+
+(3218) Pachyrhamphus versicolor
+San Antonio, 6; Cerro Munchique, 3; Miraflores, 2; El Eden, 1; Aguadita, 1; El Roble, 2
+
+(3221) Pachyrhamphus rufus
+Rio Lima, 1
+
+(3223) Pachyrhamphus cinnamomeus
+Alto Bonito, 5; Juntas de Tamana, 1; Novita, 2; Noanama, 2; Buenaventura, 1; San Jose, 4; Los Cisneros, 1; Barbacoas, 7; Puerto Valdivia, 5; Malena, 1; west of Honda, 1; Buena Vista, 1
+
+(8223a) Pachyrhamphus magdalenae
+Algodonal, 1
+
+(8223A) Pachyrhamphus sp
+Cali, 1
+
+(8224a) Pachyrhamphus castaneus saturatus
+La Morelia, 1
+
+(8226) Pachyrhamphus polychropterus niger
+La Morelia, 1; Florencia, 1
+
+(8232) Pachyrhamphus atricapillus
+La Morelia, 1
+
+(3234) Pachyrhamphus dorsalis
+San Antonio, 3; W Andes above Cali, 3; Ricaurte, 5; Aguadita (above Fusugasuga), 3
+
+(3236) Lathria fuscocinerea fuscocinerea
+Paramillo Trail (10,000 ft), 1; above Salento (9000 ft), 2; Laguneta, 1; El Roble (8300 ft), 4; Subia, 1
+
+(3238) Lathria cinerea
+Florencia, 6
+
+(8240) Lathria unirufa castaneotincta
+Atrato River, 1; Baudo, 3; Noanama, 1; Novita, 4; Barbacoas, 2; Puerto Valdivia, 2
+
+(8242) Lathria cryptolopha
+Andalucia, 1
+
+(3246) Lipaugus simplex
+Florencia, 1
+
+(3247a) Lipaugus holerythrus holerythrus
+Alto Bonito, 3; Puerto Valdivia, 3
+
+(3248) Lipaugus holerythrus rosenbergi
+Los Cisneros, 1
+
+(3250) Attila brasiliensis parambae
+Gallera, 3
+
+(3250a) Attila citreopygus citreopygus
+Rio Salaqui,1; Puerto Berrio, 1
+
+(3270a) Rupicola peruviana aurea
+Salento, 4; La Palma, 9; Andalucia, 1; near San Agustin, 15; Buena Vista, 2; Barrigon, 1
+
+(3272) Rupicola peruviana sanguinolenta
+Novita Trail (6000 ft), 1; San Antonio, 1; Munchique, (7000 ft), 1; La Florida, 4; Gallera, 1; Cocal, 4
+
+(3277) Euchlornis arcuata
+Laguneta, 1
+
+(3278) Stictornis cinctus
+Las Lomitas, 1; San Antonio, 1; Cocal, 1; Andalucia (7000 ft), 2
+
+(3279) Euchlornis riefferi riefferi
+Sta Elena, 6; El Eden, 2; Fusugasuga, 3; El Roble, 5; Subia, 6
+
+(3279a) Euchlornis riefferi occidentalis
+San Antonio, 15; Cerro Munchique, 6; La Florida, 3; Cocal, 2; Almaguer, 1; Salento, 1
+
+(8287) Euchlornis lubomirski
+La Candela, 1
+
+(3288) Euchlornis jucunda
+Buenavista, Narino, 1
+
+(3294) Cotinga nattereri
+Iguamiando, Choco, 4; Noanama, 4; Barbacoas, 3; Puerto Valdivia, 1
+
+(3300) Carpodectes hopkei
+Iguamiando, Choco, 5
+
+(3302) Heliochera rubrocristata
+Paramillo, 6; Coast range w of Popayan (alt 10,340 ft), 1; Valle de las Pappas, 5; Laguneta, 6; Santa Isabel, 2; El Pinon, 2
+
+(8303) Hoeliochera rufaxilla
+San Antonio, 1; Cerro Munchique, 2; Sta Elena, 2
+
+(3310) Querula purpurata
+Salaqui, Choco, 3; Alto Bonito, 1; Novita, 3; Buenaventura, 3; San Jose, 4; Barbacoas, 6; Puerto Valdivia, 4; Puerto Berrio, 1; La Morelia, 4
+
+(3312) Pyroderus scutatus granadensis
+La Palma, 1; San Agustin, 1; near Fusugasuga, 1
+
+(3313a) Pyroderus scutatus occidentalis
+Las Lomitas, 1; San Antonio, 8; Rio Lima (alt 5000 ft, Batty), 4; Cerro Munchique, 1; Gallera, 1; La Florida, 2; Miraflores, 2; Salento, 4; La Frijolera,1
+
+(3315) Cephalopterus ornatus
+Florencia, 1; Buena Vista, 2
+
+(3316) Cephalopterus penduliger
+Los Tambos, 4
+
+(8226) Riparia riparia
+Cali, 1
+
+(8327) Iridoprocne albiventris
+La Playa, 7; La Morelia, 12
+
+(3331) Hirundo erythrogaster
+Quibdo, 1; Juntas de Tamana, 1; La Olanda, 1
+
+(8335) Progne chalybea chalybea
+Cali, 2; Malena, 3; Algodonal, Magdalena River, 1; Florencia, 2
+
+(33362) Phaeoprogne tapera immaculata
+Bogota, 1; Lower Magdalena, 2; Chicoral, 3
+
+(3337) Atticora fasciata
+La Morelia, 4
+
+(8338) Orochelidon murina
+Paramillo, 2; El Pifion, 8; La Herrera, 1; Puente Andalucia, 1; Suba, 1
+
+(3340) Neochelidon tibialis
+Juntas de Tamand, 1; San Jose, 3
+
+(3342) Pygochelidon cyanoleuca
+Caldas, 5; San Antonio, 4; Popayan, 1; Cerro Munchique, 1; Gallera, 2; Ricaurte, 3; Salento, 2; Sta Elena, 2; Barro Blanco, 1; Rio Toche, 2; El Eden, 3; La Palma, 1; El Carmen, Bogota region, 1
+
+(3347) Stelgidopteryx ruficollis ruficollis
+La Morelia, 1
+
+(3348) Stelgidopteryx ruficollis aequalis
+Dabeiba, 1; Puerto Valdivia, 1; Rio Frio, Cauca Valley, 1; Calamar, 1; Varrud, 1; Banco, 3; Puerto Berrio, 3; Malena, 1; Chicoral, 1; Andalucia (w slope 3000 ft), 1; Villavicencio, 1
+
+(349) Stelgidopteryx ruficollis uropygialis
+Juntas de Taman4, 1; Novita, 1; San Jose, 6; Caldas, 3; Las Lomitas, 1; Barbacoas, 2; Buenavista, Narifio, 2; La Frijolera, 1; Barro Blanco, 3; Salento, 1; Rio Toche, 1
+
+(8354) Polioptila livida plumbeiceps
+Honda, 4; Chicoral, 4
+
+(33574) Polioptila livida daguae
+Los Cisneros, 1
+
+(3362) Polioptila schistaceigula
+San Jose, 1; Puerto Valdivia, 1
+
+(8363) Cinnicerthia unirufa
+El Pinon (alt 9600 ft), above Fusugasuga, 8
+
+(3364) Cinnicerthia unibrunnea
+Laguneta, 2;  Santa Isabel, 7 
+
+(3366) Cinnicerthia olivascens
+Andes, west of Popayan (alt 10,340 ft), 2; Cocal, (alt 6000 ft), 4; Cocal (alt 4000 ft), 1; Laguneta, 2; above Salento (9000 ft),3; Andalucia (7000 ft), 2; El Roble, 1
+
+(3371) Heleodytes minor bicolor
+Turbaco, 4; La Playa, 7; Calamar, 3; Carpinteria, 1; Remolino, 2; Honda, 1
+
+(8374) Heleodytes albobrunneus harterti
+Salaqui, 1; R Atrato, 1; Dabeiba, 1; Bagado, 1; La Vieja, 3; San Jose, 1
+
+(3376) Heleodytes turdinus hypostictus
+La Morelia, 2; Florencia, 4
+
+(8378) Heleodytes zonatus brevirostris
+Opon, 1; Puerto Berrio, 2; Malena, 3; El Consuelo (above Honda), 2
+
+(3382) Heleodytes nuchalis nuchalis
+Sinu River, 1; Turbaco, 2; Calamar, 2; Carpinteria, 1; Boca de Chimi, 1; Banco, 1
+
+(3385) Odontorchilus branicki
+La Palma, 1
+
+(3389) Thryophilus leucotis
+Algodonal, 1; Puerto Berrio, 2; Malena, 2; Honda, 2; Chicoral, 2
+
+(3390a) Thryophilus galbraithi galbraithi
+Rio Salaqui, 1
+
+(3392) Thryophilus albipectus bogotensis
+Villavicencio, 4
+
+(33982) Thryophilus rufalbus cumanensis
+Villavicencio, 11
+
+(3400) Thryophilus leucopogon
+San Jose, 1; Buenavista, Nariiio, 1
+
+(3402) Thryophilus nigricapillus schotti
+Alto Bonito, 11; Dabeiba, 3; Bagado, 3; Juntas de Tamana, 4; Buenaventura, 2; San Jose, 9; Cisneros, 2
+
+(3402e) Thryophilus nigricapillus connectens
+Cocal, 7; Barbacoas, 6
+
+(3403) Pheugopedius spadix
+Gallera, 1
+
+(8404) Pheugopedius fasciato-ventris fasciato-ventris
+Puerto Valdivia, 1; Malena, 2; Algodonal, 1; Honda, 1; Anolaima, 2
+
+(3405) Pheugopedius mystacalis mystacalis
+Las Lomitas, 3; San Antonio, 3; Popayan, 1; Miraflores, 4; Salento, 1; La Candela, 1; near San Agustin, 1; below Andalucia (w slope, 3000 ft), 1
+
+(3405a) Pheugopedius mystacalis amaurogaster
+Buena Vista, 8
+
+(3424) Pheugopedius sclateri
+Miraflores, 1; Enconosa, 1
+
+(3427) Pheugopedius hypospodius
+Villavicencio, 8; Buena Vista, 5; Susumuco, 1
+
+(3434) Cistothorus aequatorialis
+Valle de las Pappas, 2; Paramo of Santa Isabel, 15; Chipaque, 1
+
+(3434a) Cistothorus apolinari
+Suba Marshes, Bogota Savanna, 5
+
+(3436) Troglodytes musculus striatulus
+Alto Bonito, 1; Dabeiba, 4; Bagado, 1; Barbacoas, 2; Tumaco, 4; Puerto Valdivia, 1; La Frijolera, 1; Caldas, 4; Las Lomitas, 3; San Antonio, 5; Cali, 5; La Manuelita, 1; Rio Frio, 1; Miraflores, 4; Salento, 1; Sta Elena, 1; Rio Toche, 3; La Sierra, 1; Andalucia (w slope, 3000 ft), 1; Chicoral, 2; Honda, 2; Anolaima, 2
+
+(34362) Troglodytes musculus columbae
+E! Roble, 1; El Pifion, 2; La Holanda, 3; Tocaimito, above Bogota, 2; Paramo de Beltran, 1; Fomeque, 1; Chipaque, 6; Choachi, 2; Quetame, 1
+
+(34366) Troglodytes musculus neglectus
+Buena Vista (above Villavicencio), 10
+
+(8450a) Troglodytes solstitialis pallidipectus
+Munchique, 2; Laguneta, 6; Santa Isabel, 4; El Eden, 1; Rio Toche, 1; Almaguer, 4; Valle de las Pappas, 2; La Palma,1; El Roble, 2; El Pinon, 2
+
+(3455) Henicorhina leucosticta
+Alto Bonito, 6; Dabeiba, 1; La Morelia, 4; Florencia, 4
+
+(3455a) Henicorhina prostheleuca eucharis
+Las Lomitas, 5
+
+(38455b) Henicorhina prostheleuca albilateralis
+Peque, 3; Rio Frio, 3; El Consuelo (above Honda), 2
+
+(3456) Henicorhina inornata
+Novita, 3; San Jose, 2; Barbacoas, 3; Buenavista, Narifio, 2
+
+(3457) Henicorhina leucophrys guttata
+La Frijolera, 2; Novita Trail (7200 ft), 1; Las Lomitas, 11; San Antonio, 11; Cerro Munchique, 8; Miraflores, 6; Salento, 5; Sta Elena, 4; Rio Toche, 5; El Eden, 3; La Palma, 3; La Candela, 5; Andalucia, 1; Subia, 4; Fusugasuga, 5; Aguadita, 4; El Roble, 3; Chipaque, 1; Buena Vista, 1
+
+(3458a) Henicorhina leucophrys brunneiceps
+Novita Trail (4000 ft), 1; Gallera (5700 ft), 2; Cocal (6000 ft), 2; Ricaurte (4500 ft), 1
+
+(3464) Leucolepis salvini
+Florencia, 3
+
+(3466) Leucolepis phaeocephalus phaeocephalus
+Alto Bonito, 4; Bando, 3; Barbacoas, 1; Puerto Valdivia, 1
+
+(3468) Leucolepis dichrous
+La Frijolera, 1; San Antonio, 7; Cocal, 2; El Eden, 1
+
+(8472) Microcerculus marginatus marginatus
+Florencia, 2; La Morelia, 1
+
+(3473) Microcerculus marginatus occidentalis
+Novita, 2; San Jose, 1; Barbacoas, 6
+
+(3476a) Microcerculus squamulatus antioquensis
+Dabeiba, 2; Alto Bonito, 1
+
+(3478) Cinclus leuconotus
+Juntas de Tamand, 1; Salento, 3; Rio Toche, 3; San Agustin, 2; Fusugasuga, 1; Quetame, 1
+
+(3492) Mimus gilvus tolimensis
+Dabeiba, 1; Caldas, 4; Salento, 1; Barro Blanco, 1; Honda, 1; Chicoral, 1; La Herrera, 1; La Holanda, 4; Andalucia (w slope, 3000 ft), 1; near San Agustin, 1
+
+(34924) Mimus gilvus columbianus
+La Playa, 1; Alto Bonito, 1; Quibdo, 1
+
+(3498) Donacobius atricapillus albovittatus
+Atrato River, 2; Cienaga, Santa Marta, 3; Algodonal, Magdalena River, 1; Puerto Berrio, 4; Malena, 2; Honda, 1; Villavicencio, 5; La Morelia, 5
+
+(3499) Rhodinocichla rosea rosea
+San Antonio (south of Bogota), 3
+
+(3505a) Myiadestes ralloides venezuelensis
+San Antonio, 7; Miraflores, 2; Sta Elena, 9; El Eden, 1; La Candela, 1; Fusugasuga, 3
+
+(3508) Planesticus serranus
+Chingassa, 1; Subia, 1; Andalucia, 1
+
+(3509a) Planesticus fuscobrunneus
+San Antonio, 3; Cerro Munchique, 5; La Florida, 2; Sta Elena, 2
+
+(3511) Planesticus leucops
+San Antonio, 1; Rio Lima (Batty), 1; La Candela, 1
+
+(3512a) Planesticus caucae
+La Sierra, 4
+
+(3519) Planesticus phaeopygus
+La Morelia, 3; Florencia, 1
+
+(3523) Planesticus tristis daguae
+Juntas de Taman4, 1; Novita, 1; San Jose, 3
+
+(3528) Planesticus gymnopthalmus
+Villavicencio, 2
+
+(3531) Planesticus ignobilis ignobilis
+La Frijolera, 3; Barro Blanco, 1; Rio Toche, 1; Honda, 3; El Consuelo, 2; Fusugasuga, 4; w slope below Andalucia (alt 3000 ft), 2; near San Agustin, 5; La Palma, 1
+
+(3532) Planesticus ignobilis goodfellowi
+Caldas, 3; San Antonio, 5; Cali, 2; Guengiie, 1; La Manuelita, 1; Rio Frio, 3; Miraflores, 4
+
+(3533) Planesticus ignobilis debilis
+Quetame, 4; Buena Vista, 3; Villavicencio, 6; La Morelia, 4
+
+(3537) Planesticus obsoletus colombianus
+San Antonio, 1
+
+(3538a) Planesticus albiventer ephippialis
+Honda, 3; Chicoral, 1
+
+(3544) Semimerula gigas gigas
+Bogota, 3; El Roble, 1; Chipaque, 3; Quetame, 4
+
+(3544a) Semimerula gigas gigantodes
+Paramillo, 11; Andes w of Popayan (10,340 ft), 1; Cerro Munchique, 6; Cocal (4000 ft), 2; Almaguer, 1; Valle de las Pappas, 1; Laguneta, 9; Santa Isabel, 4; Sta Elena, 1; Barro Blanco, 1; Rio Toche, 6; El Eden, 2
+
+(3551) Hylocichla aliciae aliciae
+Puerto Valdivia, 1
+
+(3853) Hylocichle ustulata swainsoni
+Novita Trail (4000-ft), 1; Las Lomitas, 1; San Antonio, 5; Rio Frio, 2; La Sierra, 1; Miraflores, 1; Salento, 1; Sta Elena, 1; Barro Blanco, 2; Rio Toche, 1; El Eden, 1; Chicoral, 1; near Honda, 3; Choachi, 3; Buena Vista (above Villavicencio), 3
+
+(3554) Catharus birchalli
+Near San Agustin, 2; Andalucia (3000 ft), 1
+
+(3560) Catharus phaeopleurus
+Peque, 3; near Popayan, 2; La Sierra, 2; Miraflores, 3
+
+(3561) Catharus dryas
+La Candela, 8; Andalucia (5000 ft), 3; Buena Vista, 4
+
+(3563) Vireosylva olivacea
+Sta Elena, 1; Chicoral, 1; Villavicencio, 1
+
+(3564) Vireosylva flavoviridis flavoviridis
+Chicoral, 2
+
+(3565a) Vireosylva chivi caucae
+Cali, 2
+
+(3568) Vireosylva josephae josephae
+San Antonio, 2; Cerro Munchique, 5; Ricaurte, 1; La Sierra, 1; Miraflores, 4; Salento, 2; Sta Elena, 8; El Eden, 1; La Palma, 1; La Candela, 6; near San Agustin, 1; Fusugasuga, 2; El Roble, 2
+
+(3569) Lanivireo flavifrons
+Sta Elena, 1
+
+(3579) Pachysylvia semibrunnea
+Las Lomitas, 1; San Antonio, 1; La Manuelita, 1; Miraflores, 5; San Agustin, 1; Fusugasuga, 1
+
+(3590) Pachysylvia flavipes flavipes
+La Playa, 1; Calamar, 2; Chicoral, 4; Villavicencio, 5
+
+(3595) Pachysylvia minor
+Los Cisneros, 1
+
+(8603) Cyclarhis flavipectus canticus
+Chicoral, 2
+
+(3603a) Cyclarhis flavipectus parvus
+Villavicencio, 3; Buena Vista, 2
+
+(3611) Cyclarhis nigrirostris
+Salencio, 1; San Antonio, 1; Cerro Munchique, 2; Gallera, 1; Cocal, 2; Ricaurte, 1; Salento, 1; Sta Elena, 2; Rio Toche, 1; La Palma, 1; Aguadita, 1
+
+(8612) Mniotilta varia
+Caldas, 1; Las Lomitas, 3; San Antonio, 1; Rio Frio, 2; Salento, 5; Sta Elena, 1; El Eden, 1; El Consuelo above Honda, 1; Quetame, 1
+
+(3613) Protonotaria citrea
+Algodonal, 1
+
+(3614) Vermivora chrysoptera
+Salento, 1; El Eden, 1; Villavicencio, 1
+
+(3616) Vermivora peregrina
+Miraflores, 1; Sta Elena, 1; Buena Vista, 2
+
+(3618) Compsothlypis pitiayumi elegans
+Caldas, 1; San Antonio, 2; Las Lomitas, 1; Gallera, 1; Rio Frio, 1; Miraflores, 4; Salento, 1; El Eden, 1; La Sierra, 1; La Candela, 1; Quetame, 4
+
+(3619) Compsothlypis pitiayumi pacifica
+Ricaurte, 1
+
+(3620) Dendroica aestiva aestiva
+Barbacoas, 2; San Jose, 1; Rio Frio, 1; Calamar, 4; Boca de Chimi, 1; Honda, 3; Chicoral,1; San Agustin, 1; Bogota, 1
+
+(3621) Dendroica petechia aequatorialis
+Tumaco, 8
+
+(3628) Dendroica caerulea
+Buena Vista, 2
+
+(8629) Dendroica fusca
+San Antonio, 10; Miraflores, 2; Salento, 5; Sta Elena, 1; Laguneta, 1; Santa Isabel (12000 ft), 1; El Eden, 3; La Sierra, 1; Almaguer, 2; San Agustin, 2; Chicoral, 1; La Porquera, 1; Puente Andalucia, 2; El Roble, 2; Quetame, 1; Buena Vista, 3
+
+(3630) Dendroica castanea
+Alto Bonito, 1; Dabeiba, 2; Juntas de Tamana, 1; Novita, 1; Puerto Valdivia, 1; Rio Frio, 1; Honda, 1; Malena, 1
+
+(3631) Dendroica striata
+Rio Frio, 1; Buena Vista, 1; Villavicencio, 2
+
+(3634) Oporornis philadelphia
+Dabeiba, 1; Rio Frio, 1; Salencio, 1; Puerto Berrio, 1; Honda, 2; Chipaque, 1; Buena Vista, 1; Villavicencio, 2
+
+(3637) Seiurus noveboracensis noveboracensis
+Chicoral, 1; Rio Frio, 1
+
+(3638) Seiurus noveboracensis notabilis
+Alto Bonito, 1; La Playa, 1; Juntas de Tamana, 1; San Jose, 2; Caldas, 1; Puerto Valdivia, 2; Salento, 3; Rio Toche, 2; San Agustin, 1; Chicoral, 2; Honda, 1; Puerto Berrio, 1
+
+(3640) Geothlypis semiflava
+Los Cisneros, 1; Caldas, 1; Ricuarte, 3; Buenavista, Narifio, 3; Cali, 1
+
+(3641) Geothlypis aequinoctialis
+Puerto Berrio, 1; Villavicencio, 3
+
+(3647) Wilsonia canadensis
+Alto Bonito, 1; San Antonio, 5; Rio Frio, 1; El Eden, 2; San Agustin, 2; Chicoral, 1; Fusugasuga, 1; Buena Vista, 2
+
+(3648) Setophaga ruticilla
+Dabeiba, 1; Puerto Valdivia, 1; Barbacoas, 1; San Antonio, 3; Cali, 1; Rio Frio, 1; Salento, 1; Honda, 2; Buena Vista, 2
+
+(3649) Myioborus verticalis verticalis
+Paramillo (9000 ft), 1; Las Lomitas, 6; San Antonio, 7; near Popayan, 1; Cerro Munchique, 2; Gallera, 2; La Sierra, 1; Miraflores, 9; Salento, 2; Sta Elena, 4; Barro Blanco, 1; Rio Toche, 1; El Eden, 1; La Candela, 3; near San Agustin, 8; Andalucia, 1; Fusugasuga, 7; El Roble, 3
+
+(8655) Myioborus ornatus
+Chipaque, 2; El Pifion, 2; El Roble, 1
+
+(3656) Myioborus chrysops
+Paramillo, 1; Crest of Andes, west of Popayan, 12; Cocal (alt 6000 ft), 1; Laguneta, 8; Santa Isabel, 1; Sta Elena, 3; Rio Toche, 2; El Eden, 2; Almaguer, 1; Valle de las Pappas, 2
+
+(3660) Myiothlypis nigrocristatus
+Santa Isabel, 1; El Eden, 2; Valle de las Pappas, 1; Chipaque, 7; El Roble, 1; El Pifion, 2
+
+(3663) Basileuterus luteoviridis
+Almaguer, 3; Fomeque, 1; Subia, 1
+
+(36632) Basileuterus richardsoni
+Andes w of Popayan, alt 10,340 ft, 7; Laguneta, 1
+
+(3667) Basileuterus cinereicollis
+Buena Vista, 6
+
+(3668) Basileuterus cabanisi
+Peque, 1; Miraflores, 1
+
+(3669) Basileuterus tristriatus tristriatus
+La Frijolera, 1; Las Lomitas, 2; San Antonio, 7; Gallera, 3; Cerro Munchique, 2; Miraflores, 5; Salento, 6; La Candela, 5; La Palmas, 2; San Agustin, 2; Fusugasuga, 3
+
+(3674) Basileuterus coronatus
+San Antonio, 12; Las Lomitas, 1; Cerro Munchique, 9; Miraflores, 1; Salento, 5; Laguneta, 3; Sta Elena, 4; El Eden, 3; Almaguer, 1; La Candela, 1; Subia, 3; Fusugasuga, 4; El Roble, 2
+
+(3676) Basileuterus bivittatus chlorophrys
+Buenavista, Narifio, 2
+
+(3680) Basileuterus auricapillus olivascens
+Buena Vista, 4
+
+(8682) Basileuterus rufifrons mesochrysus
+Near Honda, 1; Chicoral, 3; below Andalucia (3000 ft), 10
+
+(3690) Basileuterus fulvicauda semicervinus
+Alto Bonito, 2; Bagado, 1; Juntas de Tamand, 3; Novita, 1; San Jose, 5; Barbacoas, 6; Ricaurte, 1; Puerto Valdivia, 1; Peque, 1
+
+(3691) Basileuterus fulvicauda fulvicauda
+Chicoral, 1
+
+(3694) Anthus bogotensis
+Subia, 1; Choachi, 3
+
+(3702) Otocoris alpestris peregrina
+Bogota Savanna, 12; La Mar, 2; La Holanda, 2; El Carmen de Jacopi, 2
+
+(3703) Catamblyrhynchus diadema
+Andes w of Popayan (10,340 ft), 2; above Salento, (9000 ft), 1; El Eden, 3
+
+(3707) Pheucticus uropygialis uropygialis
+La Mar, 1; Palo Hueco, 1; Subia, 2; Fomeque, 1; Chipaque, 3
+
+(3710) Zamelodia ludoviciana
+Paramillo, 1; Barro Blanco, 2; Salento, 2; Buena Vista, 2
+
+(8712) Cyanocompsa concreta cyanescens
+Salaqui, 1; Cocal, 1; Barbacoas, 3
+
+(8714a) Cyanocompsa cyanea caucae
+Palmira, 2; Caldas, 5
+
+(8718) Oryzoborus angolensis
+Andalucia, 1; Villavicencio, 1
+
+(8722) Oryzoborus crassirostris crassirostris
+Villavicencio, 2
+
+(3723a) Oryzoborus funereus
+Atrato River, 1; Novita, 1; Buenaventura, 2; Barbacoas, 2; Rio Frio, 3
+
+(3735) Sporophila grisea grisea
+Caldas, 4; Las Lomitas, 1; San Antonio, 1; Cali, 1; Miraflores, 3; Popayan, 1; San Agustin, 1; below Andalucia (alt 3000 ft), 4; Chicoral, 1; Honda, 1; Puerto Berrio, 1; Buena Vista, 2; Villavicencio, 1
+
+(3743) Sporophila castaneiventris
+La Morelia, 1
+
+(8745) Sporophila minuta minuta
+Caldas, 1; Cali, 1; Rio Frio, 1; La Manuelita, 4; Miraflores, 1; Barro Blanco, 3; San Agustin, 1; Chicoral, 2; Honda, 1; Puerto Berrio, 2; Malena, 2; Calamar, 2; Quetame, 2
+
+(8758a) Sporophila aurita aurita
+Dabeiba, 1; Quibdo, 2; Bagado, 1; Novita, 3; Noanama, 3
+
+(3759) Sporophila aurita ophthalmica
+San Jose, 3; Los Cisneros, 4; Tumaco, 4; Barbacoas, 6
+
+(37592) Sporophila aurita murallae
+La Morelia, 3
+
+(3764) Sporophila gutturalis
+Novita, 1; Los Cisneros, 1; Caldas, 3; San Antonio, 3; Barbacoas, 2; Buenavista, Narifio, 3; Ricaurte, 1; Cali, 1; La Manuelita, 1; Rio Frio, 1; Miraflores, 3; La Candela, 1; San Agustin, 3; below Andalucia (3000 ft), 2; Subia, 3; La Morelia, 1; Quetame, 2; Buena Vista, 4
+
+(3771) Sporophila luctuosa
+Barro Blanco, 4; Anolaima, 1
+
+(3773) Catamenia inornata minor
+Santa Isabel, 6; Valle de las Pappas, 5; La Pradera, 1; Paramo de Choachi, 1
+
+(3774) Catamenia homochroa
+Paramillo, 14; Andes w of Popayan, 2; Valle de las Pappas, 2; Laguneta, 1
+
+(8777a) Catamenia analoides schistaceifrons
+La Mar, 1; Suba, 1
+
+(3782) Tiaris olivacea pusilla
+Dabeiba, 1; La Frijolera, 1; Caldas, 2; Las Lomitas, 1; San Antonio, 8; Ricaurte, 2; Rio Frio, 1; Miraflores, 5; Sta Elena, 1; Salento, 4; Barro Blanco, 1; Rio Toche, 1; San Agustin, 2; La Palma, 1; below Andalucia, 3000 and 5000 feet, 3; El Consuelo, 1; Subia, 1
+
+(3783) Tiaris bicolor omissa
+Honda, 2; Chicoral, 2
+
+(3790) Volatinia jacarini splendens
+Dabeiba, 2; Caldas, 2; San Antonio, 1; Barbacoas, 1; Tumaco, 1; Cali, 5; La Manuelita, 2; Miraflores, 1; Barro Blanco, 3; Chicoral, 1; Honda, 1; La Playa, 2; Quetame, 1
+
+(3796) Pitylus grossus
+Dabeiba, 1; Quibdo, 1; Baudo, 2; San Jose, 1; Cocal, 2; Barbacoas, 6; w of Honda, 1
+
+(3803) Saltator maximus
+Noanama, 2; San Jose, 3; Barbacoas, 6; La Frijolera, 4; Puerto Valdivia, 1; below Andalucia, 1; Buena Vista, 5; Villavicencio, 2; Florencia, 5
+
+(3804) Saltator atripennis atripennis
+La Frijolera, 1; San Antonio, 10; west of Popayan, alt 6000 ft, 4; Cocal, 1; Ricaurte, 5; Barbacoas, 1; Miraflores, 3; Salento, 1
+
+(38042) Saltator atripennis caniceps
+Fusugasuga, 1; Aguadita, 2; Anolaima, 4; Panama (above Pacho), 1; Muzo, 1
+
+(3807) Saltator olivascens
+La Playa, 1; Sinu River, 1; Calamar, 1; Algodonal, 1
+
+(3809) Saltator caerulescens azarae
+Florencia, 2; Villavicencio, 2; Buena Vista, 1
+
+(3819) Saltator striatipectus striatipectus
+Dabeiba, 4; Caldas, 3; San Antonio, 2; La Florida, 1; Cali, 1; Rio Frio, 2; Palmira, 4; below Miraflores, 6; near San Agustin, 4; La Candela, 2; below Andalucia, 4; Chicoral, 1; Rio Toche, 1; Honda, 7; Fusugasuga, 1
+
+(3822) Spinus spinescens spinescens
+Bogota, 6; La Holanda, 2; La Porquera, 1; La Mar, 1; Chipaque, 1; E] Roble, 1
+
+(3823a) Spinus nigricauda
+Paramillo, (12,500 ft), 4; Santa Isabel (12,700 ft), 2
+
+(3825) Spinus xanthogaster
+San Antonio, 4; Sta Elena, 2
+
+(8841) Astragalinus psaltria columbianus
+Caldas, 3; Miraflores, 4; San Antonio, 2; Cerro Munchique, 1; El Eden, 3; Rio Toche, 1; Chicoral, 1; near San Agustin, 1; La Palma, 1; La Candela, 3; below Andalucia (alt 3000 ft), 3; El Consuelo, above Honda (alt 3300 ft), 2; Fusugasuga, 1; Bogota, 1; Quetame, 1; Buena Vista, 4; La Holanda, 5; La Herrera, 2; El Carmen, 2; Pacho, 1; Subia, 1; Tenasuca, 1; Puente Andalucia, 6
+
+(3842) Sicalis flaveola
+Turbaco, 2; La Playa, 2; Calamar, 3; Boca de Chimi, 1
+
+(8850) Sicalis arvensis minor
+Cali, 1; Chicoral, 1; Bogota, 4; Subia, 2; Puente Andalucia, 1; El Carmen, 1; La Mar, 2
+
+(3853) Spiza americana
+R Salaqui, 1; Calamar, 1
+
+(88542) Ammodramus savannarum caucae
+Cali, 3
+
+(3855a) Myospiza manimbe columbiana
+Cali, 5; La Manuelita, 3; near Honda, 1; Chicoral, 5
+
+(3856) Myospiza aurifrons
+Florencia, 6; La Morelia, 5
+
+(8856a) Myospiza cherriei
+Villayicencio, 3
+
+(8882) Brachyspiza capensis peruviana
+Paramillo, 9; La Frijolera, 1; Caldas, 3; San Antonio, 8; Cali, 4; Popayan, 1; Cerro Munchique, 3; Crest of Range, 2; Ricaurte, 2; Salento, 3; Sta Elena, 1; Laguneta, 1; Santa Iabel, 3; El Eden, 3; Rio Toche, 4; Miraflores, 3; La Sierra, 1; Valle de las Pappas, 1; near San Agustin, 5; below Andalucia (3000 ft), 2; La Holanda, 4; El Roble, 1; El Pifion, 1; Bogota, 6; Chipaque, 3; Quetame, 2
+
+(3892) Arremonops conirostris conirostris
+Puerto Berrio, 2; Malena, 5; Nare, 1; Honda, 6; Chicoral, 4; Buena Vista, 7; Villavicencio, 3
+
+(8892a) Arremonops conirostris inexpectata
+Andalucia (w slope, 3000 ft), 13
+
+(3893) Arremonops conirostris chrysoma
+Tumaco, 2; Barbacoas, 2; Buena Vista, 2
+
+(8899) Emberizoides sphenurus
+La Manuelita, 2; Quetame, 1
+
+(3910a) Pseudochloris citrina antioquiae
+Barro Blanco, 5 
+
+(8925a) Phrygilus unicolor grandis
+Santa Isabel, 19
+
+(3926b) Phrygilus unicolor geospizopsis
+Paramo of Choachi, 9
+
+(8935) Spodiornis jardini
+Almaguer, 1
+
+(3952) Paroaria gularis
+La Morelia, 6
+
+(3963) Arremon aurantiirostris erythrorhynchus
+Chicoral, 3; w of Honda, 2; Puerto Valdivia, 1
+
+(3064) Arremon aurantiirostris occidentalis
+Dabeiba, 4; Alto Bonito, 4; Novita Trail, 1600 ft, 1; Buenaventura, 1; San Jose, 4; Munchique, 6000 ft, 2; Cocal, 4000 ft, 1; Barbacoas, 2; Buenavista, 1200 ft, 1
+
+(3967) Arremon axillaris
+Villavicencio, 2
+
+(3971) Lysurus castaneiceps
+Novita Trail (6000 ft), 2; Novita Trail (8500 ft), 1; Cocal, 1; Gallera, 2
+
+(397la) Atlapetes flaviceps
+Rio Toche, 2
+
+(39716) Atlapetes fusco-olivaceus
+San Agustin, 3; La Palma, 2
+
+(3973) Atlapetes gutturalis gutturalis
+Peque, 1; La Frijolera, 1; Las Lomitas, 1; San Antonio, 7; Cerro Munchique, 4; Salento, 1; Rio Toche, 1; El Eden, 1; Miraflores, 1; La Sierra, 2; La Candela, 3; La Palma, 2; Andalucia, 4; Fusugasuga, 6
+
+(3976) Atlapetes latinuchus latinuchus
+Cerro Munchique, 11
+
+(3979) Atlapetes latinuchus elaeoprorus
+Sta Elena, 2
+
+(3984) Atlapetes albifrenatus
+Aguadita, 3; El Roble, 2; Anolaima, 3
+
+(3990) Atlapetes schistaceus
+Paramillo, 2; Andes west of Popayan (alt 10,340 ft), 18; Valle de las Pappas, 2; Almaguer, 1; Laguneta, 12
+
+(3993) Atlapetes pallidinuchus pallidinuchus
+El Pifion, 3; Chipaque, 1; Choachi, 2; La Pradera, 1; La Mar, 1; Palo Hueco, 1; Subia, 1; Anolaima, 1
+
+(39932) Atlapetes pallidinuchus papallactae
+Almaguer, 4; Laguneta, 2; Santa Isabel, 7
+
+(8994) Atlapetes crassus
+Ricaurte, 4; Buenavista, Narifio, 1
+
+(3997) Atlapetes semirufus
+Choachi, 7; Quetame, 1
+
+(4003) Buarremon brunneinuchus
+Las Lomitas, 2; San Antonio, 11; Gallera, 2; Cerro Munchique, 5; La Florida, 4; Ricaurte, 4; Miraflores, 6; Salento, 10; Sta Elena, 3; El Eden, 3; La Candela, 3; LaSierra, 1; Andalucia, 4; Fusugasug4, 3; Buena Vista, 3 
+
+(4011) Buarremon assimilis
+West of Popayan, 11; Laguneta, 8; Santa Isabel, 1; Almaguer, 1; Fl Pifion, 2; Chipaque, 2
+
+(4012) Buarremon atricapillus
+La Frijolera, 2; w of Honda, 1
+
+(4018) Coereba luteola luteola
+La Playa, 4
+
+(4020) Coereba mexicana columbiana
+Dabeiba, 6; Alto Bonito, 1; Peque, 2; Tumaco, 2; Buenavista, 1; Ricaurte, 1; Honda, 4; Chicoral, 1; La Candela, 1; near San Agustin, 3; Andalucia, 2; El Alto de la Paz, 2; Buena Vista, 3; Villavicencio, 2
+
+(4020a)  Coereba mexicana caucae
+Cali, 7; Las Lomitas, 2; e of Palmira, 1; San Antonio, 1; Rio Frio, 1
+
+(40272) Diglossa sittoides similis
+San Antonio, 4; Cerro Munchique, 1; Miraflores, 1; Salento, 1; Rio Toche, 1; San Agustin, 1; La Candela, 1; La Holanda, 3; Quetame, 2
+
+(4029) Diglossa gloriosissima
+Andes w of Popayan (10,340 ft), 10; Paramillo (12,500 ft), 13
+
+(4030) Diglossa brunneiventris
+Paramillo (12,500 ft), 19
+
+(4036) Diglossa lafresnayei
+Almaguer, 2; Laguneta, 1; Santa Isabel, 1; Chipaque, 4; Choachi, 3
+
+(4037) Diglossa humeralis
+Chipaque, 4; Subia, 3; La Mar, 1; Palo Hueco, 1; La Pradera, 3
+
+(4038) Diglossa aterrima
+Almaguer, 2; Laguneta, 2; Santa Isabel, 1; Chipaque, 1
+
+(4040) Diglossa albilateralis
+Paramillo Trail (9000 ft), 1; San Antonio, 1; Cerro Munchique, 5; Gallera, 1; Andes w of Popayan (10,340 ft), 1; Almaguer, 4; Miraflores, 1; Salento, 1; Laguneta, 1; Sta Elena, 4; Barro Blanco, 2; Rio Toche, 4; E] Eden, 4; Aguadita, 5; El Roble, 9; El Pifion, 3; Buena Vista, 1
+
+(4041) Diglossa personata
+San Antonio, 2; Cerro Munchique, 14; Andes west of Popayan, 7; Laguneta, 8; Santa Elena, 12; Barro Blanco, 2; Rio Toche, 1; El Eden, 2; Santa Isabel, 2; Almaguer, 7; Aguadita, 1; El Roble, 7; El Pifion, 2; Subia, 4
+
+(4043) Diglossa cryptorhis
+Gallera, 1; Novita Trail (7200 ft), 1
+
+(4045) Diglossopis caerulescens caerulescens
+Novita Trail (7200 ft), 1; Cerro Munchique, 1; Andes, west of Popayan, 2; Almaguer, 1; El Eden, 1; El Pifion, 2
+
+(4048) Conirostrum sitticolor
+Andes west of Popayan (alt 10340 ft), 1; Laguneta, 7; Santa Isabel, 2; Almaguer, 3; Valle de las Pappas, 2; El Pifion, 3; Chipaque, 1
+
+(4051) Conirostrum rufum
+Subia, 1; Bogota, 1; Chipaque, 9; Choachf, 2; Palo Hueco, 1; La Porquera, 2
+
+(4053) Conirostrum fraseri
+Valle de las Pappas, 4
+
+(4056) Conirostrum albifrons
+Cerro Munchique, 1; Almaguer, 3; above Salento, 5; Laguneta, 1; Santa Isabel, 1; Sta Elena, 1; El Roble, 6; Palo Hueco, 2; Subia, 2
+
+(4057) Conirostrum atrocyaneum
+Cerro Munchique, 1
+
+(4061) Dacnis cayana cayana
+La Morelia, 1; Florencia, 4; Villavicencio, 1
+
+(4064) Dacnis cayana coerebicolor
+Juntas de Tamana, 1; Novita, 1; San Jose, 4; Barbacoas, 4; Buenavista, Narifio, 1; Puerto Valdivia, 5; near Honda, 3; Bogota, 2;Andalucia (3000 ft w slope), 12
+
+(4067) Dacnis angelica
+La Morelia, 5
+
+(4069) Dacnis egregia egregia
+Honda, 4; Chicoral, 1; Purificacion, 1
+
+(4071) Dacnis venusta fuliginata
+Bagado, 1; Noanam4, 2; Barbacoas, 2; Puerto Valdivia, 1
+
+(4072) Dacnis leucogenys
+Algodonal (near Banco), 2; Honda, 2
+
+(4079a) Cyanerpes cyaneus pacificus
+Buenaventura, 2; San Jose, 2; Los Cisneros, 2; Tumaco, 1; Barbacoas, 6
+
+(4081) Cyanerpes caerulea microrhyncha
+Quibdo, 1; Juntas de Tamana, 1; Noanama, 6; Barbacoas, 6; near Honda, 12; Buena Vista (above Villavicencio), 1
+
+(4086) Chlorophanes spiza exsul
+Cocal, 1; Buenaventura, 2; San Jose, 1
+
+(4087) Chlorophanes spiza caerulescens
+Las Lomitas, 2; San Antonio, 2; Miraflores, 3; La Frijolera, 2; Consuelo (above Honda), 3; Aguadita, 3; La Palma, 1; Florencia, 3; La Morelia, 1
+
+(4098) Tersina viridis occidentalis
+Juntas de Tamana, 2; Novita, 4; Caldas, 1; San Antonio, 8; Miraflores, 1; Popayan, 1; near Honda, 1; Villavicencio, 5
+
+(4101) Chlorophonia pretrei
+Cerro Munchique, 1; Santa Isabel, 1; Sta Elena, 3
+
+(4103) Tanagra cyanocephala cyanocephala
+Caldas, 3; Antioquia, 1; La Sierra, 1; Buena Vista, 3
+
+(4106) Tanagra aurea pileata
+Buena Vista, 1
+
+(4112) Tanagra xanthogastra chocoensis
+Alto Bonito, 3; Juntas de Tamana, 1; Novita, 1; San Jose, 1; Barbacoas, 8; La Frijolera, 3; Novita Trail (6000 ft), 1; Las Lomitas, 1; San Antonio, 5; Cerro Munchique, 1; Gallera, 1; Cocal, 2; Ricaurte, 1; Miraflores, 3; Salento, 1
+
+(41124) Tanmagra xanthogastra brevirostris
+La Palma, 2; La Candela, 4; Andalucia (5000 ft), 1; Caqueta Trail,(2500 ft), 1; La Morelia, 4; Florencia, 2; Quetame, 1; Buena Vista, 2
+
+(4116) Tanagra concinna
+Near Honda, 5
+
+(4118) Tanagra saturata
+Caldas, 6; Cali, 1
+
+(4119a) Tanagra olivacea humilis
+Quibdo, 3; Baudo, 1; Juntas de Tamana, 1; Noanama, 6; Barbacoas, 1; Puerto Valdivia, 1
+
+(4121) Tanagra fulvicrissa purpurascens
+Barbacoas, 1
+
+(412la) Tanagra fulvicrissa omissa
+Quibdo, 1; Bagado, 1; Juntas de Tamana, 1; Noanam4, 1; San Jose, 1
+
+(4127) Tanagra crassirostris crassirostris
+Puerto Valdivia, 6; La Manuelita, 2; Cauca Valley, 3; Puerto Berrio, 3; Honda, 5; El Consuelo, 1; Chicoral, 1
+
+(4129) Tanagra melanura
+Florencia, 1
+
+(4185) Tanagra chrysopasta
+Buena Vista, 1; Villavicencio, 3
+
+(4144) Chlorochrysa calliparaea bourcieri
+Near San Agustin, 2; La Candela, 1
+
+(4145) Chlorochrysa phoenicotis
+Novita Trail (7200 ft ), 2; Cerro Munchique, 1; Gallera, 6
+
+(4147) Chlorochrysa nitidissima
+Las Lomitas, 4; San Antonio, 3; Gallera, 1; Salento, 2
+
+(4149) Pipridea melanota venezuelensis
+Rio Lima, 1; Popayan, 1; Aguadita, 4; Tenasuca, 4
+
+(4150) Procnopis vassori
+Paramillo, 1; Andes w of Popayan (10,340 ft), 2; La Florida (7700 ft), 7; Almaguer, 7; Salento, 1; Laguneta, 3; Sta Elena, 11; El Eden, 6; Rio Toche, 1; El Roble, 6; El Pifion, 1
+
+(4155) Tangara chilensis
+Andalucia (w slope, 5000 ft), 1; Florencia, 1
+
+(4163) Tangara schrankii
+Florencia, 1
+
+(4164) Tangara johannae
+Andagueda, 1; Juntas de Tamand, 4; Noanama, 1; San Jose, 2; Barbacoas, 1
+
+(41640) Tangara florida auriceps
+Novita, 1; Buenavista, Narifio, 9
+
+(4168) Tangara guttata bogotensis
+Buena Vista, 3
+
+(41684) Tangara guttata tolimae
+W of Honda, 3
+
+(4169) Tangara xanthogastra
+La Morelia, 1
+
+(4171) Tangara rufigula
+Gallera, 2; Buenavista, Narifio, 2; Ricaurte, 4
+
+(4172) Tangara aurulenta aurulenta
+La Candela, 4; Fusugasug4, 2; Aguadita, 3; El Roble, 1; Subia, 6
+
+(4172a) Tangara aurulenta occidentalis
+Las Lomitas, 4; San Antonio, 9; Gallera, 6; Cocal, 2; Ricuarte, 7; Miraflores, 1; La Frijolera, 5
+
+(4178) Tangara icterocephala
+Gallera, 1
+
+(4179) Tangara vitriolina
+Peque, 1; Caldas, 2; Cali, 2; San Antonio, 7; Gallera, 1; Popayan, 5; La Sierra, 2; La Manuelita, 3; Rio Frio, 2; Salento, 1; Barro Blanco, 5; La Frijolera, 1; Honda, 5; Chicoral, 3; La Candela, 2; La Palma, 1; San Agustin, 13; Andalucia, 3; Aguadita, 3; Fusugasuga, 1; Subia, 5; Tenasuca, 2; El Carmen, 3; El Alto de la Paz, 4; Villavicencio, 1; Barrigon, 1
+
+(4189) Tangara lavinia lavinia
+Juntas de Tamand, 1; Novita, 1; Noanama, 1; Buenaventura, 1; San Jose, 6; Buenavista, Narifio, 1
+
+(4190) Tangara gyroloides gyroloides
+Las Lomitas, 4; San Antonio, 4; Cocal, 1; Gallera, 3; La Frijolera, 4; Andalucia (w slope, 4-5000 ft), 5; Aguadita, 2; El Consuelo, above Honda, 1
+
+(4191) Tangara gyroloides catharinae
+Buena Vista, 4
+
+(4192) Tangara gyroloides bangsi
+Ricaurte, 3
+
+(4196) Tangara palmeri
+San Jose, 2
+
+(4200) Tangara mexicana boliviana
+La Morelia, 2
+
+(4201) Tangara inornata inornata
+Puerto Valdivia, 7
+
+(4202) Tangara nigroviridis nigroviridis
+Paramillo Trail (9000 ft), 1; San Antonio, 4; Gallera, 4; Cocal, 1; Salento, 2; Sta Elena, 4; El Eden, 1; Fusugasuga, 1; Aguadita, 1; El Roble, 3; Subia, 6
+
+(4205) Tangara larvata fanny
+Bagado, 4; Novita, 3; Noanamd, 2; San Jose, 5; Los Cisneros, 2; Barbacoas, 5; Buenavista, Narifio, 1; Puerto Valdivia, 1; Honda, 1
+
+(4208) Tangara cyaneicollis caeruleocephala
+Cen Andes w of Honda, 1; La Palma, 2; La Candela, 4; near San Agustin, 10; Andalucia, (w slope 3000 ft), 6; Quetame, 2; Buena Vista, 4
+
+(4209) Tangara cyaneicollis granadensis
+Las Lomitas, 3; San Antonio, 3; Cocal,1; Miraflores, 6; La Frijolera, 3; El Consuelo, above Honda, 1; Fusugasuga, 1; Aguadita, 1; Tenasuca, 2
+
+(4212) Tangara ruficervix ruficervix
+San Antonio, 8; Cerro Munchique, 3; Gallera, 1; Ricaurte, 3; Miraflores, 2; Salento, 1; La Candela, 1; near San Agustin, 1; Fusugasuga, 2; Aguadita, 1; El Roble, 1
+
+(4215) Tangara labradorides
+Las Lomitas, 1; San Antonio, 20; Cerro Munchique, 4; Miraflores, 5; Salento, 4; Sta Elena, 5; El Eden, 1; La Candela, 3; La Palma, 1; Fusugasuga, 4; Aguadita, 4; El Roble, 4; Subia, 6
+
+(4216) Tangara melanotis
+La Palma, 1
+
+(4219) Tangara parzudaki
+La Palma, 1; Aguadita, 2; El Roble, 1; Subia, 7
+
+(4221) Tangara venusta
+San Antonio, 2; Cerro Munchique, 7; Andes w of Popayan (10,340 ft), 1; La Florida, 1; Cocal, 1; Miraflores, 1; Salento, 2; La Candela, 1; Aguadita, 1; El Roble, 1; Subia, 5
+
+(4227) Tangara atricapilla
+La Frijolera, 1; San Antonio, 5; Cerro Munchique, 2; Ricaurte, 3; La Sierra, 6; Popayan, 2; Sta Elena, 3; Barro Blanco, 3; Aguadita, 5; EI Roble, 5; Subia, 7
+
+(4232) Iridosornis dubusia dubusia
+EI Pifion, 1
+
+(4232a) Iridosornis dubusia ignicapillus
+Andes w of Popayan (10,340 ft), 12; Almaguer, 6
+
+(4232b) Iridosornis dubusia caeruleoventris
+Paramillo, 2
+
+(4236) Iridosornis porphyrocephala
+Novita Trail (7200 ft), 1; San Antonio, 6; Cerro Munchique, 1; Cocal, 2
+
+(4240) Poecilothraupis lunulata lunulata
+El Pifion, 4; Chipaque, 4; Choachi, 2; La Porquera, 9; La Mar, 3; La Pradera, 1
+
+(4245) Poecilothraupis palpebrosa palpebrosa
+Andes w of Popayan (10,340 ft), 17; Almaguer, 4; Laguneta, 12; Santa Isabel, 1
+
+(4246) Pocilothraupis palpebrosa olivaceiceps
+Paramillo, 11; Rio Toche, 1
+
+(4252) Buthraupis cucullata cucullata
+Cerro Munchique, 2; Cocal, 4; Almaguer, 4; Laguneta, 1; Santa Isabel, 4
+
+(4253) Buthraupis cucullata gigas
+EI Pifion, 3
+
+(4256) Buthraupis eximia chloronota
+Paramillo, 3; Santa Isabel, 7; Almaguer, 2
+
+(4257) Buthraupis eximia eximia
+El Pifion, 1; Palo Hueco, 1
+
+(4258) Buthraupis edwardsi
+Buenavista, Nariiio (1200 ft), 4; Ricaurte (4000-5000 ft), 1
+
+(4259) Buthraupis rothschildi
+Andagueda, 1
+
+(4260) Buthraupis melanochlamys
+La Frijolera, 3
+
+(4261) Buthraupis aureocincta
+Novita Trail, 2
+
+(4262) Compsocoma somptuosa victorini
+Near San Agustin, 3; La Palma, 3; La Candela, 4; El Roble, 2; Subia, 9
+
+(4264) Compsocoma somptuosa antioquiae
+Paramillo Trail (11,000 ft), 1; Sta Elena, 11; Barro Blanco, 2; El Eden, 2; Rio Toche, 1
+
+(4265) Compsocoma somptuosa cyanoptera
+San Antonio, 10; Cerro Munchique, 7; La Florida, 3; Gallera, 1; Cocal, 1; La Sierra, 2; Miraflores, 7; Salento, 2
+
+(4267) Compsocoma notabilis
+Novita Trail (7200 ft), 2
+
+(4268) Dubusia taeniata
+Andes w of Popayan (10,340 ft), 2; El Pifion, 2; Fusugasuga, 1; Subia, 1
+
+(4271) Thraupis episcopus leucoptera
+Quetame, 4; Buena Vista, 1; Barrigon, 2
+
+(4272) Thraupis coelestis coelestis
+La Morelia, 5
+
+(4276) Thraupis cana cana
+Dabeiba, 2; Juntas de Taman4, 1; Novita, 2; Noanama, 1; San Jose, 2; Caldas, 1; Las Lomitas, 2; San Antonio, 3; Tumaco, 5; Barbacoas, 1; Puerto Valdivia, 1; La Frijolera, 1; Rio Frio, 1; Cali, 2; Guengiie, 1; Popayan, 1; Miraflores, 2; Barro Blanco, 1; near San Agustin, 2; Chicoral, 3; Andalucia (w slope, 3000 ft), 1; Honda, 3; Tenasuca, 2; El Alto de la Paz, 2; Calamar, 3
+
+(4279) Thraupis glaucocolpa
+La Playa, 2
+
+(4281) Thraupis palmarum melanoptera
+Dabeiba, 1; Novita, 1; Noanamd, 1; San Jose, 2; Los Cisneros, 1; Puerto Valdivia, 1; La Frijolera, 1; Andalucia, (w slope, 3000 ft), 1; Subia, 3; Chicoral, 1; Puerto Berrio, 1; Turbaco, 1; Quetame, 2; Buena Vista, 2; Villavicencio, 1; Barrigon, 1; Florencia, 2; La Morelia, 2
+
+(4289) Sporathraupis cyanocephala auricrissa
+Novita Trail (7200 ft), 1; Popayan, 1; Cerro Munchique, 11; La Florida, 2; Cocal, 1; La Sierra, 3; Salento, 2; Sta Elena, 9; Barro Blanco, 2; E] Eden, 7; Aguadita, 1; El Roble, 1; Subia, 1; Palo Hueco, 2
+
+(4293) Ramphocelus nigrogularis
+La Morelia, 5
+
+(4294) Ramphocelus dimidiatus dimidiatus
+Quibdo, 4; Bagado, 2; Caldas, 2; Puerto Valdivia, 4; La Frijolera, 2; Rio Frio, 5; La Manuelita, 1; Cali, 5; San Agustin, 5; La Candela, 1; Andalucia (w slope, 3000 ft), 4; Chicoral, 8; Honda, 1; El Alto dela Paz, 2; Tenasuea, 2; Puerto Berrio, 3; Varrud, 1; Algodonal, 5
+
+(4297) Ramphocelus carbo carbo
+E slope above Florencia (2000 ft), 1; Florencia, 7; La Morelia, 4
+
+(4297a) Ramphocelus carbo unicolor
+Buena Vista, 7; Villavicencio, 3
+
+(4803) Ramphocelus flammigerus
+San Antonio (e slope?), 3; Cali, 6; La Manuelita, 2; Miraflores, 3; Guengiie, 2; Popayan, 1; Rio Frio, 3; Salento, 4; Salencio, 1
+
+(4304) Ramphocelus chrysonotus
+Caldas, 5; Las Lomitas, 2; San Antonio, 1; vicinity of Medellin, 7
+
+(4305) Ramphocelus icteronotus
+Alto Bonito, 5; Dabeiba, 3; Quibd6, 1; Bagado, 6; Novita Trail (1600-1800 ft), 3; Juntas de Tamana, 5; Novita, 1; Noanama, 1; Buenaventura, 4; San Jose, 7; Gallera, (5700 ft), 1; Cerro Munchique (6000 ft), 1; Tumaco, 2; Barbacoas, 5; Puerto Valdivia, 1; La Frijolera, 1; Barro Blanco, 1; w of Honda, 4
+
+(4306) Calochaetes coccineus
+Below Andalucia, 1
+
+(4307) Piranga rubra rubra
+Alto Bonito, 1; Dabeiba, 4; Bagado, 2; Noanama, 3; Puerto Valdivia, 3; La Frijolera, 1; Rio Frio, 1; San Antonio, 1; Salento, 2; Sta Elena, 4; El Eden, 2; Honda, 5; Puerto Berrio, 1; Malena, 1; Buena Vista, 4
+
+(4307a) Piranga testacea testacea
+San Antonio, 1; Cocal, 1; Popayan, 2; La Sierra, 3
+
+(4313) Piranga leucoptera ardens
+Miraflores, 1; Ricaurte, 3
+
+(4815) Piranga rubriceps
+Cerro Munchique, 1; Laguneta, 2
+
+(4319) Chlorothraupis olivacea
+Alto Bonito, 5; Bagado, 2; Baudo, 3; Novita Trail (2000 ft), 1; Juntas de Tamana, 2; Novita, 1; Noanama, 1; Buenaventura, 2; San Jose, 5; Barbacoas, 6; Ricaurte, 1
+
+(4320) Chlorothraupis stolzmanni
+Buenavista, Narifio, 3
+
+(4327) Phoenicothraupis cristata
+Peque, 1; Novita Trail, (6000 ft), 1; San Antonio, 2; Rio Lima (Batty), 4; Cocal, 1; Cerro Munchique (6000 ft), 3
+
+(4828) Phoenicothraupis gutturalis
+West of Honda (2800 ft), 1
+
+(4332) Heterospingus xanthopygius
+Alto Bonito, 2; San Jose, 1; Cachipay (Magdalena Valley), 1
+
+(4833) Tachyphonus rufus
+Dabeiba, 6; Caldas, 2; Las Lomitas, 5; San Antonio, 4; Gallera, 1; Ricaurte, 7; Salencio, 1; Rio Frio, 1; Cali, 1; Miraflores, 4; Barro Blanco, 1; La Palma, 4; La Candela, 4; San Agustin, 2; Andalucia, 4; Fusugasuga, 1; Aguadita, 1; Palo Hueco, 1; Buena Vista, 1
+
+(4334) Tachyphonus luctuosus
+Dabeiba, 3; Guengiie, 1; Rio Frio, 5; Chicoral, 2; Opon, 1; La Morelia, 1
+
+(4340) Tachyphonus surinamus surinamus
+Villavicencio, 1; La Morelia, 3
+
+(4346) Tachyphonus delattrii
+Alto Bonito, 3; Bagado, 1; Andagueda, 1; Baudo, 2; Juntas de Tamana, 5; Novita, 5; Noanama, 2; San Jose, 7; Barbacoas, 7; Puerto Valdivia, 6
+
+(4847) Creurgops verticalis
+San Antonio, 3; Salento, 1; Sta Elena, 3; El Eden, 1; La Palma, 2; La Candela, 4
+
+(4352) Eucometis cristata cristata
+EI Consuelo, 3
+
+(4354) Mitrospingus cassini
+Salaqui, 1; Alto Bonito, 4; Bagado, 1; Juntas de Tamand4, 3; San Jose, 5; Barbacoas, 6
+
+(4365) Erythrothlypis salmoni
+San Jose, 4; Buenavista, Narifio, 3
+
+(4873) Hemithraupis peruana
+Florencia, 1
+
+(4878) Hemithraupis guira guirina
+La Frijolera, 1; Puerto Valdivia, 1; Rio Frio, 2; w of Honda, 1; La Candela, 1
+
+(4389) Sericossypha albocristata
+Almaguer, 2
+
+(43902) Chlorospingus albitempora nigriceps
+Miraflores, 2; Salento, 1; Sta Elena, 9; Rio Toche, 4; El Eden, 2; La Candela, 1; Andalucia (7000 ft), 1
+
+(4394) Chlorospingus flavipectus
+El Roble, 3
+
+(4395) Chlorospingus canigularis
+San Antonio, 2; Cerro Munchique, 3; Gallera, 1; La Florida, 2; Miraflores, 5; Salento, 4; La Candela, 3; near San Agustin, 1; Fusugasuga, 9; Subia, 5
+
+(4897) Chlorospingus flavigularis flavigularis
+La Frijolera, 2; La Palma, 2; Andalucia (7000 ft), 1; Monteredondo, 1; Buena Vista, 1
+
+(48972) Chlorospingus flavigularis marginatus
+Cocal, 1; Ricaurte, 1; Buenavista, Narifio, 5
+
+(4400) Chlorospingus semifuscus
+Novita Trail, 1; Cocal (6000 ft), 4; Cocal (4000 ft), 4
+
+(4402) Hemispingus atropileus
+Andes w of Popayan (10,340 ft), 1; Cocal (6000 ft), 2; above Salento, 2; Laguneta, 3; Choachi, 1
+
+(4406) Hemispingus rubrirostris
+Paramillo Trail (11,000 ft), 1; Almaguer, 1; above Salento (9000 ft), 4; Laguneta, 3; Sta Elena, 3; El Roble, 1
+
+(4408) Hemispingus superciliaris superciliaris
+Palo Hueco, 1; Cundinamarca, 1
+
+(4409) Hemispingus superciliaris nigrifrons
+Valle de las Pappas, 4; Laguneta, 1; Santa Isabel, 1
+
+(4412a) Hemispingus frontalis oleagineus
+Gallera, 2; Salento, 3; Sta Elena, 3; Rio Toche, 1; El Eden, 2; Aguadita (above Fusugasuga), 4; Subia, 4
+
+(4417) Hemispingus melanotis
+Above Salento (alt 9000 ft), 1; Sta Elena, 2; Fusugasug4, 1; El Roble, 1
+
+(4420) Pseudospingus verticalis
+Almaguer, 5; Laguneta, 1; Santa Isabel, 2
+
+(4422)  Urothraupis stolzmanni
+Sta Isabel, 1
+
+(4426) Psittospiza riefferi riefferi
+Paramillo Trail (11000 ft), 1; Andes w of Popayan, 5; Cerro Munchique, 3; Cocal (4000 ft), 2; Cocal (6000 ft), 2; Almaguer, 5; Laguneta, 10; Sta Elena, 2; El Roble, 1; El Pifion, 1
+
+(4431) Oreothraupis arremonops
+Cocal, 2
+
+(4433) Cissopis leveriana minor
+Florencia, 9; slopes above Florencia (2000 ft), 1; La Morelia, 2; Villavicencio, 4; Buena Vista, 1
+
+(4437) Schistochlamys atra
+Quetame, 1; Buena Vista, 1; Villavicencio, 6; near San Agustin, 1
+
+(4440) Zarhynchus wagleri wagleri
+Novita, 5; Barbacoas, 4; Buenavista, 1; Puerto Valdivia, 7; La Frijolera, 1
+
+(4443) Gymnostinops guatimozinus
+Alto Bonito, 5; Malena, 1
+
+(4444) Gymnostinops yuracares
+Florencia, 1; La Morelia, 1
+
+(4445) Ostinops decumanus
+Peque, 2; La Manuelita, 3; below Miraflores (4500 ft), 3; Rio Frio, 1; La Palma, 2; near Honda, 7; Algodonal, 1; Opon, 3; Barrigon, 2; Florencia, 1; La Morelia, 1
+
+(4448) Ostinops salmoni
+Las Lomitas, 2; San Antonio, 8; Gallera, 1; La Sierra, 1; Miraflores, 3; Salento, 4; Laguneta, 1; La Frijolera, 1
+
+(4451) Ostinops alfredi sincipitalis
+Aguadita above Fusugasuga, 2; Anolaima, 2
+
+(4451a) Ostinops alfredi neglectus
+Monteredondo, 1; Andalucia (5000 ft), 2
+
+(4453) Ostinops angustifrons
+Villavicencio, 2; La Morelia, 3; above Florencia (2500 ft), 1
+
+(4454) Cacicus cela
+Barrigon, 8; Florencia, 5; La Morelia, 5
+
+(4456) Cacicus vitellinus
+R Salaqui, 1; Algodonal, 1
+
+(4458) Cacicus leucorhamphus
+Andes w of Popayan, 1; Almaguer, 3; Laguneta, 8; El Eden, 3; Subia, 2
+
+(4460a) Cacicus haemorrhous affinus
+Florencia, 1; La Morelia, 1
+
+(4463) Cacicus uropygialis uropygialis
+Rio Lima, Cauca region, 2; Los Tambos, Cauca region, 1; Salento, 1; Andalucia (w slope, 5000 ft), 2; Fusugasuga, 1
+
+(4463a) Cacicus uropygialis pacificus
+Rio Salaqui, 1; Alto Bonito, 7; Baudo, 2; La Vieja, 1; Barbacoas, 5; Buenavista, Narifio, 1; Puerto Valdivia, 2
+
+(4464) Amblycercus solitarius
+Villavicencio, 1
+
+(4465a) Amblycercus holosericeus flavirostris
+Alto Bonito, 1; Barbacoas, 1; Los Tambos, Cauca Region (Batty), 1; Rio Toche, 1; El Pifion, 1
+
+(4466) Cassidix oryzivora violea
+Novita, 2; Noanama, 2; La Manuelita, 2; Miraflores, 1; Guengiie, 1; La Palma, 1; Malena, 2; Buena Vista, 1; Barrigon, 1; Florencia, 1
+
+(4474) Molothrus bonariensis atronitens
+La Morelia, 1
+
+(4475) Molothrus bonariensis cabanisi
+Caldas, 4; San Antonio, 5; Cali, 5; Miraflores, 5; San Agustin, 2
+
+(4475a) Molothrus bonariensis aequatorialis
+Tumaco, 3; Barbacoas, 2
+
+(4484) Agelaius icterocephalus icterocephalus
+Cali, 3; La Manuelita, 2; Barranquilla, 1
+
+(4484a) Agelaius icterocephalus bogotensis
+Bogota Savanna, 16
+
+(4488) Leistes militaris
+R Sinu, 2; Barranquilla, 1
+
+(4498) Sturnella magna meridionalis
+Slopes below Facatativa (6000 ft), 1; Bogota Savanna, 14; La Holanda, 6; La Herrera, 3; Chipaque, 1; Choachi, 2; Quetame, 3
+
+(4502) Icterus spurius
+Algodonal, 2
+
+(4506) Icterus auricapillus
+Honda, 1; west of Honda, 2
+
+(4509) Icterus mesomelas salvini
+Atrato River, 4; Quibdo, 1; Remolino (lower Magdalena), 1; Puerto Berrio, 2; Guaduas, 1
+
+(4511) Icterus giraudi
+San Antonio, 9; Cerro Munchique, 1; La Sierra, 2; Miraflores, 2; Salento, 1; Barro Blanco, 3; La Frijolera, 1; Chicoral, 1; San Agustin, 1; Andalucia (w slope, 3000 ft), 3; Fusugasuga, 3; El Carmen, 1; El Alto de la Paz, 1; Panama (above Pacho), 1; San Antonio (about 15 miles s of Bogota), 4; Quetame, 2; Buena Vista, 2; Villavicencio, 1
+
+(451la) Icterus hondae
+Honda, 2
+
+(4516) Icterus xanthornus xanthornus
+Turbaco, 1; La Playa, 3; Calamar, 2; Boca de Chimi, 1; Puerto Berrio, 1; Barrigon, 1
+
+(4528) Megaquiscalus major assimilis
+La Playa, 4; Buenaventura, 1
+
+(4531) Macraglaeus subalaris
+Subia, 2
+
+(4532) Hypopyrrhus pyrohypogaster
+Peque, 1; La Frijolera, 7; Finlandia 8 miles w of Salento, 2; Salento, 8; Caqueta Trail (7000 ft), east slope below Andalucia, 1
+
+(4539) Cyanocorax affinis affinis
+Peque, 1; Dabeiba, 2; Alto Bonito, 2; Bagado, 1; Iguamiando, Choco, 2; Turbaco, 3; Puerto Valdivia, 2; La Frijolera, 2; west of Honda, 4; Chicoral, 2
+
+(4547) Cyanocorax violaceus
+La Morelia, 5; Villavicencio, 6; Barrigon, 3
+
+(4549a) Xanthoura yncas galeatus
+Cerro Munchique, 1; Popayan, 1; Miraflores, 4; Salento, 12; Sta Elena, 7; La Frijolera, 3; El Eden, 4; La Candela, 3; La Palma, 1; Andalucia (w slope, 3000 ft), 1; Aguadita, 2; Subia, 1; Anolaima, 1
+
+(4550) Xanthoura yncas cyanodorsalis
+Quetame, 5
+
+(4557) Cyanolyca armillata quindiuna
+Valle de las Pappas, 5; Laguneta, 7; Santa Isabel, 1; Salento, 1
+
+(4559) Cyanolyca armillata armillata
+Anolaima, 1; Choachi, 1

@@ -1,0 +1,1061 @@
+(7) Tinamus major ruficeps Sci. & Sal.
+(8) Tinamus major castaneiceps Salvad.
+(12) Nothocercus julius (Bonap.).
+(14) Nothocercus bonapartei (Gray).
+(16) Crypturus cinereus (Gmel.).
+(17) Crypturus berlepschi Rothe.
+(22) Crypturus soui soui (Herrm.).
+(31) Crypturus adspersus yapura (Syiz).
+(88) Crypturus variegatus salvini Salvad.
+(74) Crax alector Linn.
+(78) Crax panamensis Ogilvie-Grant.
+(82) Crax alberti "Fraser.
+(90) Penelope montagni (Bonap.).
+(95) Penelope ortoni Saiz.
+(97) Penelope cristata (Linn.).
+(98) Penelope jacqtacu Sypiz.
+(111) Ortalis columbiana columbiana Zellm.
+(112) Ortalis guttata (Syiz).
+(114) Ortalis garrula (Humb.).
+(116) Pipile cumanensis (Jacq.).
+(121) Aburria aburri (Less.).
+(122) Chamepetes goudoti goudoti (Less.).
+(1256) Colinus cristatus leucotis (Gould).
+_ (129) Colinus cristatus parvicristatus (Gould).
+(131) Odontophorus guianensis marmoratus (Gould).
+(188) Odontophorus parambe Rothe.
+(142) Odontophorus strophium (Gould).
+(149) Columba speciosa Gmel.
+(153) Columba goodsoni Hart.
+(154) Columba ‘albilinea albilinea. Bonap.
+(159) Columba subvinacea bogotensis (Berl. & Lev.).
+(160) Columba subvinacea berlepschi Hart.
+(162) Zenaida auriculata (Des Murs).
+(163) Zenaida ruficauda ruficauda Bonap.
+(1740) Chemepelia passerina albivitta Bonap.
+(1746) Chemepelia passerina parvula Todd.
+(180) Cheemepelia rufipennis rufipennis (Bonap.).
+(1802) Chemepolia rufipennis cauce Chapm.
+(184) Claravis pretiosa livida Bangs.
+(189) Leptotila verreauxi verreauxi Bonap.
+(191) Leptotila rufaxilla dubusi Bonap.
+(1914) Leptotila rufaxilla pallidipectus Chapm.
+(1916) Leptotila plumbeiceps Sci. & Saiz.
+(200) Leptotila pallida Berl. & Tacz.
+(202) Osculatia purpurata Sailv.
+(204) Oreopeleia montana (Linn.).
+(206) Oreopeleia bourcieri (Bonap.).
+(209) Oreopeleia linearis linearis (Prev. & Knip).
+(212) Opisthocomus hoazin (Miil.).
+(217) Rallus semiplumbeus Sel.
+(224) Pardirallus nigricans nigricans (Vieill.).
+(230) Aramides cajanea cajanea (Miil.).
+(236) Anurolimnas castaneiceps (Sci. & Salv.).
+(237) Anurolimnas hauxwelli (Sci. & Sale.).
+(238) Porsana carolina (Zinn.).
+(241) Porzana flaviventris (Bodd.).
+(247) Crecisctis snops (Sci. & Salv.).
+(248) Creciscus albigularis (Zawr.).
+(254) Neocrex colombianus Bangs.
+(258) Ionornis martinicus (Linn.).
+(267) Heliornis fulica (Bodd.).
+(268) Colymbus dominicus brachyrhynchus Chapm.
+(276) Podilymbus podiceps (Linn.).
+(319) Phaétusa chloropoda (Vieill.).
+(338) Rhynchops nigra cinerascens Spiz.
+(371) Belonopterus cayennensis (Gmel.).
+(375) Charadrius dominicus dominicus Mill.
+(380) Bgialitis semipalmata (Bonap.).
+(381) ABgialitis collaris ( Vieill.).
+(888) Himantopus mexicanus (Miill.).
+(397) Totanus melanoleucus (Gmel.).
+(398) Totanus flavipes (@mel.).
+. (399) Helodromas solitarius solitarius (Wils.).
+(400) Actitis macularia (Linn.).
+(407) Tringa minutilla Vieill.
+(408) Pisobia maculata (Vieill.).
+(4138) Gallinago delicata (Ord).
+(414) Gallinago braziliensis (Swains.).
+(416) Gallinago nobilis Sel.
+(421) Gallinago jamesoni (Bonap.).
+(427) Jacana spinosa (Linn.).
+(428) Jacana melanopygia (Scl.).
+(429) Jacana nigra (Gmel.).
+(430) Burhinus bistriatus (Wagl.).
+(434) Eurypyga major Haril.
+(487) Psophia napensis Sci. & Sale.
+(445) Theristicus caudatus (Bodd.).
+(448) Harpiprion cayennensis (Gmel.).
+(450) Phimosus berlepschi Hellm.
+(457) Ajaia ajaja (Linn.).
+(460) Jabiru mycteria (Lichi.).
+(461) | Ardea cocoi Linn.
+(463) Herodias egretta (Gmel.).
+(464) Egretta candidissima (Gmel.).
+(465) Florida cwrulea (Linn.).
+(466) Hydranassa tricolor tricolor (Miil.).
+(468) Agamia agami (Gmel.).
+(469) Nycticorax nycticorax nevius (Bodd.).
+(473) Cochlearius cochlearius (Linn.).
+(475) Pilherodias pileatus (Bodd.).
+(476) Butorides striata (Linn.).
+(479) Tigrisoma lineatum (Bodd.).
+(483) Tigrisoma salmoni Sci. & Sale.
+(485) - Ixobrychus erythromelas ( Viezil.).
+(490) Palamedea cornuta Linn.
+(491) Chauna chavaria (Linn.).
+(499) Cairina moschata (Linn.).
+(508) Dendrocygna bicolor ( Vieill.).
+(509) Dendrocygna discolor Scl. & Salv.
+(518) Nettion andium (Sci. & Salv.).
+(525) Querquedula discors (Linn.).
+(526) Querquedula cyanoptera (Vieill.).
+(533) Marila nationi (Sel. & Salv.).
+Eyton (1838) which is therefore a pure synonym of “ Anas erythropthalma”
+(535) Nomonyx dominicus (Linz.).
+(549) Phalacrocorax vigua vigua ( Vieill.).
+(554) Anhinga anhinga (Linn.).
+(565) Sarcoramphus gryphus (Linn.).
+(566) Gypagus papa (Linn.).
+(567) Catharista urubu ( Vieill.).
+(568) Cathartes aura aura (Linn.).
+(573) Polyborus cheriway (Jacq.).
+(575) Ibycter americanus (Bodd.).
+(580) Milvago chimachima ( Vieill.).
+(582) Circus hudsonius (Linn.).
+(583) Circus cinereus Vieill.
+(584) Circus buffoni (Gmel.).
+(589) Micrastur guerilla interstes Bangs.
+(597) Accipiter superciliosus (Linn.).
+(602) Accipiter ventralis Sci.
+(606) Accipiter bicolor ( Vieill.).
+(617) Buteo hypospodius Gurney.
+(620) Buteo platypterus ( Vieill.).
+(621) Buteo brachyurus V7eill.
+(623) Asturina nitida (Lath.).
+(625) Rupornis magnirostris magnirostris (Gmel.).
+(629) Busarellus nigricollis (Lath.).
+(631) Urubitinga urubitinga (Gmel.).
+(634) Urubitinga schistacea (Sundev.).
+(635) Urubitinga plumbea (Sale.).
+(642) Leucopternis semiplumbea Lawr.
+(649) Lophotriorchis isidori (Des Murs).
+(651) Spizaétus ornatus ( Daud.).
+(653) Spizaétus tyrannus (Wied).
+(654) Herpetotheres cachinnans cachinnans (Linn.).
+(655) Elanoides forficatus yetapa Bonn. & Vieill.
+(656) Rostrhamphus sociabilis (Vieill.).
+(658) Leptodon uncinatus (Temm.).
+(660) Leptodon palliatus (Temm.).
+(664) Harpagus bidentatus (Lath.).
+(665) Ictinia plumbea (Gmei.).
+(669) Falco fusco-cxerulescens Vieill.
+(671) Falco rufigularis Daud.
+(683) Asio stygius (Wagi.).
+(697) Otus watsoni (Cass.).
+(703) Ciccaba albitarsus (Scl.).
+(704) Ciccaba albogularis (Cass.).
+(707) Ciccaba virgata virgata (Cass.).
+(709) Ciceaba nigrolineata Scl.
+(720) Glaucidium brasilianum brasilianum (Gime.).
+(721) Glaucidium brasilianum phalenoides. (Daud.).
+(722) Glaucidium jardini (Bonap.).
+(724) Tyto perlata subsp.
+(732) Ara ararauna (Linn.).
+(734) Ara macao (Linn.).
+(735) Ara chloroptera Gray.
+(736) Ara militaris militaris (Linn.).
+(739) Ara severa (Linn.).
+(759) Aratinga wagleri (Gray).
+(762) Aratinga wsruginosa wruginosa (Linz.).
+(771) Ognorhynchus icterotis (Mass. & Souancé).
+(785) Pyrrhura calliptera (Mass. & Souancé).
+(787) Pyrrhura souancei (Verr.).
+(809) Psittacula conspicillata conspicillata Lafr.
+(811) Psittacula sclateri Gray.
+(819) Psittacula spengeli Hartl.
+(825) Brotogeris jugularis (Miill.).
+(826) Brotogeris devillei Salvad.
+(834) Amagona inornata (Salvad.).
+(835) Amazona mercenaria ( Tsch.).
+(836) Amazons amazonica (Linn.).
+(841) Amazona ochrocephata cokrocephala (Gmel.). |
+(842) Amazona ochrocephala panamensis (Cab.).
+(847) Amagzona salvini (Salvad.).
+(857) Pionus menstruus (Linn.).
+(866) Pionus seniloides seniloides (Mass. & Souancé).
+(867) Pionus chalcopterus (Fraser).
+(875) Hapalopsittaca amazonina (Des Murs).
+(8750) Hapalopsittaca fuertesi (Chapm.).
+(876) Eucinetus pulchra (Berl.).
+(879) Pyrilia pyrilia (Bonap.).
+(890) Pionites melanocephala pallidus (Beri.).
+(895) Moegaceryle' torquata torquata (Linn.).
+(898) Chloroceryle amazona (Lath.).
+(899) Chloroceryle americana americana (Gmel.).
+(901) Chloroceryle inda (Linn.).
+(904) Urospatha martii martii (Syiz).
+- (905) Urospatha martii semirufa (Sci).
+(906) Electron platyrhynchus platyrhynchus (Leadb.).
+(907) Electron platyrhynchus pyrrholemus (Berl. & Stolz).
+(911) Momotus subrufescens subrufescens Scl.
+(916) Momotus squatorialis squatorialis Gould.
+(9192) Hylomanes momotula obscurus Nels.
+(923) Nyctibius lengicaudatus (Spizx).
+(928) Chordeiles acutipennis acutipennis (Bodd.).
+(937) Lurocalis rufiventris Tacz.
+(938) Uropsalis! lyra (Bonap.).
+(945) Hydropsalis climacocerca [sch.
+(948) Nyctidromus albicollis albicollis (Gmel.).
+(951) Thermochalcis cayennensis cayennensis (Gmel.).
+(955) Thermochalcis ruficervix (Scl.).
+(959) Antrostomus rosenbergi (Hart.).
+(969) Streptoprocne zonaris albicincta (Cab.).
+(976) | Chetura spinicauda fumosa Salb.
+Costa Rica, 5 Males 108-112 (109) 40. —43 (41.6)
+(977) Chetura cinereiventris sclateri Pelz.
+(978) Chetura cinereiventris occidentalis Berl. & Tacz.
+(983) Cypseloides brunneitorques brunneitorques (La/r.).
+(993) Doryfera ludovicie ludovicies (Bourc. & Muls.).
+(995) Androdon squatorialis Gould.
+(999) Threnetes cervinicauda Gould.
+(1000) Threnetes ruckeri fraseri (Gould).
+(1002) Glaucis wnea Lawr.
+(1005) Phethornis guyi emilie (Bourc. & Muls.).
+(1007) Phosthornis yaraqui sancti-johannis Hellm.
+(1009) Phosthornis fraterculus moorei Lawr.
+(1017) Phothornis hispidus oseryi (Bourc. & Muls.).
+(1019) Phethornis syrmatophorus syrmatophorus (ould.
+(1020) Phethornis syrmatophorus columbianus Boucard.
+(1021) Phethornis anthophilus (Bourc. & Muls.).
+: (1031) Phosthornis griseogularis Gould.
+(1032) Phethornis striigularis striigularis Gould.
+(1043) Eutoxeres condaminii (Boure.).
+(1045) Eutoxeres aquila aquila (Bourc.).
+(1046) Eutoxeres aquila salvini Gould.
+(1047) Eutoxeres aquila heterura Gould.
+(1050) Campylopterus obscurus squatorialis Gould.
+(1052) Campylopterus falcatus (Swains.).
+(1058) Florisuga mellivora mellivora (Zinn.).
+(1075) Agyrtria viridiceps (Gould).
+(1086) Agyrtrina fluvialitis (Gould).
+(1090) Polyerata amabilis (Gould).
+(1091) Polyerata rosenbergi Boucard.
+(1093) Uranomitra francis (Boure. & Muls.).
+(1096) Lepidopyga goudoti (Bourc.).
+(1097) Lepidopyga colina (Bourc.).
+(1101) Saucerottia saucerottei (Delait. & Bourc.).
+(1102) Saucerottia viridigaster (Bourc. & Muls.).
+(1111) Amizilis tzacatl tzacatl (De la Liave).
+(1112) Amizilis tzacatl jucunda (Heine).
+(1119) Hylocharis grayi (Delatt. & Bourc.).
+(1120) Hylocharis humboldti (Bource. & Muls.).
+(1136) Damophila julie julie (Bourc.).
+(1141) Chlorostilbon gibsoni (Fraser).
+(1142) Chlorostilbon heberlini (Reich.).
+(1144) Chlorostilbon melanorhynchus Gould.
+Quito, « (3) 47.2 26.5 21.3 15.2
+(1153) Chlorostilbon poortmani poortmani (Boure. & Muls.).
+(1168) Thalurania fannyi fannyi (Delatt. & Bourc.).
+(1169) Thalurania fannyi verticeps (Gould).
+«a 6 Alto Bonito (2) 53 45 19
+“aos Buenavista (5) 54.5 40.5 19
+«ne 4“ * *EKeuador’ (3) 56 40 18.5
+(1174) Thalurania nigrofasciata (Gould).
+(1182) Thalurania colombica colombica (Bourc.).
+(1183) Chalybura buffoni buffoni (Less.).
+(1185) Chalybura c#ruleogaster (Gould).
+(1187) Chalybura urochrysa (Gould).
+(21) the latter appears to be the Panama representative of the Colombian
+(1188) Colibri delphins (Less.).
+(1189) Colibri cyanotus (Bourc. & Muls.).
+(1190) Colibri iolata (Gould).
+(1194) Anthracothorax nigricollis nigricollis (Vieill.).
+(1199) Chrysolampis elatus (Linn.).
+(1201) Simonula! berlepschi (Sale.).
+(1223) Phaiolaima rubinoides rubinoides (Bourc. & Muls.).
+(1224) Phaiolaima rubinoides squatorialis Gould.
+(1230) Heliodoxa leadbeateri (Bourc. & Muis.).
+(1239) Helianthea helianthea (Less.).
+(1240) Helianthea bonapartei (Boiss.).
+(1246) Helianthea lutetie lutetie (Delatt. & Bourc.).
+(1250) Helianthea torquata (Boiss.).
+(1255) Helianthea celigena columbiana (Elliot).
+(1267) Lafreanayea lafresnayi (Boiss.).
+(1269) Lafresnayea saiil saiil (Boure.).
+(1271) Ensifera ensifera ensifera (Boziss.).
+(1272) Pterophanes temmincki ( Boiss.).
+(1273) Aglwactis cupripennis cupripennis (Bourc. & Muls.).
+(1280) Boissonneaua jardini (Bourc.).
+(1282) Boissonneaua flavescens flavescens (Lodd.).
+(1288) Vestipedes vestitus vestitus (Less.).
+(1289) Vestipedes vestitus smaragdinipectus (Gould).
+(1295) Vestipedes mosquera ( Delatt. & Bourc.). ,
+(1297) Vestipedes aurelis aurelis (Bourc. & Muls.).
+(1298) Vestipedes aurelis caucensis (Simon).
+(1305) Vestipedes derbyi longirostris (Hart.).
+(1307) Ocreatus underwoodi underwoodi (Less.).
+(1314) Urosticte benjamini benjamini (Bourc.).
+(1319) Adelomyia melanogenys melanogenys (Fraser).
+(1323) Adelomyia melanogenys cervina Could.
+(1332) Heliangelus exortis (Fraser).
+Cerro Munchique (2) 62 43.5 14 mm.
+Laguneta (4) 62 47 15
+Sta. Elena (3) 63.5 47 15.5
+Fusugasugé, (3) 63.5 48 14
+Andes west of Popayan (2) 58 43 15
+Laguneta (2) 58 41 15.5
+El Roble . (5) 58 41 14.5
+(1342) Metallura williami (Delatt. & Boure.).
+(1348) Metallura tyrianthina tyrianthina (Lodd.).
+(1357) Oxypogon stubeli Meyer.
+(1358) Chalcostigma herrani (Delaitt. & Bourc.). ‘
+(1859) Chalcostigma heteropogon (Boiss.).
+(1366) Ramphomicron microhynehum (Boiss.).
+(1368) Opisthroprora euryptera (Lodd.).
+(1373) Cyanolesbia kingi kingi (LZess.).
+(1374) Cyanolesbia emme Berl.
+(1875) Cyanolesbia mocoa mocoa ( Delati. & Bourc.).
+(1379) Cyanolesbia colestis (Gould).
+(1386) Psalidoprymna victoriz victories (Bourc. & Muls.).
+(1393) Psalidoprymna gouldi gouldi (Lodd.).
+(1400) Schistes geoffroyi (Bourc. & Muls.).
+(1401) Schistes albogularis Gould.
+(1405) Heliothryx barroti (Bourc. & Muls.).
+(1413) Anthoscenus longirostris stewarte (Lawr.).
+(1419) Calliphlox mitchelli (Bourc.).
+(1420) Chetocercus mulsanti (Bourc.).
+(1421) Cheetocercus heliodor (Bourc.).
+(1481) Klais guimete (Bourc. & Muls.).
+(1443) Popelairia conversi (Bourc. & Muls.).
+(1451) Pharomachrus antisiensis (d’Orb.).
+(1452) Pharomachrus auriceps (Gould).
+(1456) Pharomachrus pavoninus (Spiz).
+(1457) Trogonurus personatus (Gould).
+(1458) Trogonurus collaris ( Viedll.).
+(1467) Trogonurus bolivianus (Grané).
+(1461) Trogon strigilatus strigilatus Linn.
+(1462) Trogon strigilatus chionurus Se. & Salv.
+(1465) Chrysotrogon ramonianus (Dev. & Des Murs).
+(1470) Curucujus melanurus melanurus (Swains.).
+(1471) Curucujus melanurus macrourus (Gould).
+in the second edition of his Monograph of the Trogons (1875) he writes: “I
+(1472) Curucujus massena australis Chapn.
+(1475) Coccyzus melacoryphus Vieiil.
+(1476) Coccyzus americanus americanus (Linn.).
+(1482) Piaya cayane columbiana (Cab.).
+(1484) Piaya cayana nigricrissa (Cab.).
+(1485) Piaya cayana mesura (Cabd.).
+(1490) Piaya rutila rutila (Z1/.).
+(1492) Neomorphus salvini Sel.
+(1496) Tapera neevia (Linn.).
+(1499) Crotophaga ani Linn.
+(1500) Crotophaga major Gmel.
+(1503) Capito aurovirens (Cuv.).
+(1505) Capito squamatus Saiz.
+(1506) Capito hypoleucus Sale.
+(1507) Capito quinticolor Elliot.
+(1510) Capito auratus auratus (Dumont).
+(1514) Bubucco richardsoni granadensis (Shelley).
+(1519) Eubucco bourcieri bourcieri (Lafr.).
+(1522) Semnornis ramphastinus (Jard.).
+(1524) Ramphastos piscivorus brevicarinatus Gould.
+(1525) Ramphastos swainsoni Gould. (Plate XXXVIII.)
+(1526) Ramphastos ambiguus ambiguus Swains.
+(1529) Ramphastos cuvieri Wag.
+(1530) Ramphastos culminatus Gould. (Plate XXXVIII.)
+(1531) Ramphastos citreolemus Gould. (Plate XXXVIILZ.)
+(1537) Andigena hypoglaucus (Gould).
+(1540) Andigena nigrirostris nigrirostris (Waterh.).
+(1541) Andigena nigrirostris spilorhynchus Gould.
+(1546) Pteroglossus pluricinctus Gould. (Plate XXXVIII.)°
+(1547) Pteroglossus castanotis castanotis Gould. (Plate XXXVIII.)
+(1550) Pteroglossus torquatus nuchalis Cab. (Plate XXXVIII.)
+(1552) Pteroglossus sanguineus Gould.
+(1556) Pteroglossus flavirostris flavirostris Fraser.
+(1559) Pteroglossus humboldti Wagl.
+(1567) Selinidera reinwardti (Wazgl.)..
+(1576) Aulacorhynchus albivitta albivitta (Boiss.) Plate XX XVIII.
+(1577) Aulacorhynchus hematopygius (Gould).
+(1586) Galbula ruficauda ruficauda Cuv.
+(1587) Galbula ruficauda pallens Bangs.
+(1588) Galbula melanogenia Sel.
+(1589) Galbula tombacea tombacea Spiz.
+(1593) Galbula albirostris chaleocephala Dev.
+(1598) Brachygalba fulviventris fulviventris Sel.
+(1604) Galbalcyrhynchus leucotis Des Murs.
+(1608) Bucco capensis Linn.
+(1610) Notharcus hyperrhynchus leucocrissus (Scl.).
+(1613) Notharcus pectoralis (Gray).
+(1617) Notharcus tectus subtectus (Sel).
+(1618) Argicus macrodactylus (Sziz).
+(1619) Nystactes noaname (Heillm.).
+(1620) Hypnelus ruficollis ruficollis (Wazgl.).
+(1629) Nystalus radiatus (Sci.).
+(1631) Malacoptila fusca (Gmel.).
+(1635) Malacoptila mystacalis, (Lafr.).
+(1637) Malacoptila panamensis poliopis Sci.
+(1641) Micromonacha lanceolata ( Deville).
+(1646) Nonnula frontalis (Sci.).
+(1650) Monasa flavirostris Strick.
+(1653) Monasa morpheus peruana Sci.
+(1654) Monasa pallescens pallescens Cass.
+(1655) Monasa pallescens sclateri Ridgw. j
+(1656) Monasa nigrifrons (Sziz.).
+(1665) Hypoxanthus rivolii rivolii (Boiss.).
+(1666) . Hypoxanthus rivolii brevirostris Tacz.
+(1672) Chloronerpes xanthochlorus Sci. & Sale.
+(1676) Chloronerpes lite Roth.
+(1681) Chloronerpes rubiginosus gularis Hargitt.
+(1697) Chrysoptilus punctigula guttatus (Sziz).
+(1698) Chrysoptilus punctigula punctipectus Cab. & Hein.
+(1699) Chrysoptilus punctigula ujhelyii Madar.
+(1702) Melanerpes flavigula Malh.
+(1703) Melanerpes cruentatus (Bodd.).
+(1708) Melanerpes pucherani pucherani (Jfalh.).
+(1715) Veniliornis oleaginus fumigatus (Lafr. & @Orb.).
+(1720) Veniliornis dignus (Sci. & Salv.).
+(1727) Veniliornis fidelis ( Harg.).
+(1733) Veniliornis ruficeps hematostigma (Malh.).
+(1738) Veniliornis kirki cecilii (1faih.).
+(1751) Celeus loricatus loricatus (Reich.).
+(1760) Campephilus rubricollis (Bodd.).
+(1762) Campephilus melanoleucus (Gmel.).
+(1763) Campephilus malherbii Gray.
+(1765) . Campephilus pollens (Bonap.).
+(1776) Picumnus cinnamomeus Wagl.
+(1795) Picumnus squamulatus squamulatus Lar.
+(1808) Picumnus olivaceus olivaceus Lajr.
+(1810) Picumnus olivaceus harterti Hellm.
+(1809) Picumnus granadensis granadensis Lajr.
+(1812) Seytalopus niger (Swains.).
+(1817) Scytalopus griseicollis (Zafr.).
+(1819) Scytalopus sylvestris Tacz.
+(1822) Scytalopus micropterus micropterus Sci.
+(1815) Myornis senilis (Zafr.).
+(1836) Acropternis orthonyx (Lafr.).
+(1839) Conopophaga aurita (Gmel.).
+(1846) Conopophaga castaneiceps castaneiceps Sci.
+(1854) Cymbilaimus lineatus lineatus (Leach).
+(1855) Cymbilaimus lineatus fasciatus Ridgw.
+(1858) Taraba unduliger (Pelz.).
+(1862) .Taraba transandeana transandeana (Sci.).
+(1863) Taraba transandeana granadensis (Cab.).
+(1870) Thamnophilus unicolor (Sei.).
+(1882) Thamnophilus nigriceps Sci.
+(1883) Thamnophilus punctatus punctatus (Shaw).
+(1885) Thamnophilus punctatus atrinucha Sale. & Godm.
+(1903) Thamnophilus canadensis pulchellus (Cab. & Hein.).
+(1908) Thamnophilus doliatus doliatus (Linn.).
+(1916) Thamnophilus radiatus albicans Lafr.
+(1917) Thamnophilus tenuipunctatus Zafr.
+(1920) Thamnophilus multistriatus Lafr.
+(1928) Thamnistes wsquatorialis Sci.
+(1933) Clytoctantes alixii Elhot.
+(1943) Dysithamnus puncticeps femmingi Hart.
+(1944) Dysithamnus leucostictus Sci.
+(1951) Dysithamnus capitalis capitalis Sel.
+(1953) Dysithamnus ardesiacus ardesiacus Sci.
+(1959) Thamnomanes glaucus Cab.
+(1961) Myrmotherula pygmea (Gmei.).
+(1963) Myrmotherula surinamensis pacifica Hellm.
+(1972) Myrmopagis fulviventris (Lawr.).
+(1975) Myrmopagis hemniatonota (Sci.).
+(1977) Myrmopagis ornata ornate (Scl.).
+(1984) Myrmopagis axillaris melena (Sci.).
+(1985) Myrmopagis schisticolor schisticolor (Lawr.).
+(2006) Herpsilochmus rufomarginatus frater Scl. & Salv.
+(2026) Microrhopias boucardi consobrina (Scl.).
+(2021) Drymophila caudata caudata (Sci.).
+(2036) Terenura callinota (Sc/.).
+(2048) Ramphocenus melanurus trinitatis Less.
+(2048) Microbates cinereiventris cinereiventris (Sci.).
+(2049) Microbates collaris (Pelz.).
+(2051) Cercomacra sclateri Hellm.
+(2053) Cercomacra tyrannina tyrannina (Sci.).
+(2058) Cercomacra nigricans: Sci.
+(2061) Cercomacra berlepschi (Hart.).
+(2071) Anoplops bicolor wquatorialis (Hellm.).
+(2072) Anoplops bicolor dagua (Hellm.).
+(2084) Myrmeciza melanoceps (Spix).
+(2091) Myrmeciza maculifer maculifer (Helim.).
+(2107) Myrmeciza longipes boucardi Beri.
+(2108) Myrmeciza lemosticta nigricauda Salv. & Godm.
+(2092) Gymnocichla nudiceps sanctw-marte Ridgw.
+(2104) Dichrozona cinctus (Pelz.).
+(2121) Hypocnemis cantator peruviana Tacz.
+(2124) Hypocnemis hypoxantha Sel.
+(2129) Myrmoborus leucophrys leutophrys (7sch.).
+(2143) Hylophylax nevia thereses (Des Murs).
+(2146) Hylophylax nsvioides (La/r.).
+(2150) Phenostictus macleannani macleannani (Lawr.).
+(2157) Formicarius nigricapillus destructus Hart.
+(2159) Formicarius analis saturatus Ridgw.
+(2164) Chameza brevicauda columbiana Berl. & Stolz.
+(2167) Chameza brevicauda (nobilis?) Gould.
+(2169) Chameza turdina Cab. & Hein.
+(2171) Chammza mollissima Sci.
+: (2175) Grallaria squamigera Prev.
+(2187) Grallaria ruficeps Scl.
+(2188) Grallaria rufocinerea Se. & Salv.
+(2189) Grallaria monticola Lajr.
+(2194) Grallaria hypoleuca Sci.
+(2199) Grallaria ruficapilla ruficapilla Lafr. .
+(2204) Grallaria. modesta Scl.
+(2196) Oropezus rufula rufula (Lajr.).
+(2212) Hylopezus perspicillata periopthalmica Salud. <& Festa.
+(2215) Grallaricula nana (Lafr.).
+(2218) Grallaricula cucullata (Scl.).
+(2240) Furnarius agnatus Sci. & Salo.
+, (2285) “Schizceaca fuliginosa (Lafr.).
+(2295) Leptasthenura andicola Sel.
+' (2305) Synallaxis.azare elegantior Sc.
+(2310) Synallaxis mesta mesta Sel.
+(2317) Synallaxis albescens albigularis Sci.
+(2320) Synallaxis pudica pudica Sci.
+(2335) Synallaxis unirufa Lafr.
+(2338) Synallaxis candei candexi Lafr. & d’Orb.
+(2345) Synallaxis gularis gularis Lafr.
+(2358) Siptornis antisiensis (Scl.).
+(2366) Siptornis erythrops griseigularis (Ridgw.).
+(2367) Siptornis striaticollis (Lafr.).
+(2401) Siptornis flammulata multostriata (Sci.).
+(2408) Pseudocolaptes boissonneauti boissonneauti (La/r.).
+(2437) Hyloctistes subulatus subulatus (Syiz).
+(2438) Hyloctistes subulatus assimilis (Berl. & Tacz.).
+(2434) Automolus holostictus Sci. & Sal.
+_ (2435) Automolus ignobilis Sci. & Salv.
+(2436) Automolus melanorhynchus (7sch.).
+(2441) Automolus ochrolemus turdinus (Pelz.).
+(2445) Automolus dorsalis Sci. & Salo.
+(2447) Automolus infuscatus infuscatus (Scl.).
+(2450) Automolus nigricauda saturatus Chapm.
+(2454) Automolus cinnamomeigula Hellm.
+(2464) Philydor pyrrhodes (Cab.).
+(2468) Philydor ruficaudatus (d’Orb. & Lafr.) subsp.
+(2478) Philydor montanus striaticollis (Sei.).
+(2477) Thripadectes flammulatus (Hyton).
+(2480) Thripadectes virgaticeps sclateri Berl.
+(2481) Ancistrops strigilatus (Spiz).
+(2487) Xenicopsis subalaris subalaris (Sci.). ‘
+(2490) Xenops genibarbis littoralis Scl.
+(2493) Xenops rutilus heterurus Cob. & Hein.
+(2499) Sclerurus brunneus Sci.
+. (2501) Sclerurus albigularis albigularis Swainson.
+(2504) Sclerurus mexicanus obscurior Hart.
+(2508) Margarornis perlata (Less.).
+(2509) Margarornis stellata Sci. & Salv.
+(2511) Premnornis guttata (Lawr.).
+(2512) Premnoplex brunnescens brunnescens (Scl.).
+(2516) Glyphorhynchus cuneatus subsp.
+(2517) Glyphorhynchus cuneatus castelnaudi Des Murs.
+(2519) Dendrocincla tyrannina tyrannina (Tcfr.).
+(2521) Dendrocincla lafresnayei lafresnayei Ridgw.
+(2526) Dendrocincla lafresnayei pheochroa Berl. & Hart.
+(2539) Xiphorhynchus guttata guttatoides (LZajr.).
+(2542) Xiphorhynchus equatorialis equatorialis (Berl. & Tacz.).
+(2543) Xiphorbynchus triangularis (Lafr.).
+(2544) Xiphorhynchus lachrymosus dachrymosus (Lawr.).
+(2559) Dendroplex picus picus (Gmel.).
+(2561) Dendroplex picus picirostris (LZafr.).
+(2570) Xiphocolaptes promeropirhynchus (Less.).
+(2586) Picolaptes lacrymiger lacrymiger (Des Murs).
+(2589) Picolaptes warscewiczi (Cab. & Hein.).
+(2594) Picolaptes albolineatus (Lafr.).
+(2605) Campylorhamphus trochilirostris procurvoides (Lafr.).
+(2606) Campylorhamphus trochilirostris venezuelensis (Chapm.).
+(2607) Campylorhamphus thoracicus (Sci.).
+(2611) Campylorhamphus pucherani (Des Murs).
+(2616) Dendrocolaptes validus validus 7sch.
+(2618) Dendrocolaptes sancti-thema sancti-thome (Lafr.).
+(2619) Dexdrocolaptes sancti-thome radiolatus Scl. & Salv.
+(2637) Orodynastes striaticollis striaticollis (Scl.)
+(2647) Ochthodista fumigata (Borss.).
+(2652) Ochtheeca mnanthoides fumicolor Sei.
+(2654) Ochtheca onanthoides brunneifrons Berl. & Stolz.
+(2661) Ochthoca albidiedema (LZa/r.).
+(2662) Ochthoeca frontalis (Lafr.).
+(2667) Ochthosca lessoni Scl.
+(2669) Ochtheca cinnamomeiventris (Lafr.).
+(2675) Ochthoca gratiosa gratiosa (Sci.).
+(2678) Mecocerculus leucophrys setophagoides (Bonap.).
+(2679) Mecocerculus stictopterus (Scl.),
+(2682) Mecocerculus pecilocercus (Scl. & Salb.).
+(2685) Ochthornis littoralis (Pelz.).
+(2686) Fluvicola pica (Bodd.).
+(2690) Arundinicola leucocephala (Linn.).
+(2714) Copurus colonus fuscicapillus Sel.
+(2715) Copurus leuconotus Lafr.
+(2717) Machetornis rixosus flavigularis Todd.
+(2746) Platytriccus flavigularis (Scl.).
+(2751) Platytriccus albogularis (Scl.).
+(2752) Placostomus coronatus (Scl.).
+(2755) Craspedoprion squinoctialis (Scl.)
+(2756) ° Craspedoprion fulvipectus (Sci.).
+(2757) Rhynchocyclus sulphurescens asemus Bangs.
+(2759) Rhynchocyclus sulphurescens assimilis Pelz.
+(2760) Rhynchocyclus sulphurescens exortivus Bangs.
+(2768) Rhynchocyclus viridiceps Sci. & Salv.
+(2770) Rhynchocyclus flaviventris aurulentus Todd.
+(2773) Todirostrum cinereum cinereum (Linn).
+(2775) Todirostrum sclateri Cab. & Hein.
+(2779) Todirostrum nigriceps Sci.
+(2787) Todirostrum schistaceiceps supéreiliare Zawr.
+(2793) Todirostrum Iatirostre (Pelz.).
+(2794) Pescilotriccus ruficeps ruficeps (Kaup).
+(2795) Pcecilotriccus ruficeps rufigene (Sci. & Salv.).
+(2800) Euscarthmus striaticollis zosterops Pelz.
+(2812) Euscarthmus granadensis ( Haril.).
+(2818) Pseudotriccus pelzelni pelzelni- Tacz. & Berl.
+(2819) Pseudotriccus annectens (Salvad. & Fest.).
+(2820) Cenotriccus ruficeps ruficeps (La/r.).
+(2824) Lophotriccus spicifer (Lajr.).
+(2825) Lophotriccus squamecristatus squamecristatus (Lajr.).
+(2831) Atalotriccus pilaris pilaris (Cab.).
+(2843) Hapalocercus meloryphus (Wied).
+(2847) Hapalocercus acutipennis Scl. & Salo.
+(2858) Pogonotriccus pecilotis (Sc.).
+(2860) Pogonotriccus opthalmicus Tacz.
+(2863) Oreotriccus.! plumbeiceps. (Lawr.).
+(2872) Serpophaga cinerea cana Bangs.
+(2880) Aneretes parulus mquatorialis Berl. & Tacz.
+(2885) Anseretes agilis (Scl.).
+(2890) Mionectes olivaceus hederaceus Bangs.
+(2892) Pipromorpha oleaginea oleaginea (Lichi.).
+(2896) Leptopogon superciliaris poliocephalus Cab. & Hein.
+(2899) Leptopogon amaurocephalus Cab.
+(2901) Leptopogon erythrops Scl.
+(2905) Capsiempis flaveola leucophrys Berl.
+(2910) Phyllomyias griseiceps griseiceps (Scl.).
+(2916) Acrochordopus zeledoni (Zawr.).
+(2918) Phseomyias murina incomta (Cab. & Hein.).
+(2922) Camptostoma pusillum pusillum (Cab. & Hein.).
+(2923) Camptostoma pusillum napseum (Ridgw.).
+(2929) Mecocerculus uropysgialis Lawr.
+(2928) Tyranniscus nigricapillus nigricapillus (LZafr.).
+(2930) Tyranniscus cinereiceps (Sci.).
+(2937) Tyranniscus chrysops chrysops (Sci.).
+(2938) Elenia flavogaster flavogaster (Thun.).
+(2942) Elenia gigas Scl.
+(2947) Elewnia chiriquensis chiriquensis Lawr.
+(2951) Elenia pudica brachyptera Berl.
+(2955) Elenia parvirostris Pelz.
+(2957) Elenia pudica pudica Sel.
+(2966) Myiopagis viridicata pallens Bangs.
+(2977) Legatus albicollis (Vieill.).
+(2978) Sublegatus glaber Scl. & Salv.
+(2981) Myiozetetes cayanensis cayanensis (Linn.).
+(2983) -Myiozetetes similis columbianus Cab. & Hein.
+(2984) Myiozetetes similis connivens Berl. & Stolz.
+' (2990) Conopias cinchoneti (7sch.).
+(2991) Pitangus sulphuratus rufipennis (Lafr.).
+(2992) Pitangus sulphuratus subsp.
+(2996) Pitangus lictor (Zicht.).
+(3001) Sirystes albocinereus Sci. & Salv.
+(3003) Myiodynastes maculatus nobilis Sel.
+(3007) Myiodynastes chrysocephalus minor TJacz. & Berl.
+(3006) Megarhynchus pitangua (Linn.).
+(3013) Hirundinea sclateri Reinh.
+(3016) Cnipodectes minor Sci.
+.(3017) Myiobius barbatus barbatus (Gmel.).
+(3018) Myiobius barbatus atricaudus Lawr.
+(3020) Myiobius villosus Sci.
+(3033) Myiobius flavicans Scl:
+(3035) Myiobius lite Hart.
+(3037) Myiobius pulcher pulcher Sel.
+(3038) Myiobius pulcher bellus Sci.
+(3040) Myiobius fasciatus fasciatus (Miill.).
+(3026) Terenotriccus erythrurus fulvigularis (Salo. & Godm.).
+(3029) Myiotriccus ornatus ornatus (Lajr.).
+(3030) Myiotriccus ornatus stellatus (Cab.).
+(3031) Myiotriccus phenicurus (Scl.).
+(3044) Pyrocephalus pyrocephalus rubinus (Bodd.).
+(3046) Pyrocephalus rubinus heterurus Berl. & Stolz.
+(3050) Empidochanes cabanisi ( Léot.).
+(3051) Empidochanes pescilurus Sel.
+(3058) Sayornis nigricans cineracea (Lafr.).
+(3066) Empidonax virescens ( Vieill.).
+(8069) Myiochanes ardosiacus ardosiacus (LZafr.).
+(3071) Myiochanes virens (Linzn.).
+(3072) Myiochanes richardsoni (Swains.).
+(3079) Myiarchus crinitus (Linn.).
+(3080) Myiarchus tyrannulus tyrannulus (Jiill.).
+(3086) Myiarchus (ferox?) venezuelensis Lawr.
+(3087) Myiarchus (ferox?) panamensis Lawr.
+(3088) Myiarchus cephalotes Tacz.
+(3092) Myiarchus apicalis Sci. & Sais.
+(3093) Myiarchus tuberculifer nigriceps (Sci.).
+(3100) Tyrannus tyrannus (Jinn.).
+(3101) Tyrannus niveigularis Sci.
+(3102) Tyrannus dominicensis (Gmel.).
+(3107) Muscivora tyrannus (Linz.).
+(3116) Pipra erythrocephala erythrocephala (Linn.).
+(3118) Pipra mentalis minor Hart.
+(3122) Pipra leucocilla coracina (Scl.).
+(3124) Pipra isadorei isadorei Sci.
+(3127) Pipra velutina Berl.
+(3128) Pipra coronata Spiz.
+(3138) Cirrhipipra filicauda (Spiz).
+(3141) Macheropterus striolatus (Bonap.).
+(8148) Allocopterus deliciosus (Sci.).
+(3144) Chloropipo flavicapilla (Scl.).
+(3146) Chloropipo holochlora holochlora Sci.
+(8147) Chloropipo holochlora lite Hellm.
+(3151) Piprites tschudi (Cab.).
+(3156) Masius chrysopterus (Lajr.).
+(3158) Masius corunulatus Sci.
+(3162) Chiroxiphia pareola napensis Miller.
+(3170) Corapipo leucorrhoa (Scl.).
+(3174) Manacus manacus abditivus Bangs.
+(3176) Manacus manacus flaveolus Cass.
+(3177) Manacus vitellinus vitellinus (Gould).
+(8186) Scotothorus turdinus rosenbergi (Hari.).
+(3187) Scotothorus turdinus stenorhynchus (Sel. & Salv.).
+(3193) Sapayoa enigma Hart.
+(8200) Tityra cayana (Linn.).
+(3202) Tityra semifasciata semifasciata (Smz).
+(8209) Tityra buckleyi Sale. & Godm.
+(8213) Platypsaris homochrous homochrous (Sci.).
+(3214) Platypsaris minor (Less.).
+(8218) Pachyrhamphus versicolor (Haril.).
+(3221) Pachyrhamphus rufus (Bodd.).!
+(3223) Pachyrhamphus cinnamomeus Lawr.
+(8226) Pachyrhamphus polychropterus niger (Syiz).
+(8232) Pachyrhamphus atricapillus Merr.
+(3234) Pachyrhamphus dorsalis Sci.
+(3236) Lathria fuscocinerea fuscocinerea (Lajr.).
+(3238) Lathria cinerea ( Vieill.).
+(8240) Lathria unirufa castaneotincta Hart.
+(8242) Lathria cryptolopha Sci. & Salv.
+(3246) Lipaugus simplex (Zichi.).
+(3248) Lipaugus holerythrus rosenbergi Hart.
+(3250) Attila brasiliensis parambs Hart.
+(3272) Rupicola peruviana sanguinolenta Gould.
+(3278) Stictornis cinctus (Tsch.).
+(3279) Buchlornis riefferi riefferi (Boiss.).
+(8287) Euchlornis lubomirski (Tacz.).
+(3288) Euchlornis jucunda (Scl.).
+(3294) Cotinga nattereri (Boiss.).
+(3300) Carpodectes hopkei Berl.
+(3302) Heliochera rubrocristata (d’Orb. & Lafr.).
+(8303) Hoeliochera rufaxilla (Tsch.).
+(3310) Querula purpurata (Miill.).
+(3312) Pyroderus scutatus granadensis Lafr.
+(3315) Cephalopterus ornatus Geof.
+(3316) Cephalopterus penduliger Sci.
+(8226) Riparia riparia (Linn.).
+(3327) Iridoprocne albiventris (Bodd.).
+(3331) Hirundo erythrogaster Bodd.
+(8335) Progne chalybea chalybea (Gmel.).
+(3337) Atticora fasciata (Gmel.).
+(8338) Orochelidon murina (Cass.).
+(3340) Neochelidon tibialis (Cass.).
+(3342) Pygochelidon cyanoleuca (Vieill.).
+(3347) Stelgidopteryx ruficollis ruficollis ( Véciil.).
+(3348) Stelidopteryz ruficollis equalis Bangs.
+(349) Stelgidopteryx ruficollis uropygialis (Lawr.).
+(8354) Polioptila livida plumbeiceps Lewr.
+(3362) Polioptila schistaceigula Hart.
+(8363) Cinnicerthia unirufa (Zefr.)..
+(3364) Cinnicerthia unibrunnea (La/r.).
+(3366) Cinnicerthia olivascens Sharpe.
+(3371) Heleodytes minor bicolor Pelz.
+(8374) Heleodytes albobrunneus harterti Berl.
+(3376) Heleodytes turdinus hypostictus (Gould).
+(8378) Heleodytes zonatus brevirostris (Lafr.).
+(3382) Heleodytes nuchalis nuchalis (Cab.).
+(3385) Odontorchilus! branicki (Tacz. & Berl.).
+(3389) Thryophilus leucotis (Lajr.).
+(3392) Thryophilus albipectus bogotensis Hellm.
+(3400) Thryophilus leucopogon Salvad. & Festa.
+(3402) Thryophilus nigricapillus schotti (Baird).
+(3403) Pheugopedius spadix Bangs.
+(8404) Pheugopedius fasciato-ventris fasciato-ventris (Lafr.).
+(3405) Pheugopedius mystacalis mystacalis (Scl.).
+(3424) Pheugopedius sclateri (Tacz.).
+(3427) Pheugopedius hypospodius (Salv. & Godm.).
+(3434) Cistothorus equatorialis Lawr..
+(3436) Troglodytes musculus striatulus (Lafr.).
+(3455) Henicorhina leucosticta (Cab.).
+(3456) Henicorhina inornata Hellm.
+(3457) Henicorhina leucophrys guttata (Hart).
+(3464) Leucolepis salvini (Sharpe).
+(3466) Leucolepis phxocephalus phsocephalus (Sci.).
+(3468) Leucolepis dichroug (Sci. & Saiv.).
+(8472) Microcerculus marginatus marginatus (Sci.).
+(3473) Microcerculus marginatus occidentalis Hellm.
+(3478) Cinclus leuconotus Sci.
+(3492) Mimus gilvus tolimensis Ridgw.
+(3498) Donacobius atricapillus albovittatus Lafr. & d’Orb.
+(3499) Rhodinocichla rosea rosea (Less.).
+(3508) ? Planesticus serranus (7sch.).
+(3511) Planesticus leucops ( Tacz.).
+(3519) Planesticus phaopygus (Cab.).
+(3523) Planesticus tristis dague (Berl.).
+(3531) Planesticus ignobilis ignobilis (Scl.).
+(3532) Planesticus ignobilis goodfellowi: (Hart. & Hellm.).
+(3533) Planesticus ignobilis debilis (Zellm.).
+(3537) Planesticus obsoletus colombianus (Hart. & Hellm.).
+(3544) Semimerula gigas gigas (Fraser).
+(3551) Hylocichla alicis alicis (Baird).
+' (3853) Hylocichle ustulata swainsoni (7'sch.).
+(3554) Catharus birchalli Seeb.
+(3560) Catharus pheopleurus Sci. & Sais.
+(3561) Catharus dryas (Gould).
+(3563) Vireosylva olivacea (Linn.).
+(3564) Vireosylva flavoviridis flavoviridis Cass.
+(3568) Vireosylva josephe josephe (Sci.).
+(3569) Lanivireo flavifrons (Vieill.).
+(3579) Pachysylvia semibrunnea (La/r.).
+(3590) Pachysylvia flavipes flavipes (La/r.).
+(3595) Pachysylvia minor (Berl. & Tacz.).
+(8603) Cyclarhis flavipectus canticus Bangs.
+(3611) Cyclarhis nigrirostris Lafr.
+(8612) Mniotilta varia (ZLinn.).
+(3613) Protonotaria citrea (Bodd.).
+(3614) Vermivora chrysoptera (Linn.).
+(3616) Vermivora peregrina (Wils.).
+(3618) Compsothlypis pitiayumi elegans Todd.
+(3619) Compsothlypis pitiayumi pacifica (Beri.).
+(3620) Dendroica wstiva mstiva (Gmel.).
+(3621) Dendroica petechia squatorialis Sund.
+(3628) Dendroica cxerulea (Wils.).
+(8629) Dendroica fusca (Miill.).
+(3630) Dendroica castanea (Wils.).
+(3631) Dendroica striata (Forst.).
+(3634) Oporornis philadelphia (Wils.).
+(3637) Seiurus noveboracensis noveboracensis (Gmel.).
+(3638) Seiurus noveboracensis notabilis Ridgw.
+(3640) Geothlypis semiflava Sci.
+(3641) Geothlypis equinoctialis (Gmel.).
+(3647) Wilsonia canadensis (Zinn.).
+(3648) Setophaga ruticilla (Linn.).
+(3649) Myioborus verticalis verticalis (€Orb. & Lafr.).
+(8655) Myioborus ornatus (Boiss.).
+(3656) Myioborus chrysops (Salz.).
+(3660) Myiothlypis nigrocristatus (Lafr.).
+(3663) Basileuterus luteoviridis (Bonap.).
+(3667) .Basileuterus cinereicollis Sci.
+(3668) Basileuterus cabanisi Berl.
+(3669) Basileuterus tristriatus tristriatus (Tsch.).
+(3674) Basileuterus coronat&s (Tsch.).
+(3676) Basileuterus bivittatus chlorophrys Berl.
+(3680) Basileuterus auricapillus olivascens Chapm.
+(8682) Basileuterus rufifrons mesochrysus Sci.
+(3690) Basileuterus fulvyicauda semicervinus Sel.
+(3691) Basileuterus fulvicauda fulvicauda (Spiz).
+(3694) Anthus bogotensis Sel.
+(3702) -Otocoris alpestris peregrina Sci.
+(3703) Catamblyrhynchus diadema Lafr.
+(3707) Pheucticus uropygialis uropygialis Scl. & Salv.
+(3710) Zamelodia ludoviciana (Linn.).
+(8712) Cyanocompsa concreta cyanescens Ridgw.
+(8718) Oryzoborus angolensis (Linn.).
+(8722) Oryzoborus crassirostris crassirostris (@mel.).
+(3735) Sporophila grisea grisea (Gmel.).
+(3743) Sporophila castaneiventris Cab.
+(8745) Sporophila minuta minuta (Linn.).
+(3759) Sporophila aurita ophthalmica (Hellm.).
+(3764) Sporophila gutturalis (Licht.).
+(3771) Sporophila luctuosa (Lafr.).
+(3773) Catamenia inornata minor Berl.
+(3774) Catamenia. homochroa Sci.
+(3782) Tiaris olivacea pusilla Swains.
+(3783) Tiaris bicolor omissa Jard.
+(3796) Pitylus grossus (Linn.).
+(3803) Saltator maximus (Muill.).
+* (3804) Saltator atripennis atripennis Sci.
+(3807) Saltator olivascens Cab.
+(3809) Saltator ce@rulescens azarse d’Orb.
+(3819) Saltator striatipectus striatipectus Lafr.
+(3822) Spinus spinescens spinescens (Bonap.).
+(3825) Spinus xanthogaster (Du Bus).
+(8841) Astragalinus psaltria columbianus (Lafr.).
+(3842) Sicalis flaveola (Linn.).
+(8850) Sicalis arvensis minor Cab.
+(3853) Spiza americana (Gmel.).
+(3856) Myospiza aurifrons (Spiz).
+(8882) Brachyspiza capensis peruviana (JLess.).
+(3892) Arremonops conirostris conirostris (Bonap.).
+(3893) Arremonops conirostris chrysoma (Sci.).
+(8899) Emberizoides sphenurus ( Vzeiil.). '
+(8935) Spodiornis jardini Sel.
+(3952) Paroaria gularis (Linn.).
+(3963) Arremon aurantiirostris erythrorhynchus Scl.
+(3064) Arremon aurantiirostris occidentalis Hellm.
+(3967) Arremon axillaris Sci.
+(3971) Lysurus castaneiceps (Sci.).
+(3973) Atlapetes gutturalis gutturalis (La/r.).
+(3976) Atlapetes latinuchus latinuchus (Du Bus).
+(3979) Atlapetes latinuchus elwoprorus (Sci. & Salv.).
+(3984) Atlapetes albifrenatus (Bozss.).
+(3990) Atlapetes schistaceus (Bozss.).
+(3993) Atlapetes pallidinuchus pallidinuchus (Boiss.).
+(8994) Atlapetes crassus Bangs.
+(3997) Atlapetes semirufus (Boiss.).
+(4003) Buarremon brunneinuchus (Tafr.).
+(4011) Buarremon assimilis (Boiss.).
+(4012) Buarremon atricapillus Lawr.
+(4018) Cosreba luteola luteola (Cab.).
+(4020) Coreba mexicana columbiana (Cab.).
+(4029) Diglossa gloriosissima Chapm.
+(4030) Diglossa brunneiventris Lafr.
+, (4036) Diglossa lafresnayei ( Boiss.).
+(4037) Diglossa humeralis (Fraser).
+(4038) Diglossa aterrima (Lafr.).
+(4040) Diglossa albilateralis La/r.
+(4041) Diglossa personata (Fraser).
+(4043) Diglossa cryptorhis Chapin.
+(4045) Diglossopis cserulescens cerulescens Sci.
+(4048) Conirostrum sitticolor Lafr.
+(4051) Conirostrum rufum Lafr.
+(4053) Conirostrum fraseri Sel.
+(4056) Conirostrum albifrons Lafr.
+(4057) Conirostrum atrocyaneum Lafr.
+(4061) Dacnis cayana cayana (Linn.).
+(4064) Dacnis cayana cerebicolor Sci.
+(4067) Dacnis angelica Bonap.
+(4069) Dacnis egregia egregia Scl.
+(4071) Dacnis venusta fuliginata Bangs.
+(4072) Dacnis leucogenys Lafr.
+(4081) Cyanerpes cwrulea microrhyncha (Beri.).
+(4086) Chlorophanes spiza exsul Berl. & Tacz.
+(4087) Chlorophanes spiza cxrulescens Cass.
+(4098) Tersina viridis occidentalis (Scl.).
+(4101) Chlorophonia pretrei (Lafr.).
+(4103) Tanagra cyanocephala cyanocephala (V:cill.).
+(4106) Tanagra aurea pileata (Berl.).
+(4112) Tanagra xanthogastra chocoensis (Hellm.).
+(4116) Tanagra concinna (Sci.).
+(4118) Tanagra saturate (Cab.).
+(4121) "Panagra fulvicrissa purpurascens (Hart.).
+- (4127) Tanagra crassirostris crassirostris (Scl.). -
+(4129) Tanagra melanura (Sci.).
+(4185) Tanagra chrysopasta (Sel. & Salv.).
+(4144) Chlorochrysa calliparea bourcieri (Bonap.).
+(4145) Chiorochrysa phonicotis (Bonap.).
+(4147) Chlorochrysa nitidissime Sel.
+(4149) Pipridea melanota venezuelensis Sc.
+(4150) Procnopis vassori (Boiss.).
+(4155) Tangara chilensis (Vig.).
+(4163) Tangara schrankii (Spiz).
+(4164) Tangara johanne (Dalmas).
+(4168) Tangara guttata bogotensis Hellm. & Seil.
+(4169) Tangara xanthogastra (Sci.).
+(4171) Tangara rufigula (Bonap.).
+(4172) Tangara aurulenta aurulenta (Lajr.).
+(4178) Tangara icterocephala (Bonap.).
+(4179) Tangara vitriolina (Cab.).
+(4189) Tangara lavinia lavinia (Cass.).
+(4190) Tangara gyroloides gyroloides (Lajr.).
+(4191) Tangara gyroloides catharinw (Hellm.).
+(4192) ‘Tangara gyroloides bangsi ( Hellm.).
+(4196) Tangara palmeri ( Hellm.).
+(4200) Tangara mexicana boliviana (Bonap.).
+(4201) Tangara inornata inornata (Gould).
+(4202) Tangara nigroviridis nigroviridis Lafr.
+(4205) Tangara larvata fanny (Lafr.).
+(4208) Tangara cyaneicollis cwruleosephala (Swains.).
+(4209) Tangara cyaneicollis granadensis (Berl.).
+(4212) Tangara ruficervix ruficervix (Prev. & Des Murs).
+(4215) Tangara labradorides (Boziss.).
+(4216) Tangara melanotis (Scl.).
+(4219) Tangara parzudaki (Lafr.).
+(4221) Tangara venusta (Sci.).
+(4227) Tangara atricapilla (Lajr.).
+(4232) Iridosornis dubusia dubusia (Bonap.).
+(4236) Iridosornis porphyrocephala Sci.
+(4240) Pecilothraupis lunulata lunulata (Du Bus).
+(4245) Peecilothraupis palpebrosa palpebrosa (La/r.).
+(4246) Pocilothraupis palpebrosa olivaceiceps Berl.
+(4252) Buthraupis cucullata cucullata (Jard.).
+(4253) Buthraupis cucullata gigas (Bonap.).
+(4256) Buthraupis eximia chloronota (Sci.).
+(4257) Buthraupis eximia eximia (Boiss.).
+(4258) Buthraupis edwardsi Liliot.
+(4259) Buthraupis rothschildi Berl.
+(4260) Buthraupis melanochlamys Hellm.
+(4261) Buthraupis aureocincta Hellm.
+(4262) Compsocoma somptuosa victorini (Lajr.).
+(4264) Compsocoma somptuosa antioquiz Berl.
+(4265) Compsocoma somptuosa cyanoptera (Cab.).
+(4267) Compsocoma notabilis (Jard.).
+(4268) Dubusia teniata (Boiss.).
+(4271) Thraupis episcopus leucoptera (Sci.).
+(4272) Thraupis colestis cwlestis (Spiz).
+(4276) Thraupis cana cana (Swains.).
+(4279) Thraupis glaucocolpa Cab.
+(4281) Thraupis palmarum melanoptera (Sci.).
+(4289) Sporathraupis cyanocephala auricrissa (Scl.).
+(4293) Ramphocelus nigrogularis (Spiz).
+(4294) Ramphocelus dimidiatus dimidiatus Lafr.
+(4297) Ramphocelus carbo carbo (Pail.).
+(4803) Ramphocelus flammigerus (Jard. & Selb.).
+(4304) Ramphocelus chrysonotus. Lafr.
+(4305) Ramphocelus icteronotus Bonap.
+(4306) Calochetes coccineus (Sci.).
+(4307) Piranga rubra rubra (Linn.).
+(4313) Piranga leucoptera ardens (Tsch.).
+(4815) Piranga rubriceps Gray.
+(4319) Chiorothraupis olivacea (Cass.).
+(4320) Chlorothraupis stolzmanni (Berl. & Tacz.).
+(4327) Phoonicothraupis cristata Zawr.
+(4828) Phonicothraupis gutturalis Se.
+(4332) Heterospingus xanthopygius (Sci.).
+(4833) Tachyphonus rufus (Bodd.).
+(4334) Tachyphonus luctuosus Lafr. & d’Orb.
+(4340) Yachyphonus surinamus surinamus (Linn.).
+(4346) Tachyphonus delattrii Lojr.
+(4847) Creurgops verticalis Scl.
+(4352) Eucometis cristata cristata (Du Bus). —
+(4354) Mitrospingus cassini (Lawr.).
+(4365) Erythrothlypis salmoni (Sel.).
+(4873) Hemithraupis peruana Bonap.
+(4878) Hemithraupis guira guirina (Sci.). .
+(4389) Sericossypha albocristata (Lafr.).
+(4394) Chlorospingus flavipectus (Zafr.).
+(4395) Chlorospingus canigularis (Zafr.).
+(4897) Chlorospingus flavigularis flavigularis (Sc/.).
+(4400) Chlorospingus semifuscus Scl. & Salv.
+(4402) Hemispingus atropileus (Lafr.).
+(4406) Hemispingus rubrirostris (Lajr.).
+(4408) Hemispingus superciliaris superciliaris (Lafr.)._
+(4409) Hemispingus superciliaris nigrifrons (Lawr.).
+. (4417) Hemispingus melanotis (Scl.).
+(4420) Pseudospingus verticalis (Lajr.).
+(4422) . Urothraupis stolzmanni Berl. & Stolz.
+- (4426) Psittospiza riefferi riefferi (Bozss.).
+(4431) Oreothraupis arremonops (Jard.).
+(4433) Cissopis leveriana minor (T7sch.).
+(4437) Schistochlamys atra (Gmel.).
+(4440) Zarhynchus wagleri wagleri (Gray).
+(4443) Gymnostinops guatimozinus (Bonzap.).
+(4444) Gymnostinops yuracares (d’Orb. & Lafr.).
+(4445) Ostinops decumanus (Pail.).
+(4448) Ostinops salmoni Scl.
+(4451) Ostinops alfredi sincipitalis Cab.
+(4453) Ostinops angustifrons (Spiz).
+(4454) Cacicus cela (Linn.).
+(4456) Cacicus vitellinus Lavwr.
+(4458) Cacicus leucorhamphus (Bonap.).
+(4463) Cacicus uropygialis uropygialis Lafr.
+(4464) Amblycercus solitarius (Vieill.).
+(4466) Cassidix oryzivora violea Bangs.
+(4474) Molothrus bonariensis atronitens Cab.
+(4475) Molothrus bonariensis cabanisi Cass.
+(4484) Agelaius icterocephalus icterocephalus (Linn.).
+(4488) Leistes militaris (Zinn.).
+(4498) Sturnella magna meridionalis Sel:
+(4502) Icterus spurius (Linn.).
+(4506) Icterus auricapillus Cass.
+(4509) Icterus mesomelas salvini Cass.
+(4511) Icterus giraudi Cass.
+(4516) Icterus xanthornus xanthornus (Gmel.).
+(4528) Megaquiscalus major assimilis (Sel.).
+(4531) Macragleus subalaris (Boiss.).
+(4532) Hypopyrrhus pyrohypogaster (De Tarragon).
+(4539) Cyanocorax affinis affinis Pelz.
+(4547) Cyanocorax violaceus Du Bus.
+. (4550) Xanthoura yncas cyanodorsalis Du Bois.
+(4557) Cyanolyca armillata quindiuna (Sel),
+(4559) Cyanolyca armillata armillata (Gray).
