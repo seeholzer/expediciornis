@@ -1718,20 +1718,20 @@ Thamnophilus nigriceps	Thamnophilus nigriceps	Puerto Berrio	Puerto Berrio	4
 Thamnophilus nigriceps	Thamnophilus nigriceps	Malena	Malena	4
 Thamnophilus nigriceps	Thamnophilus nigriceps	Honda (W of)	Honda (W of)	1
 Thamnophilus punctatus punctatus	Thamnophilus punctatus	Barrigon	Barrigon	2
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Alto Bonito	Alto Bonito	2
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Dabeiba	Dabeiba	6
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Bagado	Bagado	3
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Baudo	Baudo	2
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Novita	Novita	3
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Novita Trail (3000 ft)	Novita Trail	1
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Juntas de Tamana	Juntas de Tamana	1
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Noanama	Noanama	1
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	San Jose	San Jose	1
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Barbacoas	Barbacoas	7
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	La Frijolera	La Frijolera	15
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Malena	Malena	1
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Honda	Honda	4
-Thamnophilus punctatus atrinucha	Thamnophilus punctatus	Chicoral	Chicoral	1
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Alto Bonito	Alto Bonito	2
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Dabeiba	Dabeiba	6
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Bagado	Bagado	3
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Baudo	Baudo	2
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Novita	Novita	3
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Novita Trail (3000 ft)	Novita Trail	1
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Juntas de Tamana	Juntas de Tamana	1
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Noanama	Noanama	1
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	San Jose	San Jose	1
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Barbacoas	Barbacoas	7
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	La Frijolera	La Frijolera	15
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Malena	Malena	1
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Honda	Honda	4
+Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Chicoral	Chicoral	1
 Thamnophilus canadensis pulchellus	Sakesphorus canadensis	Turbaco	Turbaco	3
 Thamnophilus canadensis pulchellus	Sakesphorus canadensis	La Playa	La Playa	7
 Thamnophilus canadensis pulchellus	Sakesphorus canadensis	Calamar	Calamar	3
@@ -3430,10 +3430,10 @@ Henicorhina prostheleuca eucharis	Henicorhina leucosticta	Las Lomitas	Lomitas	5
 Henicorhina prostheleuca albilateralis	Henicorhina leucosticta	Peque	Peque	3
 Henicorhina prostheleuca albilateralis	Henicorhina leucosticta	Rio Frio	Rio Frio	3
 Henicorhina prostheleuca albilateralis	Henicorhina leucosticta	El Consuelo	El Consuelo	2
-Henicorhina inornata	Henicorhina leucophrys	Novita	Novita	3
-Henicorhina inornata	Henicorhina leucophrys	San Jose	San Jose	2
-Henicorhina inornata	Henicorhina leucophrys	Barbacoas	Barbacoas	3
-Henicorhina inornata	Henicorhina leucophrys	Buenavista	Buenavista	2
+Henicorhina inornata	Henicorhina leucosticta	Novita	Novita	3
+Henicorhina inornata	Henicorhina leucosticta	San Jose	San Jose	2
+Henicorhina inornata	Henicorhina leucosticta	Barbacoas	Barbacoas	3
+Henicorhina inornata	Henicorhina leucosticta	Buenavista	Buenavista	2
 Henicorhina leucophrys guttata	Henicorhina leucophrys	La Frijolera	La Frijolera	2
 Henicorhina leucophrys guttata	Henicorhina leucophrys	Novita Trail (7200 ft)	Novita Trail	1
 Henicorhina leucophrys guttata	Henicorhina leucophrys	Las Lomitas	Lomitas	11

@@ -18,7 +18,7 @@ setwd('~/Dropbox/Chapman/expediciornis/historical.databases/')
 library(plyr)
 
 #Observed specimen counts: AMNH database
-o = read.delim('AMNH.database/AMNH_Colombia.2020-10-29.txt',stringsAsFactors=F)
+o = read.delim('specimen.database/AMNH_Colombia.2020-10-29.txt',stringsAsFactors=F)
 o = o[!o$Locality %in% '', ]
 o$Name = paste(o$Genus.Clem,o$Species.Clem)
 
@@ -75,6 +75,10 @@ loc = 'San Agustin'
 loc = 'La Candela'
 loc = 'Fusagasuga'
 
+loc = 'Barbacoas'
+loc = 'Buenavista'
+
+
 #check to ensure they are spelled as in the databases
 loc %in% unique(o$Locality) #AMNH database
 loc %in% unique(r$Locality) #Chapman 1917
@@ -96,8 +100,8 @@ if(length(loc) > 1){
 	colnames(foo) = c('Name',loc)
 	}
 
-amnh = foo[order(foo$Name), ]
-colnames(amnh)[-1] = paste0(colnames(amnh)[-1],'.amnh')
+spec = foo[order(foo$Name), ]
+colnames(spec)[-1] = paste0(colnames(spec)[-1],'.spec')
 
 #chap - reported in Chapman 1917
 #must merge specimen count tables for combination localities
@@ -117,10 +121,10 @@ colnames(chap)[-1] = paste0(colnames(chap)[-1],'.chap')
 
 ###########
 #	Create a summary table of specimen counts per species for each locality or regional meta-locality
-#	When the counts from the AMNH db and Chapman 1917 differ:
+#	When the counts from the spec db and Chapman 1917 differ:
 #	- used highest count for the 'final' count, and included the alternative count as a note
 #	- gegional count total is the sum of the highest count total from each locality
-tmp = merge(amnh,chap,by='Name',all=T)
+tmp = merge(spec,chap,by='Name',all=T)
 tmp[is.na(tmp)] = 0
 
 colnames = c('Name',c(rbind(loc,paste0('note.',loc))))
@@ -131,14 +135,14 @@ sum$Name = tmp$Name
 i = loc[1]
 for(i in loc){
 	x = tmp[,colnames(tmp)[grep(i,colnames(tmp))]]
-	colnames(x) = c('amnh','chap')
+	colnames(x) = c('spec','chap')
 	dif = x[,1] - x[,2]
 	count = rep(NA,length(dif))
 	note = rep('',length(dif))
 	for(f in 1:length(dif)){
-		if(dif[f] == 0){ note[f] = ''; count[f] = x[f,'amnh'] } 
-		if(dif[f] > 0){ note[f] = paste0(x[f,'chap'],'-chap'); count[f] = x[f,'amnh'] }
-		if(dif[f] < 0){ note[f] = paste0(x[f,'amnh'],'-amnh'); count[f] = x[f,'chap'] }
+		if(dif[f] == 0){ note[f] = ''; count[f] = x[f,'spec'] } 
+		if(dif[f] > 0){ note[f] = paste0(x[f,'chap'],'-chap'); count[f] = x[f,'spec'] }
+		if(dif[f] < 0){ note[f] = paste0(x[f,'spec'],'-spec'); count[f] = x[f,'chap'] }
 	}
 	sum[,i] = count
 	sum[,paste0('note.',i)] = note
@@ -193,19 +197,26 @@ if(length(loc) > 1){
 #######
 #	analyze count differentials between databases
 #merge databases and determine count differential for each species
-amnh$amnh = apply(amnh[,grep('amnh',colnames(amnh))],1,sum,na.rm=T)
-chap$chap = apply(chap[,grep('chap',colnames(chap))],1,sum,na.rm=T)
+if(length(loc) > 1){
+	spec$spec = apply(spec[,grep('spec',colnames(spec))],1,sum,na.rm=T)
+	chap$chap = apply(chap[,grep('chap',colnames(chap))],1,sum,na.rm=T)
+}else{
+	colnames(spec)[2] = 'spec'
+	colnames(chap)[2] = 'chap'
+	}
 
-comp = merge(amnh[,c('Name','amnh')],chap[,c('Name','chap')],by='Name',all=T)
+comp = merge(spec[,c('Name','spec')],chap[,c('Name','chap')],by='Name',all=T)
 comp[is.na(comp)] = 0
-comp$dif = comp$amnh - comp$chap
+comp$dif = comp$spec - comp$chap
 comp = comp[order(comp$dif), ]
-comp[!comp$dif %in% 0 & !comp$amnh %in% 0 & !comp$chap %in% 0, ]
-comp[comp$amnh %in% 0 | comp$chap %in% 0, ]
+comp[!comp$dif %in% 0 & !comp$spec %in% 0 & !comp$chap %in% 0, ]
+comp[comp$spec %in% 0 | comp$chap %in% 0, ]
+
+comp[grep('Leptotila',comp$Name), ]
 
 length(which(comp$dif != 0))
-length(which(comp$amnh %in% 0 | comp$chap %in% 0))
-length(which(comp$amnh %in% 0))
+length(which(comp$spec %in% 0 | comp$chap %in% 0))
+length(which(comp$spec %in% 0))
 length(which(comp$chap %in% 0))
 
 
@@ -218,7 +229,7 @@ breaks = c(-max:max)
 
 hist(comp$dif, xaxt='n',xlim=range(breaks),breaks=breaks,main='',xlab='',ylab='Species')
 axis(side=1, at=breaks-0.5, labels=breaks,cex.axis=.75)
-mtext('More in AMNH DB >',1,line=2,cex=.75,at=.65*par('usr')[2])
+mtext('More in spec DB >',1,line=2,cex=.75,at=.65*par('usr')[2])
 mtext('< More in Chapman 1917',1,line=2,cex=.75,at=.65*par('usr')[1])
 mtext('Specimen Count differences btwn. databases',1,line=3.5)
 mtext(paste(loc,collapse='-'),3)

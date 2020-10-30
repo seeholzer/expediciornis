@@ -163,6 +163,14 @@ Campyloramphus pusillus = Campylorhamphus pusillus
 
 
 
+2020.10.29
+-spent past two days building code to compare the Chapman 1917 and AMNH specimen databases
+-began organizing data and code and uploading to github
+-realized that some of the discrepancies between the two databases could be explained by Cornell specimens. 
+-downloaded cornell records from vertnet and have started cleaning these and putting in usable format
+
+
+
 
 
 
