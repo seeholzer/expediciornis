@@ -18,7 +18,8 @@ setwd('~/Dropbox/Chapman/expediciornis/historical.databases/')
 library(plyr)
 
 #Observed specimen counts: AMNH database
-o = read.delim('specimen.database/AMNH_Colombia.2020-10-29.txt',stringsAsFactors=F)
+o = read.delim('specimen.database/AMNH.CUMV.database.2020-10-30.v1.txt',stringsAsFactors=F)
+#o = read.delim('~/Dropbox/Chapman/expediciornis/historical.databases/specimen.database/AMNH_Colombia.2020-10-29.txt',stringsAsFactors=F)
 o = o[!o$Locality %in% '', ]
 o$Name = paste(o$Genus.Clem,o$Species.Clem)
 
@@ -74,9 +75,10 @@ loc = c('San Agustin','La Palma','La Candela')
 loc = 'San Agustin'
 loc = 'La Candela'
 loc = 'Fusagasuga'
-
+loc = 'Laguneta'
 loc = 'Barbacoas'
 loc = 'Buenavista'
+loc = 'Fusagas'
 
 
 #check to ensure they are spelled as in the databases
@@ -212,7 +214,6 @@ comp = comp[order(comp$dif), ]
 comp[!comp$dif %in% 0 & !comp$spec %in% 0 & !comp$chap %in% 0, ]
 comp[comp$spec %in% 0 | comp$chap %in% 0, ]
 
-comp[grep('Leptotila',comp$Name), ]
 
 length(which(comp$dif != 0))
 length(which(comp$spec %in% 0 | comp$chap %in% 0))

@@ -1,11 +1,14 @@
 setwd('~/Dropbox/Chapman/expediciornis/historical.databases/specimen.database/CUMV')
-files = list.files()
+files = list.files(pattern='vertnet_CUMV_')
 
-cumv = c()
+data = c()
 for(i in files){
 	tmp = read.delim(i,stringsAsFactors=F)
-	cumv = rbind(cumv,tmp)
+	data = rbind(data,tmp)
 }
 
+colnames.to.remove = readLines('vertnet.colnames.to.remove.txt')
 
-write.table(cumv,'CUMV_Colombia.2020-10-30.txt',col.names=T,row.names=F,quote=F,sep='\t')
+data = data[ ,!colnames(data) %in% colnames.to.remove]
+
+write.table(data,'CUMV_Colombia.2020-10-30_draft.txt',col.names=T,row.names=F,quote=F,sep='\t')

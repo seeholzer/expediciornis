@@ -137,3 +137,6 @@ isfossil
 isarch
 vntype
 haslength
+georeferenceprotocol
+georeferencesources
+georeferenceverificationstatus
