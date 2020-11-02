@@ -81,8 +81,7 @@ colnames(data)[grep('Taxon',colnames(data))] = "Chapman"
 data$Clements = mapvalues(data$Chapman,key[,'Chapman'],key[,'Clements'])
 data = data[,c('Chapman','Clements','Locality.specific','Locality','Count')]
 
-write.table(data,'Chapman1917.specimen.counts.txt',col.names=T,row.names=F,quote=F,sep='\t')
-
+write.table(data,'Chapman1917.Database.txt',col.names=T,row.names=F,quote=F,sep='\t')
 
 
 

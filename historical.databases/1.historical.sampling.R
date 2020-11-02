@@ -20,13 +20,13 @@ library(readxl)
 
 
 #Observed specimen counts: AMNH database
-o = read.delim('specimen.database/AMNH.CUMV.database.2020-10-30.v1.txt',stringsAsFactors=F)
+o = read.delim('specimen.database/Specimen.Database.v1.txt',stringsAsFactors=F)
 #o = read.delim('~/Dropbox/Chapman/expediciornis/historical.databases/specimen.database/AMNH_Colombia.2020-10-29.txt',stringsAsFactors=F)
 o = o[!o$Locality %in% '', ]
 o$Name = paste(o$Genus.Clem,o$Species.Clem)
 
 #Reported specimen counts: Chapman 1917
-r = read.delim('Chapman1917/Chapman1917.specimen.counts.txt',stringsAsFactors=F)
+r = read.delim('Chapman1917/Chapman1917.Database.txt',stringsAsFactors=F)
 colnames(r)[2] = 'Name'
 
 ##################################################

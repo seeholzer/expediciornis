@@ -16,13 +16,13 @@ There are two historical databases.
 		CUMV - Downloaded from Vertnet (2020-10-30).
 
 	The working specimen database for the project is currently 
-	- ./specimen.database/AMNH.CUMV.database.v1.txt
+	- ./specimen.database/Specimen.Database.v1.txt
 
 
 **Chapman 1917** - database derived from the specimen counts per locality that appear below each species' account in the Chapman 1917 monograph.
 
 	The working database for the Chapman 1917 counts is currently
-	- ./Chapman1917/Chapman1917.specimen.counts.txt
+	- ./Chapman1917/Chapman1917.Database.txt
 	
 	This can be created using the code in 
 	- ./Chapman1917/1.generate.Chapman1917.specimen.counts.R
