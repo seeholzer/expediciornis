@@ -23,6 +23,9 @@ There are two historical databases.
 	- ./Chapman1917/1.generate.Chapman1917.specimen.counts.R
 	
 
+
+########################################################################################
+
 #### Taxonomy
 All taxonomy has been standardized to eBird/Clements 2019. The working databases for both Specimens and Chapman 1917 retain their original species-level taxonomy columns as well as the eBird/Clement synonyms. 
 
