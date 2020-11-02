@@ -37,7 +37,7 @@ There are two historical databases.
 #### Taxonomy
 All taxonomy has been standardized to eBird/Clements 2019. The working databases for both Specimens and Chapman 1917 retain their original species-level taxonomy columns as well as the eBird/Clement synonyms. 
 
-	The original taxonomic column names for each database are as follows
+The original taxonomic column names for each database are as follows
 
 	Specimen Database
 	- "Genus.Verb" and "Species.Verb"
