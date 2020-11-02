@@ -8,6 +8,9 @@ Created using ./1.historical.sampling.R
 **Gazetteer_Chapman_Colombia_Expeditions.xlsx** - Gazetteer for Chapman 1917 localities. 
 
 
+
+
+
 ## Basic Information on Historical Databases
 
 There are two historical databases.
