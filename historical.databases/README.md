@@ -5,6 +5,7 @@ This repository contains files, scripts, and data products for the historical da
 Excel spreadsheets beginning with "Sampling" are the summary tables for historical specimen counts for each expedition. 
 Created using ./1.historical.sampling.R
 
+**Gazetteer_Chapman_Colombia_Expeditions.xlsx** - Gazetteer for Chapman 1917 localities. 
 
 
 ## Basic Information on Historical Databases
