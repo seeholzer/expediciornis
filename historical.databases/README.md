@@ -10,7 +10,7 @@ Created using ./1.historical.sampling.R
 ########################################################################################
 
 
-## Basic Information on Historical Databases
+## Basic Information
 
 There are two historical databases.
 
