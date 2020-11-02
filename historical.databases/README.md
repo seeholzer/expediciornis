@@ -1,4 +1,4 @@
-# Chapman 1917 Historical Databases
+# Historical Databases
 
 This repository contains files, scripts, and data products for the historical databases of Chapman 1917.
 
@@ -7,8 +7,7 @@ Created using ./1.historical.sampling.R
 
 **Gazetteer_Chapman_Colombia_Expeditions.xlsx** - Gazetteer for Chapman 1917 localities. 
 
-
-
+########################################################################################
 
 
 ## Basic Information on Historical Databases
