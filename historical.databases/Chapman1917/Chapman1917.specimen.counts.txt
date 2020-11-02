@@ -30,7 +30,7 @@ Crypturus kerriae	Crypturellus kerriae	Baudo	Baudo	1
 Crax alector	Crax alector	Buena Vista	Buena Vista	1
 Crax panamensis	Crax rubra	Baudo	Baudo	1
 Crax panamensis	Crax rubra	Bagado	Bagado	1
-Crax alberti	Crax alberti	Honda (W of)	Honda (W of)	1
+Crax alberti	Crax alberti	Honda (W of)	W of Honda	1
 Penelope montagni	Penelope montagnii	Valle de las Papas	Valle de las Papas	2
 Penelope montagni	Penelope montagnii	Almaguer	Almaguer	1
 Penelope montagni	Penelope montagnii	Santa Isabel	Paramo Santa Isabel	6
@@ -102,7 +102,7 @@ Rhynchortyx cinctus australis	Rhynchortyx cinctus	Barbacoas	Barbacoas	4
 Columba speciosa	Patagioenas speciosa	Bagado	Bagado	2
 Columba speciosa	Patagioenas speciosa	Noanama	Noanama	1
 Columba speciosa	Patagioenas speciosa	Novita	Novita	1
-Columba speciosa	Patagioenas speciosa	Honda (W of)	Honda (W of)	1
+Columba speciosa	Patagioenas speciosa	Honda (W of)	W of Honda	1
 Columba speciosa	Patagioenas speciosa	Buena Vista	Buena Vista	1
 Columba speciosa	Patagioenas speciosa	Villavicencio	Villavicencio	2
 Columba rufina	Patagioenas cayennensis	San Antonio	San Antonio	5
@@ -447,7 +447,7 @@ Rupornis magnirostris magnirostris	Rupornis magnirostris	Santa Elena	Santa Elena
 Rupornis magnirostris magnirostris	Rupornis magnirostris	Barro Blanco	Barro Blanco	2
 Rupornis magnirostris magnirostris	Rupornis magnirostris	La Palma	La Palma	1
 Rupornis magnirostris magnirostris	Rupornis magnirostris	Chicoral	Chicoral	2
-Rupornis magnirostris magnirostris	Rupornis magnirostris	30 m west of Honda	Honda (W of)	3
+Rupornis magnirostris magnirostris	Rupornis magnirostris	30 m west of Honda	W of Honda	3
 Rupornis magnirostris magnirostris	Rupornis magnirostris	Villavicencio	Villavicencio	3
 Rupornis magnirostris magnirostris	Rupornis magnirostris	Florida	Florida	1
 Rupornis magnirostris ruficauda	Rupornis magnirostris	Noanama	Noanama	1
@@ -518,7 +518,7 @@ Cerchneis sparveria intermedia	Falco sparverius	La Hererra	La Hererra	2
 Cerchneis sparveria intermedia	Falco sparverius	La Olanda	La Holanda	7
 Cerchneis sparveria intermedia	Falco sparverius	Tena	NA	1
 Cerchneis sparveria intermedia	Falco sparverius	Anolaima	Anolaima	1
-Cerchneis sparveria intermedia	Falco sparverius	Caqueza	Verbatim from Paynter-Colombia-Gazetteer	1
+Cerchneis sparveria intermedia	Falco sparverius	Caqueza	Caqueza	1
 Cerchneis sparveria intermedia	Falco sparverius	Villavicencio	Villavicencio	1
 Cerchneis sparveria intermedia	Falco sparverius	Barrigon	Barrigon	1
 Cerchneis sparveria	Falco sparverius	Turbaco	Turbaco	2
@@ -687,7 +687,7 @@ Urospatha martii semirufa	Baryphthengus martii	Baudo	Baudo	2
 Urospatha martii semirufa	Baryphthengus martii	Juntas de Tamana	Juntas de Tamana	5
 Urospatha martii semirufa	Baryphthengus martii	Barbacoas	Barbacoas	6
 Urospatha martii semirufa	Baryphthengus martii	Puerto Valdivia	Puerto Valdivia	2
-Urospatha martii semirufa	Baryphthengus martii	Honda	Honda (W of)	5
+Urospatha martii semirufa	Baryphthengus martii	Honda	W of Honda	5
 Electron platyrhynchus platyrhynchus	Electron platyrhynchum	San Jose	San Jose	1
 Electron platyrhynchus platyrhynchus	Electron platyrhynchum	Alto Bonito	Alto Bonito	2
 Electron platyrhynchus pyrrholaemus	Electron platyrhynchum	Florencia	Florencia	1
@@ -696,7 +696,7 @@ Momotus subrufescens subrufescens	Momotus subrufescens	La Playa	La Playa	1
 Momotus subrufescens subrufescens	Momotus subrufescens	Algodonal	Algodonal	2
 Momotus subrufescens subrufescens	Momotus subrufescens	Remedios	Remedios	1
 Momotus subrufescens subrufescens	Momotus subrufescens	Malena	Malena	2
-Momotus subrufescens subrufescens	Momotus subrufescens	Honda	Honda (W of)	7
+Momotus subrufescens subrufescens	Momotus subrufescens	Honda	W of Honda	7
 Momotus subrufescens subrufescens	Momotus subrufescens	Chicoral	Chicoral	1
 Momotus subrufescens reconditus	Momotus subrufescens	Salaqui	Salaqui	1
 Momotus subrufescens reconditus	Momotus subrufescens	Atrato River	Rio Atrato	2
@@ -722,7 +722,7 @@ Chordeiles acutipennis acutipennis	Chordeiles acutipennis	Calamar	Calamar	1
 Chordeiles acutipennis texensis	Chordeiles acutipennis	Noanama	Noanama	2
 Lurocalis rufiventris	Lurocalis rufiventris	Aguadita	Aguadita	7
 Lurocalis rufiventris	Lurocalis rufiventris	Subia	Subia	3
-Uropsalis lyra	Uropsalis lyra	Honda (W of)	Honda (W of)	3
+Uropsalis lyra	Uropsalis lyra	Honda (W of)	W of Honda	3
 Hydropsalis climacocerca	Hydropsalis climacocerca	La Morelia	La Morelia	4
 Nyctidromus albicollis albicollis	Nyctidromus albicollis	Novita	Novita	1
 Nyctidromus albicollis albicollis	Nyctidromus albicollis	Los Cisneros	Cisneros	1
@@ -793,7 +793,7 @@ Phaethornis guyi emiliae	Phaethornis guy	Las Lomitas	Lomitas	5
 Phaethornis guyi emiliae	Phaethornis guy	San Antonio	San Antonio	3
 Phaethornis guyi emiliae	Phaethornis guy	Miraflores	Miraflores	5
 Phaethornis guyi emiliae	Phaethornis guy	Peque	Peque	1
-Phaethornis guyi emiliae	Phaethornis guy	Honda (W of)	Honda (W of)	1
+Phaethornis guyi emiliae	Phaethornis guy	Honda (W of)	W of Honda	1
 Phaethornis guyi emiliae	Phaethornis guy	Buena Vista	Buena Vista	3
 Phaethornis yaruqui sancti-johannis	Phaethornis yaruqui	Alto Bonito	Alto Bonito	1
 Phaethornis yaruqui sancti-johannis	Phaethornis yaruqui	Monguido	Rio Monguido	1
@@ -814,7 +814,7 @@ Phaethornis syrmatophorus columbianus	Phaethornis syrmatophorus	La Palma	La Palm
 Phaethornis anthophilus	Phaethornis anthophilus	Puerto Berrio	Puerto Berrio	1
 Phaethornis anthophilus	Phaethornis anthophilus	Chicoral	Chicoral	2
 Phaethornis griseogularis	Phaethornis griseogularis	Florencia	Florencia	1
-Phaethornis striigularis striigularis	Phaethornis striigularis	Honda (W of)	Honda (W of)	1
+Phaethornis striigularis striigularis	Phaethornis striigularis	Honda (W of)	W of Honda	1
 Phaethornis striigularis striigularis	Phaethornis striigularis	Puerto Valdivia	Puerto Valdivia	1
 Phaethornis striigularis subrufescens	Phaethornis striigularis	Novita	Novita	1
 Phaethornis striigularis subrufescens	Phaethornis striigularis	Cocal	Cocal	2
@@ -849,7 +849,7 @@ Polyerata rosenbergi	Amazilia rosenbergi	Barbacoas	Barbacoas	6
 Uranomitra franciae	Amazilia franciae	San Antonio	San Antonio	7
 Uranomitra franciae	Amazilia franciae	Las Lomitas	Lomitas	2
 Uranomitra franciae	Amazilia franciae	Miraflores	Miraflores	2
-Uranomitra franciae	Amazilia franciae	Honda (W of)	Honda (W of)	2
+Uranomitra franciae	Amazilia franciae	Honda (W of)	W of Honda	2
 Uranomitra franciae	Amazilia franciae	La Candela	La Candela	1
 Uranomitra franciae	Amazilia franciae	San Agustin	San Agustin	2
 Lepidopyga goudoti	Lepidopyga goudoti	Honda	Honda	1
@@ -876,7 +876,7 @@ Saucerottia viridigaster	Amazilia viridigaster	Villavicencio	Villavicencio	1
 Amizilis tzacatl tzacatl	Amazilia tzacatl	Dabeiba	Dabeiba	10
 Amizilis tzacatl tzacatl	Amazilia tzacatl	Puerto Valdivia	Puerto Valdivia	2
 Amizilis tzacatl tzacatl	Amazilia tzacatl	Puerto Berrio	Puerto Berrio	1
-Amizilis tzacatl tzacatl	Amazilia tzacatl	Honda (W of)	Honda (W of)	2
+Amizilis tzacatl tzacatl	Amazilia tzacatl	Honda (W of)	W of Honda	2
 Amizilis tzacatl tzacatl	Amazilia tzacatl	Fusagasuga	Fusagasuga	1
 Amizilis tzacatl tzacatl	Amazilia tzacatl	Bogota (region)	Bogota	8
 Amizilis tzacatl jucunda	Amazilia tzacatl	Juntas de Tamana	Juntas de Tamana	1
@@ -895,7 +895,7 @@ Hylocharis grayi	Hylocharis grayi	La Sierra	La Sierra	1
 Hylocharis humboldti	Hylocharis humboldtii	Buenaventura	Buenaventura	2
 Hylocharis humboldti	Hylocharis humboldtii	Tumaco	Tumaco	3
 Damophila juliae juliae	Juliamyia julie	Honda	Honda	1
-Chlorostilbon gibsoni	Chlorostilbon gibsoni	Honda (W of)	Honda (W of)	1
+Chlorostilbon gibsoni	Chlorostilbon gibsoni	Honda (W of)	W of Honda	1
 Chlorostilbon gibsoni	Chlorostilbon gibsoni	Chicoral	Chicoral	3
 Chlorostilbon gibsoni	Chlorostilbon gibsoni	Rio Toche	Rio Toche	3
 Chlorostilbon gibsoni	Chlorostilbon gibsoni	San Agustin	San Agustin	6
@@ -1165,7 +1165,7 @@ Trogonurus collaris	Trogon collaris	La Florida	La Florida	1
 Trogonurus collaris	Trogon collaris	Miraflores	Miraflores	3
 Trogonurus collaris	Trogon collaris	Salento	Salento	2
 Trogonurus collaris	Trogon collaris	El Eden	El Eden	2
-Trogonurus collaris	Trogon collaris	Honda (W of, 5000 ft)	Honda (W of)	2
+Trogonurus collaris	Trogon collaris	Honda (W of, 5000 ft)	W of Honda	2
 Trogonurus collaris	Trogon collaris	La Candela	La Candela	3
 Trogonurus collaris	Trogon collaris	Andalucia (5000 ft)	Andalucia	3
 Trogonurus collaris	Trogon collaris	Buena Vista	Buena Vista	1
@@ -1176,7 +1176,7 @@ Trogonurus curucui cupreicauda	Trogon rufus	Juntas de Tamana	Juntas de Tamana	1
 Trogonurus curucui cupreicauda	Trogon rufus	San Jose	San Jose	1
 Trogonurus curucui cupreicauda	Trogon rufus	Barbacoas	Barbacoas	6
 Trogonurus curucui cupreicauda	Trogon rufus	Puerto Valdivia	Puerto Valdivia	1
-Trogonurus curucui cupreicauda	Trogon rufus	Honda (W of)	Honda (W of)	1
+Trogonurus curucui cupreicauda	Trogon rufus	Honda (W of)	W of Honda	1
 Trogonurus bolivianus	Trogon curucui	La Morelia	La Morelia	2
 Trogonurus bolivianus	Trogon curucui	Florencia (near)	Florencia	1
 Trogon strigilatus strigilatus	Trogon viridis	La Morelia	La Morelia	1
@@ -1191,7 +1191,7 @@ Trogon strigilatus chionurus	Trogon chionurus	Juntas de Tamana	Juntas de Tamana	
 Trogon strigilatus chionurus	Trogon chionurus	San Jose	San Jose	1
 Trogon strigilatus chionurus	Trogon chionurus	Barbacoas	Barbacoas	6
 Trogon strigilatus chionurus	Trogon chionurus	Puerto Valdivia	Puerto Valdivia	4
-Trogon strigilatus chionurus	Trogon chionurus	Honda (W of, 1500 ft)	Honda (W of)	2
+Trogon strigilatus chionurus	Trogon chionurus	Honda (W of, 1500 ft)	W of Honda	2
 Chrysotrogon caligatus columbianus	Trogon caligatus	Puerto Valdivia	Puerto Valdivia	1
 Chrysotrogon caligatus columbianus	Trogon caligatus	Honda	Honda	1
 Chrysotrogon caligatus columbianus	Trogon caligatus	Opon	Opon	2
@@ -1231,7 +1231,7 @@ Piaya cayana nigricrissa	Piaya cayana	Rio Frio	Rio Frio	1
 Piaya cayana nigricrissa	Piaya cayana	Miraflores	Miraflores	1
 Piaya cayana nigricrissa	Piaya cayana	Salento	Salento	2
 Piaya cayana nigricrissa	Piaya cayana	Santa Elena	Santa Elena	2
-Piaya cayana nigricrissa	Piaya cayana	Andes W of Honda (5000 ft)	Honda (W of)	2
+Piaya cayana nigricrissa	Piaya cayana	Andes W of Honda (5000 ft)	W of Honda	2
 Piaya cayana mesura	Piaya cayana	La Palma	La Palma	2
 Piaya cayana mesura	Piaya cayana	Andalucia (3000 ft)	Andalucia	2
 Piaya cayana mesura	Piaya cayana	Quetame	Quetame	3
@@ -1295,7 +1295,7 @@ Capito maculicoronatus pirrensis	Capito maculicoronatus	Salaqui	Salaqui	2
 Capito squamatus	Capito squamatus	Ricaurte	Ricaurte	1
 Capito hypoleucus	Capito hypoleucus	Puerto Valdivia	Puerto Valdivia	1
 Capito hypoleucus	Capito hypoleucus	La Frijolera	La Frijolera	4
-Capito hypoleucus	Capito hypoleucus	Honda (W of, 5000 ft)	Honda (W of)	3
+Capito hypoleucus	Capito hypoleucus	Honda (W of, 5000 ft)	W of Honda	3
 Capito hypoleucus	Capito hypoleucus	El Carmen de Jacopi	El Carmen de Jacopi	1
 Capito quinticolor	Capito quinticolor	Barbacoas	Barbacoas	1
 Capito auratus auratus	Capito auratus	La Morelia	La Morelia	1
@@ -1342,7 +1342,7 @@ Ramphastos citreolaemus	Ramphastos vitellinus	Puerto Valdivia	Puerto Valdivia	4
 Ramphastos citreolaemus	Ramphastos vitellinus	La Frijolera	La Frijolera	1
 Ramphastos citreolaemus	Ramphastos vitellinus	Puerto Berrio	Puerto Berrio	1
 Ramphastos citreolaemus	Ramphastos vitellinus	Malena	Malena	1
-Ramphastos citreolaemus	Ramphastos vitellinus	Honda (W of, 2000 ft)	Honda (W of)	3
+Ramphastos citreolaemus	Ramphastos vitellinus	Honda (W of, 2000 ft)	W of Honda	3
 Andigena hypoglaucus	Andigena hypoglauca	Almaguer	Almaguer	1
 Andigena hypoglaucus	Andigena hypoglauca	Laguneta	Laguneta	2
 Andigena hypoglaucus	Andigena hypoglauca	Santa Isabel	Paramo Santa Isabel	4
@@ -1358,7 +1358,7 @@ Pteroglossus castanotis castanotis	Pteroglossus castanotis	Villavicencio	Villavi
 Pteroglossus torquatus nuchalis	Pteroglossus torquatus	Puerto Valdivia	Puerto Valdivia	6
 Pteroglossus torquatus nuchalis	Pteroglossus torquatus	Puerto Berrio	Puerto Berrio	2
 Pteroglossus torquatus nuchalis	Pteroglossus torquatus	Malena	Malena	3
-Pteroglossus torquatus nuchalis	Pteroglossus torquatus	Honda (W of)	Honda (W of)	3
+Pteroglossus torquatus nuchalis	Pteroglossus torquatus	Honda (W of)	W of Honda	3
 Pteroglossus sanguineus	Pteroglossus torquatus	Salaqui	Salaqui	1
 Pteroglossus sanguineus	Pteroglossus torquatus	Alto Bonito	Alto Bonito	6
 Pteroglossus sanguineus	Pteroglossus torquatus	Bagado	Bagado	1
@@ -1399,13 +1399,13 @@ Aulacorhynchus haematopygius	Aulacorhynchus haematopygus	Buenavista	Buenavista	1
 Aulacorhynchus haematopygius	Aulacorhynchus haematopygus	Miraflores	Miraflores	1
 Aulacorhynchus haematopygius	Aulacorhynchus haematopygus	Salento	Salento	1
 Aulacorhynchus haematopygius	Aulacorhynchus haematopygus	Andalucia	Andalucia	3
-Aulacorhynchus haematopygius	Aulacorhynchus haematopygus	Honda (W of, 5000 ft)	Honda (W of)	3
+Aulacorhynchus haematopygius	Aulacorhynchus haematopygus	Honda (W of, 5000 ft)	W of Honda	3
 Aulacorhynchus haematopygius	Aulacorhynchus haematopygus	Fusagasuga	Fusagasuga	1
 Aulacorhynchus haematopygius	Aulacorhynchus haematopygus	Buena Vista	Buena Vista	3
 Galbula ruficauda ruficauda	Galbula ruficauda	Puerto Valdivia	Puerto Valdivia	3
 Galbula ruficauda ruficauda	Galbula ruficauda	Puerto Berrio	Puerto Berrio	2
 Galbula ruficauda ruficauda	Galbula ruficauda	Honda	Honda	5
-Galbula ruficauda ruficauda	Galbula ruficauda	20 miles w of Honda	Honda (W of)	13
+Galbula ruficauda ruficauda	Galbula ruficauda	20 miles w of Honda	W of Honda	13
 Galbula ruficauda ruficauda	Galbula ruficauda	Chicoral	Chicoral	2
 Galbula ruficauda pallens	Galbula ruficauda	Calamar	Calamar	5
 Galbula ruficauda pallens	Galbula ruficauda	Banco	Banco	2
@@ -1451,13 +1451,13 @@ Nystalus radiatus	Nystalus radiatus	Barbacoas	Barbacoas	2
 Nystalus radiatus	Nystalus radiatus	Puerto Valdivia	Puerto Valdivia	7
 Nystalus radiatus	Nystalus radiatus	Puerto Berrio	Puerto Berrio	1
 Nystalus radiatus	Nystalus radiatus	Honda	Honda	1
-Nystalus radiatus	Nystalus radiatus	Honda (W of)	Honda (W of)	2
+Nystalus radiatus	Nystalus radiatus	Honda (W of)	W of Honda	2
 Malacoptila fusca	Malacoptila fusca	Andalucia (E slope alt 2000 ft)	Caqueta Trail	1
 Malacoptila fusca	Malacoptila fusca	La Morelia	La Morelia	2
 Malacoptila mystacalis	Malacoptila mystacalis	Novita Trail	Novita Trail	1
 Malacoptila mystacalis	Malacoptila mystacalis	La Frijolera	La Frijolera	1
 Malacoptila mystacalis	Malacoptila mystacalis	Salento	Salento	3
-Malacoptila mystacalis	Malacoptila mystacalis	about 20 miles w of Honda alt 5000 ft	Honda (W of)	1
+Malacoptila mystacalis	Malacoptila mystacalis	about 20 miles w of Honda alt 5000 ft	W of Honda	1
 Malacoptila mystacalis	Malacoptila mystacalis	Anolaima	Anolaima	1
 Malacoptila panamensis poliopis	Malacoptila panamensis	Los Cisneros	Cisneros	1
 Malacoptila panamensis poliopis	Malacoptila panamensis	Barbacoas	Barbacoas	6
@@ -1479,7 +1479,7 @@ Monasa pallescens pallescens	Monasa morphoeus	Iguamiando	Iguamiando	1
 Monasa pallescens pallescens	Monasa morphoeus	Baudo (3000 - 3500 ft)	Baudo	4
 Monasa pallescens pallescens	Monasa morphoeus	Alto Bonito	Alto Bonito	4
 Monasa pallescens sclateri	Monasa morphoeus	Puerto Valdivia	Puerto Valdivia	7
-Monasa pallescens sclateri	Monasa morphoeus	20 miles w of Honda	Honda (W of)	6
+Monasa pallescens sclateri	Monasa morphoeus	20 miles w of Honda	W of Honda	6
 Monasa nigrifrons	Monasa nigrifrons	La Morelia	La Morelia	6
 Hypoxanthus rivolii rivolii	Colaptes rivolii	El Penon	El Penon	3
 Hypoxanthus rivolii rivolii	Colaptes rivolii	Subia	Subia	1
@@ -1500,7 +1500,7 @@ Chloronerpes rubiginosus gularis	Colaptes rubiginosus	Miraflores	Miraflores	1
 Chloronerpes rubiginosus gularis	Colaptes rubiginosus	Salento	Salento	2
 Chloronerpes rubiginosus gularis	Colaptes rubiginosus	Santa Elena	Santa Elena	1
 Chloronerpes rubiginosus gularis	Colaptes rubiginosus	Barro Blanco	Barro Blanco	2
-Chloronerpes rubiginosus gularis	Colaptes rubiginosus	Honda (W of, 5000 ft)	Honda (W of)	1
+Chloronerpes rubiginosus gularis	Colaptes rubiginosus	Honda (W of, 5000 ft)	W of Honda	1
 Chloronerpes rubiginosus gularis	Colaptes rubiginosus	La Candela	La Candela	1
 Chloronerpes rubiginosus buenavistae	Colaptes rubiginosus	Buena Vista	Buena Vista	5
 Chrysoptilus punctigula guttatus	Colaptes punctigula	La Morelia	La Morelia	1
@@ -1513,7 +1513,7 @@ Chrysoptilus punctigula ujhelyii	Colaptes punctigula	Calamar	Calamar	1
 Chrysoptilus punctigula striatigularis	Colaptes punctigula	Noanama	Noanama	1
 Chrysoptilus punctigula striatigularis	Colaptes punctigula	Cali	Cali	2
 Chrysoptilus punctigula striatigularis	Colaptes punctigula	Rio Frio	Rio Frio	1
-Chrysoptilus punctigula striatigularis	Colaptes punctigula	Honda	Honda (W of)	1
+Chrysoptilus punctigula striatigularis	Colaptes punctigula	Honda	W of Honda	1
 Chrysoptilus punctigula striatigularis	Colaptes punctigula	Puerto Berrio	Puerto Berrio	2
 Melanerpes flavigula	Melanerpes formicivorus	Paramillo (11000 ft)	Paramillo	1
 Melanerpes flavigula	Melanerpes formicivorus	Las Lomitas	Lomitas	2
@@ -1542,7 +1542,7 @@ Melanerpes pucherani pucherani	Melanerpes pucherani	Puerto Valdivia	Puerto Valdi
 Melanerpes rubricapillus rubricapillus	Melanerpes rubricapillus	Rio Sinu	Rio Sinu	3
 Melanerpes rubricapillus rubricapillus	Melanerpes rubricapillus	Algodonal	Algodonal	2
 Melanerpes rubricapillus rubricapillus	Melanerpes rubricapillus	Magdalena River	Rio Magdelena	2
-Melanerpes rubricapillus rubricapillus	Melanerpes rubricapillus	Honda	Honda (W of)	9
+Melanerpes rubricapillus rubricapillus	Melanerpes rubricapillus	Honda	W of Honda	9
 Melanerpes rubricapillus rubricapillus	Melanerpes rubricapillus	Chicoral	Chicoral	1
 Veniliornis oleaginus fumigatus	Dryobates fumigatus	La Candela	La Candela	2
 Veniliornis oleaginus fumigatus	Dryobates fumigatus	San Agustin (near)	San Agustin	1
@@ -1616,7 +1616,7 @@ Ceophloeus lineatus mesorhynchus	Dryocopus lineatus	La Manuelita	La Manuelita	2
 Ceophloeus lineatus mesorhynchus	Dryocopus lineatus	Miraflores	Miraflores	1
 Ceophloeus lineatus mesorhynchus	Dryocopus lineatus	Guengue	Guengue	1
 Ceophloeus lineatus mesorhynchus	Dryocopus lineatus	Puerto Berrio	Puerto Berrio	1
-Ceophloeus lineatus mesorhynchus	Dryocopus lineatus	Honda	Honda (W of)	2
+Ceophloeus lineatus mesorhynchus	Dryocopus lineatus	Honda	W of Honda	2
 Picumnus cinnamomeus	Picumnus cinnamomeus	La Playa	La Playa	1
 Picumnus cinnamomeus	Picumnus cinnamomeus	Varrud	Varrud	1
 Picumnus squamulatus squamulatus	Picumnus squamulatus	Buena Vista	Buena Vista	7
@@ -1630,7 +1630,7 @@ Picumnus olivaceus olivaceus	Picumnus olivaceus	San Agustin	San Agustin	3
 Picumnus olivaceus olivaceus	Picumnus olivaceus	La Palma	La Palma	1
 Picumnus olivaceus olivaceus	Picumnus olivaceus	Chicoral	Chicoral	2
 Picumnus olivaceus olivaceus	Picumnus olivaceus	Honda	Honda	2
-Picumnus olivaceus olivaceus	Picumnus olivaceus	20 miles w of Honda	Honda (W of)	4
+Picumnus olivaceus olivaceus	Picumnus olivaceus	20 miles w of Honda	W of Honda	4
 Picumnus olivaceus olivaceus	Picumnus olivaceus	Puerto Berrio	Puerto Berrio	1
 Picumnus olivaceus olivaceus	Picumnus olivaceus	Malena	Malena	1
 Picumnus olivaceus harterti	Picumnus olivaceus	Barbacoas	Barbacoas	1
@@ -1716,7 +1716,7 @@ Thamnophilus nigriceps	Thamnophilus nigriceps	Iguamiando	Iguamiando	1
 Thamnophilus nigriceps	Thamnophilus nigriceps	Algodonal	Algodonal	1
 Thamnophilus nigriceps	Thamnophilus nigriceps	Puerto Berrio	Puerto Berrio	4
 Thamnophilus nigriceps	Thamnophilus nigriceps	Malena	Malena	4
-Thamnophilus nigriceps	Thamnophilus nigriceps	Honda (W of)	Honda (W of)	1
+Thamnophilus nigriceps	Thamnophilus nigriceps	Honda (W of)	W of Honda	1
 Thamnophilus punctatus punctatus	Thamnophilus punctatus	Barrigon	Barrigon	2
 Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Alto Bonito	Alto Bonito	2
 Thamnophilus punctatus atrinucha	Thamnophilus atrinucha	Dabeiba	Dabeiba	6
@@ -1738,7 +1738,7 @@ Thamnophilus canadensis pulchellus	Sakesphorus canadensis	Calamar	Calamar	3
 Thamnophilus canadensis pulchellus	Sakesphorus canadensis	Algodonal	Algodonal	2
 Thamnophilus doliatus doliatus	Thamnophilus doliatus	Villavicencio	Villavicencio	7
 Thamnophilus radiatus albicans	Thamnophilus doliatus	Chicoral	Chicoral	3
-Thamnophilus radiatus albicans	Thamnophilus doliatus	Honda	Honda (W of)	7
+Thamnophilus radiatus albicans	Thamnophilus doliatus	Honda	W of Honda	7
 Thamnophilus radiatus albicans	Thamnophilus doliatus	Puerto Berrio	Puerto Berrio	3
 Thamnophilus radiatus albicans	Thamnophilus doliatus	Malena	Malena	4
 Thamnophilus radiatus albicans	Thamnophilus doliatus	Nare	Nare	1
@@ -1868,7 +1868,7 @@ Cercomacra tyrannina tyrannina	Cercomacroides tyrannina	La Frijolera	La Frijoler
 Cercomacra tyrannina tyrannina	Cercomacroides tyrannina	Salencio	Alban	1
 Cercomacra tyrannina tyrannina	Cercomacroides tyrannina	Rio Frio	Rio Frio	1
 Cercomacra tyrannina tyrannina	Cercomacroides tyrannina	Miraflores	Miraflores	2
-Cercomacra tyrannina tyrannina	Cercomacroides tyrannina	Honda	Honda (W of)	1
+Cercomacra tyrannina tyrannina	Cercomacroides tyrannina	Honda	W of Honda	1
 Cercomacra tyrannina tyrannina	Cercomacroides tyrannina	Buena Vista	Buena Vista	9
 Cercomacra tyrannina tyrannina	Cercomacroides tyrannina	Villavicencio	Villavicencio	5
 Cercomacra nigricans	Cercomacra nigricans	Cali	Cali	2
@@ -1929,7 +1929,7 @@ Myrmeciza immaculatus berlepschi	Hafferia zeledoni	San Jose	San Jose	5
 Myrmeciza immaculatus berlepschi	Hafferia zeledoni	Las Lomitas	Lomitas	1
 Myrmeciza immaculatus berlepschi	Hafferia zeledoni	Barbacoas	Barbacoas	6
 Myrmeciza immaculatus berlepschi	Hafferia zeledoni	Buenavista	Buenavista	1
-Myrmeciza longipes boucardi	Myrmeciza longipes	Honda	Honda (W of)	9
+Myrmeciza longipes boucardi	Myrmeciza longipes	Honda	W of Honda	9
 Myrmeciza longipes boucardi	Myrmeciza longipes	El Consuelo	El Consuelo	1
 Myrmeciza longipes boucardi	Myrmeciza longipes	Chicoral	Chicoral	1
 Myrmeciza longipes boucardi	Myrmeciza longipes	Andalucia (5000 ft)	Andalucia	1
@@ -2302,7 +2302,7 @@ Dendroplex picus picirostris	Dendroplex picus	Magangue	Magangue	1
 Dendroplex picus picirostris	Dendroplex picus	Banco	Banco	2
 Dendroplex picus picirostris	Dendroplex picus	Puerto Berrio	Puerto Berrio	2
 Dendroplex picus picirostris	Dendroplex picus	Malena	Malena	2
-Dendroplex picus picirostris	Dendroplex picus	Honda	Honda (W of)	4
+Dendroplex picus picirostris	Dendroplex picus	Honda	W of Honda	4
 Dendroplex picus picirostris	Dendroplex picus	Chicoral	Chicoral	1
 Xiphocolaptes promeropirhynchus	Xiphocolaptes promeropirhynchus	Salento	Salento	2
 Xiphocolaptes promeropirhynchus	Xiphocolaptes promeropirhynchus	Laguneta	Laguneta	1
@@ -2871,7 +2871,7 @@ Terenotriccus erythrurus fulvigularis	Terenotriccus erythrurus	Puerto Valdivia	P
 Myiotriccus ornatus ornatus	Myiotriccus ornatus	La Frijolera	La Frijolera	4
 Myiotriccus ornatus ornatus	Myiotriccus ornatus	Fusagasuga	Fusagasuga	4
 Myiotriccus ornatus ornatus	Myiotriccus ornatus	Subia	Subia	1
-Myiotriccus ornatus ornatus	Myiotriccus ornatus	Honda (W of)	Honda (W of)	1
+Myiotriccus ornatus ornatus	Myiotriccus ornatus	Honda (W of)	W of Honda	1
 Myiotriccus ornatus stellatus	Myiotriccus ornatus	Choco (Bagado or Andagueda)	NA	1
 Myiotriccus ornatus stellatus	Myiotriccus ornatus	Novita Trail (4000 ft)	Novita Trail	1
 Myiotriccus ornatus stellatus	Myiotriccus ornatus	Gallera	Gallera	2
@@ -2911,11 +2911,11 @@ Empidonax virescens	Empidonax virescens	Las Lomitas	Lomitas	3
 Empidonax virescens	Empidonax virescens	San Antonio	San Antonio	2
 Empidonax virescens	Empidonax virescens	Rio Frio	Rio Frio	1
 Empidonax virescens	Empidonax virescens	Puerto Valdivia	Puerto Valdivia	1
-Empidonax trailli alnorum	Emidonax alnorum	Dabeiba	Dabeiba	1
-Empidonax trailli alnorum	Emidonax alnorum	Turbaco	Turbaco	1
-Empidonax trailli alnorum	Emidonax alnorum	Calamar	Calamar	2
-Empidonax trailli alnorum	Emidonax alnorum	Puerto Berrio	Puerto Berrio	1
-Empidonax trailli alnorum	Emidonax alnorum	Honda	Honda	3
+Empidonax trailli alnorum	Empidonax alnorum	Dabeiba	Dabeiba	1
+Empidonax trailli alnorum	Empidonax alnorum	Turbaco	Turbaco	1
+Empidonax trailli alnorum	Empidonax alnorum	Calamar	Calamar	2
+Empidonax trailli alnorum	Empidonax alnorum	Puerto Berrio	Puerto Berrio	1
+Empidonax trailli alnorum	Empidonax alnorum	Honda	Honda	3
 Myiochanes ardosiacus ardosiacus	Contopus fumigatus	Paramillo Trail (10000 ft)	Paramillo	1
 Myiochanes ardosiacus ardosiacus	Contopus fumigatus	San Antonio	San Antonio	2
 Myiochanes ardosiacus ardosiacus	Contopus fumigatus	Cerro Munchique	Cerro Munchique	1
@@ -3027,7 +3027,7 @@ Pipra erythrocephala erythrocephala	Ceratopipra erythrocephala	Salaqui	Salaqui	1
 Pipra erythrocephala erythrocephala	Ceratopipra erythrocephala	Los Cisneros	Cisneros	1
 Pipra erythrocephala erythrocephala	Ceratopipra erythrocephala	Puerto Valdivia	Puerto Valdivia	6
 Pipra erythrocephala erythrocephala	Ceratopipra erythrocephala	Rio Frio	Rio Frio	1
-Pipra erythrocephala erythrocephala	Ceratopipra erythrocephala	Honda (W of)	Honda (W of)	3
+Pipra erythrocephala erythrocephala	Ceratopipra erythrocephala	Honda (W of)	W of Honda	3
 Pipra erythrocephala berlepschi	Ceratopipra erythrocephala	Florencia	Florencia	3
 Pipra erythrocephala berlepschi	Ceratopipra erythrocephala	La Morelia	La Morelia	2
 Pipra erythrocephala berlepschi	Ceratopipra erythrocephala	Buena Vista	Buena Vista	4
@@ -3058,7 +3058,7 @@ Cirrhipipra filicauda	Pipra filicauda	Florencia	Florencia	1
 Machaeropterus striolatus	Machaeropterus striolatus	Alto Bonito	Alto Bonito	1
 Machaeropterus striolatus	Machaeropterus striolatus	Puerto Valdivia	Puerto Valdivia	2
 Machaeropterus striolatus	Machaeropterus striolatus	La Frijolera	La Frijolera	1
-Machaeropterus striolatus	Machaeropterus striolatus	Honda (W of)	Honda (W of)	1
+Machaeropterus striolatus	Machaeropterus striolatus	Honda (W of)	W of Honda	1
 Machaeropterus striolatus	Machaeropterus striolatus	Florencia	Florencia	5
 Machaeropterus striolatus	Machaeropterus striolatus	La Morelia	La Morelia	1
 Allocopterus deliciosus	Machaeropterus deliciosus	Cocal	Cocal	1
@@ -3090,7 +3090,7 @@ Manacus manacus abditivus	Manacus manacus	Malena	Malena	1
 Manacus manacus interior	Manacus manacus	Villavicencio	Villavicencio	3
 Manacus manacus bangsi	Manacus manacus	Barbacoas	Barbacoas	7
 Manacus manacus flaveolus	Manacus manacus	Honda	Honda	2
-Manacus manacus flaveolus	Manacus manacus	Honda (W of)	Honda (W of)	8
+Manacus manacus flaveolus	Manacus manacus	Honda (W of)	W of Honda	8
 Manacus manacus flaveolus	Manacus manacus	Chicoral	Chicoral	6
 Manacus vitellinus vitellinus	Manacus vitellinus	Alto Bonito	Alto Bonito	5
 Manacus vitellinus vitellinus	Manacus vitellinus	Dabeiba	Dabeiba	6
@@ -3140,7 +3140,7 @@ Pachyrhamphus cinnamomeus	Pachyramphus cinnamomeus	Los Cisneros	Cisneros	1
 Pachyrhamphus cinnamomeus	Pachyramphus cinnamomeus	Barbacoas	Barbacoas	7
 Pachyrhamphus cinnamomeus	Pachyramphus cinnamomeus	Puerto Valdivia	Puerto Valdivia	5
 Pachyrhamphus cinnamomeus	Pachyramphus cinnamomeus	Malena	Malena	1
-Pachyrhamphus cinnamomeus	Pachyramphus cinnamomeus	Honda (W of)	Honda (W of)	1
+Pachyrhamphus cinnamomeus	Pachyramphus cinnamomeus	Honda (W of)	W of Honda	1
 Pachyrhamphus cinnamomeus	Pachyramphus cinnamomeus	Buena Vista	Buena Vista	1
 Pachyrhamphus magdalenae	Pachyramphus cinnamomeus	Algodonal	Algodonal	1
 Pachyrhamphus sp	Pachyrhamphus sp	Cali	Cali	1
@@ -3576,7 +3576,7 @@ Hylocichle ustulata swainsoni	Catharus ustulatus	Barro Blanco	Barro Blanco	2
 Hylocichle ustulata swainsoni	Catharus ustulatus	Rio Toche	Rio Toche	1
 Hylocichle ustulata swainsoni	Catharus ustulatus	El Eden	El Eden	1
 Hylocichle ustulata swainsoni	Catharus ustulatus	Chicoral	Chicoral	1
-Hylocichle ustulata swainsoni	Catharus ustulatus	Honda	Honda (W of)	3
+Hylocichle ustulata swainsoni	Catharus ustulatus	Honda	W of Honda	3
 Hylocichle ustulata swainsoni	Catharus ustulatus	Choachi	Choachi	3
 Hylocichle ustulata swainsoni	Catharus ustulatus	Buena Vista	Buena Vista	3
 Catharus birchalli	Catharus aurantiirostris	San Agustin (near)	San Agustin	2
@@ -3815,7 +3815,7 @@ Basileuterus coronatus	Myiothlypis coronata	Fusagasuga	Fusagasuga	4
 Basileuterus coronatus	Myiothlypis coronata	El Roble	Los Robles	2
 Basileuterus bivittatus chlorophrys	Myiothlypis bivittata	Buenavista	Buenavista	2
 Basileuterus auricapillus olivascens	Basileuterus culicivorus	Buena Vista	Buena Vista	4
-Basileuterus rufifrons mesochrysus	Basileuterus rufifrons	Honda	Honda (W of)	1
+Basileuterus rufifrons mesochrysus	Basileuterus rufifrons	Honda	W of Honda	1
 Basileuterus rufifrons mesochrysus	Basileuterus rufifrons	Chicoral	Chicoral	3
 Basileuterus rufifrons mesochrysus	Basileuterus rufifrons	Andalucia (3000 ft)	Andalucia	10
 Basileuterus fulvicauda semicervinus	Myiothlypis fulvicauda	Alto Bonito	Alto Bonito	2
@@ -3964,7 +3964,7 @@ Pitylus grossus	Saltator grossus	Baudo	Baudo	2
 Pitylus grossus	Saltator grossus	San Jose	San Jose	1
 Pitylus grossus	Saltator grossus	Cocal	Cocal	2
 Pitylus grossus	Saltator grossus	Barbacoas	Barbacoas	6
-Pitylus grossus	Saltator grossus	Honda (W of)	Honda (W of)	1
+Pitylus grossus	Saltator grossus	Honda (W of)	W of Honda	1
 Saltator maximus	Saltator maximus	Noanama	Noanama	2
 Saltator maximus	Saltator maximus	San Jose	San Jose	3
 Saltator maximus	Saltator maximus	Barbacoas	Barbacoas	6
@@ -4058,7 +4058,7 @@ Spiza americana	Spiza americana	Calamar	Calamar	1
 Ammodramus savannarum caucae	Ammodramus savannarum	Cali	Cali	3
 Myospiza manimbe columbiana	Ammodramus humeralis	Cali	Cali	5
 Myospiza manimbe columbiana	Ammodramus humeralis	La Manuelita	La Manuelita	3
-Myospiza manimbe columbiana	Ammodramus humeralis	Honda	Honda (W of)	1
+Myospiza manimbe columbiana	Ammodramus humeralis	Honda	W of Honda	1
 Myospiza manimbe columbiana	Ammodramus humeralis	Chicoral	Chicoral	5
 Myospiza aurifrons	Ammodramus aurifrons	Florencia	Florencia	6
 Myospiza aurifrons	Ammodramus aurifrons	La Morelia	La Morelia	5
@@ -4108,7 +4108,7 @@ Phrygilus unicolor geospizopsis	Geospizopsis unicolor	Choachi	Choachi	9
 Spodiornis jardini	Spodiornis rusticus	Almaguer	Almaguer	1
 Paroaria gularis	Paroaria gularis	La Morelia	La Morelia	6
 Arremon aurantiirostris erythrorhynchus	Arremon aurantiirostris	Chicoral	Chicoral	3
-Arremon aurantiirostris erythrorhynchus	Arremon aurantiirostris	Honda (W of)	Honda (W of)	2
+Arremon aurantiirostris erythrorhynchus	Arremon aurantiirostris	Honda (W of)	W of Honda	2
 Arremon aurantiirostris erythrorhynchus	Arremon aurantiirostris	Puerto Valdivia	Puerto Valdivia	1
 Arremon aurantiirostris occidentalis	Arremon aurantiirostris	Dabeiba	Dabeiba	4
 Arremon aurantiirostris occidentalis	Arremon aurantiirostris	Alto Bonito	Alto Bonito	4
@@ -4188,7 +4188,7 @@ Buarremon assimilis	Arremon assimilis	Almaguer	Almaguer	1
 Buarremon assimilis	Arremon assimilis	El Penon	El Penon	2
 Buarremon assimilis	Arremon assimilis	Chipaque	Chipaque	2
 Buarremon atricapillus	Arremon atricapillus	La Frijolera	La Frijolera	2
-Buarremon atricapillus	Arremon atricapillus	Honda (W of)	Honda (W of)	1
+Buarremon atricapillus	Arremon atricapillus	Honda (W of)	W of Honda	1
 Coereba luteola luteola	Coereba flaveola	La Playa	La Playa	4
 Coereba mexicana columbiana	Coereba flaveola	Dabeiba	Dabeiba	6
 Coereba mexicana columbiana	Coereba flaveola	Alto Bonito	Alto Bonito	1
@@ -4307,7 +4307,7 @@ Dacnis cayana coerebicolor	Dacnis cayana	San Jose	San Jose	4
 Dacnis cayana coerebicolor	Dacnis cayana	Barbacoas	Barbacoas	4
 Dacnis cayana coerebicolor	Dacnis cayana	Buenavista	Buenavista	1
 Dacnis cayana coerebicolor	Dacnis cayana	Puerto Valdivia	Puerto Valdivia	5
-Dacnis cayana coerebicolor	Dacnis cayana	Honda	Honda (W of)	3
+Dacnis cayana coerebicolor	Dacnis cayana	Honda	W of Honda	3
 Dacnis cayana coerebicolor	Dacnis cayana	Bogota	Bogota	2
 Dacnis cayana coerebicolor	Dacnis cayana	Andalucia (3000 ft)	Andalucia	12
 Dacnis angelica	Dacnis lineata	La Morelia	La Morelia	5
@@ -4329,7 +4329,7 @@ Cyanerpes caerulea microrhyncha	Cyanerpes caeruleus	Quibdo	Quibdo	1
 Cyanerpes caerulea microrhyncha	Cyanerpes caeruleus	Juntas de Tamana	Juntas de Tamana	1
 Cyanerpes caerulea microrhyncha	Cyanerpes caeruleus	Noanama	Noanama	6
 Cyanerpes caerulea microrhyncha	Cyanerpes caeruleus	Barbacoas	Barbacoas	6
-Cyanerpes caerulea microrhyncha	Cyanerpes caeruleus	Honda	Honda (W of)	12
+Cyanerpes caerulea microrhyncha	Cyanerpes caeruleus	Honda	W of Honda	12
 Cyanerpes caerulea microrhyncha	Cyanerpes caeruleus	Buena Vista	Buena Vista	1
 Chlorophanes spiza exsul	Chlorophanes spiza	Cocal	Cocal	1
 Chlorophanes spiza exsul	Chlorophanes spiza	Buenaventura	Buenaventura	2
@@ -4349,7 +4349,7 @@ Tersina viridis occidentalis	Tersina viridis	Caldas	Caldas	1
 Tersina viridis occidentalis	Tersina viridis	San Antonio	San Antonio	8
 Tersina viridis occidentalis	Tersina viridis	Miraflores	Miraflores	1
 Tersina viridis occidentalis	Tersina viridis	Popayan	Popayan	1
-Tersina viridis occidentalis	Tersina viridis	Honda	Honda (W of)	1
+Tersina viridis occidentalis	Tersina viridis	Honda	W of Honda	1
 Tersina viridis occidentalis	Tersina viridis	Villavicencio	Villavicencio	5
 Chlorophonia pretrei	Chlorophonia pyrrhophrys	Cerro Munchique	Cerro Munchique	1
 Chlorophonia pretrei	Chlorophonia pyrrhophrys	Santa Isabel	Paramo Santa Isabel	1
@@ -4382,7 +4382,7 @@ Tanmagra xanthogastra brevirostris	Euphonia xanthogaster	La Morelia	La Morelia	4
 Tanmagra xanthogastra brevirostris	Euphonia xanthogaster	Florencia	Florencia	2
 Tanmagra xanthogastra brevirostris	Euphonia xanthogaster	Quetame	Quetame	1
 Tanmagra xanthogastra brevirostris	Euphonia xanthogaster	Buena Vista	Buena Vista	2
-Tanagra concinna	Euphonia concinna	Honda	Honda (W of)	5
+Tanagra concinna	Euphonia concinna	Honda	W of Honda	5
 Tanagra saturata	Euphonia saturata	Caldas	Caldas	6
 Tanagra saturata	Euphonia saturata	Cali	Cali	1
 Tanagra olivacea humilis	Euphonia minuta	Quibdo	Quibdo	3
@@ -4442,7 +4442,7 @@ Tangara johannae	Tangara johannae	Barbacoas	Barbacoas	1
 Tangara florida auriceps	Tangara florida	Novita	Novita	1
 Tangara florida auriceps	Tangara florida	Buenavista	Buenavista	9
 Tangara guttata bogotensis	Ixothraupis guttata	Buena Vista	Buena Vista	3
-Tangara guttata tolimae	Ixothraupis guttata	Honda (W of)	Honda (W of)	3
+Tangara guttata tolimae	Ixothraupis guttata	Honda (W of)	W of Honda	3
 Tangara xanthogastra	Ixothraupis xanthogastra	La Morelia	La Morelia	1
 Tangara rufigula	Ixothraupis rufigula	Gallera	Gallera	2
 Tangara rufigula	Ixothraupis rufigula	Buenavista	Buenavista	2
@@ -4525,7 +4525,7 @@ Tangara larvata fanny	Stilpnia larvata	Barbacoas	Barbacoas	5
 Tangara larvata fanny	Stilpnia larvata	Buenavista	Buenavista	1
 Tangara larvata fanny	Stilpnia larvata	Puerto Valdivia	Puerto Valdivia	1
 Tangara larvata fanny	Stilpnia larvata	Honda	Honda	1
-Tangara cyaneicollis caeruleocephala	Stilpnia cyanicollis	Honda (W of, 5000 ft)	Honda (W of)	1
+Tangara cyaneicollis caeruleocephala	Stilpnia cyanicollis	Honda (W of, 5000 ft)	W of Honda	1
 Tangara cyaneicollis caeruleocephala	Stilpnia cyanicollis	La Palma	La Palma	2
 Tangara cyaneicollis caeruleocephala	Stilpnia cyanicollis	La Candela	La Candela	4
 Tangara cyaneicollis caeruleocephala	Stilpnia cyanicollis	San Agustin (near)	San Agustin	10
@@ -4767,7 +4767,7 @@ Ramphocelus icteronotus	Ramphocelus flammigerus	Barbacoas	Barbacoas	5
 Ramphocelus icteronotus	Ramphocelus flammigerus	Puerto Valdivia	Puerto Valdivia	1
 Ramphocelus icteronotus	Ramphocelus flammigerus	La Frijolera	La Frijolera	1
 Ramphocelus icteronotus	Ramphocelus flammigerus	Barro Blanco	Barro Blanco	1
-Ramphocelus icteronotus	Ramphocelus flammigerus	Honda (W of)	Honda (W of)	4
+Ramphocelus icteronotus	Ramphocelus flammigerus	Honda (W of)	W of Honda	4
 Calochaetes coccineus	Calochaetes coccineus	Andalucia (below)	Andalucia	1
 Piranga rubra rubra	Piranga rubra	Alto Bonito	Alto Bonito	1
 Piranga rubra rubra	Piranga rubra	Dabeiba	Dabeiba	4
@@ -4810,7 +4810,7 @@ Phoenicothraupis cristata	Habia cristata	San Antonio	San Antonio	2
 Phoenicothraupis cristata	Habia cristata	Rio Lima	NA	4
 Phoenicothraupis cristata	Habia cristata	Cocal	Cocal	1
 Phoenicothraupis cristata	Habia cristata	Cerro Munchique (6000 ft)	Cerro Munchique	3
-Phoenicothraupis gutturalis	Habia gutturalis	Honda (W of, 2800 ft)	Honda (W of)	1
+Phoenicothraupis gutturalis	Habia gutturalis	Honda (W of, 2800 ft)	W of Honda	1
 Heterospingus xanthopygius	Heterospingus xanthopygius	Alto Bonito	Alto Bonito	2
 Heterospingus xanthopygius	Heterospingus xanthopygius	San Jose	San Jose	1
 Heterospingus xanthopygius	Heterospingus xanthopygius	Cachipay (Magdalena Valley)	Anolaima	1
@@ -4870,7 +4870,7 @@ Hemithraupis peruana	Hemithraupis flavicollis	Florencia	Florencia	1
 Hemithraupis guira guirina	Hemithraupis guira	La Frijolera	La Frijolera	1
 Hemithraupis guira guirina	Hemithraupis guira	Puerto Valdivia	Puerto Valdivia	1
 Hemithraupis guira guirina	Hemithraupis guira	Rio Frio	Rio Frio	2
-Hemithraupis guira guirina	Hemithraupis guira	Honda (W of)	Honda (W of)	1
+Hemithraupis guira guirina	Hemithraupis guira	Honda (W of)	W of Honda	1
 Hemithraupis guira guirina	Hemithraupis guira	La Candela	La Candela	1
 Sericossypha albocristata	Sericossypha albocristata	Almaguer	Almaguer	2
 Chlorospingus albitempora nigriceps	Chlorospingus flavopectus	Miraflores	Miraflores	2
@@ -4967,7 +4967,7 @@ Ostinops decumanus	Psarocolius decumanus	La Manuelita	La Manuelita	3
 Ostinops decumanus	Psarocolius decumanus	Miraflores (4500 ft)	Miraflores	3
 Ostinops decumanus	Psarocolius decumanus	Rio Frio	Rio Frio	1
 Ostinops decumanus	Psarocolius decumanus	La Palma	La Palma	2
-Ostinops decumanus	Psarocolius decumanus	Honda	Honda (W of)	7
+Ostinops decumanus	Psarocolius decumanus	Honda	W of Honda	7
 Ostinops decumanus	Psarocolius decumanus	Algodonal	Algodonal	1
 Ostinops decumanus	Psarocolius decumanus	Opon	Opon	3
 Ostinops decumanus	Psarocolius decumanus	Barrigon	Barrigon	2
@@ -5051,7 +5051,7 @@ Sturnella magna meridionalis	Sturnella magna	Choachi	Choachi	2
 Sturnella magna meridionalis	Sturnella magna	Quetame	Quetame	3
 Icterus spurius	Icterus spurius	Algodonal	Algodonal	2
 Icterus auricapillus	Icterus auricapillus	Honda	Honda	1
-Icterus auricapillus	Icterus auricapillus	Honda (W of)	Honda (W of)	2
+Icterus auricapillus	Icterus auricapillus	Honda (W of)	W of Honda	2
 Icterus mesomelas salvini	Icterus mesomelas	Atrato River	Rio Atrato	4
 Icterus mesomelas salvini	Icterus mesomelas	Quibdo	Quibdo	1
 Icterus mesomelas salvini	Icterus mesomelas	Remolino	Remolino	1
@@ -5098,7 +5098,7 @@ Cyanocorax affinis affinis	Cyanocorax affinis	Iguamiando	Iguamiando	2
 Cyanocorax affinis affinis	Cyanocorax affinis	Turbaco	Turbaco	3
 Cyanocorax affinis affinis	Cyanocorax affinis	Puerto Valdivia	Puerto Valdivia	2
 Cyanocorax affinis affinis	Cyanocorax affinis	La Frijolera	La Frijolera	2
-Cyanocorax affinis affinis	Cyanocorax affinis	Honda (W of)	Honda (W of)	4
+Cyanocorax affinis affinis	Cyanocorax affinis	Honda (W of)	W of Honda	4
 Cyanocorax affinis affinis	Cyanocorax affinis	Chicoral	Chicoral	2
 Cyanocorax violaceus	Cyanocorax violaceus	La Morelia	La Morelia	5
 Cyanocorax violaceus	Cyanocorax violaceus	Villavicencio	Villavicencio	6
