@@ -70,95 +70,34 @@ Finished key converting raw localities to specific localities to the generalized
 While working on constructing the sampling lists for the upcoming expeditions I decided to compare the specimen counts for each locality between the AMNH database and Chapman 1917. Here are my observations
 
 
-Hi all,
-Now that the project is 'official' and data is starting to come in, I'd like to share some observations regarding the historical databases I've made in the process of cleaning them.
 
-First, there are currently two historical databases.
+2020.10.29
+- spent past two days building code to compare the Chapman 1917 and AMNH specimen databases
+- began organizing data and code and uploading to github
+- realized that some of the discrepancies between the two databases could be explained by Cornell specimens. 
+- downloaded cornell records from vertnet and have started cleaning these and putting in usable format
 
-1. Specimen Database - combined AMNH and CUMV. AMNH - transcribed and digitized from the original handwritten AMNH specimen ledgers by AMNH volunteers. CUMV - Vertnet.
+2020.10.30
+- standardized locality names
+- downloaded, cleaned, and incorporated CUMV data
+- created expediciornis github repository
 
-2. Chapman 1917 - database derived from the specimen counts per locality that appear below each species' account in the Chapman 1917 monograph.
-
-If you're short on time, the main take home is that while there is generally good correspondance between the two databases, there are some differences that means that both databases should probably be analyzed separately and combined going forward. Furthermore, a physical inventory of the specimens will be necessary. Details further below.
-
-I have created a github repository for the project in my account. 
-
-https://github.com/seeholzer/expediciornis
-
-Here you can find the most up-to-date specimen databases as well as the raw data and code used to create them. Additionally, there are summary tables of the specimen counts for all the past and future expeditions.   
-
-Please let me know if you have concerns, observations, or recommendations. I'm happy to make adjustments to provide the data in the most usable format possible.
-
-
-Cheers,
-Glenn
+2020.11.02
+- finished the readme's for the expediciornis github
+- sent Slack message to group about the specimen databases
+- started looking into specimens at the NMNH then went down a rabbit hole looking at the record of exchanges
+	These appear in the DeaccessionNotes and lists 3069 that were sent to other institutions as exchanges or gifts. 1966 (2/3) of these exchanged specimens were from the Chapman Expeditions. Will have to examine the DeaccessionNotes carefully when selecting species to trying to account for missing specimens during physical inventory of AMNH databases.
 
 
-####################
-#Details
-####################
 
-The main work that's gone in to cleaning these databases has been converting the non-standardized locality names to a list of standardized locality names and doing likewise for taxonomy. I've also cleaned and standardized a few other relevant data fields like date.  
 
-I think both these databases accurately reflect their distinct raw information sources. Meaning that there are few transcription errors from the Chapman 1917 pdf or from the AMNH handwritten ledgers (AMNH volunteers). I expect there to be a higher rate of transcription error for the AMNH database just because the volunteers were dealing with handwriting. In spite of this, after spot checking against the photos of the ledgers themselves, I'm impressed by how accurately the AMNH database was transcribed. Thus, any errors or inconsistencies in the AMNH database likely reflect actual errors or inconsistencies in the handwritten ledgers themselves; for example, blank, illegible, or otherwise ambiguous species names or localities.
+Methods
+- in paper be sure to emphasize that additional details of sex, age, and precise locations collected for many of the specimens can be found.
+- for instance, many marsh birds from the Cali were taken in marshes outside of the city specificied in text
+- for other specimens, the locality may be modified with a 'below' or 'above'
  
-Overall, there is a good correspondance between the two database as we'd hope/expect. For a given locality, most (80-90%) species' specimen counts line up perfectly or only differ slightly by 1 or 2 specimens. There also doesn't appear to be a clear trend for higher specimen counts for a given species x locality in one database than the other. However, there are outliers. For example, there are 13 Troglodytes solstitialis reported from Laguneta in the AMNH database but only 6 in Chapman 1917. Some of these discrepancies are probably clerical errors Chapman made collating all the specimen numbers by hand. Alternatively, this might mean there are 'lost' specimens unaccounted for in the AMNH/CUMV databases. I think is also likely. 
-
-The specimen count discrepancies will come into play when trying to decide which species to sample for comparative historical genomics and for any analysis attempting to infer relative abundance based on specimen counts (which I think is sketchy in and of itself). More concerning is that the total species lists for a given locality differ between the two databases. That is, the list of 'presences' differ.
-
-For a given locality, a significant number of species are not shared between the two databases. Take the aggregate specimen counts for the meta-locality Aguadita-Los Robles-El Peñón-Fusagasugá. The total number of species reported for this meta-locality from these two databases combined is 181. However, 33 of these species are not shared between the two databases. Specifically, 14 species reported in the AMNH database are not reported in Chapman 1917 and 19 species in Chapman 1917 are not reported in the AMNH database. This general pattern is true for all localities we've worked in (Laguneta, Rio Toche, Expedition 1) or are planning to work in (Honda, San Agustin, Florencia, Barbacoas).
-
-Basically, both databases are flawed but for different reasons and we shouldn't have 100% confidence in either until a physical inventory can be conducted. With limited access to the collections of the AMNH and other institutions, this won't be possible any time soon. Remotely, improvements can be made on the AMNH specimen database up to a point. The Chapman 1917 database is complete in that it's a complete digitization of the specimen counts reported in Chapman 1917.
-
-I've attached an example of the summary table I've made to help summarize all this info for the Fusagasuga localities.  The species names are in eBird/Clements 2019 taxonomy, followed by the summed totals for all four localities. Next are two columns per locality. In the first locality column are the specimen counts for that locality. If the databases disagreed, I've added the highest total to the 'count' column and in the next 'note' column the alternative specimen count followed by its database. For example, for Adelomyia melanogenys in Aguadita, there is 1 specimen in the AMNH database but 0 specimens reported in Chapman 1917, so for Adelomyia melanogenys there's a '1' in Aguadita's 'count' column and '0-chap' in the 'note' column (chap = Chapman 1917 and spec = Specimen Database.
-
-#####
-#	Implications for analysis
-The fact that the list of species 'presences' for given locality differ between the databases suggests that both lists should be analyzed separately and combined. The need for this is reinforced if specimen counts are used for relative abundances (a separate issue) as the specimen counts may differ dramatically even when a species is 'present' in both databases (e.g. T. solstitialis at Laguneta).  
-
-#####
-#	Conclusions
-1. Overall, there is a good correspondance between the two database as we'd hope/expect.
-2. A physical inventory of the Chapman expedition specimens will be necessary
-3. Both databases should be analyzed separately and combined.
-
-#####
-
-I have created a github repository for the project in my account. 
-
-https://github.com/seeholzer/expediciornis
-
-Here you can find the most up-to-date specimen databases as well as the raw data and code used to create them. Additionally, there are summary tables of the specimen counts for all the past and future expeditions.   
 
 
-
-
-
-
-
-
-
-
-Regarding taxonomy, to avoid having to make taxonomic adjustments when working between various databases I think all our taxonomies should follow the most up-to-date eBird/Clements checklist. SACC is updated continually based on accepted proposals whereas eBird/Clements once or twice a year so there eBird/Clements tends to lag a bit. However, because the project's observational data will be uploaded through eBird, it makes sense to use the eBird/Clements taxonomy for everything. This will help to simplify the coding during downstream analysis by Camila, myself, and others. I noticed a lot of newer SACC names in the database Andres sent from Fusagasugá (e.g. Saucerottia cyanifrons = Amazilia cyanifrons). 
-
-
-
-
-I lined up your collecting list (Modern) with the historical numbers from Chapman 1917 (Historical). Using the Chapman 1917 database rather than the AMNH specimen database, there appear to be a few less species with 5H:5M sampling. This is because the Chapman 1917 database tends to indicate there are fewer specimens for a given species + locality than the AMNH database. Not sure why this is, yet.   
-
-Regardless, it doesn't much matter at this point. Both historical databases give  What will count for the morphological/genetic studies is how many of the actual specimens we are able locate in the AMNH collection (or others like Cornell). Since the digital AMNH specimen database was itself transcribed from the original handwritten ledgers, it's difficult to say how well their numbers correspond to what is in the cases until someone does a physical inventory. 
-
-
-
-
-The AMNH specimen database is going to be more important for the actual sampling of toepads but for the mom are going to be 
-
-
- but since the Chapman 1917 numbers are cleaner at the moment, let's just use those.
-
-
-
- 
 Suggestions - 
 
 
@@ -173,34 +112,6 @@ Myiopobus flavicans = Myiophobus flavicans
 cInnycerthia olivascens = Cinnycerthia olivascens
 Cardelina canadensis = Cardellina canadensis
 Campyloramphus pusillus = Campylorhamphus pusillus
-
-
-
-
-
-
-
-2020.10.29
-- spent past two days building code to compare the Chapman 1917 and AMNH specimen databases
-- began organizing data and code and uploading to github
-- realized that some of the discrepancies between the two databases could be explained by Cornell specimens. 
-- downloaded cornell records from vertnet and have started cleaning these and putting in usable format
-
-2020.10.30
-- standardized locality names
-
-
-
-
-
-
-
-Methods
-- in paper be sure to emphasize that additional details of sex, age, and precise locations collected for many of the specimens can be found.
-- for instance, many marsh birds from the Cali were taken in marshes outside of the city specificied in text
-- for other specimens, the locality may be modified with a 'below' or 'above'
- 
-
 
 
 
