@@ -2,6 +2,10 @@
 
 This repository contains files, scripts, and data products for the historical databases of Chapman 1917.
 
+Excel spreadsheets beginning with "Sampling" are the summary tables for historical specimen counts for each expedition. Created using ./1.historical.sampling.R
+
+
+
 ## Basic Information on Historical Databases
 
 There are two historical databases.
