@@ -79,9 +79,23 @@ First, there are currently two historical databases.
 
 2. Chapman 1917 - database derived from the specimen counts per locality that appear below each species' account in the Chapman 1917 monograph.
 
-If you're short on time, the main take home is that while there is generally good correspondance between the two databases, there are some differences that means that both databases should probably be analyzed separately and combined going forward. Furthermore, a physical inventory of the specimens will be necessary.
+If you're short on time, the main take home is that while there is generally good correspondance between the two databases, there are some differences that means that both databases should probably be analyzed separately and combined going forward. Furthermore, a physical inventory of the specimens will be necessary. Details further below.
 
-Details below.
+I have created a github repository for the project in my account. 
+
+https://github.com/seeholzer/expediciornis
+
+Here you can find the most up-to-date specimen databases as well as the raw data and code used to create them. Additionally, there are summary tables of the specimen counts for all the past and future expeditions.   
+
+Please let me know if you have concerns, observations, or recommendations. I'm happy to make adjustments to provide the data in the most usable format possible.
+
+
+Cheers,
+Glenn
+
+
+####################
+#Details
 ####################
 
 The main work that's gone in to cleaning these databases has been converting the non-standardized locality names to a list of standardized locality names and doing likewise for taxonomy. I've also cleaned and standardized a few other relevant data fields like date.  
@@ -108,15 +122,17 @@ The fact that the list of species 'presences' for given locality differ between 
 2. A physical inventory of the Chapman expedition specimens will be necessary
 3. Both databases should be analyzed separately and combined.
 
-
 #####
 
-Please let me know if you have concerns, observations, or recommendations. I'm happy to make adjustments to provide the data in the most usable format possible.
+I have created a github repository for the project in my account. 
 
-Also, is there a convenient place where I could place the most-up-to-date databases and summary tables so that everyone has access to them? Github might make sense. Lots of R code went into make these tables which could also be included on this page. 
+https://github.com/seeholzer/expediciornis
 
-Cheers,
-Glenn
+Here you can find the most up-to-date specimen databases as well as the raw data and code used to create them. Additionally, there are summary tables of the specimen counts for all the past and future expeditions.   
+
+
+
+
 
 
 
