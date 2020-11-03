@@ -5,7 +5,7 @@ This repository contains files, scripts, and data products for the historical da
 Excel spreadsheets beginning with "Sampling" are the summary tables for historical specimen counts for each expedition. 
 Created using ./1.historical.sampling.R
 
-**Gazetteer_Chapman_Colombia_Expeditions.xlsx** - Gazetteer for Chapman 1917 localities. 
+
 
 ########################################################################################
 
@@ -33,6 +33,13 @@ There are two historical databases.
 
 
 ########################################################################################
+
+##Other Useful Files
+**Gazetteer_Chapman_Colombia_Expeditions.xlsx** - Gazetteer for Chapman 1917 localities. 
+
+**Localidades.Chapman.kml** - KML file of locations of Chapman 1917 localities for visualization in Google Earth. Created using **2.Chapman.Localities.in.GoogleEarth.R**
+
+
 
 #### Taxonomy
 All taxonomy has been standardized to eBird/Clements 2019. The working databases for both Specimens and Chapman 1917 retain their original species-level taxonomy columns as well as the eBird/Clement synonyms. 
