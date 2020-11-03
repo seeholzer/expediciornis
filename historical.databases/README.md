@@ -35,9 +35,10 @@ There are two historical databases.
 ########################################################################################
 
 ##Other Useful Files
+
 **Gazetteer_Chapman_Colombia_Expeditions.xlsx** - Gazetteer for Chapman 1917 localities. 
 
-**Localidades.Chapman.kml** - KML file of locations of Chapman 1917 localities for visualization in Google Earth. Created using **2.Chapman.Localities.in.GoogleEarth.R**
+**Localidades.Chapman.kml** - KML file of locations of Chapman 1917 localities for visualization in Google Earth. Created using 2.Chapman.Localities.in.GoogleEarth.R
 
 
 
