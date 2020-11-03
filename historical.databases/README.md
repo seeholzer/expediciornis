@@ -41,9 +41,11 @@ There are two historical databases.
 
 **Localidades.Chapman.kml** - KML file of locations of Chapman 1917 localities for visualization in Google Earth. Created using 2.Chapman.Localities.in.GoogleEarth.R
 
+########################################################################################
 
 
-### Taxonomy
+
+## Taxonomy
 All taxonomy has been standardized to eBird/Clements 2019. The working databases for both Specimens and Chapman 1917 retain their original species-level taxonomy columns as well as the eBird/Clement synonyms. 
 
 The original taxonomic column names for each database are as follows
