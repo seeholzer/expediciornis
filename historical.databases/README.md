@@ -35,7 +35,7 @@ There are two historical databases.
 ########################################################################################
 
 
-##Other Useful Files
+## Other Useful Files
 
 **Gazetteer_Chapman_Colombia_Expeditions.xlsx** - Gazetteer for Chapman 1917 localities. 
 
