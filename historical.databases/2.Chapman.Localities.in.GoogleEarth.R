@@ -30,19 +30,30 @@ all(unique(data$Locality) %in% locs$Locality)
 #which localities in Chapman 1917 aren't in Gazetteer
 unique(data$Locality)[!unique(data$Locality) %in% locs$Locality]
 
-
 #plotting data
 #merge Chapman 1917 and Gazetteer Lat Long
 x = split(data[,c('Name','Count')],f=data$Locality)
 x = unlist(lapply(x,function(x)sum(x[,2])))
 foo = data.frame(Locality = names(x), SpecimenCount = as.numeric(x),stringsAsFactors=F)
 foo = merge(foo,locs[,c('Locality','Lat','Long')],all.x=T)
+foo = foo[!is.na(foo$Lat), ]
+
+#preliminary data for Natalia
+#need to get year and duration of visit
+library(sf)
+CO1 = readShapeSpatial('../GIS_layers/gadm36_COL_shp/gadm36_COL_1.shp')
+proj4string(CO1) = '+proj=longlat +datum=WGS84'  
+d = foo 
+coordinates(d) = ~ Long + Lat
+proj4string(d) = proj4string(CO1)
+x = cbind(foo,Departamento = over(d,CO1)[,'NAME_1'])
+write.table(x,'Localidades.Chapman.txt',row.names=F,col.names=F,quote=F,sep='\t')
+
 
 ########
 ##Create KML
 #######
 
-	foo = foo[!is.na(foo$Lat), ]
 	file = paste0('Localidades.Chapman.kml')
 	
 	colnames(foo)[grep('Lat',colnames(foo))] = 'LAT'
