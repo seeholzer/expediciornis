@@ -1699,6 +1699,126 @@
           <text>$[description]</text>
         </BalloonStyle>
       </Style>
+      <Style id="pnt114">
+        <LabelStyle>
+          <scale>0.75</scale>
+        </LabelStyle>
+        <IconStyle>
+          <color>#ff3f8ff4</color>
+          <scale>0.5</scale>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+          </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>$[description]</text>
+        </BalloonStyle>
+      </Style>
+      <Style id="pnt115">
+        <LabelStyle>
+          <scale>0.75</scale>
+        </LabelStyle>
+        <IconStyle>
+          <color>#ff3f8ff4</color>
+          <scale>0.5</scale>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+          </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>$[description]</text>
+        </BalloonStyle>
+      </Style>
+      <Style id="pnt116">
+        <LabelStyle>
+          <scale>0.75</scale>
+        </LabelStyle>
+        <IconStyle>
+          <color>#ff3f8ff4</color>
+          <scale>0.5</scale>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+          </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>$[description]</text>
+        </BalloonStyle>
+      </Style>
+      <Style id="pnt117">
+        <LabelStyle>
+          <scale>0.75</scale>
+        </LabelStyle>
+        <IconStyle>
+          <color>#ff3f8ff4</color>
+          <scale>0.5</scale>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+          </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>$[description]</text>
+        </BalloonStyle>
+      </Style>
+      <Style id="pnt118">
+        <LabelStyle>
+          <scale>0.75</scale>
+        </LabelStyle>
+        <IconStyle>
+          <color>#ff3f8ff4</color>
+          <scale>0.5</scale>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+          </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>$[description]</text>
+        </BalloonStyle>
+      </Style>
+      <Style id="pnt119">
+        <LabelStyle>
+          <scale>0.75</scale>
+        </LabelStyle>
+        <IconStyle>
+          <color>#ff3f8ff4</color>
+          <scale>0.5</scale>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+          </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>$[description]</text>
+        </BalloonStyle>
+      </Style>
+      <Style id="pnt120">
+        <LabelStyle>
+          <scale>0.75</scale>
+        </LabelStyle>
+        <IconStyle>
+          <color>#ff3f8ff4</color>
+          <scale>0.5</scale>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+          </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>$[description]</text>
+        </BalloonStyle>
+      </Style>
+      <Style id="pnt121">
+        <LabelStyle>
+          <scale>0.75</scale>
+        </LabelStyle>
+        <IconStyle>
+          <color>#ff3f8ff4</color>
+          <scale>0.5</scale>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pal2/icon18.png</href>
+          </Icon>
+        </IconStyle>
+        <BalloonStyle>
+          <text>$[description]</text>
+        </BalloonStyle>
+      </Style>
       <Placemark>
         <name>Aguadita_124</name>
         <styleUrl>#pnt1</styleUrl>
@@ -2006,8 +2126,26 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>El Consuelo_35</name>
+        <name>El Alto de la Paz_21</name>
         <styleUrl>#pnt35</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-74.38625,5.22227,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Carmen de Jacopi_5</name>
+        <styleUrl>#pnt36</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-74.33793,5.45914,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>El Consuelo_35</name>
+        <styleUrl>#pnt37</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2016,7 +2154,7 @@
       </Placemark>
       <Placemark>
         <name>El Eden_140</name>
-        <styleUrl>#pnt36</styleUrl>
+        <styleUrl>#pnt38</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2025,7 +2163,7 @@
       </Placemark>
       <Placemark>
         <name>El Penon_101</name>
-        <styleUrl>#pnt37</styleUrl>
+        <styleUrl>#pnt39</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2034,7 +2172,7 @@
       </Placemark>
       <Placemark>
         <name>Facatativa_1</name>
-        <styleUrl>#pnt38</styleUrl>
+        <styleUrl>#pnt40</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2043,7 +2181,7 @@
       </Placemark>
       <Placemark>
         <name>Florencia_259</name>
-        <styleUrl>#pnt39</styleUrl>
+        <styleUrl>#pnt41</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2052,7 +2190,7 @@
       </Placemark>
       <Placemark>
         <name>Florida_4</name>
-        <styleUrl>#pnt40</styleUrl>
+        <styleUrl>#pnt42</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2060,8 +2198,17 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Fomeque_7</name>
+        <styleUrl>#pnt43</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-73.89375,4.48545,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Fusagasuga_158</name>
-        <styleUrl>#pnt41</styleUrl>
+        <styleUrl>#pnt44</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2070,7 +2217,7 @@
       </Placemark>
       <Placemark>
         <name>Gallera_100</name>
-        <styleUrl>#pnt42</styleUrl>
+        <styleUrl>#pnt45</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2079,7 +2226,7 @@
       </Placemark>
       <Placemark>
         <name>Guengue_19</name>
-        <styleUrl>#pnt43</styleUrl>
+        <styleUrl>#pnt46</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2088,7 +2235,7 @@
       </Placemark>
       <Placemark>
         <name>Honda_219</name>
-        <styleUrl>#pnt44</styleUrl>
+        <styleUrl>#pnt47</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2097,7 +2244,7 @@
       </Placemark>
       <Placemark>
         <name>Icononzo_4</name>
-        <styleUrl>#pnt45</styleUrl>
+        <styleUrl>#pnt48</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2105,8 +2252,26 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>Iguamiando_18</name>
+        <styleUrl>#pnt49</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-76.75000,7.08333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jiminez_5</name>
+        <styleUrl>#pnt50</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-76.70914,3.77857,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>Juntas de Tamana_99</name>
-        <styleUrl>#pnt46</styleUrl>
+        <styleUrl>#pnt51</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2115,7 +2280,7 @@
       </Placemark>
       <Placemark>
         <name>La Candela_290</name>
-        <styleUrl>#pnt47</styleUrl>
+        <styleUrl>#pnt52</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2124,7 +2289,7 @@
       </Placemark>
       <Placemark>
         <name>La Florida_65</name>
-        <styleUrl>#pnt48</styleUrl>
+        <styleUrl>#pnt53</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2133,7 +2298,7 @@
       </Placemark>
       <Placemark>
         <name>La Frijolera_154</name>
-        <styleUrl>#pnt49</styleUrl>
+        <styleUrl>#pnt54</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2141,8 +2306,17 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>La Hererra_23</name>
+        <styleUrl>#pnt55</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-74.27427,4.69084,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>La Holanda_50</name>
-        <styleUrl>#pnt50</styleUrl>
+        <styleUrl>#pnt56</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2151,7 +2325,7 @@
       </Placemark>
       <Placemark>
         <name>La Manuelita_101</name>
-        <styleUrl>#pnt51</styleUrl>
+        <styleUrl>#pnt57</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2159,8 +2333,17 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>La Mar_14</name>
+        <styleUrl>#pnt58</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-74.16667,4.91667,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>La Morelia_377</name>
-        <styleUrl>#pnt52</styleUrl>
+        <styleUrl>#pnt59</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2169,7 +2352,7 @@
       </Placemark>
       <Placemark>
         <name>La Palma_125</name>
-        <styleUrl>#pnt53</styleUrl>
+        <styleUrl>#pnt60</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2178,7 +2361,7 @@
       </Placemark>
       <Placemark>
         <name>La Playa_105</name>
-        <styleUrl>#pnt54</styleUrl>
+        <styleUrl>#pnt61</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2186,8 +2369,17 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>La Porquera_13</name>
+        <styleUrl>#pnt62</styleUrl>
+        <Point>
+          <extrude>1</extrude>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-74.14975,4.96890,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>La Pradera_8</name>
-        <styleUrl>#pnt55</styleUrl>
+        <styleUrl>#pnt63</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2196,7 +2388,7 @@
       </Placemark>
       <Placemark>
         <name>La Sierra_61</name>
-        <styleUrl>#pnt56</styleUrl>
+        <styleUrl>#pnt64</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2205,7 +2397,7 @@
       </Placemark>
       <Placemark>
         <name>La Vieja_13</name>
-        <styleUrl>#pnt57</styleUrl>
+        <styleUrl>#pnt65</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2214,7 +2406,7 @@
       </Placemark>
       <Placemark>
         <name>Laguneta_344</name>
-        <styleUrl>#pnt58</styleUrl>
+        <styleUrl>#pnt66</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2223,7 +2415,7 @@
       </Placemark>
       <Placemark>
         <name>Lomitas_197</name>
-        <styleUrl>#pnt59</styleUrl>
+        <styleUrl>#pnt67</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2232,7 +2424,7 @@
       </Placemark>
       <Placemark>
         <name>Los Robles_154</name>
-        <styleUrl>#pnt60</styleUrl>
+        <styleUrl>#pnt68</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2241,7 +2433,7 @@
       </Placemark>
       <Placemark>
         <name>Magangue_1</name>
-        <styleUrl>#pnt61</styleUrl>
+        <styleUrl>#pnt69</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2250,7 +2442,7 @@
       </Placemark>
       <Placemark>
         <name>Malena_99</name>
-        <styleUrl>#pnt62</styleUrl>
+        <styleUrl>#pnt70</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2259,7 +2451,7 @@
       </Placemark>
       <Placemark>
         <name>Medellin_10</name>
-        <styleUrl>#pnt63</styleUrl>
+        <styleUrl>#pnt71</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2268,7 +2460,7 @@
       </Placemark>
       <Placemark>
         <name>Miraflores_354</name>
-        <styleUrl>#pnt64</styleUrl>
+        <styleUrl>#pnt72</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2277,7 +2469,7 @@
       </Placemark>
       <Placemark>
         <name>Monteredondo_3</name>
-        <styleUrl>#pnt65</styleUrl>
+        <styleUrl>#pnt73</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2286,7 +2478,7 @@
       </Placemark>
       <Placemark>
         <name>Muzo_1</name>
-        <styleUrl>#pnt66</styleUrl>
+        <styleUrl>#pnt74</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2295,7 +2487,7 @@
       </Placemark>
       <Placemark>
         <name>Nare_6</name>
-        <styleUrl>#pnt67</styleUrl>
+        <styleUrl>#pnt75</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2304,7 +2496,7 @@
       </Placemark>
       <Placemark>
         <name>Noanama_93</name>
-        <styleUrl>#pnt68</styleUrl>
+        <styleUrl>#pnt76</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2313,7 +2505,7 @@
       </Placemark>
       <Placemark>
         <name>Novita_136</name>
-        <styleUrl>#pnt69</styleUrl>
+        <styleUrl>#pnt77</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2322,7 +2514,7 @@
       </Placemark>
       <Placemark>
         <name>Opon_10</name>
-        <styleUrl>#pnt70</styleUrl>
+        <styleUrl>#pnt78</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2331,7 +2523,7 @@
       </Placemark>
       <Placemark>
         <name>Pacho_7</name>
-        <styleUrl>#pnt71</styleUrl>
+        <styleUrl>#pnt79</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2340,7 +2532,7 @@
       </Placemark>
       <Placemark>
         <name>Palmira_9</name>
-        <styleUrl>#pnt72</styleUrl>
+        <styleUrl>#pnt80</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2349,7 +2541,7 @@
       </Placemark>
       <Placemark>
         <name>Palo Hueco_32</name>
-        <styleUrl>#pnt73</styleUrl>
+        <styleUrl>#pnt81</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2358,7 +2550,7 @@
       </Placemark>
       <Placemark>
         <name>Paramillo_164</name>
-        <styleUrl>#pnt74</styleUrl>
+        <styleUrl>#pnt82</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2367,7 +2559,7 @@
       </Placemark>
       <Placemark>
         <name>Paramo Santa Isabel_271</name>
-        <styleUrl>#pnt75</styleUrl>
+        <styleUrl>#pnt83</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2376,7 +2568,7 @@
       </Placemark>
       <Placemark>
         <name>Pavas_2</name>
-        <styleUrl>#pnt76</styleUrl>
+        <styleUrl>#pnt84</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2385,7 +2577,7 @@
       </Placemark>
       <Placemark>
         <name>Peque_28</name>
-        <styleUrl>#pnt77</styleUrl>
+        <styleUrl>#pnt85</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2394,7 +2586,7 @@
       </Placemark>
       <Placemark>
         <name>Popayan_51</name>
-        <styleUrl>#pnt78</styleUrl>
+        <styleUrl>#pnt86</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2403,7 +2595,7 @@
       </Placemark>
       <Placemark>
         <name>Puente Andalucia_13</name>
-        <styleUrl>#pnt79</styleUrl>
+        <styleUrl>#pnt87</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2412,7 +2604,7 @@
       </Placemark>
       <Placemark>
         <name>Puerto Berrio_106</name>
-        <styleUrl>#pnt80</styleUrl>
+        <styleUrl>#pnt88</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2421,7 +2613,7 @@
       </Placemark>
       <Placemark>
         <name>Puerto Nino_5</name>
-        <styleUrl>#pnt81</styleUrl>
+        <styleUrl>#pnt89</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2430,7 +2622,7 @@
       </Placemark>
       <Placemark>
         <name>Puerto Valdivia_295</name>
-        <styleUrl>#pnt82</styleUrl>
+        <styleUrl>#pnt90</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2439,7 +2631,7 @@
       </Placemark>
       <Placemark>
         <name>Purificacion_3</name>
-        <styleUrl>#pnt83</styleUrl>
+        <styleUrl>#pnt91</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2448,7 +2640,7 @@
       </Placemark>
       <Placemark>
         <name>Quetame_97</name>
-        <styleUrl>#pnt84</styleUrl>
+        <styleUrl>#pnt92</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2457,7 +2649,7 @@
       </Placemark>
       <Placemark>
         <name>Quibdo_41</name>
-        <styleUrl>#pnt85</styleUrl>
+        <styleUrl>#pnt93</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2466,7 +2658,7 @@
       </Placemark>
       <Placemark>
         <name>Remedios_3</name>
-        <styleUrl>#pnt86</styleUrl>
+        <styleUrl>#pnt94</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2475,7 +2667,7 @@
       </Placemark>
       <Placemark>
         <name>Remolino_9</name>
-        <styleUrl>#pnt87</styleUrl>
+        <styleUrl>#pnt95</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2484,7 +2676,7 @@
       </Placemark>
       <Placemark>
         <name>Ricaurte_122</name>
-        <styleUrl>#pnt88</styleUrl>
+        <styleUrl>#pnt96</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2493,7 +2685,7 @@
       </Placemark>
       <Placemark>
         <name>Rio Andagueda_13</name>
-        <styleUrl>#pnt89</styleUrl>
+        <styleUrl>#pnt97</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2502,7 +2694,7 @@
       </Placemark>
       <Placemark>
         <name>Rio Frio_144</name>
-        <styleUrl>#pnt90</styleUrl>
+        <styleUrl>#pnt98</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2511,7 +2703,7 @@
       </Placemark>
       <Placemark>
         <name>Rio Monguido_4</name>
-        <styleUrl>#pnt91</styleUrl>
+        <styleUrl>#pnt99</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2520,7 +2712,7 @@
       </Placemark>
       <Placemark>
         <name>Rio San Jorge_6</name>
-        <styleUrl>#pnt92</styleUrl>
+        <styleUrl>#pnt100</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2529,25 +2721,25 @@
       </Placemark>
       <Placemark>
         <name>Rio San Juan_1</name>
-        <styleUrl>#pnt93</styleUrl>
+        <styleUrl>#pnt101</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-76.51667,8.78333,0</coordinates>
+          <coordinates>-76.51167,8.78068,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Rio Sinu_12</name>
-        <styleUrl>#pnt94</styleUrl>
+        <styleUrl>#pnt102</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-75.81667,9.40000,0</coordinates>
+          <coordinates>-75.79236,9.38120,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Rio Toche_127</name>
-        <styleUrl>#pnt95</styleUrl>
+        <styleUrl>#pnt103</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2556,7 +2748,7 @@
       </Placemark>
       <Placemark>
         <name>Salaqui_38</name>
-        <styleUrl>#pnt96</styleUrl>
+        <styleUrl>#pnt104</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2565,7 +2757,7 @@
       </Placemark>
       <Placemark>
         <name>Salento_334</name>
-        <styleUrl>#pnt97</styleUrl>
+        <styleUrl>#pnt105</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2574,7 +2766,7 @@
       </Placemark>
       <Placemark>
         <name>San Agustin_217</name>
-        <styleUrl>#pnt98</styleUrl>
+        <styleUrl>#pnt106</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2583,7 +2775,7 @@
       </Placemark>
       <Placemark>
         <name>San Antonio_704</name>
-        <styleUrl>#pnt99</styleUrl>
+        <styleUrl>#pnt107</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2592,7 +2784,7 @@
       </Placemark>
       <Placemark>
         <name>San Antonio de Tena_10</name>
-        <styleUrl>#pnt100</styleUrl>
+        <styleUrl>#pnt108</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2601,7 +2793,7 @@
       </Placemark>
       <Placemark>
         <name>San Jose_228</name>
-        <styleUrl>#pnt101</styleUrl>
+        <styleUrl>#pnt109</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2610,7 +2802,7 @@
       </Placemark>
       <Placemark>
         <name>Santa Elena_273</name>
-        <styleUrl>#pnt102</styleUrl>
+        <styleUrl>#pnt110</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2619,7 +2811,7 @@
       </Placemark>
       <Placemark>
         <name>Sibate_1</name>
-        <styleUrl>#pnt103</styleUrl>
+        <styleUrl>#pnt111</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2628,7 +2820,7 @@
       </Placemark>
       <Placemark>
         <name>Suba_7</name>
-        <styleUrl>#pnt104</styleUrl>
+        <styleUrl>#pnt112</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2637,7 +2829,7 @@
       </Placemark>
       <Placemark>
         <name>Subia_147</name>
-        <styleUrl>#pnt105</styleUrl>
+        <styleUrl>#pnt113</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2646,7 +2838,7 @@
       </Placemark>
       <Placemark>
         <name>Susumuco_2</name>
-        <styleUrl>#pnt106</styleUrl>
+        <styleUrl>#pnt114</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2655,7 +2847,7 @@
       </Placemark>
       <Placemark>
         <name>Tenasuca_13</name>
-        <styleUrl>#pnt107</styleUrl>
+        <styleUrl>#pnt115</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2664,7 +2856,7 @@
       </Placemark>
       <Placemark>
         <name>Tocaimito_12</name>
-        <styleUrl>#pnt108</styleUrl>
+        <styleUrl>#pnt116</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2673,16 +2865,16 @@
       </Placemark>
       <Placemark>
         <name>Tumaco_66</name>
-        <styleUrl>#pnt109</styleUrl>
+        <styleUrl>#pnt117</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-78.76667,1.81667,0</coordinates>
+          <coordinates>-78.76804,1.80767,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
         <name>Turbaco_42</name>
-        <styleUrl>#pnt110</styleUrl>
+        <styleUrl>#pnt118</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2691,7 +2883,7 @@
       </Placemark>
       <Placemark>
         <name>Valle de las Papas_90</name>
-        <styleUrl>#pnt111</styleUrl>
+        <styleUrl>#pnt119</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2700,7 +2892,7 @@
       </Placemark>
       <Placemark>
         <name>Villavicencio_313</name>
-        <styleUrl>#pnt112</styleUrl>
+        <styleUrl>#pnt120</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
@@ -2709,7 +2901,7 @@
       </Placemark>
       <Placemark>
         <name>W of Honda_174</name>
-        <styleUrl>#pnt113</styleUrl>
+        <styleUrl>#pnt121</styleUrl>
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
