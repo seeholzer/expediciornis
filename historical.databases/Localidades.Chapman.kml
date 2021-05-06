@@ -2284,7 +2284,7 @@
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-76.33300,1.83330,0</coordinates>
+          <coordinates>-76.36172,1.86329,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -2356,7 +2356,7 @@
         <Point>
           <extrude>1</extrude>
           <altitudeMode>clampToGround</altitudeMode>
-          <coordinates>-76.29969,1.86465,0</coordinates>
+          <coordinates>-76.39343,1.90002,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>

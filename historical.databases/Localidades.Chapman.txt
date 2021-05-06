@@ -1,121 +1,129 @@
-Aguadita	124	4.388401	-74.324594	Cundinamarca
-Alban	27	4.783072	-76.17327	Valle del Cauca
-Algodonal	43	9.383333	-74.75	Bolívar
-Almaguer	169	1.916191	-76.851235	Cauca
-Alto Bonito	250	7.061534	-76.430197	Antioquia
-Andalucia	237	1.910624	-75.680143	Caquetá
-Anolaima	37	4.761738	-74.464727	Cundinamarca
-Bagado	71	5.412394	-76.414856	Chocó
-Banco	21	9	-73.966667	Magdalena
-Barbacoas	503	1.673315	-78.138856	Nariño
-Barranquilla	8	10.983253	-74.782616	Atlántico
-Barrigon	64	4.166667	-73.016667	Meta
-Barro Blanco	82	6.25	-75.383333	Antioquia
-Baudo	77	6	-77.083333	Chocó
-Bocas de Chimi	10	8.95	-74.016667	Bolívar
-Bogota	121	4.6	-74.083333	Cundinamarca
-Buena Vista	386	4.166341	-73.682625	Meta
-Buenaventura	44	3.883333	-77.066667	Valle del Cauca
-Buenavista	105	1.491726	-78.077941	Nariño
-Calamar	88	10.250348	-74.916503	Magdalena
-Caldas	127	3.658142	-76.690771	Valle del Cauca
-Cali	316	3.451565	-76.532072	Valle del Cauca
-Caqueta Trail	7	1.75845	-75.634395	Caquetá
-Caqueza	1	4.416667	-73.95	Cundinamarca
-Carpintero	3	8.083333	-73.85	Santander
-Cerro Munchique	313	2.532263	-76.94956	Cauca
-Chicoral	178	4.214917	-74.981131	Tolima
-Chipaque	112	4.443055	-74.044987	Cundinamarca
-Choachi	60	4.55	-73.966667	Cundinamarca
-Cienaga	3	11.016667	-74.25	Magdalena
-Cisneros	78	3.78274	-76.760142	Valle del Cauca
-Coast Range	213	2.515525	-76.963571	Cauca
-Cocal	143	2.516675	-76.999987	Cauca
-Dabeiba	152	7.000962	-76.265513	Antioquia
-El Alto de la Paz	21	5.222269	-74.386249	Cundinamarca
-El Carmen de Jacopi	5	5.459142	-74.337926	Cundinamarca
-El Consuelo	35	5.110173	-74.639946	Cundinamarca
-El Eden	140	4.5	-75.333333	Tolima
-El Penon	101	4.425752	-74.293205	Cundinamarca
-Facatativa	1	4.816667	-74.366667	Cundinamarca
-Florencia	259	1.615705	-75.613596	Caquetá
-Florida	4	3.323826	-76.234682	Valle del Cauca
-Fomeque	7	4.485447	-73.893746	Cundinamarca
-Fusagasuga	158	4.35	-74.366667	Cundinamarca
-Gallera	100	2.537945	-76.997829	Cauca
-Guengue	19	3.233333	-76.35	Cauca
-Honda	219	5.204706	-74.73684	Cundinamarca
-Icononzo	4	4.183333	-74.533333	Cundinamarca
-Iguamiando	18	7.083333	-76.75	Chocó
-Jiminez	5	3.778572	-76.709143	Valle del Cauca
-Juntas de Tamana	99	4.983333	-76.4	Chocó
-La Candela	290	1.8333	-76.333	Huila
-La Florida	65	2.583333	-76.916667	Cauca
-La Frijolera	154	7.166722	-75.4166	Antioquia
-La Hererra	23	4.690841	-74.274274	Cundinamarca
-La Holanda	50	4.7	-74.25	Cundinamarca
-La Manuelita	101	3.583277	-76.283312	Valle del Cauca
-La Mar	14	4.916667	-74.166667	Cundinamarca
-La Morelia	377	1.487769	-75.725922	Caquetá
-La Palma	125	1.864645	-76.299693	Huila
-La Playa	105	11.033333	-74.866667	Atlántico
-La Porquera	13	4.968897	-74.149753	Cundinamarca
-La Pradera	8	5	-74.133333	Cundinamarca
-La Sierra	61	2.178537	-76.763376	Cauca
-La Vieja	13	5.4	-76.383333	Chocó
-Laguneta	344	4.58857	-75.53041	Quindío
-Lomitas	197	3.636329	-76.640498	Valle del Cauca
-Los Robles	154	4.414964	-74.302553	Cundinamarca
-Magangue	1	9.233333	-74.75	Bolívar
-Malena	99	6.450367	-74.49976	Antioquia
-Medellin	10	6.25	-75.583333	Antioquia
-Miraflores	354	3.5833	-76.1667	Valle del Cauca
-Monteredondo	3	4.254504	-73.826911	Cundinamarca
-Muzo	1	5.533333	-74.1	Boyacá
-Nare	6	6.185968	-74.583401	Boyacá
-Noanama	93	4.7	-76.933333	Chocó
-Novita	136	4.955959	-76.607294	Chocó
-Opon	10	6.966667	-73.883333	Santander
-Pacho	7	5.131022	-74.158076	Cundinamarca
-Palmira	9	3.533333	-76.266667	Valle del Cauca
-Palo Hueco	32	5.1	-74.166667	Cundinamarca
-Paramillo	164	7.10273	-75.969299	Antioquia
-Paramo Santa Isabel	271	4.680318	-75.413457	Quindío
-Pavas	2	3.676654	-76.584214	Valle del Cauca
-Peque	28	7.021722	-75.909411	Antioquia
-Popayan	51	2.442117	-76.606366	Cauca
-Puente Andalucia	13	4.928913	-74.172394	Cundinamarca
-Puerto Berrio	106	6.489633	-74.402275	Santander
-Puerto Nino	5	5.95	-74.6	Boyacá
-Puerto Valdivia	295	7.289367	-75.394159	Antioquia
-Purificacion	3	3.857425	-74.930803	Tolima
-Quetame	97	4.330365	-73.862811	Cundinamarca
-Quibdo	41	5.692673	-76.660818	Chocó
-Remedios	3	7.028147	-74.693987	Antioquia
-Remolino	9	10.7	-74.716667	Magdalena
-Ricaurte	122	1.210709	-77.994065	Nariño
-Rio Andagueda	13	5.516667	-76.516667	Chocó
-Rio Frio	144	4.156789	-76.28778	Valle del Cauca
-Rio Monguido	4	7.283333	-76.6	Chocó
-Rio San Jorge	6	9.116667	-74.733333	Bolívar
-Rio San Juan	1	8.780684	-76.511672	Antioquia
-Rio Sinu	12	9.381205	-75.792362	Córdoba
-Rio Toche	127	4.527733	-75.409361	Tolima
-Salaqui	38	7.45	-77.116667	Chocó
-Salento	334	4.646825	-75.578278	Quindío
-San Agustin	217	1.882489	-76.271326	Huila
-San Antonio	704	3.5	-76.633333	Valle del Cauca
-San Antonio de Tena	10	4.616667	-74.35	Cundinamarca
-San Jose	228	3.85	-76.866667	Valle del Cauca
-Santa Elena	273	6.209835	-75.498125	Antioquia
-Sibate	1	4.489117	-74.260177	Cundinamarca
-Suba	7	4.722	-74.076374	Cundinamarca
-Subia	147	4.567	-74.45	Cundinamarca
-Susumuco	2	4.2	-73.733333	Meta
-Tenasuca	13	4.7	-74.366667	Cundinamarca
-Tocaimito	12	4.47	-74.05	Cundinamarca
-Tumaco	66	1.807666	-78.768043	Nariño
-Turbaco	42	10.333333	-75.416667	Bolívar
-Valle de las Papas	90	1.915266	-76.625303	Huila
-Villavicencio	313	4.150988	-73.637732	Meta
-W of Honda	174	5.153477	-75.037125	Tolima
+124
+27
+43
+169
+250
+237
+37
+1
+71
+21
+503
+8
+64
+82
+77
+10
+121
+386
+44
+105
+88
+127
+316
+7
+1
+3
+313
+178
+112
+60
+3
+78
+213
+143
+152
+21
+8
+5
+35
+140
+101
+1
+259
+4
+7
+158
+100
+19
+219
+4
+18
+5
+99
+290
+65
+154
+23
+50
+101
+14
+377
+125
+105
+13
+8
+61
+13
+344
+197
+154
+6
+1
+99
+10
+354
+3
+1
+6
+93
+136
+42
+10
+7
+9
+32
+164
+271
+2
+28
+51
+13
+106
+5
+295
+3
+97
+41
+3
+9
+122
+13
+46
+144
+5
+4
+6
+1
+12
+127
+38
+334
+217
+704
+10
+228
+273
+2
+1
+7
+147
+2
+13
+12
+66
+42
+90
+9
+313
+174

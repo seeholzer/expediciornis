@@ -19,6 +19,9 @@ setwd('~/Dropbox/Chapman/expediciornis/historical.databases/Chapman1917')
 library(plyr)
 source('../../supporting.R.functions/FUN.name.check.R', chdir = TRUE)
 
+#load Clements 2019 checklist
+clem = read.csv('../../Clements-Checklist-v2019-August-2019.csv',stringsAsFactors=F)
+
 #Input text file of formatted raw specimen counts from Chapman 1917 
 lines = readLines('Chapman1917.raw.specimen.counts.txt')
 
@@ -75,6 +78,8 @@ data$Locality = mapvalues(data$Locality.raw,key[,'Locality.raw'],key[,'Locality'
 #	trinomials. This means that certain localities may not have the correct species if the part of a species
 #	complex that was split (e.g. Hafferia zeledoni/immaculata). 
 key = read.delim('Chapman1917.taxonomy.key.txt') 
+#check to ensure all clements names are up-to-data
+#key[!key$Clements %in% clem$scientific.name, ]
 #check to ensure there are no Chapman 1917 names without Clements names and vice versa 
 name.check(key$Chapman,data$Taxon)
 colnames(data)[grep('Taxon',colnames(data))] = "Chapman"

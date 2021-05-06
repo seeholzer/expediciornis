@@ -28,6 +28,54 @@ o$Name = paste(o$Genus.Clem,o$Species.Clem)
 #Reported specimen counts: Chapman 1917
 r = read.delim('Chapman1917/Chapman1917.Database.txt',stringsAsFactors=F)
 
+r[r$Locality %in% 'La Candela', ]
+
+#convert AMNH DB into specimen count format of Chapman 1917
+loc = c('Aguadita','Los Robles','El Penon','Fusagasuga')
+foo = o[o$Locality %in% loc, ]
+foo = split(foo$Name,f=foo$Locality) #split only specimen names into a list of separate dataframes by locality 
+foo = lapply(foo,function(x)data.frame(table(x))) #create table of specimen counts for each locality in this list
+for(l in 1:length(foo)){
+	foo[[l]]$Locality = names(foo)[l] #add locality column
+	colnames(foo[[l]]) = c('Name','Count','Locality') #Change column names
+	foo[[l]] = foo[[l]][,c('Name','Locality','Count')]
+}	
+foo = do.call(rbind,foo)
+rownames(foo) = NULL
+
+spec = foo
+chap = r[r$Locality %in% loc, ]
+tmp = merge(spec,chap,by=c('Name','Locality'),all=T)
+colnames(tmp) = c('Name','Locality','Count.spec','Count.chap')
+tmp[is.na(tmp)] = 0
+tmp$dif = tmp$Count.spec - tmp$Count.chap
+tmp = tmp[order(tmp$dif), ]
+tmp[order(tmp$Name), ]
+
+comp = merge(spec[,c('Name','spec')],chap[,c('Name','chap')],by='Name',all=T)
+comp[is.na(comp)] = 0
+comp$dif = comp$spec - comp$chap
+comp = comp[order(comp$dif), ]
+comp[!comp$dif %in% 0 & !comp$spec %in% 0 & !comp$chap %in% 0, ]
+comp[comp$spec %in% 0 | comp$chap %in% 0, ]
+
+
+length(which(comp$dif != 0))
+length(which(comp$spec %in% 0 | comp$chap %in% 0))
+length(which(comp$spec %in% 0))
+length(which(comp$chap %in% 0))
+
+
+
+source('~/Dropbox/FUN.add.alpha.R', chdir = TRUE)
+plot(jitter(tmp$Count.spec),jitter(tmp$Count.chap),pch=21,bg=add.alpha('black',0.1),col='transparent',cex=2,)
+
+
+
+
+
+
+
 
 ##################################################
 ##################################################
@@ -107,6 +155,9 @@ filename = "Sampling.Exp.SantaIsabel.xlsx"
 	
 	chap = foo[order(foo$Name), ]
 	colnames(chap)[-1] = paste0(colnames(chap)[-1],'.chap')
+
+
+
 
 ###########
 #	Create a summary table of specimen counts per species for each locality or regional meta-locality
@@ -221,11 +272,13 @@ saveWorkbook(wb, file = filename, overwrite = TRUE)
 
 
 
-
-
 #######
 #	analyze count differentials between databases
 #merge databases and determine count differential for each species
+
+loc = 
+
+
 if(length(loc) > 1){
 	spec$spec = apply(spec[,grep('spec',colnames(spec))],1,sum,na.rm=T)
 	chap$chap = apply(chap[,grep('chap',colnames(chap))],1,sum,na.rm=T)
@@ -257,7 +310,7 @@ breaks = c(-max:max)
 
 hist(comp$dif, xaxt='n',xlim=range(breaks),breaks=breaks,main='',xlab='',ylab='Species')
 axis(side=1, at=breaks-0.5, labels=breaks,cex.axis=.75)
-mtext('More in spec DB >',1,line=2,cex=.75,at=.65*par('usr')[2])
+mtext('More in AMNH DB >',1,line=2,cex=.75,at=.65*par('usr')[2])
 mtext('< More in Chapman 1917',1,line=2,cex=.75,at=.65*par('usr')[1])
 mtext('Specimen Count differences btwn. databases',1,line=3.5)
 mtext(paste(loc,collapse='-'),3)

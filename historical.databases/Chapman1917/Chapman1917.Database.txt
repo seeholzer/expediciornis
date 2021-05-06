@@ -528,7 +528,7 @@ Asio stygius	La Holanda	1
 Megascops choliba	Dabeiba	1
 Megascops choliba	Anolaima	3
 Megascops choliba	Villavicencio	1
-Megascops watsoni	La Morelia	2
+Megascops watsonii	La Morelia	2
 Lophostrix cristata	Barbacoas	3
 Ciccaba albitarsis	Anolaima	1
 Megascops albogularis	Santa Elena	1
@@ -836,8 +836,8 @@ Florisuga mellivora	Puerto Berrio	1
 Amazilia franciae	Ricaurte	1
 	Villavicencio	1
 Amazilia fimbriata	La Morelia	1
-Amazilia amabalis	Puerto Valdivia	3
-Amazilia amabalis	Alto Bonito	1
+Amazilia amabilis	Puerto Valdivia	3
+Amazilia amabilis	Alto Bonito	1
 Amazilia rosenbergi	Bagado	1
 Amazilia rosenbergi	Novita	2
 Amazilia rosenbergi	Noanama	1
@@ -2215,19 +2215,19 @@ Premnoplex brunnescens	Salento	3
 Premnoplex brunnescens	La Palma	1
 Premnoplex brunnescens	Aguadita	1
 Premnoplex brunnescens	Buena Vista	5
-Glyphorhynchus spirurus	Villavicencio	1
-Glyphorhynchus spirurus	Florencia	4
-Glyphorhynchus spirurus	La Morelia	3
-Glyphorhynchus spirurus	Alto Bonito	3
-Glyphorhynchus spirurus	NA	1
-Glyphorhynchus spirurus	Salaqui	1
-Glyphorhynchus spirurus	Noanama	1
-Glyphorhynchus spirurus	San Jose	2
-Glyphorhynchus spirurus	Gallera	2
-Glyphorhynchus spirurus	Cocal	1
-Glyphorhynchus spirurus	Barbacoas	4
-Glyphorhynchus spirurus	Buenavista	2
-Glyphorhynchus spirurus	Puerto Valdivia	1
+Glyphorynchus spirurus	Villavicencio	1
+Glyphorynchus spirurus	Florencia	4
+Glyphorynchus spirurus	La Morelia	3
+Glyphorynchus spirurus	Alto Bonito	3
+Glyphorynchus spirurus	NA	1
+Glyphorynchus spirurus	Salaqui	1
+Glyphorynchus spirurus	Noanama	1
+Glyphorynchus spirurus	San Jose	2
+Glyphorynchus spirurus	Gallera	2
+Glyphorynchus spirurus	Cocal	1
+Glyphorynchus spirurus	Barbacoas	4
+Glyphorynchus spirurus	Buenavista	2
+Glyphorynchus spirurus	Puerto Valdivia	1
 Dendrocincla tyrannina	Cerro Munchique	1
 Dendrocincla tyrannina	Almaguer	1
 Dendrocincla tyrannina	Salento	1
@@ -3644,7 +3644,7 @@ Setophaga petechia	Chicoral	1
 Setophaga petechia	San Agustin	1
 Setophaga petechia	Bogota	1
 Setophaga petechia	Tumaco	8
-Setophaga caerulea	Buena Vista	2
+Setophaga cerulea	Buena Vista	2
 Setophaga fusca	San Antonio	10
 Setophaga fusca	Miraflores	2
 Setophaga fusca	Salento	5
@@ -4232,8 +4232,8 @@ Diglossa cyanea	Aguadita	1
 Diglossa cyanea	Los Robles	7
 Diglossa cyanea	El Penon	2
 Diglossa cyanea	Subia	4
-_Diglossa indigotica	Gallera	1
-_Diglossa indigotica	Novita Trail	1
+Diglossa indigotica	Gallera	1
+Diglossa indigotica	Novita Trail	1
 Diglossa caerulescens	Novita Trail	1
 Diglossa caerulescens	Cerro Munchique	1
 Diglossa caerulescens	Coast Range	2
